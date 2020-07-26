@@ -1,10 +1,10 @@
 [
   {
     "type": "MOD_INFO",
-    "ident": "fantasy_mod_whitelist",
-    "name": "Fantasy mod whitelist",
-    "authors": [ "Mutaman" ],
-    "maintainers": [ "Mutaman" ],
+    "ident": "fantasy",
+    "name": "Fantasy",
+    "authors": [ "Aptronym", "Chaosvolt", "Mutaman", "Axema Vales" ],
+    "maintainers": [ "Aptronym", "Chaosvolt", "Mutaman", "Axema Vales" ],
     "description": "Makes the world a simpler place. Will be modified as time goes on to include the various things we want in the fantasy conversion mod project.",
     "dependencies": [ "dda" ]
   }
