@@ -1,0 +1,85 @@
+[
+  {
+    "type": "scenario",
+    "ident": "fantasy_race",
+    "name": "Fantasy race",
+    "points": 0,
+    "description": "You were little more than a commoner who found a shimmering portal by accident and whose curiosity overtook them. Now you find yourself in the wilderness of a strange world with no way back to your own. What's more is that where there were signs of a civilization there's now only armies of undead. It would seem that this world suffered a necromantic catastrophe. Hopefully surviving here won't prove too much of a challenge.",
+    "start_name": "Wilderness",
+    "allowed_locs": [ "sloc_forest", "sloc_field" ],
+    "professions": [ "fantasy_race_human", "fantasy_race_kath", "fantasy_race_lupen", "fantasy_race_lhizhar", "fantasy_race_ravian", "fantasy_race_phaloce", "fantasy_race_sharmer", "fantasy_race_fey" ],
+	"flags": [ "LONE_START" ]
+  },
+  {
+    "type": "profession",
+    "ident": "fantasy_race_human",
+    "name": "Human",
+    "description": "You are a member of the humans, a race known for farming, ingenuity, and war. They and their kingdoms can be found almost anywhere, but they seem to like the green plains more.",
+    "points": 0,
+	"traits": [ "STR_UP_2", "INT_UP_2", "DEX_UP_2", "PER_UP_2", "GOODCARDIO" ],
+    "items": { "both": [ "tunic", "pants_leather", "mocassins", "gloves_wraps", "cudgel" ], "male": [ "loincloth" ], "female": [ "chestwrap", "loincloth" ] }
+  },
+  {
+    "type": "profession",
+    "ident": "fantasy_race_kath",
+    "name": "Kath",
+    "description": "You are a member of the kath, a feline race whose capital resides in an eastern mountainous area known for its mists and bamboo.",
+    "points": 0,
+	"traits": [ "THRESH_FELINE", "CARNIVORE", "LIGHTSTEP", "PRETTY", "FEL_EYE", "FEL_NV", "FANGS", "FELINE_FUR", "CLAWS_RETRACT", "PADDED_FEET", "TAIL_LONG", "FELINE_EARS", "WHISKERS", "SNOUT", "DEX_UP_3", "PAWS" ],
+    "items": { "both": [ "hakama", "geta", "tabi_dress", "keikogi", "bokken" ], "male": [ "loincloth" ], "female": [ "chestwrap", "loincloth" ] }
+  },
+  {
+    "type": "profession",
+    "ident": "fantasy_race_lupen",
+    "name": "Lupen",
+    "description": "You are a member of the lupen, a canine race that lives in large tribal packs in the dense northern pine forests.",
+    "points": 0,
+	"traits": [ "THRESH_LUPINE", "GOODCARDIO", "GOURMAND", "SMELLY", "ANIMALDISCORD", "NIGHTVISION2", "FANGS", "LUPINE_FUR", "PADDED_FEET", "TAIL_FLUFFY", "CANINE_EARS", "LUPINE_EARS", "STR_UP_3", "MUZZLE", "GROWL", "PAWS" ],
+    "items": { "both": [ "kilt_leather", "vest_leather", "bone_knife" ], "male": [ "loincloth" ], "female": [ "chestwrap", "loincloth" ] }
+  },
+  {
+    "type": "profession",
+    "ident": "fantasy_race_lhizhar",
+    "name": "Lhizhar",
+    "description": "You are a member of the lhizhar, a reptilian race whose capital resides in the southern great desert. They spend a lot of their time lounging in the sun when not training or working.",
+    "points": 0,
+	"traits": [ "THRESH_LIZARD", "THICKSKIN", "LIZ_EYE", "LIZ_IR", "REGEN_LIZ", "FANGS", "MEMBRANE", "THICK_SCALES", "TALONS", "TAIL_THICK", "MUT_TOUGH", "LARGE_OK", "STR_UP_2", "DEX_UP_2", "SLIT_NOSTRILS", "FORKED_TONGUE", "MUZZLE_LONG", "WEBBED", "CARNIVORE", "COLDBLOOD4", "HISS", "BADTEMPER" ],
+    "items": { "both": [ "tunic", "leather_belt", "bone_knife" ], "male": [ "loincloth" ], "female": [ "chestwrap", "loincloth" ] }
+  },
+  {
+    "type": "profession",
+    "ident": "fantasy_race_ravian",
+    "name": "Ravian",
+    "description": "You are a member of the Ravian, an avian race whose universal wish to fly like other birds have spurred on an inventive side that has led to them constructing great airships of wood and copper and are the dominant force of trade and piracy alike.",
+    "points": 0,
+	"traits": [ "THRESH_BIRD", "QUICK", "LIGHTEATER", "NIGHTVISION", "DEFT", "LIGHTSTEP", "EAGLEEYED", "BADBACK", "BIRD_EYE", "FEATHERS", "DOWN", "GIZZARD", "FLEET2", "WINGS_BIRD", "DEX_UP_3", "PER_UP_4", "HOLLOW_BONES", "BEAK", "BEAK_PECK" ],
+    "items": { "both": [ "tunic", "leather_belt", "pants_cargo", "wrench" ], "male": [ "loincloth" ], "female": [ "chestwrap", "loincloth" ] }
+  },
+  {
+    "type": "profession",
+    "ident": "fantasy_race_phaloce",
+    "name": "Phaloce",
+    "description": "You are a member of the phaloce, a strange cephalopodic race who spends a lot of time in their underwater monastaries that light up parts of the ocean floor with an ominous green light coming from their stained glass windows.",
+    "points": 0,
+	"traits": [ "THRESH_CEPHALOPOD", "CEPH_EYES", "CEPH_VISION", "GILLS_CEPH", "INK_GLANDS", "MOUTH_TENTACLES", "DEX_UP_4", "INT_UP_4", "SLIT_NOSTRILS", "THIRST", "SLIMY", "COLDBLOOD", "ARM_TENTACLES_8", "LEG_TENTACLES", "LEG_TENT_BRACE" ],
+    "items": { "both": [ "robe", "bone_knife" ], "male": [ "loincloth" ], "female": [ "chestwrap", "loincloth" ] }
+  },
+  {
+    "type": "profession",
+    "ident": "fantasy_race_sharmer",
+    "name": "Shar-mer",
+    "description": "You are a member of the shar-mer, the shark-like fish people of the sea who are mostly known for their propensity to leave their enemies with nasty bite wounds. There is little that interests them that doesn't involve food, specifically meat.",
+    "points": 0,
+	"traits": [ "THRESH_FISH", "GOODCARDIO", "QUICK", "NIGHTVISION3", "MEMBRANE", "GILLS", "SLEEK_SCALES", "TAIL_FIN", "DEX_UP_4", "SMELLY2", "WEBBED", "THIRST", "SLIMY", "COLDBLOOD", "AMPHIBIAN", "SEESLEEP", "WATERSLEEP", "TOXICFLESH", "FRESHWATEROSMOSIS", "ELECTRORECEPTORS", "SHARKTEETH" ],
+    "items": { "both": [ "leather_pouch", "spear_wood" ], "male": [ "loincloth_leather" ], "female": [ "chestwrap_leather", "loincloth_leather" ] }
+  },
+  {
+    "type": "profession",
+    "ident": "fantasy_race_fey",
+    "name": "Fey",
+    "description": "You are a member of the fey, a race whose domain includes every forest known to man and extends even further into the unknown woods where no human has returned alive. They blend in well with the plantlife, and most don't take kindly to humans invading and chopping down their trees which they have tended to for centuries.",
+    "points": 0,
+	"traits": [ "THRESH_ELFA", "FEYHEARING", "ANIMALEMPATH", "LIGHTSTEP", "ELFA_FNV", "WAKEFUL3", "PLANTSKIN", "LEAVES", "PARAIMMUNE", "BENDY1", "ELFA_EARS", "DEX_UP_3", "INT_UP_3", "PER_UP_3", "BEAUTIFUL3", "HOLLOW_BONES", "HAIRROOTS", "TREE_COMMUNION" ],
+    "items": { "both": [ "longbow", "quiver_large_birchbark", "bone_knife" ], "male": [ "loincloth_leather" ], "female": [ "chestwrap_leather", "loincloth_leather" ] }
+  }
+]
