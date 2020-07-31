@@ -1,7 +1,7 @@
 [
   {
     "type": "effect_type",
-    "id": "mineral_water_stun",
+    "id": "min_water_stun",
     "name": [ "Magical mineral water stun" ],
     "desc": [
       "Magical mineral water stuns you!"

@@ -35,7 +35,7 @@
       "terrain": {
         " ": "t_dirt",
 		">": "t_stairs_down",
-		"w": "t_magical_mineral_water_dp"
+		"w": "t_magical_min_water_dp"
       }
 	 }
 	},
@@ -74,7 +74,7 @@
       ],
       "terrain": {
         " ": "t_dirt",
-		"w": "t_magical_mineral_water_dp"
+		"w": "t_magical_min_water_dp"
       }
 	 }
 	},
@@ -117,7 +117,7 @@
 		"<": "t_stairs_up",
 		"%": "t_rock_wall",
 		"t": "t_magical_torch",
-		"w": "t_magical_mineral_water_dp"
+		"w": "t_magical_min_water_dp"
       },
 	  "furniture": {
 		"l": "f_statue",
@@ -125,7 +125,7 @@
 		"b": "f_wood_keg"
 	  },
 	  "liquids": {
-      "b": { "liquid": "magical_mineral_water", "amount": [ 75, 175 ] }
+      "b": { "liquid": "magical_min_water", "amount": [ 100, 175 ] }
 	  }
 	 }
 	},
@@ -168,7 +168,7 @@
 		"<": "t_stairs_up",
 		"%": "t_rock_wall",
 		"t": "t_magical_torch",
-		"w": "t_magical_mineral_water_dp"
+		"w": "t_magical_min_water_dp"
       },
 	  "furniture": {
 		"l": "f_statue",
@@ -176,7 +176,7 @@
 		"b": "f_wood_keg"
 	  },
 	  "liquids": {
-      "b": { "liquid": "magical_mineral_water", "amount": [ 75, 175 ] }
+      "b": { "liquid": "magical_min_water", "amount": [ 100, 175 ] }
 	  }
 	 }
 	}

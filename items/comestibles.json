@@ -1,6 +1,6 @@
 [
   {
-    "id": "magical_mineral_water",
+    "id": "magical_min_water",
     "type": "COMESTIBLE",
     "comestible_type": "DRINK",
     "name": "Magical mineral water",
@@ -8,13 +8,13 @@
 	"quench": 33,
     "healthy": 1,
     "calories": 0,
-    "weight": 345,
-    "volume": 195,
+    "weight": "245 g",
+    "volume": "275 ml",
     "price": 500,
     "symbol": "~",
     "color": "light_cyan",
     "phase": "liquid",
 	"container": "bottle_glass",
-    "use_action": { "type": "cast_spell", "spell_id": "mineral_water_item_rejuv", "no_fail": true, "level": 0 }
+    "use_action": { "type": "cast_spell", "spell_id": "min_water_item_rejuv", "no_fail": true, "level": 0 }
   }
 ]
