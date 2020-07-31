@@ -1,28 +1,20 @@
 [
-	{
+  {
     "id": "magical_mineral_water",
     "type": "COMESTIBLE",
-    "comestible_type": "MED",
+    "comestible_type": "DRINK",
     "name": "Magical mineral water",
     "description": "A glittering, dazzling shiny crystal clear bubbly water enriched with minerals...they say that it is even enchanted with some magical properties",
+	"quench": 33,
+    "healthy": 1,
+    "calories": 0,
     "weight": 345,
-    "volume": 375,
+    "volume": 195,
     "price": 500,
-    "charges": 1,
     "symbol": "~",
     "color": "light_cyan",
     "phase": "liquid",
-    "container": "bottle_glass",
-    "use_action": {
-      "type": "heal",
-	  "bandages_power": 2,
-      "bleed": 2,
-      "bite": 0.2,
-      "infect": 0.2,
-      "move_cost": 1490,
-      "limb_scaling": 0.01,
-      "head_scaling": 0.01,
-      "torso_scaling": 0.01
-	  }
+	"container": "bottle_glass",
+    "use_action": { "type": "cast_spell", "spell_id": "mineral_water_item_rejuv", "no_fail": true, "level": 0 }
   }
 ]

@@ -35,7 +35,7 @@
       "terrain": {
         " ": "t_dirt",
 		">": "t_stairs_down",
-		"w": "t_water_dp"
+		"w": "t_magical_mineral_water_dp"
       }
 	 }
 	},
@@ -125,7 +125,7 @@
 		"b": "f_wood_keg"
 	  },
 	  "liquids": {
-      "b": { "liquid": "magical_mineral_water", "amount": [ 0, 375 ] }
+      "b": { "liquid": "magical_mineral_water", "amount": [ 75, 175 ] }
 	  }
 	 }
 	},
@@ -176,7 +176,7 @@
 		"b": "f_wood_keg"
 	  },
 	  "liquids": {
-      "b": { "liquid": "magical_mineral_water", "amount": [ 0, 375 ] }
+      "b": { "liquid": "magical_mineral_water", "amount": [ 75, 175 ] }
 	  }
 	 }
 	}
