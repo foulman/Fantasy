@@ -1,0 +1,190 @@
+[
+  {
+    "type": "recipe",
+    "result": "ink",
+	"result_mult": 40,
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 3,
+    "time": "30 m",
+    "batch_time_factors": [ 50, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "BOIL", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 30, "LIST" ] ] ],
+    "components": [
+	[ [ "eggs_bird", 1, "LIST" ], [ "egg_reptile", 1 ] ],
+	[ [ "charcoal", 7 ] ],
+	[ [ "honey_bottled", 2 ], [ "honeycomb", 2 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "magic_ink",
+	"result_mult": 40,
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "6 h",
+    "batch_time_factors": [ 50, 4 ],
+    "autolearn": true,
+    "qualities": [ { "id": "BOIL", "level": 2 } ],
+    "tools": [ [ [ "surface_heat", 360, "LIST" ] ] ],
+    "components": [
+	[ [ "diamond", 4 ] ],
+	[ [ "ink", 40 ] ],
+	[ [ "magical_min_water", 40 ] ]
+	]
+  },
+  {
+    "type": "recipe",
+    "result": "inkwell",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "book_learn": [ [ "glassblowing_book", 5 ] ],
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 75 ] ] ],
+    "components": [ [ [ "glass_shard", 3 ], [ "pipe_glass", 1 ], [ "flask_glass", 3 ], [ "test_tube", 6 ], [ "marble", 75 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "feather_quill",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "autolearn": true,
+    "components": [ [ [ "feather", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "magic_feather_quill",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "2 h",
+    "autolearn": true,
+    "qualities": [ { "id": "CHISEL", "level": 3 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 150 ] ] ],
+    "components": [
+	[ [ "feather_quill", 1 ] ],
+	[ [ "silver_small", 200 ] ],
+	[ [ "magic_ink", 5 ] ],
+	[ [ "diamond", 1 ] ]
+	]
+  },
+  {
+  "type": "recipe",
+    "result": "ench_tat_hp_1",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+	"tools": [ [ [ "magic_feather_quill", -1 ] ] ],
+    "components": [ [ [ "magic_ink", 20 ] ] ]
+  },
+  {
+  "type": "recipe",
+    "result": "ench_tat_hp_2",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+	"tools": [ [ [ "magic_feather_quill", -1 ] ] ],
+    "components": [ [ [ "magic_ink", 30 ] ] ]
+  },
+  {
+  "type": "recipe",
+    "result": "ench_tat_hp_3",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+	"tools": [ [ [ "magic_feather_quill", -1 ] ] ],
+    "components": [ [ [ "magic_ink", 40 ] ] ]
+  },
+  {
+  "type": "recipe",
+    "result": "ench_tat_mana_1",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+	"tools": [ [ [ "magic_feather_quill", -1 ] ] ],
+    "components": [ [ [ "magic_ink", 20 ] ] ]
+  },
+  {
+  "type": "recipe",
+    "result": "ench_tat_mana_2",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+	"tools": [ [ [ "magic_feather_quill", -1 ] ] ],
+    "components": [ [ [ "magic_ink", 30 ] ] ]
+  },
+  {
+  "type": "recipe",
+    "result": "ench_tat_mana_3",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+	"tools": [ [ [ "magic_feather_quill", -1 ] ] ],
+    "components": [ [ [ "magic_ink", 40 ] ] ]
+  },
+  {
+  "type": "recipe",
+    "result": "ench_tat_stamina_1",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+	"tools": [ [ [ "magic_feather_quill", -1 ] ] ],
+    "components": [ [ [ "magic_ink", 20 ] ] ]
+  },
+  {
+  "type": "recipe",
+    "result": "ench_tat_stamina_2",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+	"tools": [ [ [ "magic_feather_quill", -1 ] ] ],
+    "components": [ [ [ "magic_ink", 30 ] ] ]
+  },
+  {
+  "type": "recipe",
+    "result": "ench_tat_stamina_3",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+	"tools": [ [ [ "magic_feather_quill", -1 ] ] ],
+    "components": [ [ [ "magic_ink", 40 ] ] ]
+  }
+]
