@@ -1,0 +1,40 @@
+[
+  {
+    "type": "effect_type",
+    "id": "eff_mtc_goblin_shaman_healed",
+    "apply_message": "The goblin shaman heals their allies!",
+    "rating": "bad"
+  },
+  {
+    "type": "effect_type",
+    "id": "eff_mtc_goblin_shaman_debuff_note",
+    "apply_message": "The goblin shaman leeches raw power from their target!",
+    "rating": "mixed"
+  },
+  {
+    "type": "effect_type",
+    "id": "eff_mtc_goblin_warbanner_buff",
+    "name": [ "Inspired" ],
+    "show_in_info": true,
+    "int_add_val": 1,
+    "int_dur_factor": "30 seconds",
+    "max_intensity": 20,
+    "base_mods": { "bash_mod": [ 0.05 ], "cut_mod": [ 0.05 ], "hit_mod": [ 0.02 ], "speed_mod": [ 1.25 ] },
+    "scaling_mods": { "bash_mod": [ 0.05 ], "cut_mod": [ 0.05 ], "hit_mod": [ 0.02 ], "speed_mod": [ 1.25 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "eff_mtc_goblin_shaman_debuff",
+    "name": [ "Power Drain" ],
+    "description": [ "You are under a spell that has drained your raw power." ],
+    "show_in_info": true,
+    "base_mods": { "str_mod": [ -5 ], "bash_mod": [ -5 ], "cut_mod": [ -5 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "eff_mtc_goblin_shaman_buff",
+    "name": [ "Power Leech" ],
+    "show_in_info": true,
+    "base_mods": { "bash_mod": [ 1 ], "cut_mod": [ 1 ] }
+  }
+]
