@@ -6,7 +6,6 @@
     "description": "A ressurected and seemingly bewitched rotten body of a long forgotten decease. Mindless as it looks, it will chase down living things on sight.",
     "default_faction": "zombie",
     "bodytype": "human",
-    "categories": [ "CLASSIC" ],
 	"categories": [ "MONSTERS" ],
     "species": [ "UNDEAD", "HUMAN" ],
     "volume": "62500 ml",
