@@ -58,6 +58,7 @@
     "description": "A short humanoid with a distinctive wrinkly yellow skin and unpleasant visage.",
     "default_faction": "goblinoid",
     "bodytype": "human",
+	"categories": [ "MONSTERS" ],
     "species": [ "GOBLINOID" ],
     "volume": "32 L",
     "weight": "42 kg",
