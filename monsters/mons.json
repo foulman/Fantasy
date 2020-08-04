@@ -23,7 +23,7 @@
     "description": "A large, vicious, and evil wolflike beast warped by magic long ago.  It is intelligent enough to talk and will enjoy eating you alive.  Often consorts with goblins in a mutally beneficial relationship (of eating humans).",
     "default_faction": "worg",
     "bodytype": "dog",
-    "categories": [ "WILDLIFE" ],
+    "categories": [ "WILDLIFE", "MONSTERS" ],
     "species": [ "MAMMAL" ],
     "volume": "32625 ml",
     "weight": 32625,
