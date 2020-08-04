@@ -27,6 +27,7 @@
     "description": "A ressurected and seemingly bewitched skeleton of a long forgotten decease. It does a rattling sound as it moves.",
     "default_faction": "zombie",
     "bodytype": "human",
+	"categories": [ "MONSTERS" ],
     "species": [ "UNDEAD", "HUMAN" ],
     "volume": "62500 ml",
     "weight": "81500 g",
