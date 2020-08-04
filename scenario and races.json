@@ -1,5 +1,12 @@
 [
   {
+    "type": "SCENARIO_BLACKLIST",
+    "subtype": "whitelist",
+    "scenarios": [
+      "fantasy_race"
+    ]
+  },
+  {
     "type": "scenario",
     "ident": "fantasy_race",
     "name": "Fantasy race",
