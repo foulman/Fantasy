@@ -58,7 +58,6 @@
     "description": "A short humanoid with a distinctive wrinkly yellow skin and unpleasant visage.",
     "default_faction": "goblinoid",
     "bodytype": "human",
-	"categories": [ "MONSTERS" ],
     "species": [ "GOBLINOID" ],
     "volume": "32 L",
     "weight": "42 kg",
@@ -91,7 +90,7 @@
       ]
     },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
   },
   {
     "id": "mon_mtc_goblin_swordsman",
@@ -385,6 +384,42 @@
     }
   },
   {
+    "id": "mon_mtc_goblin_mage",
+    "copy-from": "mon_mtc_goblin",
+    "type": "MONSTER",
+    "name": { "str": "goblin mage" },
+    "description": "A short humanoid with a distinctive wrinkly yellow skin and unpleasant visage. A shaman has a greater knowledge in arcane spells, and it'll not hesitate to cast them on their foes.",
+    "melee_skill": 2,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 3,
+    "armor_bash": 3,
+    "armor_cut": 4,
+    "armor_stab": 3,
+    "armor_bullet": 3,
+    "death_drops": {
+      "subtype": "collection",
+      "items": [
+        { "item": "helmet_scrap", "prob": 20 },
+        { "item": "legguard_scrap", "prob": 20 },
+        { "item": "boots_scrap", "prob": 20 },
+        { "item": "armguard_scrap", "prob": 20 },
+        { "item": "cuirass_scrap", "prob": 20 }
+      ]
+    },
+    "extend": {
+      "special_attacks": [
+        {
+          "type": "spell",
+          "spell_data": { "id": "mon_mtc_goblin_mage_target" },
+          "cooldown": 25,
+          "monster_message": "<color_yellow>%1$s performs a hand gesture...</color>"
+        }
+      ],
+      "flags": [ "HIT_AND_RUN" ]
+    }
+  },
+  {
     "note": "We use the entire worg data here, adding only the ability to dismount its rider.",
     "id": "mon_mtc_goblin_mounted",
     "type": "MONSTER",
@@ -392,7 +427,7 @@
     "description": "A large, vicious, and evil wolflike beast warped by magic long ago.  It is intelligent enough to talk and will enjoy eating you alive.  Often consorts with goblins in a mutually beneficial relationship (of eating humans). Mounted on its back is a goblin, and will dismount as soon as the worg engages in combat.",
     "default_faction": "worg",
     "bodytype": "dog",
-    "categories": [ "WILDLIFE", "MONSTERS" ],
+    "categories": [ "WILDLIFE" ],
     "species": [ "MAMMAL" ],
     "volume": "32625 ml",
     "weight": 32625,
