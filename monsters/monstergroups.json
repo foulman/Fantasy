@@ -12,6 +12,7 @@
       { "monster": "mon_mtc_goblin_immobilzer", "freq": 25, "cost_multiplier": 1 },
       { "monster": "mon_mtc_goblin_warbanner", "freq": 20, "cost_multiplier": 1 },
       { "monster": "mon_mtc_goblin_shaman", "freq": 15, "cost_multiplier": 1 },
+      { "monster": "mon_mtc_goblin_mage", "freq": 10, "cost_multiplier": 1 },
       { "monster": "mon_mtc_goblin_mounted", "freq": 15, "cost_multiplier": 1 },
       { "monster": "mon_mtc_goblin_chieftain", "freq": 0, "cost_multiplier": 0 }
     ]
@@ -27,7 +28,8 @@
       { "monster": "mon_mtc_goblin_thrower", "freq": 45, "cost_multiplier": 1 },
       { "monster": "mon_mtc_goblin_immobilzer", "freq": 30, "cost_multiplier": 1 },
       { "monster": "mon_mtc_goblin_warbanner", "freq": 20, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_goblin_shaman", "freq": 15, "cost_multiplier": 1 }
+      { "monster": "mon_mtc_goblin_shaman", "freq": 15, "cost_multiplier": 1 },
+      { "monster": "mon_mtc_goblin_mage", "freq": 10, "cost_multiplier": 1 }
     ]
   }
 ]
