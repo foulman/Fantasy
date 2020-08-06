@@ -36,5 +36,23 @@
     "name": [ "Power Leech" ],
     "show_in_info": true,
     "base_mods": { "bash_mod": [ 1 ], "cut_mod": [ 1 ] }
+  },
+  {
+    "type": "effect_type",
+    "id": "eff_mtc_goblin_mage_firebolt_note",
+    "apply_message": "The goblin mage unleashes a firebolt!",
+    "rating": "bad"
+  },
+  {
+    "type": "effect_type",
+    "id": "eff_mtc_goblin_mage_poisoncoat_note",
+    "apply_message": "The goblin mage channels a toxic cloud!",
+    "rating": "mixed"
+  },
+  {
+    "type": "effect_type",
+    "id": "mon_mtc_goblin_mage_hexblast_note",
+    "apply_message": "The goblin mage bolts a hexblast!",
+    "rating": "bad"
   }
 ]
