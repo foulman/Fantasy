@@ -2,7 +2,7 @@
   {
     "type": "MONSTER_WHITELIST",
     "mode": "EXCLUSIVE",
-    "categories": [ "WILDLIFE" ]
+    "categories": [ "WILDLIFE", "MONSTERS" ]
   },
   {
     "type": "EXTERNAL_OPTION",

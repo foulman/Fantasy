@@ -1,0 +1,176 @@
+[
+  {
+    "id": "mon_mtc_goblin_warbanner_inspire",
+    "type": "SPELL",
+    "name": "Inspire",
+    "description": "Nearby allies get combat bonuses.",
+    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "valid_targets": [ "ally", "self" ],
+    "effect": "target_attack",
+    "effect_str": "eff_mtc_goblin_warbanner_buff",
+    "min_aoe": 16,
+    "min_duration": 3000,
+    "max_duration": 6000
+  },
+  {
+    "id": "mon_mtc_goblin_warbanner_wave",
+    "type": "SPELL",
+    "name": "Wave",
+    "description": "This unit is waving their warbanner gloriously!",
+    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "valid_targets": [ "ally", "self" ],
+    "effect": "target_attack",
+    "effect_str": "controlled",
+    "min_duration": 1000,
+    "max_duration": 1500
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_warbanner_target",
+    "name": "a spell",
+    "description": "Targets then casts the spells.",
+    "extra_effects": [
+      { "id": "mon_mtc_goblin_warbanner_wave", "hit_self": true },
+      { "id": "mon_mtc_goblin_warbanner_inspire", "hit_self": true }
+    ],
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "effect": "target_attack",
+    "min_range": 8
+  },
+  {
+    "id": "mon_mtc_goblin_shaman_spellbound",
+    "type": "SPELL",
+    "name": "Spellbound",
+    "description": "This unit is restoring their power after a spellcast.",
+    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "valid_targets": [ "ally", "self" ],
+    "effect": "target_attack",
+    "effect_str": "controlled",
+    "min_duration": 3000
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_shaman_heal_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_goblin_shaman_heal", "hit_self": true },
+      { "id": "mon_mtc_goblin_shaman_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_goblin_shaman_healed",
+    "min_aoe": 36
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_shaman_heal",
+    "name": "Heal",
+    "description": "Heals all allies in the unit's range of vision.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally", "self" ],
+    "effect": "target_attack",
+    "min_damage": -30,
+    "min_aoe": 24
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_shaman_debuff_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_goblin_shaman_debuff", "hit_self": true },
+      { "id": "mon_mtc_goblin_shaman_buff", "hit_self": true },
+      { "id": "mon_mtc_goblin_shaman_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_goblin_shaman_debuff_note",
+    "min_aoe": 36
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_shaman_buff",
+    "name": "Leeched Power",
+    "description": "Provides combat bonuses to nearby allies.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally" ],
+    "effect": "target_attack",
+    "effect_str": "eff_mtc_goblin_shaman_buff",
+    "min_aoe": 12,
+    "min_duration": 2000
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_shaman_debuff",
+    "name": "Power Drain",
+    "description": "Enlowers the target's raw power while increasing allies'.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile" ],
+    "effect": "target_attack",
+    "effect_str": "eff_mtc_goblin_shaman_debuff",
+    "min_range": 12,
+    "min_duration": 2000
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_shaman_target",
+    "name": "a spell",
+    "description": "Targets then casts the spells.",
+    "extra_effects": [
+      { "id": "mon_mtc_goblin_shaman_heal_note" },
+      { "id": "mon_mtc_goblin_shaman_heal_note" },
+      { "id": "mon_mtc_goblin_shaman_heal_note" },
+      { "id": "mon_mtc_goblin_shaman_debuff_note" }
+    ],
+    "flags": [ "SILENT", "WONDER" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "effect": "target_attack",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 12
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mounted_ed",
+    "name": "Revert",
+    "description": "Worg's ability to dismount is gone!",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "self" ],
+    "min_damage": 69420,
+    "max_damage": 69420,
+    "effect": "targeted_polymorph",
+    "effect_str": "mon_mtc_worg"
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mounted_dismount",
+    "name": "Dismount",
+    "description": "The goblin dismounts from the worg.",
+    "flags": [ "SILENT", "HOSTILE_SUMMON", "RANDOM_TARGET", "PERMANENT", "SPAWN_GROUP" ],
+    "valid_targets": [ "ground" ],
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 2,
+    "max_range": 2,
+    "effect": "summon",
+    "effect_str": "GROUP_DMBB_GOBLIN_DISMOUNT"
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mounted_target",
+    "name": "a spell",
+    "description": "Targets then casts the spells.",
+    "extra_effects": [
+      { "id": "mon_mtc_goblin_mounted_dismount", "hit_self": true },
+      { "id": "mon_mtc_goblin_mounted_ed", "hit_self": true }
+    ],
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "effect": "target_attack",
+    "min_range": 3
+  }
+]
