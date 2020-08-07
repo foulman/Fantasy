@@ -51,7 +51,7 @@
   },
   {
     "type": "effect_type",
-    "id": "mon_mtc_goblin_mage_hexblast_note",
+    "id": "eff_mtc_goblin_mage_hexblast_note",
     "apply_message": "The goblin mage bolts a hexblast!",
     "rating": "bad"
   }
