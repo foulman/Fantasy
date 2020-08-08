@@ -55,6 +55,32 @@
     }
   },
   {
+    "id": "mon_mtc_bugbear_shaman",
+    "copy-from": "mon_mtc_bugbear",
+    "type": "MONSTER",
+    "name": { "str": "bugbear shaman" },
+    "description": "A large, savage humanoid distinct to its yellow skin and bear-like nose and claws. Out of all goblinoids, they are the largest, strongest and the worst. Even with a bulky body, This shaman takes distance and aid its fellow bugbear in battle.",
+    "melee_skill": 4,
+    "death_drops": {
+      "subtype": "collection",
+      "items": [
+        { "item": "chaps_leather", "prob": 80 },
+        { "item": "morningstar" }
+      ]
+    },
+    "extend": {
+      "special_attacks": [
+        {
+          "type": "spell",
+          "spell_data": { "id": "mon_mtc_bugbear_shaman_target" },
+          "cooldown": 35,
+          "monster_message": "<color_yellow>%1$s performs a hand gesture...</color>"
+        }
+      ],
+      "flags": [ "HIT_AND_RUN" ]
+    }
+  },
+  {
     "id": "mon_mtc_bugbear_leader",
     "copy-from": "mon_mtc_bugbear",
     "type": "MONSTER",

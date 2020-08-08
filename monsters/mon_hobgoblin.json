@@ -132,6 +132,38 @@
     }
   },
   {
+    "id": "mon_mtc_hobgoblin_shaman",
+    "copy-from": "mon_mtc_hobgoblin",
+    "type": "MONSTER",
+    "name": { "str": "hobgoblin shaman" },
+    "description": "A stout humanoid with green-ish skin partially covered by hair. Shares similarities to goblins, but are larger, broader and far more aggressive. Might not seem to look like one, but this shaman stays out of combat and aid its fellow kin from the back.",
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 3,
+    "dodge": 2,
+    "death_drops": {
+      "subtype": "collection",
+      "items": [
+        { "item": "helmet_larmor", "prob": 20 },
+        { "item": "chaps_leather", "prob": 20 },
+        { "item": "boots_larmor", "prob": 20 },
+        { "item": "armguard_larmor", "prob": 20 },
+        { "item": "armor_lamellar", "prob": 20 }
+      ]
+    },
+    "extend": {
+      "special_attacks": [
+        {
+          "type": "spell",
+          "spell_data": { "id": "mon_mtc_hobgoblin_shaman_target" },
+          "cooldown": 30,
+          "monster_message": "<color_yellow>%1$s performs a hand gesture...</color>"
+        }
+      ],
+      "flags": [ "HIT_AND_RUN" ]
+    }
+  },
+  {
     "id": "mon_mtc_hobgoblin_leader",
     "copy-from": "mon_mtc_hobgoblin",
     "type": "MONSTER",
