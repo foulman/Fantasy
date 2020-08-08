@@ -38,7 +38,7 @@
     "default": "mon_mtc_hobgoblin",
     "monsters": [
       { "monster": "mon_mtc_hobgoblin_swordsman", "freq": 70, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_hobgoblin_spearsman", "freq": 70, "cost_multiplier": 1 },
+      { "monster": "mon_mtc_hobgoblin_spearman", "freq": 70, "cost_multiplier": 1 },
       { "monster": "mon_mtc_hobgoblin_hammerman", "freq": 70, "cost_multiplier": 1 },
       { "monster": "mon_mtc_hobgoblin_shaman", "freq": 20, "cost_multiplier": 1 },
       { "monster": "mon_mtc_hobgoblin_leader", "freq": 0, "cost_multiplier": 0 }
