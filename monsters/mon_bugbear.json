@@ -6,6 +6,7 @@
     "description": "A large, savage humanoid distinct to its yellow skin and bear-like nose and claws. Out of all goblinoids, they are the largest, strongest and the worst.",
     "default_faction": "goblinoid",
     "bodytype": "human",
+    "categories": [ "MONSTERS" ],
     "species": [ "GOBLINOID" ],
     "volume": "132 L",
     "weight": "180 kg",
