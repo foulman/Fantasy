@@ -1,0 +1,30 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "TALK_NPC_LONE_BLACKSMITH",
+    "dynamic_line": "Welcome to my forge. If you need steel, you know where to find me.",
+    "responses": [
+      { "text": "Show me your wares.",
+	  "effect": "start_trade",
+	  "topic": "TALK_NPC_LONE_BLACKSMITH_TRADE_EXIT" },
+	  {
+		"text": "Bye.",
+		"topic": "TALK_DONE"
+	  }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_NPC_LONE_BLACKSMITH_TRADE_EXIT",
+    "dynamic_line": "Anything else you need?",
+    "responses": [
+      { "text": "Yes, actually.",
+	  "effect": "start_trade",
+	  "topic": "TALK_NPC_LONE_BLACKSMITH_TRADE_EXIT" },
+	  {
+		"text": "I'm good, thanks.",
+		"topic": "TALK_DONE"
+	  }
+    ]
+  }
+]

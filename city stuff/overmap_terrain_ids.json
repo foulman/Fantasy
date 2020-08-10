@@ -1,0 +1,26 @@
+[
+	{
+    "type": "overmap_terrain",
+    "id": "blacksmith_city1",
+    "name": "blacksmith",
+    "sym": "╦",
+    "color": "dark_gray",
+	"flags": [ "NO_ROTATE" ]
+	},
+	{
+    "type": "overmap_terrain",
+    "id": "blacksmith_city1_roof",
+    "name": "blacksmith",
+    "sym": "╦",
+    "color": "dark_gray",
+	"flags": [ "NO_ROTATE" ]
+	},
+	{
+    "type": "overmap_terrain",
+    "id": "blacksmith_city1_chimney",
+    "name": "blacksmith",
+    "sym": "╦",
+    "color": "dark_gray",
+	"flags": [ "NO_ROTATE" ]
+	}
+]
