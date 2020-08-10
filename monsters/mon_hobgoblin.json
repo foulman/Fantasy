@@ -6,6 +6,7 @@
     "description": "A stout humanoid with green-ish skin partially covered by hair. Shares similarities to goblins, but are larger, broader and far more aggressive.",
     "default_faction": "goblinoid",
     "bodytype": "human",
+    "categories": [ "MONSTERS" ],
     "species": [ "GOBLINOID" ],
     "volume": "54 L",
     "weight": "70 kg",
