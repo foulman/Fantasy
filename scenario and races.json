@@ -160,5 +160,14 @@
     "points": 0,
 	"traits": [ "THRESH_SPIDER", "CARNIVORE", "FLEET", "POISRESIST", "NIGHTVISION3", "INFRARED", "CHITIN_FUR2", "POISONOUS2", "FANGS_SPIDER", "WEB_WALKER", "WEB_WEAVER", "WEB_RAPPEL", "WEB_ROPE", "DEX_UP_2", "TROGLO", "COLDBLOOD", "ARACHNID_ARMS_OK", "CANNIBAL" ],
     "items": { "both": [ "bone_knife" ], "male": [ "loincloth" ], "female": [ "chestwrap", "loincloth" ] }
+  },
+  {
+    "type": "profession",
+    "ident": "fantasy_race_slime",
+    "name": "Slime",
+    "description": "You are a slime. One with a core, intelligent and civilized, not some poor mass of goop aimlessly wandering about until some adventurer squashes it. While cored slimes with their humanoid shape might be rare, they are treated like any other citizen. Except perhaps for inns who'd prefer slimes to not book into their rooms, due to slime being hard to wash out of bedsheets",
+    "points": 0,
+	"traits": [ "THRESH_SLIME" , "POISRESIST", "REGEN", "RADIOGENIC", "DISIMMUNE", "PARAIMMUNE", "POISONOUS", "SLIME_HANDS", "BENDY3", "DEX_UP", "INT_UP", "INT_SLIME", "PER_SLIME_OK", "HUNGER2", "THIRST2", "VISCOUS", "AMORPHOUS", "SLIMESPAWNER", "ACIDPROOF", "ACIDBLOOD" ],
+    "items": { "both": [ "bone_knife" ], "male": [ "loincloth" ], "female": [ "chestwrap", "loincloth" ] }
   }
 ]

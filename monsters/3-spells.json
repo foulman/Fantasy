@@ -172,5 +172,312 @@
     "valid_targets": [ "ally", "hostile", "ground" ],
     "effect": "target_attack",
     "min_range": 3
+  },
+  {
+    "id": "mon_mtc_goblin_mage_spellbound",
+    "type": "SPELL",
+    "name": "Spellbound",
+    "description": "This unit is restoring their power after a spellcast.",
+    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "valid_targets": [ "ally", "self" ],
+    "effect": "target_attack",
+    "effect_str": "controlled",
+    "min_duration": 2500
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mage_hexblast_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_goblin_mage_hexblast" },
+      { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_goblin_mage_hexblast_note",
+    "min_aoe": 30
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mage_hexblast",
+    "name": "Hexblast",
+    "description": "Unleashes a dark bolt of mana.",
+    "flags": [ "SILENT", "RANDOM_DAMAGE" ],
+    "valid_targets": [ "hostile" ],
+    "effect": "target_attack",
+    "min_damage": 4,
+    "max_damage": 8,
+    "min_range": 10
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mage_poisoncoat_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_goblin_mage_poisoncoat" },
+      { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_goblin_mage_poisoncoat_note",
+    "min_aoe": 36
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mage_poisoncoat",
+    "name": "Poison Coat",
+    "description": "Covers the target in poison clouds.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "ally", "ground" ],
+    "effect": "target_attack",
+    "min_range": 12,
+    "min_aoe": 2,
+    "field_id": "fd_toxic_gas",
+    "min_field_intensity": 2,
+    "max_field_intensity": 3
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mage_firebolt_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_goblin_mage_firebolt" },
+      { "id": "mon_mtc_goblin_mage_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_goblin_mage_firebolt_note",
+    "min_aoe": 30
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mage_firebolt",
+    "name": "Firebolt",
+    "description": "Unleashes a bolt of fire.",
+    "flags": [ "SILENT", "RANDOM_DAMAGE" ],
+    "valid_targets": [ "hostile" ],
+    "effect": "target_attack",
+    "damage_type": "fire",
+    "min_damage": 4,
+    "max_damage": 8,
+    "min_range": 10
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_goblin_mage_target",
+    "name": "a spell",
+    "description": "Targets then casts the spells.",
+    "extra_effects": [
+      { "id": "mon_mtc_goblin_mage_firebolt_note" },
+      { "id": "mon_mtc_goblin_mage_firebolt_note" },
+      { "id": "mon_mtc_goblin_mage_firebolt_note" },
+      { "id": "mon_mtc_goblin_mage_poisoncoat_note" },
+      { "id": "mon_mtc_goblin_mage_poisoncoat_note" },
+      { "id": "mon_mtc_goblin_mage_hexblast_note" }
+    ],
+    "flags": [ "SILENT", "WONDER" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "effect": "target_attack",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 10
+  },
+  {
+    "id": "mon_mtc_hobgoblin_shaman_spellbound",
+    "type": "SPELL",
+    "name": "Spellbound",
+    "description": "This unit is restoring their power after a spellcast.",
+    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "valid_targets": [ "ally", "self" ],
+    "effect": "target_attack",
+    "effect_str": "controlled",
+    "min_duration": 3000
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_hobgoblin_shaman_heal_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_hobgoblin_shaman_heal", "hit_self": true },
+      { "id": "mon_mtc_hobgoblin_shaman_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_hobgoblin_shaman_healed",
+    "min_aoe": 36
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_hobgoblin_shaman_heal",
+    "name": "Heal",
+    "description": "Heals all allies in the unit's range of vision.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally", "self" ],
+    "effect": "target_attack",
+    "min_damage": -30,
+    "min_aoe": 24
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_hobgoblin_shaman_buff_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_hobgoblin_shaman_buff", "hit_self": true },
+      { "id": "mon_mtc_hobgoblin_shaman_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_hobgoblin_shaman_buff_note",
+    "min_aoe": 36
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_hobgoblin_shaman_buff",
+    "name": "Ward",
+    "description": "Creates a ward that negates physical damage.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally" ],
+    "effect": "target_attack",
+    "effect_str": "eff_mtc_hobgoblin_shaman_buff",
+    "min_aoe": 12,
+    "min_duration": 500
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_hobgoblin_shaman_target",
+    "name": "a spell",
+    "description": "Targets then casts the spells.",
+    "extra_effects": [
+      { "id": "mon_mtc_hobgoblin_shaman_heal_note" },
+      { "id": "mon_mtc_hobgoblin_shaman_heal_note" },
+      { "id": "mon_mtc_hobgoblin_shaman_heal_note" },
+      { "id": "mon_mtc_hobgoblin_shaman_buff_note" }
+    ],
+    "flags": [ "SILENT", "WONDER" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "effect": "target_attack",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 12
+  },
+  {
+    "id": "mon_mtc_bugbear_shaman_spellbound",
+    "type": "SPELL",
+    "name": "Spellbound",
+    "description": "This unit is restoring their power after a spellcast.",
+    "flags": [ "SILENT", "RANDOM_DURATION" ],
+    "valid_targets": [ "ally", "self" ],
+    "effect": "target_attack",
+    "effect_str": "controlled",
+    "min_duration": 3500
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_bugbear_shaman_hexbeam_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_bugbear_shaman_hexbeam" },
+      { "id": "mon_mtc_bugbear_shaman_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_bugbear_shaman_hexbeam_note",
+    "min_aoe": 30
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_bugbear_shaman_hexbeam",
+    "name": "Hexbeam",
+    "description": "Jolts a beam of dark mana.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "ground" ],
+    "effect": "line_attack",
+    "min_damage": 6,
+    "max_damage": 12,
+    "min_range": 10
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_bugbear_shaman_heal_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_bugbear_shaman_heal", "hit_self": true },
+      { "id": "mon_mtc_bugbear_shaman_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_bugbear_shaman_healed",
+    "min_aoe": 30
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_bugbear_shaman_heal",
+    "name": "Heal",
+    "description": "Heals all allies in the unit's range of vision.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally", "self" ],
+    "effect": "target_attack",
+    "min_damage": -30,
+    "min_aoe": 20
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_bugbear_shaman_buff_note",
+    "name": "note",
+    "description": "Notify the player whatever this unit has casted.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "hostile", "self" ],
+    "effect": "target_attack",
+    "extra_effects": [
+      { "id": "mon_mtc_bugbear_shaman_buff", "hit_self": true },
+      { "id": "mon_mtc_bugbear_shaman_spellbound", "hit_self": true }
+    ],
+    "effect_str": "eff_mtc_bugbear_shaman_buff_note",
+    "min_aoe": 30
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_bugbear_shaman_buff",
+    "name": "Battle Trance",
+    "description": "Increases combat efficiency of allies.",
+    "flags": [ "SILENT" ],
+    "valid_targets": [ "ally" ],
+    "effect": "target_attack",
+    "effect_str": "eff_mtc_bugbear_shaman_buff",
+    "min_aoe": 20,
+    "min_duration": 2000
+  },
+  {
+    "type": "SPELL",
+    "id": "mon_mtc_bugbear_shaman_target",
+    "name": "a spell",
+    "description": "Targets then casts the spells.",
+    "extra_effects": [
+      { "id": "mon_mtc_bugbear_shaman_heal_note" },
+      { "id": "mon_mtc_bugbear_shaman_heal_note" },
+      { "id": "mon_mtc_bugbear_shaman_buff_note" },
+      { "id": "mon_mtc_bugbear_shaman_buff_note" },
+      { "id": "mon_mtc_bugbear_shaman_hexbeam_note" }
+    ],
+    "flags": [ "SILENT", "WONDER" ],
+    "valid_targets": [ "ally", "hostile", "ground" ],
+    "effect": "target_attack",
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_range": 10
   }
 ]
