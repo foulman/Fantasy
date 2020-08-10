@@ -1,0 +1,12 @@
+[
+	{
+    "type": "city_building",
+    "id": "blacksmith_city_lone",
+    "locations": [ "land" ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "blacksmith_city1", "locations": [ "land" ] },
+	  { "point": [ 0, 0, 1 ], "overmap": "blacksmith_city1_roof", "locations": [ "land" ] },
+	  { "point": [ 0, 0, 2 ], "overmap": "blacksmith_city1_chimney", "locations": [ "land" ] }
+    ]
+	}
+]

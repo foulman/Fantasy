@@ -1,0 +1,77 @@
+[
+	{
+    "type": "item_group",
+	"subtype": "collection",
+    "id": "coinage",
+    "entries": [
+      { "item": "copper_coin", "prob": 90, "count": [ 1, 10 ] },
+	  { "item": "silver_coin", "prob": 70, "count": [ 1, 10 ] },
+	  { "item": "gold_coin", "prob": 50, "count": [ 1, 10 ] },
+	  { "item": "platinum_coin", "prob": 10, "count": [ 1, 10 ] }
+    ]
+	},
+	{
+    "type": "item_group",
+	"subtype": "collection",
+    "id": "copper_coinage",
+    "entries": [
+      { "item": "copper_coin", "prob": 100, "count": [ 1, 10 ] }
+    ]
+	},
+	{
+    "type": "item_group",
+	"subtype": "collection",
+    "id": "silver_coinage",
+    "entries": [
+	  { "item": "silver_coin", "prob": 100, "count": [ 1, 10 ] }
+    ]
+	},
+	{
+    "type": "item_group",
+	"subtype": "collection",
+    "id": "gold_coinage",
+    "entries": [
+	  { "item": "gold_coin", "prob": 100, "count": [ 1, 10 ] }
+    ]
+	},
+	{
+    "type": "item_group",
+	"subtype": "collection",
+    "id": "platinum_coinage",
+    "entries": [
+	  { "item": "platinum_coin", "prob": 100, "count": [ 1, 10 ] }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "bucket",
+    "items": [
+      [ "bucket", 100 ]
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "charcoal",
+    "items": [
+      [ "charcoal", 100 ]
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "anvil",
+    "items": [
+      [ "anvil", 100 ]
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "blacksmith",
+    "items": [
+      [ "hammer", 100 ],
+	  [ "crucible_clay", 100 ],
+	  [ "swage", 100 ],
+	  [ "chisel", 100 ],
+	  [ "tongs", 100 ]
+    ]
+	}
+]

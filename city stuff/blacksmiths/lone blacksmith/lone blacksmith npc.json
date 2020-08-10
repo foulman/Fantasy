@@ -1,0 +1,32 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NPC_LONE_BLACKSMITH",
+    "name": { "str": "Blacksmith" },
+    "job_description": "I know the ways of the forge.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 10, 15 ] },
+    "bonus_dex": { "rng": [ 4, 12 ] },
+    "bonus_int": { "rng": [ 4, 12 ] },
+    "bonus_per": { "rng": [ 4, 12 ] },
+	"shopkeeper_item_group": "BLACKSMITH_SHOP",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+	  { "skill": "fabrication", "bonus": { "rng": [ 8, 10 ] } }
+    ]
+  },
+  {
+    "type": "npc",
+    "id": "lone_blacksmith",
+    "//": "A blacksmith without an apprentice, hammering away.",
+    "name_suffix": "blacksmith",
+    "class": "NPC_LONE_BLACKSMITH",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_LONE_BLACKSMITH",
+    "faction": "shopkeepers"
+  }
+]
