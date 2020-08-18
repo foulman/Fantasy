@@ -73,5 +73,36 @@
 	  [ "chisel", 100 ],
 	  [ "tongs", 100 ]
     ]
-	}
+	},
+	{
+    "type": "item_group",
+    "id": "barrel_food_loot",
+	"subtype": "collection",
+    "entries": [
+	  { "item": "dry_fish", "prob": 50, "count": [ 10, 100 ] },
+	  { "item": "dry_meat", "prob": 50, "count": [ 10, 100 ] },
+	  { "item": "dry_veggy", "prob": 50, "count": [ 10, 100 ] }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "alcohol_loot",
+	"subtype": "collection",
+    "entries": [
+	  { "item": "mead", "prob": 50, "count": [ 0, 1 ] },
+	  { "item": "rum", "prob": 50, "count": [ 0, 1 ] },
+	  { "item": "fruit_wine", "prob": 50, "count": [ 0, 1 ] }
+    ]
+	},
+    {
+    "id": "gambling_den",
+    "type": "item_group",
+	"subtype": "collection",
+    "items": [
+      { "group": "bar_table", "prob": 40 },
+      { "group": "bar_alcohol", "prob": 20 },
+      { "item": "deck_of_cards", "prob": 100 },
+      { "group": "silver_coinage", "prob": 100 }
+    ]
+    }
 ]
