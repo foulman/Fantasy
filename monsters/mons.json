@@ -58,7 +58,7 @@
     "description": "A short humanoid with a distinctive wrinkly yellow skin and unpleasant visage.",
     "default_faction": "goblinoid",
     "bodytype": "human",
-    "categories": [ "MONSTERS" ],
+	"categories": [ "MONSTERS" ],
     "species": [ "GOBLINOID" ],
     "volume": "32 L",
     "weight": "42 kg",
@@ -87,7 +87,8 @@
         { "item": "legguard_scrap", "prob": 20 },
         { "item": "boots_scrap", "prob": 20 },
         { "item": "armguard_scrap", "prob": 20 },
-        { "item": "cuirass_scrap", "prob": 20 }
+        { "item": "cuirass_scrap", "prob": 20 },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     },
     "death_function": [ "NORMAL" ],
@@ -116,7 +117,8 @@
         { "item": "boots_scrap", "prob": 40 },
         { "item": "armguard_scrap", "prob": 40 },
         { "item": "cuirass_scrap", "prob": 40 },
-        { "item": "longsword_rusted", "prob": 80 }
+        { "item": "longsword_rusted", "prob": 80 },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     }
   },
@@ -143,7 +145,8 @@
         { "item": "boots_scrap", "prob": 40 },
         { "item": "armguard_scrap", "prob": 40 },
         { "item": "cuirass_scrap", "prob": 40 },
-        { "item": "spear_steel_rusted", "prob": 80 }
+        { "item": "spear_steel_rusted", "prob": 80 },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     }
   },
@@ -169,7 +172,8 @@
         { "item": "boots_scrap", "prob": 40 },
         { "item": "armguard_scrap", "prob": 40 },
         { "item": "cuirass_scrap", "prob": 40 },
-        { "item": "warhammer_rusted", "prob": 80 }
+        { "item": "warhammer_rusted", "prob": 80 },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     }
   },
@@ -196,7 +200,8 @@
         { "item": "armguard_scrap", "prob": 20 },
         { "item": "cuirass_scrap", "prob": 20 },
         { "item": "crossbow", "prob": 80, "damage": [ 2, 3 ] },
-        { "item": "bolt_crude", "count": [ 3, 9 ] }
+        { "item": "bolt_crude", "count": [ 3, 9 ] },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     },
     "extend": {
@@ -243,7 +248,8 @@
         { "item": "armguard_scrap", "prob": 20 },
         { "item": "cuirass_scrap", "prob": 20 },
         { "item": "cuirass_scrap", "prob": 20 },
-        { "item": "javelin", "count": [ 1, 3 ] }
+        { "item": "javelin", "count": [ 1, 3 ] },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     },
     "extend": {
@@ -288,7 +294,8 @@
         { "item": "boots_scrap", "prob": 20 },
         { "item": "armguard_scrap", "prob": 20 },
         { "item": "cuirass_scrap", "prob": 20 },
-        { "item": "bolas", "count": [ 1, 4 ] }
+        { "item": "bolas", "count": [ 1, 4 ] },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     },
     "extend": {
@@ -333,7 +340,8 @@
         { "item": "legguard_scrap", "prob": 20 },
         { "item": "boots_scrap", "prob": 20 },
         { "item": "armguard_scrap", "prob": 20 },
-        { "item": "cuirass_scrap", "prob": 20 }
+        { "item": "cuirass_scrap", "prob": 20 },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     },
     "extend": {
@@ -369,7 +377,8 @@
         { "item": "legguard_scrap", "prob": 20 },
         { "item": "boots_scrap", "prob": 20 },
         { "item": "armguard_scrap", "prob": 20 },
-        { "item": "cuirass_scrap", "prob": 20 }
+        { "item": "cuirass_scrap", "prob": 20 },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     },
     "extend": {
@@ -405,7 +414,8 @@
         { "item": "legguard_scrap", "prob": 20 },
         { "item": "boots_scrap", "prob": 20 },
         { "item": "armguard_scrap", "prob": 20 },
-        { "item": "cuirass_scrap", "prob": 20 }
+        { "item": "cuirass_scrap", "prob": 20 },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     },
     "extend": {
@@ -487,7 +497,8 @@
         { "item": "boots_scrap", "prob": 80 },
         { "item": "armguard_scrap", "prob": 80 },
         { "item": "cuirass_scrap", "prob": 80 },
-        { "item": "broadsword_rusted", "prob": 90 }
+        { "item": "broadsword_rusted", "prob": 90 },
+        { "item": "goblin_ears", "prob": 100 }
       ]
     }
   }
