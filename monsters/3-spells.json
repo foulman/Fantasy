@@ -263,7 +263,7 @@
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
     "effect": "target_attack",
-    "damage_type": "fire",
+    "damage_type": "heat",
     "min_damage": 4,
     "max_damage": 8,
     "min_range": 10

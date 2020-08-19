@@ -1,0 +1,13 @@
+[
+  {
+    "type": "npc",
+    "id": "lone_blacksmith",
+    "//": "A blacksmith without an apprentice, hammering away.",
+    "name_suffix": "blacksmith",
+    "class": "NPC_BLACKSMITH",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_LONE_BLACKSMITH",
+    "faction": "shopkeepers"
+  }
+]
