@@ -104,5 +104,64 @@
       { "item": "deck_of_cards", "prob": 100 },
       { "group": "silver_coinage", "prob": 100 }
     ]
-    }
+    },
+	{
+    "type": "item_group",
+    "id": "male_citizen_clothing",
+	"subtype": "collection",
+    "entries": [
+	  { "item": "tunic", "prob": 70 },
+	  { "item": "gambeson", "prob": 40 }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "female_citizen_clothing",
+	"subtype": "collection",
+    "entries": [
+	  { "item": "dress", "prob": 90 },
+	  { "item": "gambeson", "prob": 30 },
+	  { "item": "sundress", "prob": 30 }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "kitchenstaff_wield",
+	"subtype": "collection",
+    "entries": [
+	  { "item": "knife_butcher", "prob": 50 },
+	  { "item": "knife_steak", "prob": 50 },
+	  { "item": "knife_paring", "prob": 50 },
+	  { "item": "knife_chef", "prob": 50 },
+	  { "item": "rolling_pin", "prob": 50 },
+	  { "item": "whisk", "prob": 50 }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "rogue_weapons",
+	"subtype": "collection",
+    "entries": [
+	  { "item": "knife_baselard", "prob": 35 },
+	  { "item": "cutlass", "prob": 35 },
+	  { "item": "knife_combat", "prob": 35 },
+	  { "item": "knife_hunting", "prob": 35 },
+	  { "item": "knife_rambo", "prob": 35 },
+	  { "item": "knife_trench", "prob": 35 }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "warrior_weapons",
+	"subtype": "collection",
+    "entries": [
+	  { "item": "longsword", "prob": 35 },
+	  { "item": "arming_sword", "prob": 35 },
+	  { "item": "mace", "prob": 35 },
+	  { "item": "morningstar", "prob": 35 },
+	  { "item": "zweihander", "prob": 35 },
+	  { "item": "lucern_hammer", "prob": 35 },
+	  { "item": "spear_steel", "prob": 35 }
+    ]
+	}
 ]

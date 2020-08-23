@@ -1,0 +1,142 @@
+[
+	{
+    "type": "furniture",
+    "id": "f_hanging_lantern",
+    "name": "Hanging lantern",
+    "description": "An oil-burning lantern hanged from the ceiling by a small chain.",
+    "symbol": "y",
+    "color": "dark_gray",
+    "move_cost_mod": 0,
+    "coverage": 0,
+    "light_emitted": 45,
+	"required_str": -1,
+    "flags": [ "TRANSPARENT", "BASHABLE", "FLAMMABLE" ],
+    "deconstruct": {
+      "items": [
+        { "item": "oil_lamp", "count": 1 },
+        { "item": "scrap", "count": 5 },
+        { "item": "nail", "count": 1 }
+      ]
+    },
+	"bash": {
+      "sound": "CRASH!",
+      "str_min": 1,
+      "str_max": 4,
+	  "sound_fail": "tink!",
+      "sound_vol": 8,
+      "sound_fail_vol": 4,
+	  "furn_set": "f_broken_lantern",
+	  "items": [
+        { "item": "scrap", "count": 5 }
+      ]
+      }
+	},
+	{
+    "type": "furniture",
+    "id": "f_broken_lantern",
+    "name": "Smashed lantern",
+    "description": "An oil-burning lantern that has been knocked down and is setting the place ablaze.",
+    "symbol": ",",
+    "color": "red",
+    "move_cost_mod": 0,
+    "coverage": 0,
+    "light_emitted": 30,
+	"required_str": -1,
+    "flags": [ "TRANSPARENT", "EMITTER", "FLAMMABLE", "NOITEM" ],
+	"emissions": [ "emit_lantern_smash" ],
+	"bash": {
+      "sound": "CRASH!",
+      "str_min": 400,
+      "str_max": 401,
+	  "sound_fail": "tink!",
+      "sound_vol": 16,
+      "sound_fail_vol": 4
+      }
+	},
+	{
+    "type": "furniture",
+    "id": "f_pole_lantern",
+    "name": "Pole lantern",
+    "description": "An oil-burning lantern set atop an iron pole.",
+    "symbol": "Y",
+    "color": "dark_gray",
+    "move_cost_mod": -1,
+    "coverage": 0,
+    "light_emitted": 45,
+	"required_str": -1,
+    "flags": [ "TRANSPARENT", "BASHABLE", "IMPASSABLE", "NOITEM" ],
+    "deconstruct": {
+      "items": [
+        { "item": "oil_lamp", "count": 1 },
+        { "item": "scrap", "count": 15 },
+        { "item": "pipe", "count": 1 }
+      ]
+    },
+	"bash": {
+      "sound": "CRASH!",
+      "str_min": 8,
+      "str_max": 400,
+	  "sound_fail": "tink!",
+      "sound_vol": 8,
+      "sound_fail_vol": 4,
+	  "furn_set": "f_broken_lantern",
+	  "items": [
+        { "item": "scrap", "count": 15 },
+        { "item": "pipe", "count": 1 }
+      ]
+      }
+	},
+	{
+    "type": "furniture",
+    "id": "f_burning_brazier",
+    "name": "Pole lantern",
+    "description": "A brazier burning hot with a flame over the coals.",
+    "symbol": "U",
+    "color": "dark_gray",
+    "move_cost_mod": 0,
+    "coverage": 0,
+    "light_emitted": 45,
+	"required_str": -1,
+    "flags": [ "TRANSPARENT", "BASHABLE", "EMITTER", "THIN_OBSTACLE", "WINDOW" ],
+	"emissions": [ "emit_brazier_heat" ],
+    "deconstruct": {
+      "items": [
+        { "item": "brazier", "count": 1 }
+      ]
+    },
+	"bash": {
+      "sound": "CRASH!",
+      "str_min": 1,
+      "str_max": 4,
+	  "sound_fail": "tink!",
+      "sound_vol": 8,
+      "sound_fail_vol": 4,
+	  "furn_set": "f_spilled_brazier",
+	  "items": [
+        { "item": "brazier", "count": 1 }
+      ]
+      }
+	},
+	{
+    "type": "furniture",
+    "id": "f_spilled_brazier",
+    "name": "Spilled brazier",
+    "description": "A burning brazier that has been knocked over and is setting the place ablaze.",
+    "symbol": ",",
+    "color": "red",
+    "move_cost_mod": 0,
+    "coverage": 0,
+    "light_emitted": 45,
+	"required_str": -1,
+    "flags": [ "TRANSPARENT", "EMITTER", "FLAMMABLE" ],
+	"emissions": [ "emit_lantern_smash" ],
+	"bash": {
+      "sound": "CRASH!",
+      "str_min": 400,
+      "str_max": 401,
+	  "sound_fail": "tink!",
+      "sound_vol": 16,
+      "sound_fail_vol": 4
+      }
+	}
+]

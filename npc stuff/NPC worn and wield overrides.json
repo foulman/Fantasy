@@ -1,0 +1,308 @@
+[
+	{
+    "type": "item_group",
+    "id": "NPC_blacksmith_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+	  { "item": "gloves_wraps" },
+      { "item": "tunic" },
+	  { "item": "leather_belt" },
+      { "item": "jacket_leather" },
+      { "item": "pants_leather" },
+	  { "item": "gloves_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" },
+      { "item": "apron_leather" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_blacksmith_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "hammer_sledge_short" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_tavernkeep_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "gambeson" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_tavernkeep_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "knife_carving" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_guard_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "leather_belt" },
+      { "item": "gloves_leather" },
+      { "item": "boots_larmor" },
+      { "item": "leather_pouch" },
+      { "item": "chainmail_suit" },
+      { "item": "scabbard" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_guard_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "arming_sword" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_bouncer_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+	  { "item": "gloves_wraps" },
+      { "item": "tunic" },
+	  { "item": "leather_belt" },
+      { "item": "jacket_leather" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_bouncer_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "punch_dagger" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_maid_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "panties" },
+	  { "item": "maid_hat" },
+      { "item": "maid_dress" },
+	  { "item": "leather_belt" },
+      { "item": "gloves_light" },
+      { "item": "heels" },
+	  { "item": "stockings" },
+      { "item": "leather_pouch" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_maid_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "feather_duster" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_female_citizen_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "panties" },
+      { "item": "footrags" },
+	  { "item": "chestwrap" },
+      { "group": "female_citizen_clothing" },
+	  { "item": "leather_belt" },
+      { "item": "gloves_light" },
+      { "item": "mocassins" },
+      { "item": "leather_pouch" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_female_citizen_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "knife_folding" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_male_citizen_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "group": "male_citizen_clothing" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_male_citizen_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "knife_folding" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_fisher_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+	  { "item": "gloves_wraps" },
+	  { "item": "gloves_leather" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" },
+      { "item": "leather_pouch" },
+      { "item": "straw_hat" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_fisher_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "fishing_rod_basic" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_kitchenstaff_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "jacket_chef" },
+      { "item": "leather_pouch" },
+      { "item": "hat_chef" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_kitchenstaff_wield",
+    "subtype": "collection",
+    "entries": [ { "group": "kitchenstaff_wield" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_tavernwench_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "panties" },
+      { "item": "copper_ear" },
+      { "item": "leather_belt" },
+      { "item": "skirt_leather" },
+	  { "item": "dress_shirt" },
+	  { "item": "corset" },
+      { "item": "mocassins" },
+      { "item": "leather_pouch" },
+      { "item": "barrette" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_tavernwench_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "knife_folding" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_knight_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "leather_belt" },
+      { "item": "gloves_plate" },
+      { "item": "boots_plate" },
+      { "item": "leather_pouch" },
+	  { "item": "leather_pouch" },
+      { "item": "chainmail_suit" },
+	  { "item": "helmet_barbute" },
+	  { "item": "armor_lightplate" },
+      { "item": "scabbard" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_knight_wield",
+    "subtype": "collection",
+    "entries": [ { "group": "warrior_weapons" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_dragonslayer_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "leather_belt" },
+      { "item": "gloves_plate" },
+      { "item": "boots_plate" },
+      { "item": "leather_pouch" },
+	  { "item": "leather_pouch" },
+      { "item": "chainmail_suit" },
+	  { "item": "helmet_plate" },
+	  { "item": "armor_plate" },
+      { "item": "scabbard" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_dragonslayer_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "mtc_sword_dragonslayer" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_rogue_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+	  { "item": "gloves_wraps" },
+      { "item": "tunic" },
+	  { "item": "leather_belt" },
+      { "item": "jacket_leather" },
+      { "item": "pants_leather" },
+	  { "item": "gloves_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" },
+	  { "item": "vambrace_larmor" },
+	  { "item": "cloak_leather" },
+      { "item": "scabbard" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_rogue_wield",
+    "subtype": "collection",
+    "entries": [ { "group": "rogue_weapons" } ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_erotic_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "hot_pants_leather" },
+      { "item": "corset" }
+    ]
+	},
+	{
+    "type": "item_group",
+    "id": "NPC_erotic_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "bullwhip" } ]
+	}
+]
