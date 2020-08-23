@@ -1,0 +1,16 @@
+[
+  {
+    "id": "emit_lantern_smash",
+    "type": "emit",
+    "field": "fd_fire",
+    "intensity": 1,
+    "qty": 9
+  },
+  {
+    "id": "emit_brazier_heat",
+    "type": "emit",
+    "field": "fd_hot_air1",
+    "intensity": 1,
+    "qty": 9
+  }
+]
