@@ -14,7 +14,8 @@
 		},
 		{
 		"text": "Heard of anything that needs doing?",
-		"topic": "TALK_NPC_GENERIC_TAVERNKEEP_JOBS"
+		"topic": "TALK_NPC_GENERIC_TAVERNKEEP_JOBS",
+		"condition": { "not": "has_assigned_mission" }
 		},
 		{
 		"text": "Good to know.",
@@ -284,17 +285,6 @@
   },
   {
     "type": "talk_topic",
-    "id": "TALK_NPC_GENERIC_TAVERNKEEP_QUEST",
-    "dynamic_line": "Not really.",
-    "responses": [
-		{
-		"text": "Alright then.",
-		"topic": "TALK_NPC_GENERIC_TAVERNKEEP_TRADE_EXIT"
-		}
-    ]
-  },
-  {
-    "type": "talk_topic",
     "id": "TALK_NPC_GENERIC_TAVERNKEEP_TRADE_EXIT",
     "dynamic_line": "Anything else you need?",
     "responses": [
@@ -308,7 +298,8 @@
 		},
 		{
 		"text": "Heard of anything that needs doing?",
-		"topic": "TALK_NPC_GENERIC_TAVERNKEEP_JOBS"
+		"topic": "TALK_NPC_GENERIC_TAVERNKEEP_JOBS",
+		"condition": { "not": "has_assigned_mission" }
 		},
 		{
 		"text": "I'm good, thanks.",
@@ -336,7 +327,7 @@
           "has_no_assigned_mission": "There's a job available if you want it.",
           "no": {
             "has_many_assigned_missions": "There is an additional job ye can take, if you'd like.",
-            "no": "I know of certain thing someone could do for, if yer interested."
+            "no": "I know of a certain thing someone could do, if yer interested."
           }
         }
       }
