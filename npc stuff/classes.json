@@ -8,10 +8,12 @@
       { "group": "NPC_starting_traits" },
       { "group": "Appearance_demographics" }
     ],
-    "bonus_str": { "rng": [ 10, 15 ] },
-    "bonus_dex": { "rng": [ 4, 12 ] },
-    "bonus_int": { "rng": [ 4, 12 ] },
-    "bonus_per": { "rng": [ 4, 12 ] },
+    "bonus_str": { "rng": [ 4, 6 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 0, 2 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+	"worn_override": "NPC_blacksmith_worn",
+    "weapon_override": "NPC_blacksmith_wield",
 	"shopkeeper_item_group": "BLACKSMITH_SHOP",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
@@ -27,10 +29,240 @@
       { "group": "NPC_starting_traits" },
       { "group": "Appearance_demographics" }
     ],
-    "bonus_str": { "rng": [ 4, 12 ] },
-    "bonus_dex": { "rng": [ 4, 12 ] },
-    "bonus_int": { "rng": [ 4, 12 ] },
-    "bonus_per": { "rng": [ 4, 12 ] },
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 0, 2 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+	"worn_override": "NPC_tavernkeep_worn",
+    "weapon_override": "NPC_tavernkeep_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_GUARD",
+    "name": { "str": "Guard" },
+    "job_description": "I'm a guard. I guard things.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 2, 3 ] },
+    "bonus_dex": { "rng": [ 2, 4 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 1, 2 ] },
+	"worn_override": "NPC_guard_worn",
+    "weapon_override": "NPC_guard_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_BOUNCER",
+    "name": { "str": "Guard" },
+    "job_description": "I get to decide who goes into the joint and who doesn't.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 3, 5 ] },
+    "bonus_dex": { "rng": [ 1, 3 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 1, 3 ] },
+	"worn_override": "NPC_bouncer_worn",
+    "weapon_override": "NPC_bouncer_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_MAID",
+    "name": { "str": "Maid" },
+    "job_description": "I clean and sometimes cook.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 1 ] },
+    "bonus_dex": { "rng": [ 1, 3 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 1, 3 ] },
+	"worn_override": "NPC_maid_worn",
+    "weapon_override": "NPC_maid_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_FEMALE_CITIZEN",
+    "name": { "str": "Female Citizen" },
+    "job_description": "Just living my life.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 1 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 0, 1 ] },
+	"worn_override": "NPC_female_citizen_worn",
+    "weapon_override": "NPC_female_citizen_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_MALE_CITIZEN",
+    "name": { "str": "Male Citizen" },
+    "job_description": "Just living my life.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 1 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 0, 1 ] },
+	"worn_override": "NPC_male_citizen_worn",
+    "weapon_override": "NPC_male_citizen_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_FISHER",
+    "name": { "str": "Fisher" },
+    "job_description": "Fishing has been my life.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 1 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 0, 1 ] },
+	"worn_override": "NPC_fisher_worn",
+    "weapon_override": "NPC_fisher_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_KITCHEN",
+    "name": { "str": "Kitchenstaff" },
+    "job_description": "I cook and bake.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 1 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 0, 2 ] },
+    "bonus_per": { "rng": [ 0, 1 ] },
+	"worn_override": "NPC_kitchenstaff_worn",
+    "weapon_override": "NPC_kitchenstaff_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_TAVERNWENCH",
+    "name": { "str": "Tavernwench" },
+    "job_description": "I serve the drinks and things at taverns and such places.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 1 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 0, 1 ] },
+	"worn_override": "NPC_tavernwench_worn",
+    "weapon_override": "NPC_tavernwench_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_DRAGONSLAYER",
+    "name": { "str": "Dragonslayer" },
+    "job_description": "I hunt dragons.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 8, 12 ] },
+    "bonus_dex": { "rng": [ 4, 8 ] },
+    "bonus_int": { "rng": [ 2, 4 ] },
+    "bonus_per": { "rng": [ 4, 8 ] },
+	"worn_override": "NPC_dragonslayer_worn",
+    "weapon_override": "NPC_dragonslayer_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_KNIGHT",
+    "name": { "str": "Knight" },
+    "job_description": "I'm a knight of the realm.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 3, 4 ] },
+    "bonus_dex": { "rng": [ 1, 4 ] },
+    "bonus_int": { "rng": [ 1, 4 ] },
+    "bonus_per": { "rng": [ 1, 4 ] },
+	"worn_override": "NPC_knight_worn",
+    "weapon_override": "NPC_knight_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_ROGUE",
+    "name": { "str": "Rogue" },
+    "job_description": "I'm a dashing rogue, or a sleazy one. You decide.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 1, 3 ] },
+    "bonus_dex": { "rng": [ 2, 4 ] },
+    "bonus_int": { "rng": [ 1, 3 ] },
+    "bonus_per": { "rng": [ 2, 4 ] },
+	"worn_override": "NPC_rogue_worn",
+    "weapon_override": "NPC_rogue_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+	{
+    "type": "npc_class",
+    "id": "NPC_EROTIC",
+    "name": { "str": "Erotic dancer" },
+    "job_description": "Naughty",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 1 ] },
+    "bonus_dex": { "rng": [ 4, 6 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+	"worn_override": "NPC_erotic_worn",
+    "weapon_override": "NPC_erotic_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
