@@ -151,5 +151,15 @@
     "harvest": "exempt",
     "death_function": [ "BLOBSPLIT" ],
     "flags": [ "HEARS", "GOODHEARING", "NOHEAD", "POISON", "NO_BREATHE", "ACIDPROOF" ]
+	},
+	{
+    "id": "trophy_dragon_fang",
+    "name": "dragon fang",
+	"type": "GENERIC",
+	"symbol": "v",
+	"weight": "200 g",
+    "volume": "200 ml",
+    "description": "A fang pulled from the skull of a slain dragon.",
+    "color": "white"
 	}
 ]
