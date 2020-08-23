@@ -13,8 +13,11 @@
     "start": {
        "assign_mission_target": { "om_terrain": "mtc_seaside_down_downright_inn1", "reveal_radius": 1 },
 	   "update_mapgen": { "place_monster": [ { "monster": "mon_black_rat", "pack_size": [ 6, 6 ], "x": 8, "y": 8, "target": true } ] }
-    },
-	"end": { "effect": [ { "u_buy_item": "silver_coin", "count": 10 } ] },
+		},
+	"end": { "effect": [
+		{ "u_buy_item": "silver_coin", "count": 10 },
+		{ "u_add_var": "RAT_SLAY_1", "type": "general", "context": "mission", "value": "yes" }
+		] },
 	"has_generic_rewards": false,
 	"dialogue": {
       "describe": "",
@@ -43,7 +46,10 @@
        "assign_mission_target": { "om_terrain": "road", "reveal_radius": 3, "random": true, "search_range": 15, "min_distance": 10 },
 	   "update_mapgen": { "place_monster": [ { "monster": "mon_blob", "pack_size": [ 6, 6 ], "x": 8, "y": 8, "target": true } ] }
     },
-	"end": { "effect": [ { "u_buy_item": "silver_coin", "count": 20 } ] },
+	"end": { "effect": [
+		{ "u_buy_item": "silver_coin", "count": 20 },
+		{ "u_add_var": "SLIME_SLAY_1", "type": "general", "context": "mission", "value": "yes" }
+		] },
 	"has_generic_rewards": false,
 	"dialogue": {
       "describe": "",
@@ -72,7 +78,10 @@
        "assign_mission_target": { "om_terrain": "forest", "reveal_radius": 3, "random": true, "search_range": 15, "min_distance": 10 },
 	   "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_goblin", "pack_size": [ 6, 6 ], "x": 8, "y": 8, "target": true } ] }
     },
-	"end": { "effect": [ { "u_buy_item": "silver_coin", "count": 30 } ] },
+	"end": { "effect": [
+		{ "u_buy_item": "silver_coin", "count": 30 },
+		{ "u_add_var": "GOBLINS_SLAY_1", "type": "general", "context": "mission", "value": "yes" }
+		] },
 	"has_generic_rewards": false,
 	"dialogue": {
       "describe": "",
