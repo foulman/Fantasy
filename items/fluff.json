@@ -1,0 +1,18 @@
+[
+	{
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "feather_duster",
+    "name": { "str": "feather duster" },
+    "description": "A thin carved piece of wood with a comfortable handle and feathers tied into a bundle attached to the side opposite the handle. This feather duster is used to brush the dust off of surfaces without needing to pick them up or risk moving them. Despite its fragile nature it can actually hit quite hard but not for long without breaking.",
+    "weight": "325 g",
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "wood" ],
+    "techniques": [ "WBLOCK_1", "RAPID" ],
+    "flags": [ "FRAGILE_MELEE" ],
+    "volume": "600 ml",
+    "bashing": 7,
+    "price": 900
+	}
+]
