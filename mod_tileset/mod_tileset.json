@@ -25,7 +25,28 @@
           { "id": "mon_mtc_hobgoblin_hammerman", "fg": 15 },
           { "id": "mon_mtc_hobgoblin_spearman", "fg": 16 },
           { "id": "mon_mtc_hobgoblin_shaman", "fg": 17 },
-          { "id": "mon_mtc_hobgoblin_leader", "fg": 18 }
+          { "id": "mon_mtc_hobgoblin_leader", "fg": 18 },
+          { "id": "mon_mtc_zombie", "fg": [
+            { "weight": 1, "sprite": 19 },
+            { "weight": 1, "sprite": 20 },
+            { "weight": 1, "sprite": 21 },
+            { "weight": 1, "sprite": 22 },
+            { "weight": 1, "sprite": 23 },
+            { "weight": 1, "sprite": 24 }
+          ],
+		  "rotates": false },
+          { "id": "mon_mtc_zombie_warrior_cut", "fg": [
+            { "weight": 1, "sprite": 25 },
+            { "weight": 1, "sprite": 26 },
+            { "weight": 1, "sprite": 27 }
+          ],
+		  "rotates": false },
+          { "id": "mon_mtc_zombie_warrior_bash", "fg": [
+            { "weight": 1, "sprite": 28 },
+            { "weight": 1, "sprite": 29 },
+            { "weight": 1, "sprite": 30 }
+          ],
+		  "rotates": false }
         ]
       }
     ]
