@@ -46,7 +46,15 @@
             { "weight": 1, "sprite": 29 },
             { "weight": 1, "sprite": 30 }
           ],
-		  "rotates": false }
+		  "rotates": false },
+          { "id": "mon_mtc_skeleton", "fg": 31 },
+          { "id": "mon_mtc_skeleton_warrior_cut", "fg": 32 },
+          { "id": "mon_mtc_skeleton_warrior_bash", "fg": 33 },
+          { "id": "mon_mtc_skeleton_warrior_stab", "fg": 34 },
+          { "id": "mon_mtc_skeleton_warrior_range", "fg": 35 },
+          { "id": "mon_mtc_skeleton_warrior_cut_e", "fg": 36 },
+          { "id": "mon_mtc_skeleton_warrior_bash_e", "fg": 37 },
+          { "id": "mon_mtc_skeleton_warrior_stab_e", "fg": 38 }
         ]
       }
     ]
