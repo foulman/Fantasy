@@ -46,6 +46,46 @@
             { "weight": 1, "sprite": 29 },
             { "weight": 1, "sprite": 30 }
           ],
+		  "rotates": false },
+		  { "id": "mon_mtc_skeleton", "fg": [
+            { "weight": 1, "sprite": 31 },
+            { "weight": 1, "sprite": 39 }
+          ],
+		  "rotates": false },
+		  { "id": "mon_mtc_skeleton_warrior_cut", "fg": [
+            { "weight": 1, "sprite": 32 },
+            { "weight": 1, "sprite": 40 }
+          ],
+		  "rotates": false },
+		  { "id": "mon_mtc_skeleton_warrior_bash", "fg": [
+            { "weight": 1, "sprite": 33 },
+            { "weight": 1, "sprite": 41 }
+          ],
+		  "rotates": false },
+		  { "id": "mon_mtc_skeleton_warrior_stab", "fg": [
+            { "weight": 1, "sprite": 34 },
+            { "weight": 1, "sprite": 42 }
+          ],
+		  "rotates": false },
+		  { "id": "mon_mtc_skeleton_warrior_range", "fg": [
+            { "weight": 1, "sprite": 35 },
+            { "weight": 1, "sprite": 43 }
+          ],
+		  "rotates": false },
+		  { "id": "mon_mtc_skeleton_warrior_cut_e", "fg": [
+            { "weight": 1, "sprite": 36 },
+            { "weight": 1, "sprite": 44 }
+          ],
+		  "rotates": false },
+		  { "id": "mon_mtc_skeleton_warrior_bash_e", "fg": [
+            { "weight": 1, "sprite": 37 },
+            { "weight": 1, "sprite": 45 }
+          ],
+		  "rotates": false },
+		  { "id": "mon_mtc_skeleton_warrior_stab_e", "fg": [
+            { "weight": 1, "sprite": 38 },
+            { "weight": 1, "sprite": 46 }
+          ],
 		  "rotates": false }
         ]
       }
