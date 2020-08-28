@@ -108,5 +108,40 @@
         ]
       }
     ]
+	},
+	{
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "tiles-new": [
+      {
+        "file": "mod_tileset/monsters_3tilewide2tiletall.png",
+        "sprite_width": 96,
+        "sprite_height": 64,
+        "sprite_offset_y": -32,
+		"sprite_offset_x": -32,
+        "tiles": [
+          { "id": "mon_mtc_dragon_fire_adult", "fg": 0 },
+		  { "id": "mon_mtc_dragon_ice_adult", "fg": 1 },
+          { "id": "mon_mtc_dragon_storm_adult", "fg": 2 }
+        ]
+      }
+    ]
+	},
+	{
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
+    "tiles-new": [
+      {
+        "file": "mod_tileset/monsters_2tilewide.png",
+        "sprite_width": 64,
+        "sprite_height": 32,
+		"sprite_offset_x": -16,
+        "tiles": [
+          { "id": "mon_mtc_dragon_fire_young", "fg": 0 },
+		  { "id": "mon_mtc_dragon_ice_young", "fg": 1 },
+          { "id": "mon_mtc_dragon_storm_young", "fg": 2 }
+        ]
+      }
+    ]
 	}
 ]
