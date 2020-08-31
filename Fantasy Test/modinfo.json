@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "fantasy_test",
+    "name": "Fantasy TEST",
+    "authors": [ "Minecrafter: Next Generation" ],
+    "maintainers": [ "Minecrafter: Next Generation" ],
+    "description": "A test for Fantasy work.", 
+    "category": "items",
+    "dependencies": [ "dda", "magiclysm" ]
+  } ]

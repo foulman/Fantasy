@@ -1,0 +1,24 @@
+[
+  {
+    "type": "mutation",
+    "id": "D_LIGHT",
+    "name": "Light Domain",
+    "points": 0,
+    "description": "Clerics of the Light Domain often focus upon the aid of others, spreading kindness, self-sacrifice, and healing",
+    "starting_trait": false,
+    "cancels": [ "D_WAR" ],
+    "purifiable": false,
+    "valid": false
+  },
+  {
+    "type": "mutation",
+    "id": "D_WAR",
+    "name": "War Domain",
+    "points": 0,
+    "description": "Clerics of the War Domain",
+    "starting_trait": false,
+    "cancels": [ "D_WAR" ],
+    "purifiable": false,
+    "valid": false
+  }
+]

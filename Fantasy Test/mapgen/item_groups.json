@@ -1,0 +1,17 @@
+[{
+    "type": "item_group",
+    "id": "mtc_pantry_liquids",
+    "ammo": 75,
+    "magazine": 100,
+    "subtype": "distribution",
+    "entries": [
+      { "item": "syrup", "prob": 20 },
+      { "item": "molasses", "prob": 15 },
+      { "item": "cooking_oil", "prob": 20 },
+      { "item": "cooking_oil2", "prob": 20 },
+      { "item": "jar_glass_sealed", "prob": 20 },
+      { "item": "jar_3l_glass_sealed", "prob": 30 },
+      { "item": "vinegar", "prob": 15 }
+    ]
+  }
+]

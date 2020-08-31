@@ -1,0 +1,10 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+    "city": {
+      "houses": { "home": 100, "home2": 100, "wizard_tower_1": 5, "wizard_tower_2": 5 },
+      "shops": { "generalstore": 1600, "infirmary": 500, "used_bookstore": 225 }
+  }
+}
+]

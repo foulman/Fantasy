@@ -1,0 +1,100 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "TALK_INFIRMARY_HEAD",
+    "dynamic_line": [ "Hello." ],
+    "responses": [
+    { "text": "What is this place?",
+      "topic": "TALK_INFO"
+		}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_INFO",
+    "dynamic_line": [ "This is an clinic, and I run it. Do you need something?" ],
+    "responses": [
+    { "text": "No, thank you.",
+      "topic": "TALK_DONE"
+		},
+   { "text": "Actually, I need medical attention.",
+      "topic": "TALK_HEAL"
+		}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_HEAL",
+    "dynamic_line": [ "Okay, I'll have a medic treat ya. One moment..." ],
+    "responses": [
+    { "text": "Okay.",
+      "effect": "give_aid",
+      "topic": "TALK_FEE"
+		}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_FEE",
+    "dynamic_line": [ "All better? That'll be one silver, please" ],
+    "responses": [
+    { "text": "Here ya go.",
+      "effect": { "u_spend_cash": 100 },
+      "topic": "TALK_DONE",
+      "condition": { "u_has_cash": 100 }, "switch": true },
+    { "text": "I don't have that much money.",
+      "topic": "TALK_NOCASH"
+		}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_NOCASH",
+    "dynamic_line": [ "WhAT?! Not enough money, huh?" ],
+    "responses": [
+    {
+        "text": "Just this once?",
+        "trial": { "type": "PERSUADE", "difficulty": 1 },
+        "success": { "topic": "TALK_LETOFF" },
+        "failure": { "topic": "TALK_REFUSAL" }
+      },
+    {
+        "text": "Forget it, or it'l be you who needs a doctor.",
+        "trial": { "type": "INTIMIDATE", "difficulty": 2 },
+        "success": { "topic": "TALK_LETOFF_FEAR" },
+        "failure": { "topic": "TALK_REFUSAL" }
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_LETOFF",
+    "dynamic_line": [ "Well, alright. I'm a doctor, and I save people, regardless of cost. Enjoy your day." ],
+    "responses": [
+    { "text": "Thank you!",
+      "topic": "TALK_DONE"
+		}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_LETOFF_FEAR",
+    "dynamic_line": [ "A-alright, j-just leave." ],
+    "responses": [
+    { "text": "*Scowls*",
+      "mod": [ [ "FEAR", 2 ] ],
+      "topic": "TALK_DONE"
+		}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_REFUSAL",
+    "dynamic_line": [ "No. OUT!" ],
+    "responses": [
+    { "text": "Ah!",
+      "topic": "TALK_DONE"
+		}
+    ]
+  }
+]
