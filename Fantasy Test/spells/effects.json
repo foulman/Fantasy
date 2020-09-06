@@ -1,0 +1,12 @@
+[ 
+ {
+    "type": "effect_type",
+    "id": "bless",
+    "name": [ "Blessed" ],
+    "desc": [ "You are filled with energy that improves everything you do." ],
+    "apply_message": "You are filled with energy that improves everything you do!",
+    "remove_message": "Your energy fades.",
+    "rating": "good",
+    "base_mods": { "per_mod": [ 2 ], "dex_mod": [ 2 ], "str_mod": [ 2, 2 ], "speed_mod": [ 20 ] }
+  }
+]

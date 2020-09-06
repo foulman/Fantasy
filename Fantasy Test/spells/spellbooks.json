@@ -1,0 +1,12 @@
+[{
+    "id": "cleric",
+    "type": "GENERIC",
+    "name": "On Religion",
+    "description": "A small tome, upon a religion.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "color": "magenta",
+    "use_action": { "type": "learn_spell", "spells": [ "smite", "cleave", "healing", "great_healing", "purge_wounds", "recover_pain" ] }
+  }]

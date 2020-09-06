@@ -59,7 +59,7 @@
         "failure": { "topic": "TALK_REFUSAL" }
       },
     {
-        "text": "Forget it, or it'l be you who needs a doctor.",
+        "text": "Forget it, or it'll be you who needs a doctor.",
         "trial": { "type": "INTIMIDATE", "difficulty": 2 },
         "success": { "topic": "TALK_LETOFF_FEAR" },
         "failure": { "topic": "TALK_REFUSAL" }
