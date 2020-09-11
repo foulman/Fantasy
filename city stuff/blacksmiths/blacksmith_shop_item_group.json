@@ -48,7 +48,7 @@
 	  { "item": "helmet_plate", "prob": 40 },
 	  { "item": "armor_plate", "prob": 40 },
 	  { "item": "legguard_lightplate", "prob": 40 },
-	  { "item": "armguard_suit", "prob": 40 },
+	  { "item": "armguard_lightplate", "prob": 40 },
 	  { "item": "armor_lightplate", "prob": 40 },
 	  { "item": "cuirass_lightplate", "prob": 40 },
 	  { "item": "helmet_barbute", "prob": 40 },
