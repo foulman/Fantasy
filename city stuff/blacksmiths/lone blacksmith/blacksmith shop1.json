@@ -34,11 +34,11 @@
       ],
       "palettes": [ "city_building_palette" ],
       "faction_owner": [
-        { "id": "shopkeepers", "x": [ 7, 19 ], "y": [ 8, 14 ] },
-        { "id": "shopkeepers", "x": [ 6, 11 ], "y": [ 15, 19 ] }
+        { "id": "kingdom", "x": [ 7, 19 ], "y": [ 8, 14 ] },
+        { "id": "kingdom", "x": [ 6, 11 ], "y": [ 15, 19 ] }
       ],
 	  "place_zones": [
-        { "type": "NPC_INVESTIGATE_ONLY", "faction": "shopkeepers", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+        { "type": "NPC_INVESTIGATE_ONLY", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
       ],
 	  "place_npcs": [
         { "class": "lone_blacksmith", "x": 8, "y": 17 }
