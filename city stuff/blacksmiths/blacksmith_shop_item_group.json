@@ -34,7 +34,26 @@
 	  { "item": "misc_repairkit", "prob": 20 },
 	  { "item": "quiver", "prob": 10 },
 	  { "item": "quiver_large", "prob": 10 },
-	  { "item": "crowbar", "prob": 1 }
+	  { "item": "crowbar", "prob": 1 },
+	  { "item": "chainmail_feet", "prob": 40 },
+	  { "item": "chainmail_legs", "prob": 40 },
+	  { "item": "chainmail_hands", "prob": 40 },
+	  { "item": "chainmail_arms", "prob": 40 },
+	  { "item": "chainmail_hood", "prob": 40 },
+	  { "item": "chainmail_hauberk", "prob": 40 },
+	  { "item": "chainmail_suit", "prob": 40 },
+	  { "item": "chainmail_vest", "prob": 40 },
+	  { "item": "boots_plate", "prob": 40 },
+	  { "item": "gloves_plate", "prob": 40 },
+	  { "item": "helmet_plate", "prob": 40 },
+	  { "item": "armor_plate", "prob": 40 },
+	  { "item": "legguard_lightplate", "prob": 40 },
+	  { "item": "armguard_suit", "prob": 40 },
+	  { "item": "armor_lightplate", "prob": 40 },
+	  { "item": "cuirass_lightplate", "prob": 40 },
+	  { "item": "helmet_barbute", "prob": 40 },
+	  { "item": "boots_steel", "prob": 40 },
+	  { "item": "gloves_leather", "prob": 40 }
     ]
   },
   {
