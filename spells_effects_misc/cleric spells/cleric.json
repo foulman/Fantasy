@@ -16,7 +16,7 @@
     "spell_class": "CLERIC",
     "difficulty": 6,
     "max_level": 15,
-    "damage_type": "true",
+    "damage_type": "heat",
     "flags": [ "VERBAL", "SOMATIC", "LOUD" ],
     "energy_source": "MANA"
   },
@@ -189,7 +189,7 @@
     "description": "You draw upon your divine connection, and send forth a ray of light.",
     "valid_targets": [ "ally", "hostile", "ground" ],
     "effect": "line_attack",
-    "damage_type": "true",
+    "damage_type": "heat",
     "base_casting_time": 200,
     "base_energy_cost": 8000,
     "energy_source": "STAMINA",
