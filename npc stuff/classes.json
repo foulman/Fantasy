@@ -266,5 +266,77 @@
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_GAMBLER",
+    "name": { "str": "Gambler" },
+    "job_description": "I run games within the tavern, betting upon dice rolls.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 0, 2 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+    "worn_override": "NPC_tavernkeep_worn",
+    "carry": "NPC_GAMBLER_carry",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+  {
+    "type": "npc_class",
+    "id": "NPC_CHILD",
+    "name": { "str": "Child" },
+    "job_description": "I'm just a kid.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ -2, 1 ] },
+    "bonus_dex": { "rng": [ -2, 1 ] },
+    "bonus_int": { "rng": [ -2, 1 ] },
+    "bonus_per": { "rng": [ -2, 1 ] },
+    "worn_override": "NPC_tavernkeep_worn"
+	},
+ {
+    "type": "npc_class",
+    "id": "NPC_SHOPKEEPER",
+    "name": { "str": "Shopkeeper" },
+    "job_description": "I own a general store.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 1, 2 ] },
+    "bonus_per": { "rng": [ 1, 2 ] },
+    "worn_override": "NPC_tavernkeep_worn",
+    "carry": "NPC_SHOPKEEPER_carry",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_MEDIC",
+    "name": { "str": "Town Medic" },
+    "job_description": "I work at an infirmary.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 1, 2 ] },
+    "bonus_per": { "rng": [ 1, 2 ] },
+    "worn_override": "NPC_tavernkeep_worn",
+    "carry": "MTC_DOCTOR_carry",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 3, 3 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
 	}
 ]
