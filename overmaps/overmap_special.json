@@ -12,5 +12,33 @@
     "city_distance": [ 2, 25 ],
     "city_sizes": [ 4, 16 ],
     "occurrences": [ 1, 1 ]
-	}
+	},
+{
+    "type": "overmap_special",
+    "id": "catacombs",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "old_catacomb_enter_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "old_catacomb_roof_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "ocata1_north" },
+      { "point": [ 0, 1, -1 ], "overmap": "ocata2_north" },
+      { "point": [ 0, -1, -1 ], "overmap": "ocata2_north" },
+      { "point": [ 0, 2, -1 ], "overmap": "ocata3_south" },
+      { "point": [ -1, 2, -1 ], "overmap": "ocata4l_south" },
+      { "point": [ -1, 1, -1 ], "overmap": "ocata2_north" },
+      { "point": [ -1, 0, -1 ], "overmap": "ocata2_north" },
+      { "point": [ -1, -1, -1 ], "overmap": "ocata2_north" },
+      { "point": [ -1, -2, -1 ], "overmap": "ocata4r_north" },
+      { "point": [ 1, 2, -1 ], "overmap": "ocata4r_south" },
+      { "point": [ 1, 1, -1 ], "overmap": "ocata2_north" },
+      { "point": [ 1, 0, -1 ], "overmap": "ocata2_north" },
+      { "point": [ 1, -1, -1 ], "overmap": "ocata2_north" },
+      { "point": [ 1, -2, -1 ], "overmap": "ocata4l_north" },
+      { "point": [ 0, -2, -1 ], "overmap": "ocata5_north" }
+    ],
+    "locations": [ "wilderness" ],
+    "city_distance": [ 20, 10 ],
+    "city_sizes": [ 0, 20 ],
+    "flags": [ "CLASSIC" ],
+    "occurrences": [ 0, 1 ]
+  }
 ]
