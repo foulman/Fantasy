@@ -179,5 +179,15 @@
       { "item": "jar_3l_glass_sealed", "prob": 30 },
       { "item": "vinegar", "prob": 15 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "lair_loot_generic",
+    "//": "Stuff you would find in any dragon lair, gold, jewelry, etc.",
+    "items": [
+      { "group": "jewelry_safe", "prob": 30 },
+      { "group": "jewelry_front", "prob": 8 },
+      { "item": "bone_human", "prob": 60, "count-min": 1, "count-max": 5 }
+    ]
   }
 ]
