@@ -53,22 +53,5 @@
       { "monster": "mon_mtc_bugbear_shaman", "freq": 35, "cost_multiplier": 1 },
       { "monster": "mon_mtc_bugbear_leader", "freq": 0, "cost_multiplier": 0 }
     ]
-  },
-{
-    "type": "monstergroup",
-    "name": "GROUP_MTC_undead",
-    "default": "mon_mtc_zombie",
-    "monsters": [
-      { "monster": "mon_mtc_zombie_warrior_cut", "freq":  35, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_zombie_warrior_bash", "freq": 35, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_skeleton", "freq": 115, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_skeleton_warrior_cut", "freq": 35, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_skeleton_warrior_bash", "freq": 35, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_skeleton_warrior_stab", "freq": 35, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_skeleton_warrior_range", "freq": 35, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_skeleton_warrior_cut_e", "freq": 15, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_skeleton_warrior_bash_e", "freq": 15, "cost_multiplier": 1 },
-      { "monster": "mon_mtc_skeleton_warrior_stab_e", "freq": 15, "cost_multiplier": 1 }
-    ]
   }
 ]

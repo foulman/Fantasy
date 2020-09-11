@@ -8,41 +8,5 @@
 	  { "point": [ 0, 0, 1 ], "overmap": "blacksmith_city1_roof", "locations": [ "land" ] },
 	  { "point": [ 0, 0, 2 ], "overmap": "blacksmith_city1_chimney", "locations": [ "land" ] }
     ]
-	},
-{
-    "type": "city_building",
-    "id": "home",
-    "locations": [ "land" ],
-    "overmaps": [
-      { "point": [ 0, 0, 0 ], "overmap": "home_north", "locations": [ "land" ] },
-	  { "point": [ 0, 0, 1 ], "overmap": "home_roof_north", "locations": [ "land" ] }
-    ]
-	},
- {
-    "type": "city_building",
-    "id": "home2",
-    "locations": [ "land" ],
-    "overmaps": [
-      { "point": [ 0, 0, 0 ], "overmap": "home2_north", "locations": [ "land" ] },
-	  { "point": [ 0, 0, 1 ], "overmap": "home2_roof_north", "locations": [ "land" ] }
-    ]
-	},
-{
-    "type": "city_building",
-    "id": "generalstore",
-    "locations": [ "land" ],
-    "overmaps": [
-      { "point": [ 0, 0, 0 ], "overmap": "generalstore_north", "locations": [ "land" ] },
-	  { "point": [ 0, 0, 1 ], "overmap": "generalstore_roof_north", "locations": [ "land" ] }
-    ]
-	},
-{
-    "type": "city_building",
-    "id": "infirmary",
-    "locations": [ "land" ],
-    "overmaps": [
-      { "point": [ 0, 0, 0 ], "overmap": "infirmary_north", "locations": [ "land" ] },
-	  { "point": [ 0, 0, 1 ], "overmap": "infirmary_roof_north", "locations": [ "land" ] }
-    ]
 	}
 ]

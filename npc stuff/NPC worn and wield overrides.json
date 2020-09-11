@@ -304,30 +304,5 @@
     "id": "NPC_erotic_wield",
     "subtype": "collection",
     "entries": [ { "item": "bullwhip" } ]
-	},
-{
-    "type": "item_group",
-    "id": "NPC_GAMBLER_carry",
-    "subtype": "collection",
-    "items": [ { "item": "copper_coin", "count-min": 5000, "count-max": 30000, "prob": 100 }, { "item": "silver_coin", "count-min": 100, "count-max": 300, "prob": 100 } ]
-  },
-  {
-    "type": "item_group", 
-    "id": "NPC_SHOPKEEPER_carry",
-    "subtype": "collection",
-    "items": [ { "item": "copper_coin", "count-min": 5000, "count-max": 30000, "prob": 100 }, 
-               { "item": "silver_coin", "count-min": 100, "count-max": 300, "prob": 100 },
-               { "item": "clay_pot", "count-min": 10, "count-max": 25, "prob": 75 },
-               { "item": "clay_teapot", "count-min": 10, "count-max": 25, "prob": 75 },
-               { "item": "mortar_pestle", "count-min": 10, "count-max": 25, "prob": 50 },
-               { "item": "crude_picklock", "count-min": 10, "count-max": 100, "prob": 50 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "MTC_DOCTOR_carry",
-    "subtype": "distribution",
-    "entries": [
-      { "item": "bandages", "prob": 100, "count-min": 20, "count-max": 50 }
-    ]
-  }
+	}
 ]
