@@ -1,0 +1,26 @@
+[
+{
+    "type": "palette",
+    "id": "catacombs",
+    "terrain": {
+      ".": "t_rock_floor",
+      " ": [ [ "t_grass", 15 ], [ "t_dirt", 4 ], [ "t_dirtmound", 3 ] ],
+      "T": "t_tree_dead",
+      "S": "t_shrub",
+      "<": "t_slope_up",
+      ">": "t_slope_down",
+      "#": "t_rock",
+      "~": "t_water_sh_underground",
+      "l": "t_rock_wall",
+      "h": "t_door_c"
+    }
+    },
+{
+    "type": "palette",
+    "id": "catacombs_roof",
+    "terrain": {
+      ".": "t_rock_floor_no_roof",
+      " ": "t_open_air"
+    }
+    }
+]

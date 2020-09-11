@@ -486,6 +486,10 @@
 		"cabin_5": 5,
 		"cabin_6": 5,
 		"cabin_7": 5,
+        "home": 100, 
+        "home2": 100, 
+        "wizard_tower_1": 5, 
+        "wizard_tower_2": 5,
         "house_two_story_basement": 0,
         "house_prepper": 0,
         "house_prepper2": 0,
@@ -790,7 +794,10 @@
         "cs_sex_shop": 0,
         "cs_tire_shop": 0,
         "homeless_shelter": 0,
-        "parking_garage": 0
+        "parking_garage": 0,
+        "generalstore": 1600, 
+        "infirmary": 500, 
+        "used_bookstore": 225
       }
     },
     "weather": {
