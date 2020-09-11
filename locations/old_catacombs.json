@@ -33,7 +33,7 @@
         "            S    S      "
       ],
       "palettes": [ "catacombs" ],
-      "furniture": { "U": "f_statue", "H": "f_altar" }
+      "furniture": { "U": "f_statue", "H": "f_table" }
     }
   },
   
