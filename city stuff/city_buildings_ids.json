@@ -1,13 +1,52 @@
 [
 	{
-    "type": "city_building",
-    "id": "blacksmith_city_lone",
-    "locations": [ "land" ],
-    "overmaps": [
-      { "point": [ 0, 0, 0 ], "overmap": "blacksmith_city1", "locations": [ "land" ] },
-	  { "point": [ 0, 0, 1 ], "overmap": "blacksmith_city1_roof", "locations": [ "land" ] },
-	  { "point": [ 0, 0, 2 ], "overmap": "blacksmith_city1_chimney", "locations": [ "land" ] }
-    ]
+    "type": "overmap_terrain",
+    "id": "blacksmith_city1",
+    "name": "blacksmith",
+    "sym": "╦",
+    "color": "dark_gray"
+	},
+	{
+    "type": "overmap_terrain",
+    "id": "blacksmith_city1_roof",
+    "name": "blacksmith",
+    "sym": "╦",
+    "color": "dark_gray"
+	},
+	{
+    "type": "overmap_terrain",
+    "id": "blacksmith_city1_chimney",
+    "name": "blacksmith",
+    "sym": "╦",
+    "color": "dark_gray"
+	},
+	{
+    "type": "overmap_terrain",
+    "id": "solid_wall",
+    "name": "wall",
+    "sym": "╬",
+    "color": "i_light_gray"
+	},
+	{
+    "type": "overmap_terrain",
+    "id": "gatehouse_city_wall",
+    "name": "gate",
+    "sym": "H",
+    "color": "brown"
+	},
+	{
+    "type": "overmap_terrain",
+    "id": "walled_in_building",
+    "name": "building",
+    "sym": "█",
+    "color": "brown"
+	},
+	{
+    "type": "overmap_terrain",
+    "id": "straight_dirt_city_road",
+    "name": "building",
+    "sym": "│",
+    "color": "dark_gray"
 	},
 {
     "type": "city_building",
