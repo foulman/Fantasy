@@ -44,14 +44,14 @@
     "responses": [
       { "text": "No, thank you.", "topic": "TALK_NONE" },
       { "text": "How about a silver?",
-        "effect": { "u_add_var": "gamble_100", "type": "dialogue", "context": "npc", "value": "yes" },
-        "topic": "TALK_GAMBLE", "condition": { "u_has_cash": 100 }, "switch": true },
+        "effect": [ { "u_add_var": "gamble_100", "type": "dialogue", "context": "npc", "value": "yes" }, { "u_sell_item": "silver_coin", "count": 1 } ],
+        "topic": "TALK_GAMBLE", "condition": { "u_has_item": "silver_coin", "count": 1 } },
       { "text": "50 copper?",
-        "effect": { "u_add_var": "gamble_50", "type": "dialogue", "context": "npc", "value": "yes" },
-        "topic": "TALK_GAMBLE", "condition": { "u_has_cash": 50 }, "switch": true },
+        "effect": [ { "u_add_var": "gamble_50", "type": "dialogue", "context": "npc", "value": "yes" }, { "u_sell_item": "copper_coin", "count": 50 } ],
+        "topic": "TALK_GAMBLE", "condition": { "u_has_item": "copper_coin", "count": 50 } },
       { "text": "I accept",
-        "effect": { "u_add_var": "gamble_5", "type": "dialogue", "context": "npc", "value": "yes" },
-        "topic": "TALK_GAMBLE", "condition": { "u_has_cash": 5 }, "switch": true, "default": true }
+        "effect": [ { "u_add_var": "gamble_5", "type": "dialogue", "context": "npc", "value": "yes" }, { "u_sell_item": "copper_coin", "count": 50 } ],
+        "topic": "TALK_GAMBLE", "condition": { "u_has_item": "copper_coin", "count": 5 } }
     ]
   },
   {
@@ -233,21 +233,21 @@
         "value": "yes",
         "yes": "Thank ye.",
         "topic": "TALK_DONE",
-        "effect": [ { "u_buy_item": "silver_coin" }, { "u_lose_effect": "gamble_100" } ] },
+        "effect": [ { "u_buy_item": "silver_coin", "count": 2 }, { "u_lose_effect": "gamble_100" } ] },
       { "u_has_var": "gamble_50",
         "type": "dialogue",
         "context": "npc",
         "value": "yes",
         "yes": "Thank ye.",
         "topic": "TALK_DONE",
-        "effect": [ { "u_buy_item": "copper_coin", "count": 50 }, { "u_lose_effect": "gamble_50" } ] },
+        "effect": [ { "u_buy_item": "copper_coin", "count": 100 }, { "u_lose_effect": "gamble_50" } ] },
        { "u_has_var": "gamble_5",
         "type": "dialogue",
         "context": "npc",
         "value": "yes",
         "yes": "Thank ye.",
         "topic": "TALK_DONE",
-        "effect": [ { "u_buy_item": "copper_coin", "count": 5 }, { "u_lose_effect": "gamble_5" } ] }
+        "effect": [ { "u_buy_item": "copper_coin", "count": 10 }, { "u_lose_effect": "gamble_5" } ] }
     ]
   }
 ]

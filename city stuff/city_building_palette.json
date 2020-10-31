@@ -254,5 +254,20 @@
       "U": "f_statue", 
       "H": "f_altar"
     }
+  },
+{
+    "type": "palette",
+    "id": "mtc_stables",
+    "terrain": {
+      "f": "t_fencegate_c",
+      "d": "t_dirt",
+      "s": "t_splitrail_fence",
+      "w": "t_wall_w",
+      ".": "t_floor"
+    },
+    "furniture": {
+      "#": "f_chair",
+      "t": "f_table"
+    }
   }
 ]

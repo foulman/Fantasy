@@ -36,9 +36,26 @@
       { "point": [ 0, -2, -1 ], "overmap": "ocata5_north" }
     ],
     "locations": [ "wilderness" ],
-    "city_distance": [ 20, 10 ],
+    "city_distance": [ 10, 20 ],
     "city_sizes": [ 0, 20 ],
-    "flags": [ "CLASSIC" ],
     "occurrences": [ 0, 1 ]
-  }
+  },
+{
+    "type": "overmap_special",
+    "id": "cult_sanctuary",
+    "overmaps": [
+	  { "point": [ 0, 0, 0 ], "overmap": "cult_ritual_north" },
+         { "point": [ -1, 0, 0 ], "overmap": "cult_animals_north" },
+         { "point": [ -1, 0, 1 ], "overmap": "cult_animals_roof_north" },
+          { "point": [ 1, 0, 0 ], "overmap": "cult_artifacts_north" },
+          { "point": [ 1, 0, 1 ], "overmap": "cult_artifacts_roof_north" },
+	 { "point": [ 0, -1, 0 ], "overmap": "cult_communeshacks_north" },
+         { "point": [ 0, -1, 1 ], "overmap": "cult_communeshacks_roof_north" },
+          { "point": [ 0, 1, 0 ], "overmap": "cult_enter_north" }
+    ],
+    "locations": [ "land" ],
+    "city_distance": [ 5, 15 ],
+    "city_sizes": [ 3, 20 ],
+    "occurrences": [ 0, 1 ]
+	}
 ]

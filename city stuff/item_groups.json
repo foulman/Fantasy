@@ -179,5 +179,14 @@
       { "item": "jar_3l_glass_sealed", "prob": 30 },
       { "item": "vinegar", "prob": 15 }
     ]
+  },
+{
+    "type": "item_group",
+    "id": "dragon_loot",
+    "items": [
+      { "group": "warrior_weapons", "prob": 80 },
+      { "group": "coinage", "prob": 100 },
+      { "group": "rogue_weapons", "prob": 80 }
+    ]
   }
 ]

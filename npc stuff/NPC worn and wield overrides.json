@@ -329,5 +329,101 @@
     "entries": [
       { "item": "bandages", "prob": 100, "count-min": 20, "count-max": 50 }
     ]
-  }
+  },
+{
+    "type": "item_group", 
+    "id": "NPC_STABLEMASTER_carry",
+    "subtype": "collection",
+    "items": [ { "item": "horse_tack", "count-min": 50, "count-max": 200, "prob": 100 } ]
+  },
+{
+    "type": "item_group",
+    "id": "NPC_cult_defender_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "leather_belt" },
+      { "item": "gloves_leather" },
+      { "item": "boots_larmor" },
+      { "item": "leather_pouch" },
+      { "item": "cult_robes_defender" },
+      { "item": "scabbard" }
+    ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_cultist_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "cult_robes" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" }
+    ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_cult_onocti_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "cult_robes_ritual" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" }
+    ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_cult_homage_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "cult_robes_priest" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" }
+    ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_cult_communer_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "cult_robes_commune" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" }
+    ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_cult_elder_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "cult_robes_elder" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" }
+    ]
+	}
 ]

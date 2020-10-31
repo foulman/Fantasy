@@ -1,0 +1,36 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "TALK_STABLEMASTER",
+    "dynamic_line": "Ello, what can I do for ye'? I have good stock t' sell, harness, tack, everythin'.",
+    "responses": [
+		{
+		"text": "I'd like a horse. (100 gold)",
+		"topic": "TALK_SOLD",
+                "condition": { "u_has_item": "gold_coin", "count": 100 },
+		"effect": [ { "u_buy_monster": "mon_horse", "pacified": true }, { "u_sell_item": "gold_coin", "count": 100 } ]
+		},
+		{
+		"text": "Tack, you say? (25 silver)",
+		"topic": "TALK_SOLD",
+                "condition": { "u_has_item": "silver_coin", "count": 25 },
+		"effect": [ { "u_buy_item": "horse_tack" }, { "u_sell_item": "silver_coin", "count": 25 } ]
+		},
+		{
+		"text": "No, thank you.",
+		"topic": "TALK_DONE"
+		}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_SOLD",
+    "dynamic_line": "Sure. Here ya go.",
+    "responses": [
+		{
+		"text": "Thanks.",
+		"topic": "TALK_DONE"
+		}
+    ]
+  }
+]
