@@ -64,7 +64,7 @@
     "type": "effect_type",
     "id": "bio_weave",
     "name": [ "Holy Mending" ],
-    "desc": [ "Immunity to bleeding and bites, increased stamina regeneration, increased hunger and thirst gain." ],
+    "desc": [ "Immunity to bleeding and bites, increased stamina regeneration, and increased hunger and thirst gain." ],
     "remove_message": "The tension running through your flesh fades.",
     "blocks_effects": [ "bleed", "bite" ],
     "rating": "good",
@@ -79,5 +79,12 @@
       "stamina_min": [ 40 ],
       "stamina_chance": [ 2 ]
     }
+  },
+{
+    "id": "ench_replenishment",
+    "type": "enchantment",
+    "has": "WORN",
+    "condition": "ALWAYS",
+    "mutations": [ "REGEN" ]
   }
 ]
