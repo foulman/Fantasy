@@ -10,7 +10,8 @@
     "min_damage": 5,
     "max_damage": 10,
     "min_range": 1,
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -23,7 +24,8 @@
     "min_damage": 5,
     "max_damage": 10,
     "min_range": 1,
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -36,7 +38,8 @@
     "min_damage": 5,
     "max_damage": 10,
     "min_range": 1,
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -49,7 +52,8 @@
     "min_damage": 5,
     "max_damage": 10,
     "min_range": 1,
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -64,7 +68,8 @@
     "min_range": 3,
     "min_aoe": 45,
     "max_aoe": 90,
-    "effect": "cone_attack"
+    "effect": "attack",
+    "shape": "cone"
   },
   {
     "type": "SPELL",
@@ -79,7 +84,8 @@
     "min_range": 1,
     "min_aoe": 1,
     "max_aoe": 1,
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -92,7 +98,8 @@
     "min_damage": 8,
     "max_damage": 16,
     "min_range": 3,
-    "effect": "line_attack"
+    "effect": "attack",
+    "shape": "line"
   },
   {
     "type": "SPELL",
@@ -104,7 +111,8 @@
     "min_duration": 1000,
     "min_range": 1,
     "effect_str": "eff_mtc_rune_feeble",
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -115,7 +123,8 @@
     "valid_targets": [ "self" ],
     "min_duration": 1000,
     "effect_str": "eff_mtc_rune_empower",
-    "effect": "target_attack"
+    "effect": "attack",
+    "shape": "blast"
   },
   {
     "type": "SPELL",
@@ -125,6 +134,7 @@
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
     "effect": "mod_moves",
+	"shape": "blast",
     "min_damage": -100,
     "max_damage": -200,
     "min_range": 1
@@ -140,6 +150,7 @@
     "min_duration": 300,
     "max_duration": 300,
     "effect": "spawn_item",
+	"shape": "blast",
     "effect_str": "mtc_rune_chronostasis_item",
     "sound_type": "combat",
     "sound_ambient": true,
@@ -157,6 +168,7 @@
     "min_duration": 300,
     "max_duration": 700,
     "effect": "spawn_item",
+	"shape": "blast",
     "effect_str": "mtc_rune_etherealphase_item",
     "sound_type": "combat",
     "sound_ambient": true,
@@ -170,7 +182,8 @@
     "description": "Swaps position.",
     "flags": [ "SILENT", "SWAP_POS" ],
     "valid_targets": [ "hostile" ],
-    "effect": "projectile_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_range": 1
   }
 ]
