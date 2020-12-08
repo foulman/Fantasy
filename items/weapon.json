@@ -10,7 +10,8 @@
     "min_damage": 45,
     "max_damage": 60,
     "min_range": 1,
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "targeted_monster_ids": [ "mon_mtc_dragon_fire_adult", "mon_mtc_dragon_ice_adult", "mon_mtc_dragon_storm_adult" ]
   },
   {
