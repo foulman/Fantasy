@@ -227,6 +227,7 @@
       "river_floodplain_buffer_distance_min": 3,
       "river_floodplain_buffer_distance_max": 15
     },
+	"overmap_ravine_settings": { "num_ravines": 0, "ravine_width": 3, "ravine_range": 45, "ravine_depth": -3 },
     "forest_mapgen_settings": {
       "forest": {
         "sparseness_adjacency_factor": 3,
