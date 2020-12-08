@@ -6,7 +6,8 @@
     "description": "Before this unit takes flight, they leave a thick smoke behind.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_range": 5,
     "min_aoe": 5,
     "field_id": "fd_smoke",
@@ -20,7 +21,8 @@
     "description": "This unit will fly vigoriously.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "effect_str": "eff_mtc_dragon_fire_adult_flight",
     "min_duration": 600,
     "min_range": 5,
@@ -33,7 +35,8 @@
     "description": "This unit takes some distance from their target.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "effect_str": "run",
     "min_duration": 600,
     "min_range": 5,
@@ -46,7 +49,8 @@
     "description": "Blasts the target with a fiery fireball.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "effect_str": "onfire",
     "affected_body_parts": [ "HEAD", "TORSO", "ARM_R", "ARM_L", "LEG_R", "LEG_L" ],
     "damage_type": "heat",
@@ -64,7 +68,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_fire_adult_fireball" }
     ],
@@ -78,7 +83,8 @@
     "description": "Incinerates targets in a line with a destructive ray of blazing flames.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "cone_attack",
+    "effect": "attack",
+	"shape": "cone",
     "effect_str": "onfire",
     "affected_body_parts": [ "HEAD", "TORSO", "ARM_R", "ARM_L", "LEG_R", "LEG_L" ],
     "damage_type": "heat",
@@ -97,7 +103,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_fire_adult_fieryflash" }
     ],
@@ -111,7 +118,8 @@
     "description": "Spreads blazing flames amongst the targets in a cone.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "cone_attack",
+    "effect": "attack",
+	"shape": "cone",
     "effect_str": "onfire",
     "affected_body_parts": [ "HEAD", "TORSO", "ARM_R", "ARM_L", "LEG_R", "LEG_L" ],
     "damage_type": "heat",
@@ -131,7 +139,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_fire_adult_firebreath" }
     ],
@@ -153,7 +162,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 15
@@ -171,7 +181,8 @@
     ],
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_range": 15
   },
   {
@@ -181,7 +192,8 @@
     "description": "Before this unit takes flight, enshrouds target in intense coldness.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_aoe": 2,
     "field_id": "fd_mtc_dragon_ice",
     "min_field_intensity": 1,
@@ -195,6 +207,7 @@
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
     "effect": "mod_moves",
+	"shape": "blast",
     "min_damage": -500,
     "max_damage": -1000,
     "min_range": 12,
@@ -208,7 +221,8 @@
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "HEAD", "TORSO", "ARM_R", "ARM_L", "LEG_R", "LEG_L" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "line_attack",
+    "effect": "attack",
+	"shape": "line",
     "effect_str": "eff_mtc_dragon_ice",
     "damage_type": "cold",
     "min_damage": 14,
@@ -228,7 +242,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_ice_adult_absolutezero_freeze" },
       { "id": "mon_mtc_dragon_ice_adult_absolutezero" }
@@ -243,7 +258,8 @@
     "description": "Projects several icicle spears that does stabbing damage.",
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "line_attack",
+    "effect": "attack",
+	"shape": "line",
     "damage_type": "stab",
     "min_damage": 5,
     "max_damage": 10,
@@ -259,7 +275,8 @@
     ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_damage": 3,
     "max_damage": 6,
     "min_range": 12
@@ -271,7 +288,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_ice_adult_iciclevolley_target_random" }
     ],
@@ -286,7 +304,8 @@
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "HEAD", "TORSO", "ARM_R", "ARM_L", "LEG_R", "LEG_L" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "cone_attack",
+    "effect": "attack",
+	"shape": "cone",
     "effect_str": "eff_mtc_dragon_ice",
     "damage_type": "cold",
     "min_damage": 10,
@@ -308,7 +327,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_ice_adult_icebeam" }
     ],
@@ -323,7 +343,8 @@
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "HEAD", "TORSO", "ARM_R", "ARM_L", "LEG_R", "LEG_L" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "projectile_attack",
+    "effect": "attack",
+	"shape": "blast",
     "effect_str": "eff_mtc_dragon_ice",
     "damage_type": "cold",
     "min_damage": 4,
@@ -344,7 +365,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_ice_adult_blizzard", "hit_self": true }
     ],
@@ -359,7 +381,8 @@
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "affected_body_parts": [ "HEAD", "TORSO", "ARM_R", "ARM_L", "LEG_R", "LEG_L" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "cone_attack",
+    "effect": "attack",
+	"shape": "cone",
     "effect_str": "eff_mtc_dragon_ice",
     "damage_type": "cold",
     "min_damage": 7,
@@ -382,7 +405,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_ice_adult_icebreath" }
     ],
@@ -414,7 +438,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 12
@@ -432,7 +457,8 @@
     ],
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_range": 12
   },
   {
@@ -442,7 +468,8 @@
     "description": "Before this unit takes flight, spreads electrical discharges at nearby targets.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "damage_type": "electric",
     "min_damage": 3,
     "max_damage": 6,
@@ -458,7 +485,8 @@
     "description": "Projects a concentrated beam of electricity.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "cone_attack",
+    "effect": "attack",
+	"shape": "cone",
     "effect_str": "zapped",
     "damage_type": "electric",
     "min_damage": 10,
@@ -477,7 +505,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_storm_adult_shockbeam" }
     ],
@@ -491,7 +520,8 @@
     "description": "Discharges electricity at random areas in a line.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE", "RANDOM_TARGET" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "line_attack",
+    "effect": "attack",
+	"shape": "line",
     "effect_str": "zapped",
     "damage_type": "electric",
     "min_damage": 5,
@@ -516,7 +546,8 @@
     ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_damage": 5,
     "max_damage": 10,
     "min_range": 10
@@ -528,7 +559,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_storm_adult_shockstorm_target_random" }
     ],
@@ -542,7 +574,8 @@
     "description": "Units coats itself in electricity, granting bonus damage and speed.",
     "flags": [ "SILENT", "RANDOM_DURATION" ],
     "valid_targets": [ "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "effect_str": "eff_mtc_dragon_storm_adult_charge",
     "min_duration": 1500,
     "max_duration": 3000
@@ -554,7 +587,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_storm_adult_charge" }
     ],
@@ -568,7 +602,8 @@
     "description": "Strikes with a concentrated burst of electrical discharge at the target.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "line_attack",
+    "effect": "attack",
+	"shape": "line",
     "effect_str": "zapped",
     "damage_type": "electric",
     "min_damage": 12,
@@ -585,7 +620,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_storm_adult_thunderstrike" }
     ],
@@ -599,7 +635,8 @@
     "description": "Electric arcs randomly blasts an area.",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE", "RANDOM_TARGET" ],
     "valid_targets": [ "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "effect_str": "zapped",
     "damage_type": "electric",
     "min_damage": 7,
@@ -624,7 +661,8 @@
     ],
     "flags": [ "SILENT", "WONDER", "RANDOM_DAMAGE" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_damage": 3,
     "max_damage": 6,
     "min_range": 10
@@ -636,7 +674,8 @@
     "description": "Notify the player whatever this unit has casted.",
     "flags": [ "SILENT" ],
     "valid_targets": [ "hostile", "self" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "extra_effects": [
       { "id": "mon_mtc_dragon_storm_adult_thunderblasts_target_random" }
     ],
@@ -657,7 +696,8 @@
     ],
     "flags": [ "SILENT", "WONDER" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_damage": 1,
     "max_damage": 1,
     "min_range": 10
@@ -675,7 +715,8 @@
     ],
     "flags": [ "SILENT" ],
     "valid_targets": [ "ally", "hostile", "ground" ],
-    "effect": "target_attack",
+    "effect": "attack",
+	"shape": "blast",
     "min_range": 10
   }
 ]
