@@ -221,7 +221,8 @@
     "qualities": [ [ { "id": "HAMMER", "level": 1 } ] ],
     "pre_terrain": "f_barrel_o",
     "post_flags": [ "keep_items" ],
-    "post_terrain": "f_barrel_c"
+    "post_terrain": "f_barrel_c",
+	"group": "seal_barrel"
   },
   {
     "type": "construction",
@@ -234,7 +235,8 @@
     "qualities": [ [ { "id": "HAMMER", "level": 1 } ] ],
     "pre_terrain": "f_barrel_c",
     "post_flags": [ "keep_items" ],
-    "post_terrain": "f_barrel_o"
+    "post_terrain": "f_barrel_o",
+	"group": "open_barrel"
   },
   {
     "type": "construction",
@@ -246,7 +248,8 @@
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
     "components": [ [ [ "wood_sheet", 1 ], [ "2x4", 10 ] ], [ [ "scrap", 10 ] ], [ [ "nail", 50 ] ] ],
     "pre_special": "check_empty",
-    "post_terrain": "f_crate_o"
+    "post_terrain": "f_crate_o",
+	"group": "construct_barrel"
   },
   {
     "type": "construction",
@@ -258,7 +261,8 @@
     "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
     "components": [ [ [ "wood_sheet", 1 ], [ "2x4", 10 ] ], [ [ "scrap", 10 ] ], [ [ "nail", 50 ] ] ],
     "pre_special": "check_empty",
-    "post_terrain": "f_chest_o"
+    "post_terrain": "f_chest_o",
+	"group": "construct_chest"
   },
   {
     "type": "construction",
@@ -271,7 +275,8 @@
     "components": [  ],
     "post_flags": [ "keep_items" ],
 	"pre_terrain": "f_chest_o",
-    "post_terrain": "f_chest_l"
+    "post_terrain": "f_chest_l",
+	"group": "lock_chest"
   },
   {
     "type": "construction",
@@ -284,6 +289,7 @@
     "components": [  ],
     "post_flags": [ "keep_items" ],
 	"pre_terrain": "f_chest_l",
-    "post_terrain": "f_chest_o"
+    "post_terrain": "f_chest_o",
+	"group": "unlock_chest"
   }
 ]
