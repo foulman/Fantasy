@@ -1,0 +1,32 @@
+[
+	{
+    "type": "construction_group",
+    "id": "seal_barrel",
+    "name": "Seals a barrel."
+	},
+	{
+    "type": "construction_group",
+    "id": "open_barrel",
+    "name": "Opens a barrel."
+	},
+	{
+    "type": "construction_group",
+    "id": "construct_barrel",
+    "name": "Build a barrel."
+	},
+	{
+    "type": "construction_group",
+    "id": "construct_chest",
+    "name": "Build a chest."
+	},
+	{
+    "type": "construction_group",
+    "id": "unlock_chest",
+    "name": "Unlocks your chest."
+	},
+	{
+    "type": "construction_group",
+    "id": "lock_chest",
+    "name": "Locks your chest."
+	}
+]
