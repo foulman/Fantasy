@@ -38,7 +38,6 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 20, 10 ],
     "city_sizes": [ 0, 20 ],
-    "flags": [ "WILDERNESS" ],
     "occurrences": [ 0, 1 ]
   },
 {
