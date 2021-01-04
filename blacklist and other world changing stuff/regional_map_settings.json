@@ -801,7 +801,9 @@
         "homeless_shelter": 0,
         "parking_garage": 0,
 		"generalstore": 1600, 
-        	"infirmary": 500
+        "infirmary": 500, 
+        "used_bookstore": 225,
+        "stables": 225
       }
     },
     "weather": {
