@@ -142,6 +142,52 @@
       "c": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
     }
  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "church" ],
+    "//": "Church with graveyard.",
+    "faction_owner": [
+		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
+      ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "   wwwwwwoowwoowwwwww   ",
+        "   w.......UU.......w   ",
+        "   w......cHHc...P..w   ",
+        "   w................w   ",
+        "   w.#####...######.w   ",
+        "   o................o   ",
+        "   o.#####...######.o   ",
+        "   o................o   ",
+        "   w.#####...######.w   ",
+        "   w................w   ",
+        "   ww....#####.....ww   ",
+        "    w..............w    ",
+        "    o..............o    ",
+        "    wH............Hw    ",
+        "    ww............ww    ",
+        "     wwwowwddwwowww     ",
+        "           ff           ",
+        "           ff           "
+      ],
+      "palettes": [ "mtc_church" ]
+    },
+    "npcs": {
+    "#": { "class": "generic_worshiper", "chance": 25 }
+  },
+ "items": {
+      "c": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
+    }
+ },
  {
     "type": "mapgen",
     "method": "json",
@@ -219,5 +265,48 @@
       ],
       "palettes": [ "city_building_roof_palette" ]
     }
-}
+},
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "stables" ],
+    "faction_owner": [
+		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
+      ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "   wssssssssssssssssw   ",
+        "   s      O         s   ",
+        "   s  O      O  O   s   ",
+        "   s    O       O   s   ",
+        "   s                s   ",
+        "   s  O     O   O   s   ",
+        "   s O           O  s   ",
+        "   s O   O  O    O  s   ",
+        "   s           O    s   ",
+        "   sO    O O O O  O s   ",
+        "   sOO         O    s   ",
+        "   wsssssssffsssssssw   ",
+        "           dd t#        ",
+        "           dd           ",
+        "           dd           ",
+        "           dd           ",
+        "           dd           ",
+        "           dd           ",
+        "           dd           "
+      ],
+      "palettes": [ "mtc_stables" ],
+      "monster": { "O": { "monster": "mon_horse", "chance": 70 } }
+    },
+    "npcs": {
+    "#": { "class": "stablemaster" }
+  }
+ }
 ]

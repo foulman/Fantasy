@@ -391,7 +391,7 @@
           "mx_fallen_shed": 0,
           "mx_shia": 1,
           "mx_spider": 200,
-          "mx_jabberwock": 1,
+          "mx_jabberwock": 0,
           "mx_grove": 500,
           "mx_shrubbery": 500,
           "mx_clearcut": 125,
@@ -823,8 +823,6 @@
         "rain",
         "thunder",
         "lightning",
-        "acid_drizzle",
-        "acid_rain",
         "flurries",
         "snowing",
         "snowstorm"

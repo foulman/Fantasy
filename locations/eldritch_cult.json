@@ -1,0 +1,320 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cult_enter" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..0          ",
+        "            .           ",
+        "           .            ",
+        "           .            ",
+        "            .           ",
+        "           .            ",
+        "                        "
+      ],
+      "palettes": [ "cult" ],
+      "npcs": { "0": { "class": "cult_defender" } }
+    }
+  }, 
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cult_ritual" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        "           ..           ",
+        "........................",
+        "........................",
+        " ..                  .. ",
+        "1..        UU        ..1",
+        " ..       ....       .. ",
+        " ..      ......      .. ",
+        " ..     ........     .. ",
+        " ..    ..........    ..1",
+        "1..   .....HH.....   ..1",
+        "1..  .......0......  ..1",
+        "1.. .....2....2..... .. ",
+        " ..U................U.. ",
+        " ..                  .. ",
+        " ...................... ",
+        "  ....................  ",
+        "     11111 .. 11111     ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           "
+      ],
+      "palettes": [ "cult" ],
+      "furniture": { "U": "f_burning_brazier", "H": "f_altar" },
+      "items": { "H": { "item": "knife_meat_cleaver", "chance": 100 } },
+      "npcs": {
+    "0": { "class": "cult_homage" },
+    "2": { "class": "cult_onocti" },
+    "1": { "class": "cult_member", "chance": 30 }
+  }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cult_artifacts" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        "                        ",
+        "........  wwwwwwwwwww   ",
+        "........  wL@-----@Lw   ",
+        "      ..  w---------w   ",
+        "      ..  w---------w   ",
+        "      ..  wL-------Lw   ",
+        "      ... w@--------w   ",
+        "      ....h---------w   ",
+        "        ..h---------w   ",
+        "          w@--------w   ",
+        "          wL-------Lw   ",
+        "          w---------w   ",
+        "          w---------w   ",
+        "          w---------w   ",
+        "          w----0----w   ",
+        "          wL@--1--@Lw   ",
+        "          wwwwwwwwwww   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "cult" ],
+      "furniture": { "L": "f_hanging_lantern", "1": "f_table" },
+      "items": { "1": { "item": "archaesth", "chance": 100 } },
+      "npcs": {
+    "0": { "class": "cult_lorevessel" },
+    "@": { "class": "cult_defender" }
+  }  
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cult_artifacts_roof" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "                        ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "          ...........   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "cult_roof" ] 
+    }
+  }, 
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cult_animals" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        "                        ",
+        " ssssssssss     ........",
+        " s........s    .........",
+        " s........f.......0     ",
+        " sx.x.x.x.s    ..       ",
+        " sx.x.x.x.s    ..       ",
+        " sx.x.x.x.s    ..       ",
+        " s........s0   ..       ",
+        " s........s0   ..       ",
+        " ssssssssss0   .. 0     ",
+        "               .. 0     ",
+        "            0  .. 0     ",
+        "    wwwwww     ..       ",
+        "    w.tt.w     ..       ",
+        "    wB...h.......       ",
+        "    wBBB0w              ",
+        "    wwwwww              ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "cult" ],
+      "monster": { "x": { "monster": "mon_deer", "chance": 50 } },
+      "furniture": { "B": "f_barrel_c", "t": "f_table" },
+      "npcs": {
+    "0": { "class": "cult_member", "chance": 35 }
+  },
+      "sealed_item": {
+      "B": {
+      "items": { "item": "raw_meat", "chance": 100, "repeat": [ 2, 5 ] }, 
+      "furniture": "f_barrel_c"
+  }
+}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cult_animals_roof" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "    ......              ",
+        "    ......              ",
+        "    ......              ",
+        "    ......              ",
+        "    ......              ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "cult_roof" ]
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cult_communeshacks" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "         SSUUSS         ",
+        "        S  .0  S        ",
+        "        S  ..  S        ",
+        "         SS..SS         ",
+        "           ..           ",
+        "         ......         ",
+        "        .. .. ..        ",
+        "   wwww..  ..  ..wwww   ",
+        "   wC1h.   ..   .h1Cw   ",
+        "   wwww.   ..   .wwww   ",
+        "       .   ..   .       ",
+        "   wwww.   ..   .wwww   ",
+        "   wC.h.   ..   .h1Cw   ",
+        "   wwww    ..    wwww   ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           ",
+        "           ..           "
+      ],
+      "palettes": [ "cult" ],
+      "npcs": {
+    "0": { "class": "cult_elder" },
+    "1": { "class": "cult_communer", "chance": 40 }
+  },
+      "furniture": { "U": "f_statue", "C": "f_chair" }
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cult_communeshacks_roof" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "   ....          ....   ",
+        "   ....          ....   ",
+        "   ....          ....   ",
+        "                        ",
+        "   ....          ....   ",
+        "   ....          ....   ",
+        "   ....          ....   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "cult_roof" ]
+    }
+  }
+]

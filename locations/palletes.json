@@ -1,5 +1,5 @@
 [
-{
+ {
     "type": "palette",
     "id": "catacombs",
     "terrain": {
@@ -20,6 +20,30 @@
     "id": "catacombs_roof",
     "terrain": {
       ".": "t_rock_floor_no_roof",
+      " ": "t_open_air"
+    }
+    },
+{
+    "type": "palette",
+    "id": "cult",
+    "terrain": {
+      ".": "t_dirt",
+      "-": "t_floor",
+      " ": [ [ "t_grass", 15 ], [ "t_dirt", 4 ], [ "t_shrub", 2 ], [ "t_tree", 1 ] ],
+      "w": "t_wall_wood",
+      "S": "t_shrub",
+      "<": "t_slope_up",
+      ">": "t_slope_down",
+      "h": "t_door_c",
+      "s": "t_splitrail_fence",
+      "f": "t_fencegate_c"
+    }
+    },
+{
+    "type": "palette",
+    "id": "cult_roof",
+    "terrain": {
+      ".": "t_shingle_flat_roof",
       " ": "t_open_air"
     }
     }

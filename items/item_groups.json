@@ -1,0 +1,32 @@
+[
+  {
+    "type": "item_group",
+    "id": "raw_meat",
+    "subtype": "distribution",
+    "items": [
+      [ "meat", 100 ],
+      [ "stomach", 100 ],
+      [ "lung", 100 ],
+      [ "liver", 100 ],
+      [ "brain", 100 ],
+      [ "kidney", 100 ],
+      [ "sweetbread", 100 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "knife_meat_cleaver",
+    "subtype": "distribution",
+    "items": [
+      [ "knife_meat_cleaver", 100 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "archaesth",
+    "subtype": "distribution",
+    "items": [
+      [ "archaesth", 100 ]
+    ]
+  }
+]

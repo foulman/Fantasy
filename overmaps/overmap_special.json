@@ -36,7 +36,7 @@
       { "point": [ 0, -2, -1 ], "overmap": "ocata5_north" }
     ],
     "locations": [ "wilderness" ],
-    "city_distance": [ 20, 10 ],
+    "city_distance": [ 10, 20 ],
     "city_sizes": [ 0, 20 ],
     "occurrences": [ 0, 1 ]
   },

@@ -35,8 +35,7 @@
       "palettes": [ "catacombs" ],
       "furniture": { "U": "f_statue", "H": "f_table" }
     }
-  },
-  
+  }, 
   {
     "type": "mapgen",
     "method": "json",

@@ -52,5 +52,14 @@
     "mission": 0,
     "chat": "TALK_WORSHIPER",
     "faction": "kingdom"
+  },
+{
+    "type": "npc",
+    "id": "stablemaster",
+    "class": "NPC_STABLEMASTER",
+    "attitude": 0,
+    "mission": 0,
+    "chat": "TALK_STABLEMASTER",
+    "faction": "kingdom"
   }
 ]
