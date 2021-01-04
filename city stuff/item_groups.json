@@ -226,7 +226,7 @@
       { "item": "vinegar", "prob": 15 }
     ]
   },
-  {
+{
     "type": "item_group",
     "id": "dragon_loot",
     "items": [
