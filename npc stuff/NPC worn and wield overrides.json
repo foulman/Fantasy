@@ -332,7 +332,7 @@
   },
 {
     "type": "item_group", 
-    "id": "NPC_STABLEMASTER_carry",
+    "id": "MTC_STABLEMASTER_carry",
     "subtype": "collection",
     "items": [ { "item": "horse_tack", "count-min": 50, "count-max": 200, "prob": 100 } ]
   },
