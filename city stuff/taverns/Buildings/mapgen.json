@@ -30,14 +30,11 @@
       "................................................"
     ],
     "terrain": { ".": "t_region_groundcover" },
-    "palettes": [ "mtc_generic_structure" ]
-  },
-  "place_npcs": [
-    { "class": "generic_tavernkeep", "x": 23, "y": 5 }
-  ],
-  "npcs": {
-    "0": { "class": "generic_tavernkeep" },
-    "1": { "class": "gambler", "chance": 30 }
+    "palettes": [ "mtc_generic_structure" ],
+	"npcs": {
+		"0": { "class": "generic_tavernkeep" },
+		"1": { "class": "gambler" }
+		}
   },
   "om_terrain": [
     [ "mtc_inn1_left", "mtc_inn1_right" ]
@@ -284,8 +281,8 @@
 		{ "class": "drunk_city_guard", "x": 35, "y": 63 }
 	  ],
           "npcs": {
-    "1": { "class": "gambler", "chance": 30 }
-  },
+			"1": { "class": "gambler" }
+			},
 	  "place_monster": [
         { "monster": "mon_horse", "x": 28, "y": 28, "chance": 30 },
 		{ "monster": "mon_horse", "x": 28, "y": 26, "chance": 30 },
@@ -578,8 +575,8 @@
 		{ "class": "bouncer", "x": 23, "y": 18 }
 	  ],
           "npcs": {
-    "1": { "class": "gambler", "chance": 30 }
-  },
+			"1": { "class": "gambler" }
+			},
 	  "faction_owner": [
 		{ "id": "kingdom", "x": [ 24, 47 ], "y": [ 0, 23 ] },
 		{ "id": "kingdom", "x": [ 24, 47 ], "y": [ 24, 47 ] },
