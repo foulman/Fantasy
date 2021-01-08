@@ -23,7 +23,6 @@
     "id": "mon_mtc_skeleton",
     "type": "MONSTER",
     "name": { "str": "skeleton" },
-	"looks-like": "mon_skeleton",
     "description": "A ressurected and seemingly bewitched skeleton of a long forgotten decease. It does a rattling sound as it moves.",
     "default_faction": "zombie",
     "bodytype": "human",
