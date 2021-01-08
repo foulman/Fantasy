@@ -3,7 +3,7 @@
     "type": "mod_tileset",
     "compatibility": [ "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
     "tiles-new": [
-      {
+        {
         "file": "mod_tileset/monsters_1tile.png",
         "tiles": [
 
@@ -87,15 +87,9 @@
             { "weight": 1, "sprite": 46 }
           ],
 		  "rotates": false }
-        ]
-      }
-    ]
-	},
-	{
-    "type": "mod_tileset",
-    "compatibility": [ "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
-    "tiles-new": [
-      {
+          ]
+        },
+		{
         "file": "mod_tileset/monsters_2tiletall.png",
         "sprite_width": 32,
         "sprite_height": 64,
@@ -105,15 +99,9 @@
 		  { "id": "mon_mtc_bugbear_warrior", "fg": 1 },
           { "id": "mon_mtc_bugbear_shaman", "fg": 2 },
           { "id": "mon_mtc_bugbear_leader", "fg": 3 }
-        ]
-      }
-    ]
-	},
-	{
-    "type": "mod_tileset",
-    "compatibility": [ "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
-    "tiles-new": [
-      {
+          ]
+        },
+		{
         "file": "mod_tileset/monsters_3tilewide2tiletall.png",
         "sprite_width": 96,
         "sprite_height": 64,
@@ -123,15 +111,9 @@
           { "id": "mon_mtc_dragon_fire_adult", "fg": 0 },
 		  { "id": "mon_mtc_dragon_ice_adult", "fg": 1 },
           { "id": "mon_mtc_dragon_storm_adult", "fg": 2 }
-        ]
-      }
-    ]
-	},
-	{
-    "type": "mod_tileset",
-    "compatibility": [ "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE" ],
-    "tiles-new": [
-      {
+          ]
+        },
+		{
         "file": "mod_tileset/monsters_2tilewide.png",
         "sprite_width": 64,
         "sprite_height": 32,
@@ -140,8 +122,8 @@
           { "id": "mon_mtc_dragon_fire_young", "fg": 0 },
 		  { "id": "mon_mtc_dragon_ice_young", "fg": 1 },
           { "id": "mon_mtc_dragon_storm_young", "fg": 2 }
-        ]
-      }
+          ]
+        }
     ]
 	}
 ]
