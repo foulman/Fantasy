@@ -26,7 +26,6 @@
     "type": "effect_type",
     "id": "eff_mtc_goblin_shaman_debuff",
     "name": [ "Power Drain" ],
-    "description": [ "You are under a spell that has drained your raw power." ],
     "show_in_info": true,
     "base_mods": { "str_mod": [ -5 ], "bash_mod": [ -5 ], "cut_mod": [ -5 ] }
   },
