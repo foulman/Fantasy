@@ -35,68 +35,140 @@
     "see_cost": 5,
     "flags": [ "RISK_LOW", "SOURCE_SAFETY" ]
   },
-{
+  {
     "type": "overmap_terrain",
     "id": "old_catacomb_enter",
     "name": "catacombs",
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
-	},
-{
+  },
+  {
     "type": "overmap_terrain",
     "id": "old_catacomb_roof",
     "name": "catacombs roof",
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
-	},
-{
+  },
+  {
     "type": "overmap_terrain",
     "id": "ocata1",
     "name": "catacombs",
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
-	},
-{
+  },
+  {
     "type": "overmap_terrain",
     "id": "ocata2",
     "name": "catacombs",
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
-	},
-{
+  },
+  {
     "type": "overmap_terrain",
     "id": "ocata3",
     "name": "catacombs",
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
-	},
-{
+  },
+  {
     "type": "overmap_terrain",
     "id": "ocata4r",
     "name": "catacombs",
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
-	},
-{
+  },
+  {
     "type": "overmap_terrain",
     "id": "ocata4l",
     "name": "catacombs",
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
-	},
-{
+  },
+  {
     "type": "overmap_terrain",
     "id": "ocata5",
     "name": "catacombs",
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
-	}
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "stables",
+    "name": "stables",
+    "sym": "H",
+    "see_cost": 5,
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cult_ritual",
+    "name": "ritual",
+    "sym": "O",
+    "see_cost": 5,
+    "color": "white"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cult_animals",
+    "name": "animals",
+    "sym": "a",
+    "see_cost": 5,
+    "color": "pink"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cult_animals_roof",
+    "name": "animals roof",
+    "sym": "a",
+    "see_cost": 5,
+    "color": "pink"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cult_artifacts",
+    "name": "artifacts",
+    "sym": "a",
+    "see_cost": 5,
+    "color": "white"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cult_artifacts_roof",
+    "name": "artifacts roof",
+    "sym": "a",
+    "see_cost": 5,
+    "color": "white"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cult_communeshacks",
+    "name": "commune shacks",
+    "sym": "c",
+    "see_cost": 5,
+    "color": "white"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cult_communeshacks_roof",
+    "name": "commune shack rooves",
+    "sym": "c",
+    "see_cost": 5,
+    "color": "white"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "cult_enter",
+    "name": "commune shacks",
+    "sym": "C",
+    "see_cost": 5,
+    "color": "white"
+  }
 ]
