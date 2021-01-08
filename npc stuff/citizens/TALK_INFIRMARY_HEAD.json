@@ -60,7 +60,7 @@
       },
     {
         "text": "Forget it, or it'll be you who needs a doctor.",
-        "trial": { "type": "INTIMIDATE", "difficulty": 2 },
+        "trial": { "type": "INTIMIDATE", "difficulty": 2, "mod": [ [ "FEAR", 2 ] ] },
         "success": { "topic": "TALK_LETOFF_FEAR" },
         "failure": { "topic": "TALK_REFUSAL" }
       }
@@ -82,7 +82,6 @@
     "dynamic_line": [ "A-alright, j-just leave." ],
     "responses": [
     { "text": "*Scowls*",
-      "mod": [ [ "FEAR", 2 ] ],
       "topic": "TALK_DONE"
 		}
     ]
