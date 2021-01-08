@@ -19,7 +19,6 @@
     "id": "mon_mtc_worg",
     "type": "MONSTER",
     "name": "worg",
-    "name_plural": "worgs",
     "description": "A large, vicious, and evil wolflike beast warped by magic long ago.  It is intelligent enough to talk and will enjoy eating you alive.  Often consorts with goblins in a mutally beneficial relationship (of eating humans).",
     "default_faction": "worg",
     "bodytype": "dog",
@@ -431,7 +430,6 @@
     }
   },
   {
-    "note": "We use the entire worg data here, adding only the ability to dismount its rider.",
     "id": "mon_mtc_goblin_mounted",
     "type": "MONSTER",
     "name": "worg",
