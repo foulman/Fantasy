@@ -2,20 +2,9 @@
   {
     "//": "This assigns characters a random appearance based on racial demographics in a fantasy world's human cities.",
     "type": "trait_group",
-    "copy_from": "Appearance_demographics",
 	"id": "Appearance_demographics",
     "subtype": "distribution",
-	"delete": { "traits": [
-      { "group": "Appearance_Irish", "prob": 21 },
-      { "group": "Appearance_Caucasian", "prob": 40 },
-      { "group": "Appearance_Germanic", "prob": 20 },
-      { "group": "Appearance_Latin", "prob": 3 },
-      { "group": "Appearance_African", "prob": 9 },
-      { "group": "Appearance_EastAsian", "prob": 4 },
-      { "group": "Appearance_SouthAsian", "prob": 3 },
-      { "group": "Appearance_Mixed", "prob": 3 }
-    ] },
-    "traits": [
+	"traits": [
       { "group": "race_human", "prob": 50 },
       { "group": "race_elf", "prob": 10 },
       { "group": "race_dwarf", "prob": 10 },
@@ -37,18 +26,8 @@
   },
   {
     "type": "trait_group",
-	"copy_from": "Hair_Any",
     "id": "Hair_Any",
     "subtype": "distribution",
-	"delete": { "traits": [
-      { "group": "Hair_Red", "prob": 5 },
-      { "group": "Hair_Blond", "prob": 25 },
-      { "group": "Hair_Black", "prob": 25 },
-      { "group": "Hair_Brown", "prob": 25 },
-      { "group": "Hair_Gray", "prob": 10 },
-      { "group": "Hair_White", "prob": 10 },
-      { "trait": "HAIR_BALD", "prob": 3 }
-    ] },
     "traits": [
       { "group": "Hair_Red", "prob": 15 },
       { "group": "Hair_Blond", "prob": 15 },
@@ -61,16 +40,8 @@
   },
   {
     "type": "trait_group",
-	"copy_from": "Skin_Any",
     "id": "Skin_Any",
     "subtype": "distribution",
-	"delete": { "traits": [
-      { "trait": "SKIN_DARK", "prob": 15 },
-      { "trait": "SKIN_MEDIUM", "prob": 25 },
-      { "trait": "SKIN_TAN", "prob": 25 },
-      { "trait": "SKIN_PINK", "prob": 5 },
-      { "trait": "SKIN_LIGHT", "prob": 10 }
-    ] },
     "traits": [
       { "trait": "SKIN_DARK", "prob": 5 },
       { "trait": "SKIN_MEDIUM", "prob": 30 },
@@ -225,7 +196,7 @@
 	{ "trait": "THRESH_BIRD", "prob": 100 },
 	{ "trait": "FEATHERS", "prob": 100 },
 	{ "trait": "QUICK", "prob": 85 },
-	{ "trait": "LIGTEATER", "prob": 85 },
+	{ "trait": "LIGHTEATER", "prob": 85 },
 	{ "trait": "NIGHTVISION", "prob": 85 },
 	{ "trait": "DEFT", "prob": 85 },
 	{ "trait": "LIGHTSTEP", "prob": 85 },
