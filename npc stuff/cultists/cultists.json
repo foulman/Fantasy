@@ -1,0 +1,72 @@
+[
+  {
+    "type": "npc",
+    "id": "cult_member",
+    "name_suffix": "cult member",
+    "class": "NPC_CULT_MEMBER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_defender",
+    "name_suffix": "cult defender",
+    "class": "NPC_CULT_DEFENDER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_onocti",
+    "name_suffix": "cult onocti",
+    "class": "NPC_CULT_ONOCTI",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_homage",
+    "name_suffix": "cult homage",
+    "class": "NPC_CULT_HOMAGE",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_lorevessel",
+    "name_suffix": "cult lorevessel",
+    "class": "NPC_CULT_LOREVESSEL",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_communer",
+    "name_suffix": "cult communer",
+    "class": "NPC_CULT_COMMUNER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_elder",
+    "name_suffix": "cult elder",
+    "class": "NPC_CULT_ELDER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "",
+    "faction": "cultists"
+  }
+]
