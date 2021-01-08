@@ -213,7 +213,6 @@
   {
     "type": "construction",
     "id": "constr_barrel_c",
-    "description": "Seal Barrel",
     "category": "FURN",
     "required_skills": [ [ "mechanics", 0 ] ],
     "time": "30 s",
@@ -227,7 +226,6 @@
   {
     "type": "construction",
     "id": "constr_barrel_c_o",
-    "description": "Open Barrel",
     "category": "FURN",
     "required_skills": [ [ "mechanics", 0 ] ],
     "time": "3 s",
@@ -241,7 +239,6 @@
   {
     "type": "construction",
     "id": "constr_barrel_o",
-    "description": "Build Barrel",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 2 ] ],
     "time": "1 h",
@@ -254,7 +251,6 @@
   {
     "type": "construction",
     "id": "constr_chest_o",
-    "description": "Build Chest",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 2 ] ],
     "time": "1 h",
@@ -267,7 +263,6 @@
   {
     "type": "construction",
     "id": "constr_chest_l",
-    "description": "Lock Chest",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 0 ] ],
     "time": "5 s",
@@ -281,7 +276,6 @@
   {
     "type": "construction",
     "id": "constr_chest_l_o",
-    "description": "Unlock your Chest",
     "category": "FURN",
     "required_skills": [ [ "fabrication", 0 ] ],
     "time": "5 s",
