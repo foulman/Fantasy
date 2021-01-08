@@ -26,73 +26,73 @@
 		{
 		"text": "A pumpkin muffin.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "pumpkin_muffins" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
 		"text": "Some flatbread.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "flatbread" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some hardtack.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "hardtack" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "A biscuit.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "biscuit" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "A fish fillet.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "fish_cooked" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some meat.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "meat_cooked" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some cured meat.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "jerky" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
 		"text": "Some fruit leather.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "fruit_leather" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
 		"text": "A sausage.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "sausage_cooked" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some beans and rice with meat.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "deluxe_beansnrice" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
 		"text": "A meat pie.(3 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 3 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 3 } },
 		"effect": [ { "u_buy_item": "pie_meat" }, { "u_sell_item": "silver_coin", "count": 3 } ]
 		},
 		{
 		"text": "Meat and eggs.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "deluxe_eggs" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
@@ -109,73 +109,73 @@
 		{
 		"text": "A pumpkin muffin.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "pumpkin_muffins" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
 		"text": "Some flatbread.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "flatbread" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some hardtack.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "hardtack" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "A biscuit.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "biscuit" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "A fish fillet.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "fish_cooked" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some meat.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "meat_cooked" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some cured meat.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "jerky" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
 		"text": "Some fruit leather.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "fruit_leather" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
 		"text": "A sausage.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "sausage_cooked" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some beans and rice with meat.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "deluxe_beansnrice" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
 		"text": "A meat pie.(3 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 3 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 3 } },
 		"effect": [ { "u_buy_item": "pie_meat" }, { "u_sell_item": "silver_coin", "count": 3 } ]
 		},
 		{
 		"text": "Meat and eggs.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_FOOD_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "deluxe_eggs" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
@@ -192,37 +192,37 @@
 		{
 		"text": "Some water.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "water_clean", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some wine.(3 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 3 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 3 } },
 		"effect": [ { "u_buy_item": "fruit_wine", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 3 } ]
 		},
 		{
 		"text": "The cheap wine.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "bum_wine", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some gin.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "gin", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some rum.(3 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 3 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 3 } },
 		"effect": [ { "u_buy_item": "rum", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 3 } ]
 		},
 		{
 		"text": "Some mead.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "mead", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
@@ -239,37 +239,37 @@
 		{
 		"text": "Some water.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "water_clean", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some wine.(3 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 3 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 3 } },
 		"effect": [ { "u_buy_item": "fruit_wine", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 3 } ]
 		},
 		{
 		"text": "The cheap wine.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "bum_wine", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some gin.(1 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 1 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
 		"effect": [ { "u_buy_item": "gin", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 1 } ]
 		},
 		{
 		"text": "Some rum.(3 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 3 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 3 } },
 		"effect": [ { "u_buy_item": "rum", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 3 } ]
 		},
 		{
 		"text": "Some mead.(2 silver)",
 		"topic": "TALK_NPC_GENERIC_TAVERNWENCH_DRINK_2",
-		"condition": { "u_has_item": "silver_coin", "count": 2 },
+		"condition": { "u_has_items": { "item": "silver_coin", "count": 2 } },
 		"effect": [ { "u_buy_item": "mead", "container": "glass" }, { "u_sell_item": "silver_coin", "count": 2 } ]
 		},
 		{
