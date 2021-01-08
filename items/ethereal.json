@@ -9,8 +9,6 @@
     "symbol": "o",
     "color": "blue",
     "relic_data": {
-      "has": "WORN",
-      "condition": "ALWAYS",
       "passive_effects": [
         {
           "values": [ { "value": "BONUS_DODGE", "add": 3 }, { "value": "SPEED", "multiply": 1 }, { "value": "DEXTERITY", "multiply": 1 } ],
@@ -32,8 +30,6 @@
     "relic_data": {
       "passive_effects": [
         {
-          "has": "WORN",
-          "condition": "ALWAYS",
           "hit_you_effect": [
             {
               "id": "mtc_rune_etherealphase_act2",
@@ -62,7 +58,6 @@
     "symbol": "o",
     "color": "white",
     "covers": [ "leg_l", "leg_r", "torso", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r", "mouth", "eyes" ],
-    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ],
-    "relic_data": { "passive_effects": [ { "id": "ench_replenishment" } ] }
+    "flags": [ "AURA", "SEMITANGIBLE", "OVERSIZE", "ONLY_ONE", "TRADER_AVOID", "NO_TAKEOFF", "NONCONDUCTIVE" ]
   }
 ]
