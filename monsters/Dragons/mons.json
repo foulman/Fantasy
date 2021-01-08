@@ -32,7 +32,6 @@
     "material": [ "flesh" ],
     "symbol": "D",
     "color": "light_red",
-    "emit_fields": [ "emit_mtc_dragon_fire_immune" ],
     "attack_cost": 300,
     "aggression": 100,
     "morale": 100,
@@ -48,7 +47,6 @@
     "armor_acid": 3,
     "vision_day": 50,
     "vision_night": 10,
-    "path_settings": { "min_dist": 24 },
     "harvest": "animal_large_noskin",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
@@ -98,7 +96,6 @@
     "material": [ "flesh" ],
     "symbol": "D",
     "color": "cyan",
-    "emit_fields": [ "emit_mtc_dragon_ice_immune" ],
     "attack_cost": 300,
     "aggression": 100,
     "morale": 100,
@@ -114,7 +111,6 @@
     "armor_acid": 1,
     "vision_day": 50,
     "vision_night": 10,
-    "path_settings": { "min_dist": 24 },
     "harvest": "animal_large_noskin",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
@@ -180,7 +176,6 @@
     "armor_acid": 1,
     "vision_day": 50,
     "vision_night": 10,
-    "path_settings": { "min_dist": 24 },
     "harvest": "animal_large_noskin",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
@@ -230,7 +225,6 @@
     "material": [ "flesh" ],
     "symbol": "d",
     "color": "light_red",
-    "emit_fields": [ "emit_mtc_dragon_fire_immune" ],
     "attack_cost": 100,
     "aggression": 100,
     "morale": 100,
@@ -246,7 +240,6 @@
     "armor_acid": 3,
     "vision_day": 50,
     "vision_night": 10,
-    "path_settings": { "min_dist": 24 },
     "harvest": "animal_large_noskin",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
@@ -290,7 +283,6 @@
     "material": [ "flesh" ],
     "symbol": "d",
     "color": "cyan",
-    "emit_fields": [ "emit_mtc_dragon_ice_immune" ],
     "attack_cost": 100,
     "aggression": 100,
     "morale": 100,
@@ -306,7 +298,6 @@
     "armor_acid": 3,
     "vision_day": 50,
     "vision_night": 10,
-    "path_settings": { "min_dist": 24 },
     "harvest": "animal_large_noskin",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
@@ -350,7 +341,6 @@
     "material": [ "flesh" ],
     "symbol": "d",
     "color": "light_blue",
-    "emit_fields": [ "emit_mtc_dragon_fire_immune" ],
     "attack_cost": 100,
     "aggression": 100,
     "morale": 100,
@@ -366,7 +356,6 @@
     "armor_acid": 3,
     "vision_day": 50,
     "vision_night": 10,
-    "path_settings": { "min_dist": 24 },
     "harvest": "animal_large_noskin",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
