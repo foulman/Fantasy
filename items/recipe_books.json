@@ -1,0 +1,21 @@
+[
+  {
+    "id": "archaesth",
+    "type": "BOOK",
+    "name": { "str": "Archae Aesthetica", "str_pl": "Archae Aesthetica" },
+    "description": "A thick leather-bound book whose pages are riddled with strange shapes and even stranger writings.",
+    "weight": "4 kg",
+    "volume": "2000 ml",
+    "price": 10000,
+    "bashing": 5,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "white",
+    "skill": "chemistry",
+    "required_level": 3,
+    "max_level": 5,
+    "intelligence": 9,
+    "time": "20 m",
+    "fun": 1
+  }
+]
