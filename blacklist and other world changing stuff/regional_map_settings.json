@@ -491,10 +491,7 @@
         "home2": 100, 
         "generalstore": 5, 
         "infirmary": 5, 
-        "used_bookstore": 0,
         "stables": 3,
-        "wizard_tower_1": 0, 
-        "wizard_tower_2": 0,
         "house_two_story_basement": 0,
         "house_prepper": 0,
         "house_prepper2": 0,
@@ -802,7 +799,6 @@
         "parking_garage": 0,
 		"generalstore": 1600, 
         "infirmary": 500, 
-        "used_bookstore": 225,
         "stables": 225
       }
     },
@@ -810,7 +806,6 @@
       "base_temperature": 6.5,
       "base_humidity": 70.0,
       "base_pressure": 1015.0,
-      "base_acid": 0.0,
       "base_wind": 3.4,
       "base_wind_distrib_peaks": 80,
       "base_wind_season_variation": 50,
