@@ -3,13 +3,13 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "home" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "//": "Single male.",
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -36,23 +36,23 @@
         "           ff           ",
         "           ff           "
       ],
-      "palettes": [ "city_building_home" ]
-    },
-    "npcs": {
-    "!": { "class": "generic_male_citizen" }
-  }
+      "palettes": [ "city_building_home" ],
+	  "npcs": {
+		"!": { "class": "generic_male_citizen" }
+		}
+    }
   },
   {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "home" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "//": "Single female.",
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -79,23 +79,23 @@
         "           ff           ",
         "           ff           "
       ],
-      "palettes": [ "city_building_home" ]
-    },
-      "npcs": {
-    "!": { "class": "generic_female_citizen" }
-  }
+      "palettes": [ "city_building_home" ],
+	  "npcs": {
+		"!": { "class": "generic_female_citizen" }
+		}
+    }
   },
   {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "home" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "//": "Couple.",
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -122,24 +122,24 @@
         "           ff           ",
         "           ff           "
       ],
-      "palettes": [ "city_building_home" ]
-    },
-      "npcs": {
-    "!": { "class": "generic_female_citizen" },
-    "?": { "class": "generic_male_citizen" }  
-  }
+      "palettes": [ "city_building_home" ],
+	  "npcs": {
+		"!": { "class": "generic_female_citizen" },
+		"?": { "class": "generic_male_citizen" }  
+		}
+    }
   },
   {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "home" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "//": "Family.",
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -166,25 +166,25 @@
         "           ff           ",
         "           ff           "
       ],
-      "palettes": [ "city_building_home" ]
-    },
-      "npcs": {
-    "!": { "class": "generic_female_citizen" },
-    "?": { "class": "generic_male_citizen" },
-    "=": { "class": "child" } 
-  }
+      "palettes": [ "city_building_home" ],
+	  "npcs": {
+		"!": { "class": "generic_female_citizen" },
+		"?": { "class": "generic_male_citizen" },
+		"=": { "class": "child" } 
+		}
+    }
   },
   {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "home2" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "//": "Large family.",
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -211,25 +211,25 @@
         "           ff           ",
         "           ff           "
       ],
-      "palettes": [ "city_building_home" ]
-    },
-      "npcs": {
-    "!": { "class": "generic_female_citizen" },
-    "?": { "class": "generic_male_citizen" },
-    "=": { "class": "child" } 
-  }
+      "palettes": [ "city_building_home" ],
+	  "npcs": {
+		"!": { "class": "generic_female_citizen" },
+		"?": { "class": "generic_male_citizen" },
+		"=": { "class": "child" } 
+		}
+    }
   },
   {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "home_roof" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "//": "Roof with single latrine.",
     "object": {
       "fill_ter": "t_open_air",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -263,13 +263,13 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "home2_roof" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "//": "Roof with double latrine.",
     "object": {
       "fill_ter": "t_open_air",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
