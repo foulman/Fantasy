@@ -3,12 +3,12 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "generalstore" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -35,28 +35,28 @@
         "           ff           ",
         "           ff           "
       ],
-      "palettes": [ "city_building_store" ]
-    },
+      "palettes": [ "city_building_store" ],
     "npcs": {
-    "!": { "class": "shopkeeper_general" }
-  },
- "items": {
+		"!": { "class": "shopkeeper_general" }
+	},
+	"items": {
       "x": { "item": "stash_wood", "chance": 100, "repeat": [ 2, 5 ] },
       "Y": [ { "item": "dry_goods", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "mtc_pantry_liquids", "chance": 70, "repeat": [ 2, 5 ] } ],
       "X": [ { "item": "male_citizen_clothing", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "female_citizen_clothing", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "kitchenstaff_wield", "chance": 100, "repeat": [ 2, 5 ] } ]
 	  
+    }
     }
  },
  {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "infirmary" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -83,30 +83,30 @@
         "           ff           ",
         "           ff           "
       ],
-      "palettes": [ "city_building_home" ]
-    },
+      "palettes": [ "city_building_home" ],
     "npcs": {
-    "b": [ { "class": "generic_male_citizen", "chance": 40 }, { "class": "generic_female_citizen", "chance": 40 } ],
-    "!": { "class": "medic", "chance": 70 },
-    "_": { "class": "medic_head", "chance": 100 }
-  },
- "items": {
+		"b": [ { "class": "generic_male_citizen" }, { "class": "generic_female_citizen" } ],
+		"!": { "class": "medic" },
+		"_": { "class": "medic_head" }
+	},
+	"items": {
       "x": { "item": "stash_wood", "chance": 100, "repeat": [ 2, 5 ] },
       "u": [ { "item": "bucket", "chance": 100 } ],
       "O": [ { "item": "oven", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "bandages", "chance": 100, "repeat": [ 4, 10 ] } ]
       
+    }
     }
   },
 {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "church" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -133,13 +133,13 @@
         "           ff           ",
         "           ff           "
       ],
-      "palettes": [ "mtc_church" ]
-    },
+      "palettes": [ "mtc_church" ],
     "npcs": {
-    "#": { "class": "generic_worshiper", "chance": 25 }
-  },
- "items": {
+		"#": { "class": "generic_worshiper" }
+	},
+	"items": {
       "c": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
+    }
     }
  },
 {
@@ -147,12 +147,12 @@
     "method": "json",
     "om_terrain": [ "church" ],
     "//": "Church with graveyard.",
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -179,25 +179,25 @@
         "           ff           ",
         "           ff           "
       ],
-      "palettes": [ "mtc_church" ]
-    },
+      "palettes": [ "mtc_church" ],
     "npcs": {
-    "#": { "class": "generic_worshiper", "chance": 25 }
-  },
- "items": {
+		"#": { "class": "generic_worshiper" }
+	},
+	"items": {
       "c": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
+    }
     }
  },
  {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "generalstore_roof" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -231,12 +231,12 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "infirmary_roof" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "object": {
       "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -270,12 +270,12 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "stables" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "object": {
       "fill_ter": "t_dirt",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
         "                        ",
         "                        ",
@@ -303,10 +303,10 @@
         "           dd           "
       ],
       "palettes": [ "mtc_stables" ],
-      "monster": { "O": { "monster": "mon_horse", "chance": 70 } }
-    },
+      "monster": { "O": { "monster": "mon_horse", "chance": 70 } },
     "npcs": {
-    "#": { "class": "stablemaster" }
-  }
+		"#": { "class": "stablemaster" }
+	}
+    }
  }
 ]
