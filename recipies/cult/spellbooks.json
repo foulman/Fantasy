@@ -106,7 +106,7 @@
   { 
     "result": "spell_scroll_hex",
     "type": "recipe",
-    "category": "CC_ENCHANTED",
+    "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_OTHER",
     "skill_used": "fabrication",
     "skills_required": [ "chemistry", 1 ],
@@ -119,7 +119,7 @@
   { 
     "result": "spell_scroll_shadowmorph",
     "type": "recipe",
-    "category": "CC_ENCHANTED",
+    "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_OTHER",
     "skill_used": "fabrication",
     "skills_required": [ "chemistry", 1 ],
