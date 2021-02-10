@@ -6,7 +6,7 @@
     "class": "NPC_CULT_MEMBER",
     "attitude": 0,
     "mission": 3,
-    "chat": "",
+    "chat": "TALK_MEMBER",
     "faction": "cultists"
   },
   {
@@ -16,7 +16,7 @@
     "class": "NPC_CULT_DEFENDER",
     "attitude": 0,
     "mission": 3,
-    "chat": "",
+    "chat": "TALK_DEFENDER",
     "faction": "cultists"
   },
   {
@@ -26,7 +26,7 @@
     "class": "NPC_CULT_ONOCTI",
     "attitude": 0,
     "mission": 3,
-    "chat": "",
+    "chat": "TALK_ONOCTI",
     "faction": "cultists"
   },
   {
@@ -36,7 +36,7 @@
     "class": "NPC_CULT_HOMAGE",
     "attitude": 0,
     "mission": 3,
-    "chat": "",
+    "chat": "TALK_HOMAGE",
     "faction": "cultists"
   },
   {
@@ -46,7 +46,7 @@
     "class": "NPC_CULT_LOREVESSEL",
     "attitude": 0,
     "mission": 3,
-    "chat": "",
+    "chat": "TALK_LOREVESSEL",
     "faction": "cultists"
   },
   {
@@ -56,7 +56,7 @@
     "class": "NPC_CULT_COMMUNER",
     "attitude": 0,
     "mission": 3,
-    "chat": "",
+    "chat": "TALK_NPC_GENERIC_CITIZEN",
     "faction": "cultists"
   },
   {
@@ -66,7 +66,28 @@
     "class": "NPC_CULT_ELDER",
     "attitude": 0,
     "mission": 3,
-    "chat": "",
+    "chat": "TALK_ELDER",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_defender_gate",
+    "name_suffix": "cultist",
+    "class": "NPC_MALE_CITIZEN",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_DEFENDER_GATE",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_recruiter",
+    "class": "NPC_MALE_CITIZEN",
+    "name_suffix": "cultist",          
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_RECRUITER",
+    "mission_offered": "MISSION_JOIN_CULT",
     "faction": "cultists"
   }
 ]

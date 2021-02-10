@@ -7,7 +7,7 @@
 		"flags": [ "SILENT" ],
 		"valid_targets": [ "self" ],
 		"effect": "attack",
-		"shape": "blast",
+                "shape": "blast",
 		"effect_str": "min_water_stun",
 		"min_duration": 6375,
 		"max_duration": 6375
@@ -23,7 +23,7 @@
 		"min_damage": -2,
 		"max_damage": -2,
 		"effect": "attack",
-		"shape": "blast",
+                "shape": "blast",
 		"extra_effects": [ { "id": "min_water_item_stun", "hit_self": true } ],
 		"min_duration": 1,
 		"max_duration": 1

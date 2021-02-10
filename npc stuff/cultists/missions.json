@@ -1,0 +1,26 @@
+[ {
+    "id": "MISSION_JOIN_CULT",
+    "type": "mission_definition",
+    "name": "Within the Woods...",
+    "description": "You have discovered knwoledge of a cult within the woods, and seek to join them. The password is Ahch' unto c' halls, ng kadishtu mgkadishtu.",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "difficulty": 1,
+    "value": 10,
+    "destination": "cult_enter",
+    "start": {
+       "assign_mission_target": { "om_terrain": "cult_enter", "om_special": "cult_sanctuary", "must_see": false, "reveal_radius": 1 }
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "A cult is within the woodlands, and here are the directions.",
+      "offer": "What if I told you I can provide directions to them, and I know how to join. If you're interested, they keep a sanctuary within the woods. Once you're there, speak to the person out front, and tell them, Ahch' unto c' halls, ng kadishtu mgkadishtu.",
+      "accepted": "Mgepnnn bug.",
+      "rejected": "Okay.",
+      "advice": "What advice? Just go to where I told.",
+      "inquire": "How goes to journey?",
+      "success": "Welcome.",
+      "success_lie": "Goodbye.",
+      "failure": "Dang."
+    }
+   } 
+  ]

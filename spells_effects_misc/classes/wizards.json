@@ -1,0 +1,13 @@
+[
+ {
+    "type": "mutation",
+    "id": "SORCERER",
+    "name": "Sorcerer",
+    "//": "There are multiple variations of 'wizards'.",
+    "points": 0,
+    "description": "Sorcerers are skilled manipulators of souls, which they bind into their magic. This, in combination with mana, can form anything from powerful offensive birrages to wards.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false
+  }
+]

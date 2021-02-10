@@ -317,10 +317,10 @@
     "subtype": "collection",
     "items": [ { "item": "copper_coin", "count-min": 5000, "count-max": 30000, "prob": 100 }, 
                { "item": "silver_coin", "count-min": 100, "count-max": 300, "prob": 100 },
-               { "item": "clay_pot", "count-min": 10, "count-max": 25, "prob": 75 },
-               { "item": "clay_teapot", "count-min": 10, "count-max": 25, "prob": 75 },
-               { "item": "mortar_pestle", "count-min": 10, "count-max": 25, "prob": 50 },
-               { "item": "crude_picklock", "count-min": 10, "count-max": 100, "prob": 50 } ]
+               { "item": "clay_pot", "count-min": 10, "count-max": 25, "prob": 100 },
+               { "item": "clay_teapot", "count-min": 10, "count-max": 25, "prob": 100 },
+               { "item": "mortar_pestle", "count-min": 10, "count-max": 25, "prob": 100 },
+               { "item": "crude_picklock", "count-min": 10, "count-max": 100, "prob": 100 } ]
   },
   {
     "type": "item_group",

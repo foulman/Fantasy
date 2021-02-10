@@ -1,0 +1,13 @@
+[ 
+  {
+    "type": "mutation",
+    "id": "CLERIC",
+    "name": "Cleric",
+    "//": "There are multiple variations of clerics, depending upon their pantheon. Generic base for now.",
+    "points": 0,
+    "description": "Those who have been blessed by the gods with divine power.",
+    "starting_trait": false,
+    "purifiable": false,
+    "valid": false
+  }
+]
