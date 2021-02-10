@@ -185,5 +185,18 @@
     "effect": "attack",
 	"shape": "blast",
     "min_range": 1
+  },
+  {
+    "type": "SPELL",
+    "id": "mtc_rune_lifesteal_act",
+    "name": "Runic Sap",
+    "description": "Heals 5-10 damage.",
+    "flags": [ "SILENT", "RANDOM_DAMAGE" ],
+    "valid_targets": [ "self" ],
+    "min_damage": -5,
+    "max_damage": -10,
+    "min_range": 1,
+    "effect": "attack",
+    "shape": "blast"
   }
 ]

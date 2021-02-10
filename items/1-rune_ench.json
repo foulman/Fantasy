@@ -265,5 +265,20 @@
     "values": [ { "value": "ITEM_ARMOR_ACID", "add": -4 } ],
     "has": "WORN",
     "condition": "ALWAYS"
+  },
+  {
+    "type": "enchantment",
+    "id": "mtc_rune_wield_lifesteal_ench",
+    "hit_you_effect": [
+      {
+        "id": "mtc_rune_lifesteal_act",
+        "hit_self": true,
+        "once_in": 2,
+        "message": "<color_green>Your rune shines!</color>",
+        "npc_message": "<color_light_green>%1$s's rune shines!</color>"
+      }
+    ],
+    "has": "WIELD",
+    "condition": "ALWAYS"
   }
 ]

@@ -35,6 +35,7 @@
       "<": "t_slope_up",
       ">": "t_slope_down",
       "h": "t_door_c",
+      "!": "t_privacy_fence",
       "s": "t_splitrail_fence",
       "f": "t_fencegate_c"
     }
@@ -46,5 +47,16 @@
       ".": "t_shingle_flat_roof",
       " ": "t_open_air"
     }
+    },
+{
+    "type": "palette",
+    "id": "farm_mtc",
+    "terrain": {
+      " ": [ [ "t_grass", 15 ], [ "t_dirt", 4 ] ],
+      "/": "t_splitrail_fence",
+      "f": "t_fencegate_c",
+      "#": "t_dirtmound"
+    },
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
     }
 ]

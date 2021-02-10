@@ -28,5 +28,37 @@
     "items": [
       [ "archaesth", 100 ]
     ]
+  },
+ {
+    "type": "item_group",
+    "id": "candlefemur",
+    "subtype": "distribution",
+    "items": [
+      [ "bone_torch", 100 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "lifesap",
+    "subtype": "distribution",
+    "items": [
+      [ "eldritch_lifesap", 100 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "dark_ring",
+    "subtype": "distribution",
+    "items": [
+      [ "dark_ring", 100 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "majora",
+    "subtype": "distribution",
+    "items": [
+      [ "mask_majora", 100 ]
+    ]
   }
 ]

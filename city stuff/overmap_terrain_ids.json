@@ -175,5 +175,21 @@
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "church_mtc",
+    "name": "church",
+    "sym": "C",
+    "see_cost": 5,
+    "color": "magenta"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "church_roof",
+    "name": "church roof",
+    "sym": "C",
+    "see_cost": 5,
+    "color": "magenta"
 	}
 ]

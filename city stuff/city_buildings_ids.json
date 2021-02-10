@@ -191,5 +191,53 @@
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "stables_north", "locations": [ "land" ] }
     ]
+	},
+{
+    "type": "city_building",
+    "id": "church_mtc",
+    "locations": [ "land" ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "church_mtc_north", "locations": [ "land" ] },
+	  { "point": [ 0, 0, 1 ], "overmap": "church_roof_north", "locations": [ "land" ] }
+    ]
+	},
+{
+    "type": "overmap_special",
+    "id": "lone_church",
+    "overmaps": [
+	  { "point": [ 0, 0, 0 ], "overmap": "church_mtc_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "church_roof_north" }
+    ],
+    "locations": [ "land", "swamp", "forest" ],
+    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
+    "city_distance": [ 3, 5 ],
+    "city_sizes": [ 1, 20 ],
+    "occurrences": [ 0, 3 ]
+	},
+{
+    "type": "overmap_special",
+    "id": "lone_home",
+    "overmaps": [
+	  { "point": [ 0, 0, 0 ], "overmap": "home_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "home_roof_north" }
+    ],
+    "locations": [ "land", "swamp", "forest" ],
+    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
+    "city_distance": [ 3, 5 ],
+    "city_sizes": [ 1, 20 ],
+    "occurrences": [ 0, 5 ]
+	},
+{
+    "type": "overmap_special",
+    "id": "lone_home",
+    "overmaps": [
+	  { "point": [ 0, 0, 0 ], "overmap": "home2_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "home2_roof_north" }
+    ],
+    "locations": [ "land", "swamp", "forest" ],
+    "connections": [ { "point": [ 0, -1, 0 ], "terrain": "road" } ],
+    "city_distance": [ 3, 5 ],
+    "city_sizes": [ 1, 20 ],
+    "occurrences": [ 0, 5 ]
 	}
 ] 

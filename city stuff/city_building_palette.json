@@ -281,11 +281,14 @@
       "d": "t_door_c",
       "w": "t_wall_w",
       ".": "t_floor",
+      " ": [ [ "t_dirt", 1 ], [ "t_grass", 5 ] ],
+      "f": "t_dirt",
       "o": "t_window_domestic"
     },
     "furniture": {
       "#": "f_bench",
       "c": "f_counter",
+      "1": "f_bench",
       "U": "f_statue", 
       "H": "f_table"
     }
