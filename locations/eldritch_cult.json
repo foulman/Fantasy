@@ -70,7 +70,7 @@
         "!          ..          !"
       ],
       "palettes": [ "cult" ],
-      "furniture": { "U": "f_burning_brazier", "H": "f_altar" },
+      "furniture": { "U": "f_burning_brazier", "H": "f_table" },
       "items": { "H": { "item": "knife_meat_cleaver", "chance": 100 } },
       "npcs": {
     "0": { "class": "cult_homage" },

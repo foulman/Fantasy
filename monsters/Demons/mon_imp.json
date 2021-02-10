@@ -111,7 +111,6 @@
         {
           "type": "spell",
           "spell_data": { "id": "hellbolt" },
-          "min_level": 2,
           "cooldown": 20,
           "monster_message": "<color_red>%1$s hurls a gout of fire!</color>"
         }

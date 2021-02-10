@@ -147,9 +147,6 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "church_roof" ],
-    "faction_owner": [
-		{ "id": "kingdom", "x": [ 1, 24 ], "y": [ 1, 24 ] }				
-      ],
     "weight": 100,
     "object": {
       "fill_ter": "t_floor",
