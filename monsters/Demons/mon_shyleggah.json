@@ -1,0 +1,33 @@
+[
+ {
+    "id": "mon_shyleggah",
+     "type": "MONSTER",
+    "name": { "str": "shyleggah" },
+    "description": "An abominable, fleshy arachnid, which moves upot upon five legs. A whip-like tentacle juts from the top. Gazing upon it fills you with dread",
+    "default_faction": "demon",
+    "bodytype": "spider",
+    "species": [ "DEMON" ],
+    "categories": [ "MONSTERS" ],
+    "diff": 2,
+    "volume": "30 L",
+    "weight": "4075 g",
+    "hp": 45,
+    "speed": 150,
+    "material": [ "iflesh" ],
+    "symbol": "s",
+    "color": "red",
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 4,
+    "melee_dice": 2,
+    "melee_dice_sides": 6,
+    "melee_cut": 4,
+    "dodge": 7,
+    "vision_day": 90,
+    "vision_night": 90,
+    "harvest": "exempt",
+    "special_attacks": [ { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.6 } ] } ],
+    "death_function": [ "MELT" ],
+    "flags": [ "SMELLS", "HEARS", "WARM", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "HARDTOSHOOT" ]
+  }
+]

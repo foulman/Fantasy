@@ -25,6 +25,19 @@
     "use_action": { "type": "learn_spell", "spells": [ "sacred_flame", "holy_ray", "deaf", "poison", "spare_dying", "poison_protect", "guardians" ] }
   },
   {
+    "id": "cleric3",
+    "type": "GENERIC",
+    "name": "Good Graces",
+    "description": "A book upon various pantheons of dieties.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "material": [ "paper" ],
+    "color": "magenta",
+    "use_action": { "type": "learn_spell", "spells": [ "force", "homeward" ] }
+  },
+  {
     "abstract": "spell_scroll",
     "name": { "str": "Spell Scroll" },
     "type": "BOOK",
@@ -98,5 +111,94 @@
     "name": { "str": "Scroll of Binding", "str_pl": "Scrolls of Binding" },
     "description": "A servant of the elders may serve others...",
     "use_action": { "type": "learn_spell", "spells": [ "esummon" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_hex",
+    "name": { "str": "Scroll of Hexing", "str_pl": "Scrolls of Hexing" },
+    "description": "Curse you!",
+    "use_action": { "type": "learn_spell", "spells": [ "hex" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_shadowmorph",
+    "name": { "str": "Scroll of Shadowmorph", "str_pl": "Scrolls of Shadowmorph" },
+    "description": "Blade of night, heed me!",
+    "use_action": { "type": "learn_spell", "spells": [ "shadowmorph" ] }
+  },
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_hellbolt",
+    "name": { "str": "Scroll of Hellbolt", "str_pl": "Scrolls of Hellbolt" },
+    "description": "Daemons, burn them!",
+    "use_action": { "type": "learn_spell", "spells": [ "hellbolt" ] }
+  },
+  {
+    "id": "hexbound",
+    "type": "GENERIC",
+    "name": "Hexbinding",
+    "description": "Ye shall need these, basic incantations of our mistress.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "material": [ "paper" ],
+    "color": "black",
+    "use_action": { "type": "learn_spell", "spells": [ "truestrike", "smokescreen", "hex_c" ] }
+  },
+  {
+    "id": "hexbound2",
+    "type": "GENERIC",
+    "name": "Blade of Shadow",
+    "description": "Bound by shadow, black as night, the mistress wills us to fight.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "material": [ "paper" ],
+    "color": "black",
+    "use_action": { "type": "learn_spell", "spells": [ "shadowmorph_c", "shadowarmor", "cause_fear" ] }
+  },
+  {
+    "id": "hexbound3",
+    "type": "GENERIC",
+    "name": "Twin Hexes",
+    "description": "A tome of advanced magics, given by Qliphoth to the best of her servants.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "material": [ "paper" ],
+    "color": "black",
+    "use_action": { "type": "learn_spell", "spells": [ "masking", "shadow_arrow" ] }
+  },
+  {
+    "id": "fiend1",
+    "type": "GENERIC",
+    "name": "On Daemons",
+    "description": "A broad list upon various types of demons, with their spells intermixed.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "material": [ "paper" ],
+    "color": "red",
+    "use_action": { "type": "learn_spell", "spells": [ "hellbolt", "toxic_cloud", "hellswipe" ] }
+  },
+  {
+    "id": "fiend2",
+    "type": "GENERIC",
+    "name": "Pacts and Rites",
+    "description": "To whoever reads this, inside is a spell upon summoning demons, gifted to us by the Dark One. Use wisely.",
+    "weight": 800,
+    "volume": 1,
+    "price": 300,
+    "symbol": "?",
+    "material": [ "paper" ],
+    "color": "red",
+    "use_action": { "type": "learn_spell", "spells": [ "hellish_rebuke", "sense_lesser_demons" ] }
   }
 ]

@@ -104,6 +104,32 @@
      "components": [ [ [ "paper", 2 ] ] ]   
   },
   { 
+    "result": "spell_scroll_hex",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "chemistry", 1 ],
+    "difficulty": 1,
+    "book_learn": [ [ "archaesth", 1 ] ],
+    "time": "15 m",
+    "tools": [ [ [ "feather_quill", -1 ], [ "survival_marker", -1 ] ] ],
+     "components": [ [ [ "paper", 2 ] ] ]   
+  },
+  { 
+    "result": "spell_scroll_shadowmorph",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ "chemistry", 1 ],
+    "difficulty": 1,
+    "book_learn": [ [ "archaesth", 1 ] ],
+    "time": "15 m",
+    "tools": [ [ [ "feather_quill", -1 ], [ "survival_marker", -1 ] ] ],
+     "components": [ [ [ "paper", 2 ] ] ]   
+  },
+  { 
     "result": "patch_ritual",
     "type": "recipe",
     "category": "CC_OTHER",

@@ -1,0 +1,121 @@
+[
+ {
+    "type": "MONSTER_FACTION",
+    "name": "demon",
+    "friendly": [ ]
+  },
+  {
+    "type": "SPECIES",
+    "id": "DEMON",
+    "anger_triggers": [ "FRIEND_DIED" ],
+    "fear_triggers": [ "HURT" ]
+  },
+  {
+    "id": "mon_mtc_imp",
+    "type": "MONSTER",
+    "name": { "str": "imp" },
+    "description": "A short demon with blood-red skin and cat-like eyes, with pair of wings growing from it's back.",
+    "default_faction": "demon",
+    "bodytype": "human",
+    "categories": [ "MONSTERS" ],
+    "species": [ "DEMON" ],
+    "volume": "20 L",
+    "weight": "30 kg",
+    "hp": 30,
+    "material": [ "flesh" ],
+    "symbol": "i",
+    "color": "red",
+    "aggression": 100,
+    "morale": 100,
+    "speed": 100,
+    "melee_skill": 2,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 1,
+    "armor_bash": 3,
+    "armor_cut": 3,
+    "armor_stab": 3,
+    "armor_bullet": 3,
+    "harvest": "demihuman",
+    "vision_day": 15,
+    "vision_night": 30,
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
+  },
+{
+    "id": "mon_mtc_imp_spearsman",
+    "copy-from": "mon_mtc_imp",
+    "type": "MONSTER",
+    "name": { "str": "imp spearman" },
+    "description": "A short demon with blood-red skin and cat-like eyes, with pair of wings growing from it's back. It holds a spear, and knows how to use it.",
+    "melee_skill": 4,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 3,
+    "dodge": 3,
+    "armor_bash": 3,
+    "armor_cut": 3,
+    "armor_stab": 3,
+    "armor_bullet": 3,
+    "death_drops": {
+      "subtype": "collection",
+      "items": [
+        { "item": "spear_steel", "prob": 100 }
+      ]
+    }
+  },
+{
+    "id": "mon_mtc_imp_swordsman",
+    "copy-from": "mon_mtc_imp",
+    "type": "MONSTER",
+    "name": { "str": "imp bladesman" },
+    "description": "A short demon with blood-red skin and cat-like eyes, with pair of wings growing from it's back. It holds a knife, and knows how to use it.",
+    "melee_skill": 4,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 3,
+    "dodge": 3,
+    "armor_bash": 3,
+    "armor_cut": 3,
+    "armor_stab": 3,
+    "armor_bullet": 3,
+    "death_drops": {
+      "subtype": "collection",
+      "items": [
+        { "item": "knife_baselard", "prob": 100 }
+      ]
+    }
+  },
+{
+    "id": "mon_mtc_imp_pyro",
+    "copy-from": "mon_mtc_imp",
+    "type": "MONSTER",
+    "name": { "str": "imp pyromancer" },
+    "description": "A short demon with blood-red skin and cat-like eyes, with pair of wings growing from it's back. It has learned basic pyromancy, and shall not hesitate to hurl fire at foes.",
+    "melee_skill": 2,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "dodge": 1,
+    "armor_bash": 3,
+    "armor_cut": 3,
+    "armor_stab": 3,
+    "armor_bullet": 3,
+    "death_drops": {
+      "subtype": "collection",
+      "items": [
+        { "item": "spell_scroll_hellbolt", "prob": 15 }
+      ]
+    },
+    "extend": {
+      "special_attacks": [
+        {
+          "type": "spell",
+          "spell_data": { "id": "hellbolt" },
+          "cooldown": 20,
+          "monster_message": "<color_red>%1$s hurls a gout of fire!</color>"
+        }
+      ],
+      "flags": [ "HIT_AND_RUN" ]
+    }
+  }
+]

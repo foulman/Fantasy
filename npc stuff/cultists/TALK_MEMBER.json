@@ -1,0 +1,34 @@
+[
+ {
+    "id": "TALK_MEMBER",
+    "type": "talk_topic",
+    "dynamic_line": [ "<greet>" ],
+    "responses": [ { "text": "<greet> How are you?", "topic": "TALK_INQUIRY" } ]
+  },
+  {
+    "id": "TALK_INQUIRY",
+    "type": "talk_topic",
+    "dynamic_line": [ "Oh, feeling <good>." ],
+    "responses": [ { "text": "That is wonderful.", "topic": "TALK_TOPICS" },
+                   { "text": "Humph.", "topic": "TALK_INSULT" } ]
+  },
+  {
+    "id": "TALK_INSULT",
+    "type": "talk_topic",
+    "dynamic_line": [ "You <name_b>." ],
+    "responses": [ { "text": "...", "topic": "TALK_DONE" } ]
+  },
+  {
+    "id": "TALK_TOPICS",
+    "type": "talk_topic",
+    "dynamic_line": [ "So, what can I do for you?" ],
+    "responses": [ { "text": "Oh, nothing", "topic": "TALK_DONE" },
+                   { "text": "What is your opinion upon this place?", "topic": "TALK_OPINION" } ]
+  },
+  {
+    "id": "TALK_OPINION",
+    "type": "talk_topic",
+    "dynamic_line": [ "It seems quite nice. I have been a memeber for some time now, and everyone here is absolutley wonderful. I feel like I belong." ],
+    "responses": [ { "text": "Hmmm.", "topic": "TALK_NONE" } ]
+  }
+]

@@ -164,5 +164,122 @@
     "material": "leather",
     "symbol": "o",
 	"color": "brown"
-	}
+	},
+{
+    "id": "bone_torch",
+    "type": "TOOL",
+    "name": { "str": "Candlelight Femur", "str_pl": "Candlelight Femurs" },
+    "description": "This is a large bone, with a lit candle mounted to one end. It has been engraved with several runes, and seems to hold magical power. The candle never seems to extinguish.",
+    "weight": "831 g",
+    "volume": "750 ml",
+    "price": 10000,
+    "price_postapoc": 10000,
+    "to_hit": 1,
+    "bashing": 8,
+    "material": [ "bone" ],
+    "symbol": "/",
+    "color": "white",
+    "techniques": [ "WBLOCK_1" ],
+    "charges_per_use": 1,
+        "use_action": [ { "type": "cast_spell", "spell_id": "bloodflame_main", "no_fail": true, "level": 15, "need_wielding": true }, 
+                        { "type": "firestarter", "moves": 30 } ],
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "crystallized_mana": 50 } } ],
+    "flags": [ "FIRE", "LIGHT_8", "FLAMING", "TRADER_AVOID", "MAGIC_FOCUS" ]
+  },
+  {
+    "type": "GENERIC",
+    "id": "eldritch_lifesap",
+    "copy-from": "longsword",
+    "looks_like": "longsword",
+    "name": "Lifesteal Longsword",
+    "description": "A black longsword, engraved with runes and emits a green smog. When an opponent is struck, a portion of their life is returned to the wielder.",
+    "proportional": { "price": 2.3, "weight": 0.9 },
+    "extend": { "flags": [ "MAGIC_FOCUS" ] },
+    "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_lifesteal_ench" }, { "id": "mtc_rune_wield_lifesteal_ench" } ] }
+  },
+  {
+    "id": "dark_ring",
+    "type": "ARMOR",
+    "name": { "str": "Ring of N'ythlost" },
+    "description": "A enchanted ring, inscribed with strange runes and symbols. It gives the wearer the ability to take on a ghastly form at will.",
+    "weight": "50 g",
+    "volume": "2 ml",
+    "price": 2000,
+    "price_postapoc": 10,
+    "material": [ "copper" ],
+    "symbol": "[",
+    "looks_like": "ring_purity",
+    "color": "brown",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "STRENGTH", "add": 3 },
+            { "value": "DEXTERITY", "add": 3 },
+            { "value": "PERCEPTION", "add": 3 }
+          ],
+          "mutations": [
+            "ARM_TENTACLES_8",
+            "MOUTH_TENTACLES",
+            "MORE_PAIN",
+            "HORNS_CURLED",
+            "EATDEAD",
+            "HOOVES",
+            "CLAWS_TENTACLE",
+            "BARBS",
+            "CHITIN",
+            "QUILLS"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "mask_majora",
+    "repairs_like": "mask_gas",
+    "type": "ARMOR",
+    "category": "armor",
+    "name": { "str": "Majoras' Mask" },
+    "description": "A purple mask, dcorated with feathers, beads, etc. The center herbors two errie, bulging eyes, with slits cut for sight. It seems to call to you.",
+    "weight": "228 g",
+    "volume": "750 ml",
+    "price": 4000,
+    "price_postapoc": 250,
+    "to_hit": -3,
+    "material": [ "wood" ],
+    "symbol": "[",
+    "looks_like": "glasses_safety",
+    "color": "white",
+    "covers": [ "eyes", "mouth" ],
+    "coverage": 95,
+    "encumbrance": 10,
+    "warmth": 5,
+    "material_thickness": 3,
+    "environmental_protection": 1,
+    "flags": [ "WATER_FRIENDLY", "STURDY", "ONLY_ONE", "NO_TAKEOFF", "TRADER_AVOID" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "STRENGTH", "add": 1 },
+            { "value": "DEXTERITY", "add": 1 },
+            { "value": "PERCEPTION", "add": 1 }
+          ],
+          "mutations": [
+            "GOODCARDIO",
+            "SPIRITUAL",
+            "SCHIZOPHRENIC",
+            "MASOCHIST",
+            "CANNIBAL",
+            "PSYCHOPATH",
+            "majora_spells"
+          ]
+        }
+      ]
+    }
+  }
 ]

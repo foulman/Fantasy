@@ -124,8 +124,17 @@
     "id": "COTB_max_bloodshot",
     "name": "Otherworldly Magics",
     "points": 2,
-    "description": "An extraterrestrial power haunts these robes, gifting you arcane power",
+    "description": "An extraterrestrial power haunts these robes, gifting you arcane power.",
     "flags": [ "NON_THRESH" ],
     "spells_learned": [ [ "bloodshot", 15 ] ]
+  },
+{
+    "type": "mutation",
+    "id": "majora_spells",
+    "name": "Masks Callings",
+    "points": 2,
+    "description": "An extraterrestrial power haunts this mask.",
+    "flags": [ "NON_THRESH" ],
+    "spells_learned": [ [ "shadowmorph", 15 ], [ "hex", 20 ], [ "multi_bloodshot", 7 ] ]
   }
 ]
