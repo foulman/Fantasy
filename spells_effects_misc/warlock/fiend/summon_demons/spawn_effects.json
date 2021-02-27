@@ -21,7 +21,10 @@
     "energy_source": "MANA",
     "shape": "blast",
     "effect": "summon",
-    "effect_str": "mon_mtc_imp_spearsman"
+    "effect_str": "mon_mtc_imp_spearsman",
+    "min_duration": 3000,
+    "max_duration": 15000,
+    "duration_increment": 400
   },
   {
     "type": "SPELL",
@@ -45,7 +48,10 @@
     "energy_source": "MANA",
     "shape": "blast",
     "effect": "summon",
-    "effect_str": "mon_mtc_imp_swordsman"
+    "effect_str": "mon_mtc_imp_swordsman",
+    "min_duration": 3000,
+    "max_duration": 15000,
+    "duration_increment": 400
   },
   {
     "type": "SPELL",
@@ -69,6 +75,9 @@
     "energy_source": "MANA",
     "shape": "blast",
     "effect": "summon",
-    "effect_str": "mon_mtc_imp_pyro"
+    "effect_str": "mon_mtc_imp_pyro",
+    "min_duration": 3000,
+    "max_duration": 15000,
+    "duration_increment": 400
   }
 ]

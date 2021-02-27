@@ -19,6 +19,16 @@
     "rating": "good",
     "base_mods": { "per_mod": [ 2 ], "dex_mod": [ 2 ], "str_mod": [ 2, 2 ], "speed_mod": [ 20 ] }
   },
+{
+    "type": "effect_type",
+    "id": "mu_effect_bane",
+    "name": [ "Bane" ],
+    "desc": [ "Your body is filled with positive energy, giving you a good boost." ],
+    "apply_message": "Your body is filled with positive energy!",
+    "remove_message": "The positive energy wanes and you return to normal.",
+    "rating": "bad",
+    "base_mods": { "dex_mod": [ -1 ], "speed_mod": [ -10 ] }
+  },
  {
     "type": "effect_type",
     "id": "sp_remove",
@@ -118,5 +128,62 @@
     "base_mods": { "hurt_min": [ 1 ], "hurt_chance": [ 1 ], "hurt_chance_bot": [ 15 ] },
     "scaling_mods": { "hurt_chance": [ 1 ] },
     "show_in_info": true
+  },
+{
+    "type": "effect_type",
+    "id": "mu_effect_rm_divine_favor",
+    "name": [ "Blessed" ],
+    "desc": [ "Your body is filled with positive energy, giving you a good boost." ],
+    "apply_message": "Your body is filled with positive energy!",
+    "remove_message": "The positive energy wanes and you return to normal.",
+    "removes_effects": [ "mu_effect_add_divine_favor" ]
+  },
+  {
+    "type": "effect_type",
+    "id": "mu_effect_add_divine_favor",
+    "name": [ "Divine Favor" ],
+    "desc": [ "You feel the rush of stimulants in your body!" ],
+    "apply_message": "You feel a rush as the chemicals flow through your body!",
+    "decay_messages": [ [ "Your divine favor has ended.", "bad" ] ],
+    "rating": "good",
+	"int_add_val": 1,
+    "max_intensity": 3,
+    "removes_effects": [ "bite", "bleed", "winded" ],
+    "base_mods": { "str_mod": [ 2 ], "dex_mod": [ 2 ] },
+    "scaling_mods": { "str_mod": [ 1 ], "dex_mod": [ 1 ] }
+  },
+{
+    "type": "effect_type",
+    "id": "mu_nightsight_eff",
+    "name": [ "Nightsight" ],
+    "desc": [ "You magically shift your vision to see the world through the lens of magic." ],
+    "apply_message": "Your sight adjusts.",
+    "remove_message": "Your vision returns to normal.",
+    "rating": "good",
+	"base_mods": { "per_mod": [ 2 ] },
+    "flags": [ "EFFECT_NIGHT_VISION" ]
+  },
+{
+    "type": "effect_type",
+    "id": "mu_nightsight_eff",
+    "name": [ "Predator Sight" ],
+    "desc": [ "You magically shift your vision to see the world through the lens of magic." ],
+    "apply_message": "Your sight adjusts.",
+    "remove_message": "Your vision returns to normal.",
+    "rating": "good",
+	"base_mods": { "per_mod": [ 2 ] },
+    "flags": [ "EFFECT_NIGHT_VISION" ]
+  },
+{
+    "type": "effect_type",
+    "id": "entangled",
+    "name": [ "Entangled" ],
+    "desc": [ "The very plants themselves reach up from underground and grab your foes." ],
+    "max_intensity": 1,
+    "int_add_val": 1,
+    "apply_message": "Roots and vines entangle your foes to slow them!",
+    "remove_message": "The roots and vines wither up and die.",
+    "base_mods": { "speed_mod": [ -60 ] },
+    "scaling_mods": { "speed_mod": [ -10 ] }
   }
 ]
