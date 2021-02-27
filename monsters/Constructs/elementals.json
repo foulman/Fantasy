@@ -1,0 +1,42 @@
+[
+ {
+    "id": "mon_mu_flaming_sphere",
+    "type": "MONSTER",
+    "name": { "str": "flaming sphere" },
+    "description": "A large nearly waist high sphere of solid flaming plasma that rolls around, burning everything in its path.",
+    "default_faction": "player",
+    "bodytype": "blob",
+    "species": [ "CONSTRUCT" ],
+    "diff": 2,
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 400,
+    "speed": 75,
+    "symbol": "O",
+    "color": "red",
+    "phase": "PLASMA",
+	"luminance": 10,
+    "aggression": 100,
+    "morale": 100,
+    "melee_skill": 10,
+    "melee_dice": 10,
+    "melee_dice_sides": 10,
+    "melee_damage": [
+	{
+    "damage_type": "heat",
+    "amount": 10.0,
+    "armor_penetration": 1,
+    "armor_multiplier": 0.5,
+    "damage_multiplier": 1
+	}
+		],
+    "dodge": 0,
+    "armor_bash": 50,
+	"armor_cut": 50,
+	"emit_fields": [ { "emit_id": "emit_flaming_sphere", "delay": "1 s" } ],
+    "vision_night": 5,
+	"vision_day": 15,
+    "harvest": "exempt",
+    "flags": [ "SEES", "HEARS", "NOHEAD", "WARM", "FIREY", "FIREPROOF", "NO_BREATHE", "PLASTIC" ]
+  }
+]

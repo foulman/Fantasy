@@ -86,5 +86,252 @@
         }
       ]
     }
+  },
+{
+    "id": "hide_goblin_aura",
+    "type": "ARMOR",
+    "description": "You wear it.",
+    "volume": "1 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "stealth field", "str_pl": "stealth fields" },
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "HIDE_GOBLINOID" ] }
+      ]
+    },
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE" ]
+  },
+ {
+    "id": "cantrip_item",
+    "type": "TOOL_ARMOR",
+    "name": "cantrip",
+    "description": "This is a representation of your cantrip spell.  You can use this as a substitute for many minor tools.  You wear it.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "max_charges": 0,
+    "initial_charges": 0,
+    "charges_per_use": 0,
+    "turns_per_charge": 0,
+    "ammo": "NULL",
+    "use_action": [
+      "HOTPLATE",
+	  { "type": "firestarter", "moves": 200, "moves_slow": 200, "need_sunlight": false },
+	  "SPRAY_CAN",
+      { "type": "inscribe", "verb": "Write", "gerund": "Written", "on_terrain": true, "material_restricted": false },
+      "MOP",
+      "SIPHON"
+    ],
+    "flags": [ "PERSONAL", "TRADER_AVOID", "NO_SALVAGE", "PSEUDO", "WRITE_MESSAGE", "FIRESTARTER" ]
+  },
+{
+    "type": "ARMOR",
+    "id": "faith_shield",
+    "name": { "str": "shield of faith" },
+	"symbol": "O",
+	"color": "white",
+    "volume": "1 ml",
+    "description": "A nearly invisible disc of holy power that floats around you, protecting you from minor harm.",
+    "flags": [ "AURA", "STURDY", "BLOCK_WHILE_WORN", "ONLY_ONE", "TRADER_AVOID" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "ARMOR_CUT", "add": -3 }, { "value": "ARMOR_BASH", "add": -3 }, { "value": "ARMOR_STAB", "add": -3 }, { "value": "ARMOR_BULLET", "add": -3 } ]
+        }
+      ]
+    }
+  },
+{
+    "type": "ARMOR",
+    "id": "phantasmal_armor",
+    "name": { "str": "phantasmal armor" },
+	"symbol": "O",
+	"color": "white",
+    "volume": "1 ml",
+    "description": "A nearly invisible phantasmal suit of armor covering you, protecting you from harm.",
+    "flags": [ "AURA", "STURDY" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "ARMOR_CUT", "add": -6 }, { "value": "ARMOR_BASH", "add": -6 }, { "value": "ARMOR_STAB", "add": -6 }, { "value": "ARMOR_BULLET", "add": -6 } ]
+        }
+      ]
+    }
+  },
+{
+    "id": "mu_quicken_step_token",
+    "type": "TOOL_ARMOR",
+    "symbol": "*",
+    "color": "red",
+    "name": "Mage quicken step token",
+    "description": "This is a placeholder object to determine what class you are for crafting purposes.  You can't drop it.",
+    "volume": "1 ml",
+    "flags": [ "AURA", "TRADER_AVOID", "NO_SALVAGE", "PSEUDO", "NO_REPAIR" ],
+	"relic_data": { "passive_effects": [ { "mutations": [ "FLEET", "PARKOUR" ] } ] }
+  },
+{
+    "id": "mu_light_item",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": "light",
+    "description": "A small manifestation of magical power, it is a sphere of force that compresses and agitates air molecules within it with magical power, thereby creating light.  It will hover above your head, or you can also throw it.",
+    "volume": "1 ml",
+    "price": 0,
+	"bashing": 0,
+    "symbol": "*",
+    "color": "white",
+    "covers": [ "HEAD" ],
+    "flags": [ "LIGHT_30", "AURA", "SEMITANGIBLE", "ZERO_WEIGHT" ]
+  },
+{
+    "id": "mage_active_blur_token",
+    "type": "TOOL_ARMOR",
+    "symbol": "*",
+    "color": "red",
+    "name": "Mage active blur token",
+    "description": "This is a placeholder object to determine what class you are for crafting purposes.  You can't drop it.",
+    "volume": "1 ml",
+    "flags": [ "AURA", "TRADER_AVOID", "NO_SALVAGE", "PSEUDO", "NO_REPAIR", "ONLY_ONE" ],
+	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 2 } ] } ] }
+  },
+{
+    "id": "mu_spell_item_enlarge",
+    "type": "ARMOR",
+    "description": "You wear it.",
+    "volume": "1 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "enlarge", "str_pl": "enlarge" },
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "ENLARGE_HUGE" ] }
+      ]
+    },
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE" ]
+  },
+{
+    "type": "ARMOR",
+    "id": "elemental_armor",
+    "name": { "str": "elemental armor" },
+	"symbol": "O",
+	"color": "white",
+    "volume": "1 ml",
+    "description": "A nearly invisible suit of armor covering you, protecting you from elemental harm.",
+    "flags": [ "AURA", "STURDY" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "ARMOR_COLD", "add": -6 }, { "value": "ARMOR_ELEC", "add": -6 }, { "value": "ARMOR_ACID", "add": -6 }, { "value": "ARMOR_HEAT", "add": -6 } ]
+        }
+      ]
+    }
+  },
+{
+    "id": "mu_tend_wound_item",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": { "str": "wound tending magic" },
+    "description": "A orb of soft light, you apply it to a specific wound to tend to it properly.",
+    "volume": "1 ml",
+    "price": 600,
+    "price_postapoc": 200,
+    "symbol": "!",
+    "color": "white",
+    "charges": 1,
+    "flags": [ "NO_INGEST", "TRADER_AVOID", "NO_SALVAGE", "ZERO_WEIGHT" ],
+    "use_action": { "type": "heal", "disinfectant_power": 5, "bite": 0.95, "bandages_power": 5, "bleed": 5, "move_cost": 500 }
+  },
+{
+    "id": "mu_hide_undead_item",
+    "type": "ARMOR",
+    "description": "You wear it.",
+    "volume": "1 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "stealth field", "str_pl": "stealth fields" },
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "MU_MUT_HIDE_UNDEAD" ] }
+      ]
+    },
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE" ]
+  },
+{
+    "id": "hide_demons_item",
+    "type": "ARMOR",
+    "description": "You wear it.",
+    "volume": "1 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "stealth field", "str_pl": "stealth fields" },
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "MUT_HIDE_DEMONS" ] }
+      ]
+    },
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE" ]
+  },
+{
+    "id": "mu_barkskin_token",
+    "type": "TOOL_ARMOR",
+    "symbol": "*",
+    "color": "red",
+    "name": "druid barkskin token",
+    "description": "This is a placeholder object to determine what class you are for crafting purposes.  You can't drop it.",
+    "flags": [ "AURA", "TRADER_AVOID", "NO_SALVAGE", "PSEUDO", "NO_REPAIR", "ZERO_WEIGHT" ],
+	"relic_data": { "passive_effects": [ { "mutations": [ "BARKSKIN" ] } ] }
+  },
+  {
+    "id": "mu_longstride_token",
+    "type": "TOOL_ARMOR",
+    "symbol": "*",
+    "color": "red",
+    "name": "druid longstride token",
+    "description": "This is a placeholder object to determine what class you are for crafting purposes.  You can't drop it.",
+    "flags": [ "AURA", "TRADER_AVOID", "NO_SALVAGE", "PSEUDO", "NO_REPAIR", "ZERO_WEIGHT" ],
+	"relic_data": { "passive_effects": [ { "mutations": [ "FLEET", "PARKOUR" ] } ] }
+  },
+{
+    "id": "enlarged_item",
+    "type": "ARMOR",
+    "description": "You wear it.",
+    "volume": "1 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "stealth field", "str_pl": "stealth fields" },
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "ENLARGE_HUGE" ] }
+      ]
+    },
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE" ]
+  },
+{
+    "id": "ebuckler",
+    "type": "ARMOR",
+    "name": "ethereal buckler",
+    "category": "armor",
+    "description": "A small buckler, this light-magenta one shimmers magically.",
+    "weight": 1814,
+    "volume": 10,
+    "price": 0,
+    "bashing": 8,
+    "material": "steel",
+    "symbol": "[",
+    "color": "magenta",
+    "covers": [ "hand_l", "hand_r" ],
+    "coverage": 90,
+    "encumbrance": 10,
+    "material_thickness": 3,
+    "techniques": [ "WBLOCK_2" ],
+    "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN", "TRADER_AVOID", "UNBREAKABLE_MELEE", "NO_REPAIR", "NO_SALVAGE" ]
   }
 ]

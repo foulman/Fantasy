@@ -110,12 +110,46 @@
       "special_attacks": [
         {
           "type": "spell",
-          "spell_data": { "id": "hellbolt" },
+          "spell_data": { "id": "hellbolt", "min_level": 2 },
           "cooldown": 20,
           "monster_message": "<color_red>%1$s hurls a gout of fire!</color>"
         }
       ],
       "flags": [ "HIT_AND_RUN" ]
     }
+  },
+{
+    "id": "mon_mtc_hellhound",
+    "type": "MONSTER",
+    "name": "hellhound",
+    "description": "A large, vicious, and evil wolflike beast origonating from the Abyss. Often tamed and ridden by demons.",
+    "default_faction": "demon",
+    "bodytype": "dog",
+    "species": [ "DEMON" ],
+    "volume": "32625 ml",
+    "weight": 32625,
+    "hp": 80,
+    "speed": 145,
+    "material": [ "flesh" ],
+    "symbol": "W",
+    "color": "red",
+    "morale": 60,
+    "aggression": 40,
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "melee_dice_sides": 6,
+    "melee_cut": 8,
+    "dodge": 3,
+    "armor_bash": 3,
+    "armor_cut": 2,
+    "vision_night": 25,
+    "vision_day": 30,
+    "harvest": "mammal_fur",
+    "path_settings": { "max_dist": 12 },
+    "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
+    "placate_triggers": [ "MEAT" ],
+    "death_function": [ "NORMAL" ],
+    "special_attacks": [ [ "LUNGE", 15 ], [ "HOWL", 5 ] ],
+    "flags": [ "SEES", "HEARS", "SMELLS", "GOODHEARING", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "HIT_AND_RUN" ]
   }
 ]

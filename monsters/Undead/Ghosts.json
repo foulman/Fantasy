@@ -7,7 +7,7 @@
     "default_faction": "player",
     "bodytype": "human",
     "categories": [ "MONSTERS" ],
-    "species": [ "GOBLINOID" ],
+    "species": [ "UNDEAD", "HUMAN" ],
     "volume": "54 L",
     "weight": "70 kg",
     "hp": 80,
