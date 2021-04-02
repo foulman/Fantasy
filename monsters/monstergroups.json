@@ -70,5 +70,23 @@
       { "monster": "mon_mtc_skeleton_warrior_bash_e", "freq": 15, "cost_multiplier": 1 },
       { "monster": "mon_mtc_skeleton_warrior_stab_e", "freq": 15, "cost_multiplier": 1 }
     ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_DMBB_ELDRITCH",
+    "default": "mon_shyleggah",
+    "monsters": [
+      { "monster": "mon_shyleggah", "freq": 115, "cost_multiplier": 1 }
+    ]
+  },
+{
+    "type": "monstergroup",
+    "name": "GROUP_DMBB_ELDRITCH_WATER",
+    "default": "mon_quellagna",
+    "monsters": [
+      { "monster": "mon_quellagna", "freq": 115, "cost_multiplier": 1 },
+      { "monster": "mon_quellagna_fisher", "freq": 75, "cost_multiplier": 1 },
+      { "monster": "mon_quellagna_shaman", "freq": 35, "cost_multiplier": 1 }
+    ]
   }
 ]

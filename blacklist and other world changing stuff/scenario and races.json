@@ -11,7 +11,7 @@
     "ident": "fantasy_race",
     "name": "Fantasy race",
     "points": 0,
-    "description": "You were little more than a commoner who found a shimmering portal by accident and whose curiosity overtook them. Now you find yourself in the wilderness of a strange world with no way back to your own. What's more is that where there were signs of a civilization there's now only armies of undead. It would seem that this world suffered a necromantic catastrophe. Hopefully surviving here won't prove too much of a challenge.",
+    "description": "You are a commoner, a citizen of the Kingdom. You find yourself wandering; to somewhere, something.",
     "start_name": "Wilderness",
     "allowed_locs": [ "sloc_forest", "sloc_field" ],
     "professions": [ "fantasy_race_human", "fantasy_race_kath", "fantasy_race_lupen", "fantasy_race_lhizhar", "fantasy_race_ravian", "fantasy_race_phaloce", "fantasy_race_sharmer", "fantasy_race_elf", "fantasy_race_dwarf", "fantasy_race_venusian", "fantasy_race_ratten", "fantasy_race_mousen", "fantasy_race_minotaur", "fantasy_race_ursa", "fantasy_race_anteris", "fantasy_race_spinoire" ],

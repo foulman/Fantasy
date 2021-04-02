@@ -4,7 +4,8 @@
     "id": "blacksmith_city1",
     "name": "blacksmith",
     "sym": "╦",
-    "color": "dark_gray"
+    "color": "dark_gray",
+    "flags": [ "SIDEWALK" ]
 	},
 	{
     "type": "overmap_terrain",
@@ -54,7 +55,8 @@
     "name": "home",
     "sym": ">",
     "see_cost": 5,
-    "color": "green"
+    "color": "green",
+    "flags": [ "SIDEWALK" ]
 	},
 	{
     "type": "overmap_terrain",
@@ -62,7 +64,8 @@
     "name": "home",
     "sym": ">",
     "see_cost": 5,
-    "color": "green"
+    "color": "green",
+    "flags": [ "SIDEWALK" ]
 	},
 	{
     "type": "overmap_terrain",
@@ -86,12 +89,13 @@
     "name": "general store",
     "sym": ">",
     "see_cost": 5,
-    "color": "yellow"
+    "color": "yellow",
+    "flags": [ "SIDEWALK" ]
 	},
 {
     "type": "overmap_terrain",
     "id": "generalstore_roof",
-    "name": "general store roof",
+    "name": "roof",
     "sym": ">",
     "see_cost": 5,
     "color": "yellow"
@@ -102,12 +106,13 @@
     "name": "infirmary",
     "sym": ">",
     "see_cost": 5,
-    "color": "pink"
+    "color": "pink",
+    "flags": [ "SIDEWALK" ]
 	},
 {
     "type": "overmap_terrain",
     "id": "infirmary_roof",
-    "name": "infirmary roof",
+    "name": "roof",
     "sym": ">",
     "see_cost": 5,
     "color": "pink"
@@ -182,14 +187,41 @@
     "name": "church",
     "sym": "C",
     "see_cost": 5,
-    "color": "magenta"
+    "color": "magenta",
+    "flags": [ "SIDEWALK" ]
 	},
 {
     "type": "overmap_terrain",
     "id": "church_roof",
-    "name": "church roof",
+    "name": "roof",
     "sym": "C",
     "see_cost": 5,
     "color": "magenta"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "carpentry_workshop",
+    "name": "carpentry workshop",
+    "sym": "C",
+    "see_cost": 5,
+    "color": "yellow",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
+    "id": "cemetary_mtc",
+    "name": "cemetery",
+    "sym": "#",
+    "see_cost": 5,
+    "color": "white",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
+    "id": "cemetary_roof",
+    "name": "roof",
+    "sym": "#",
+    "see_cost": 5,
+    "color": "white"
 	}
 ]

@@ -33,7 +33,7 @@
         "            S    S      "
       ],
       "palettes": [ "catacombs" ],
-      "furniture": { "U": "f_statue", "H": "f_table" }
+      "furniture": { "U": "f_table", "H": "f_table" }
     }
   }, 
   {
@@ -515,7 +515,7 @@
       "furniture": { "C": "f_coffin_c", "B": "f_bed", "L": "f_hanging_lantern", "c": "f_chair", "t": "f_table"  },
       "monster": { "x": { "monster": "mon_mtc_goblin_necromancer", "chance": 100 } },
       "items": {
-      "t": [ { "item": "spellbook_loot_0", "chance": 100, "repeat": [ 1, 3 ] }, { "item": "lair_loot_generic", "chance": 100, "repeat": [ 4, 8 ] }, { "item": "potions_common", "chance": 100, "repeat": [ 1, 3 ] } ]
+      "t": [ { "item": "spell_scrolls_wizard1", "chance": 100, "repeat": [ 1, 3 ] }, { "item": "lair_loot_generic", "chance": 100, "repeat": [ 4, 8 ] } ]
     },
       "sealed_item": {
       "C": {

@@ -489,7 +489,7 @@
         "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "NULL": 10 } } ]
   },
   {
-    "id": "ench_tat_fball",
+    "id": "ench_tat_flamestrike",
     "type": "TOOL_ARMOR",
     "category": "clothing",
     "symbol": "3",
@@ -503,9 +503,9 @@
     "warmth": 0,
     "coverage": 0,
         "charges_per_use": 1,
-        "use_action": { "type": "cast_spell", "spell_id": "fireball", "no_fail": true, "level": 5, "need_worn": true },
-	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "NULL": 5 } } ]
+        "use_action": { "type": "cast_spell", "spell_id": "mu_c_spell_flamestrike", "no_fail": true, "level": 1, "need_worn": true },
+	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "NULL": 3 } } ]
   },
   {
     "id": "ench_tat_protect_1",

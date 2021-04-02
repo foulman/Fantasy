@@ -1,0 +1,24 @@
+[
+{
+    "type": "clothing_mod",
+    "id": "element_fire_armor",
+    "flag": "element_fire_armor",
+    "item": "crystallized_mana",
+    "implement_prompt": "Enchant with flame magic",
+    "destroy_prompt": "Dispel magic",
+    "mod_value": [
+      { "type": "fire", "value": 0.75, "round_up": true, "proportion": [ "thickness" ] }
+    ]
+  },
+{
+    "type": "clothing_mod",
+    "id": "element_acid_armor",
+    "flag": "element_acid_armor",
+    "item": "crystallized_mana",
+    "implement_prompt": "Enchant with acrid magic",
+    "destroy_prompt": "Dispel magic",
+    "mod_value": [
+      { "type": "acid", "value": 0.75, "round_up": true, "proportion": [ "thickness" ] }
+    ]
+  }
+]

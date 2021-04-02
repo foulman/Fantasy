@@ -4,13 +4,12 @@
     "id": "raw_meat",
     "subtype": "distribution",
     "items": [
-      [ "meat", 100 ],
-      [ "stomach", 100 ],
-      [ "lung", 100 ],
-      [ "liver", 100 ],
-      [ "brain", 100 ],
-      [ "kidney", 100 ],
-      [ "sweetbread", 100 ]
+      { "item": "meat", "prob": 100, "count-min": 10, "count-max": 50 },
+	{ "item": "stomach", "prob": 100, "count-min": 1, "count-max": 5 },
+	{ "item": "lung", "prob": 100, "count-min": 2, "count-max": 10 },
+	{ "item": "liver", "prob": 100, "count-min": 1, "count-max": 5 },
+	{ "item": "kidney", "prob": 100, "count-min": 2, "count-max": 5 },
+	{ "item": "sweetbread", "prob": 100, "count-min": 10, "count-max": 50 }
     ]
   },
   {
@@ -59,6 +58,32 @@
     "subtype": "distribution",
     "items": [
       [ "mask_majora", 100 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "spell_scrolls_wizard1",
+    "subtype": "distribution",
+    "items": [
+      [ "spell_scroll_mu_spell_armor", 20 ],
+      [ "spell_scroll_firebolt", 30 ],
+      [ "spell_scroll_magic_stone_mage", 30 ],
+      [ "spell_scroll_shield", 15 ],
+      [ "spell_scroll_magic_sword", 15 ],
+      [ "spell_scroll_mu_spell_light", 15 ],
+      [ "spell_scroll_mu_spell_darkness", 15 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "lair_loot_generic",    
+    "items": [
+      { "group": "jewelry_safe", "prob": 30 },
+      { "group": "jewelry_front", "prob": 8 },
+      { "item": "bone_human", "prob": 60, "count-min": 1, "count-max": 5 },
+      { "item": "copper_coin", "prob": 60, "count-min": 10, "count-max": 300 },
+      { "item": "silver_coin", "prob": 30, "count-min": 10, "count-max": 50 },
+      { "item": "gold_coin", "prob": 3, "count-min": 1, "count-max": 5 }
     ]
   }
 ]

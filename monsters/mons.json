@@ -529,7 +529,7 @@
       "special_attacks": [
         {
           "type": "spell",
-          "spell_data": { "id": "necromancer_zombie" },
+          "spell_data": { "id": "mon_goblin_necromancer_target" },
           "cooldown": 25,
           "monster_message": "<color_yellow>%1$s performs a hand gesture...</color>"
         }

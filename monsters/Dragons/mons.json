@@ -320,7 +320,7 @@
       "WARM",
       "SWIMS",
       "ATTACKMON",
-      "FIREPROOF",
+      "COLDPROOF",
       "PUSH_MON",
       "FLIES"
     ]
@@ -378,7 +378,7 @@
       "WARM",
       "SWIMS",
       "ATTACKMON",
-      "FIREPROOF",
+      "ELECTRIC",
       "PUSH_MON",
       "FLIES"
     ]
