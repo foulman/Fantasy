@@ -122,7 +122,7 @@
     "id": "mon_mtc_hellhound",
     "type": "MONSTER",
     "name": "hellhound",
-    "description": "A large, vicious, and evil wolflike beast origonating from the Abyss. Often tamed and ridden by demons.",
+    "description": "A large, vicious, wolflike beast origonating from the Abyss. Often tamed and ridden by demons.",
     "default_faction": "demon",
     "bodytype": "dog",
     "species": [ "DEMON" ],
@@ -151,5 +151,97 @@
     "death_function": [ "NORMAL" ],
     "special_attacks": [ [ "LUNGE", 15 ], [ "HOWL", 5 ] ],
     "flags": [ "SEES", "HEARS", "SMELLS", "GOODHEARING", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "HIT_AND_RUN" ]
-  }
+  },
+{
+    "id": "mon_mtc_fyllirbam",
+    "type": "MONSTER",
+    "name": { "str": "fyllirbam" },
+    "description": "A large, humanoid demon from one of the regions in the Abyss. They harbor a broad range of colors, sizes, and bodily features.",
+    "default_faction": "demon",
+    "bodytype": "human",
+    "categories": [ "MONSTERS" ],
+    "species": [ "DEMON" ],
+    "volume": "70 L",
+    "weight": "120 kg",
+    "hp": 75,
+    "material": [ "flesh" ],
+    "symbol": "&",
+    "color": "pink",
+    "aggression": 100,
+    "morale": 100,
+    "speed": 100,
+    "melee_skill": 4,
+    "melee_dice": 3,
+    "melee_dice_sides": 3,
+    "dodge": 3,
+    "armor_bash": 9,
+    "armor_cut": 9,
+    "armor_stab": 9,
+    "armor_bullet": 9,
+    "harvest": "demihuman",
+    "vision_day": 25,
+    "vision_night": 40,
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
+  },
+{
+    "id": "mon_mtc_demon_warrior",
+    "copy-from": "mon_mtc_fyllirbam",
+    "type": "MONSTER",
+    "name": { "str": "demon warrior" },
+    "description": "A large, humanoid demon from one of the regions in the Abyss. It holds a variety of weapons, with knowledge upon their use, and wears a suit of armor.",
+    "melee_skill": 6,
+    "melee_dice": 5,
+    "melee_dice_sides": 5,
+    "dodge": 4,
+    "armor_bash": 25,
+    "armor_cut": 25,
+    "armor_stab": 25,
+    "armor_bullet": 25,
+    "death_drops": {
+      "subtype": "collection",
+      "items": [
+        { "item": "armguard_larmor", "prob": 100 },
+        { "item": "boots_larmor", "prob": 100 },
+        { "item": "gauntlets_larmor", "prob": 100 },
+        { "item": "helmet_larmor", "prob": 100 },
+        { "item": "legguard_lightplate", "prob": 100 },
+        { "item": "chainmail_vest", "prob": 100 },
+        { "item": "knife_baselard", "prob": 100 },
+        { "item": "spear_steel", "prob": 100 }
+      ]
+    }
+  },
+{
+    "id": "mon_mtc_demon_mage",
+    "copy-from": "mon_mtc_fyllirbam",
+    "type": "MONSTER",
+    "name": { "str": "demon spellcaster" },
+    "description": "A large, humanoid demon from one of the regions in the Abyss. Within it's hands, you can see magical dust radiating.",
+    "melee_skill": 4,
+    "melee_dice": 3,
+    "melee_dice_sides": 3,
+    "dodge": 3,
+    "armor_bash": 9,
+    "armor_cut": 9,
+    "armor_stab": 9,
+    "armor_bullet": 9,
+    "death_drops": {
+      "subtype": "collection",
+      "items": [
+        { "item": "spell_scroll_hellbolt", "prob": 15 }
+      ]
+    },
+    "extend": {
+      "special_attacks": [
+        {
+          "type": "spell",
+          "spell_data": { "id": "mon_demon_mage_target" },
+          "cooldown": 10,
+          "monster_message": "<color_red>%1$s sways and murmurs!</color>"
+        }
+      ],
+      "flags": [ "HIT_AND_RUN" ]
+    }
+  } 
 ]

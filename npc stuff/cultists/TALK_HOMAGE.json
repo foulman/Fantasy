@@ -10,7 +10,8 @@
     "type": "talk_topic",
     "dynamic_line": [ "Oh, feeling <good>." ],
     "responses": [ { "text": "That is wonderful.", "topic": "TALK_TOPICS3" },
-                   { "text": "Humph.", "topic": "TALK_INSULT" } ]
+                   { "text": "Humph.", "topic": "TALK_INSULT" },
+                   { "text": "See ya.", "topic": "TALK_DONE" } ]
   },
   {
     "id": "TALK_TOPICS3",
@@ -18,10 +19,11 @@
     "dynamic_line": [ "So, what can I do for you?" ],
     "responses": [
                    { "text": "I noticed your robes are decorated. What do you do?", "topic": "TALK_JOB2" },
-                   { "text": "What is your opinion upon this place?", "topic": "TALK_OPINION3" } ]
+                   { "text": "What is your opinion upon this place?", "topic": "TALK_THOUGHTS3" },
+                   { "text": "Nothing, really.", "topic": "TALK_DONE" } ]
   },
   {
-    "id": "TALK_OPINION3",
+    "id": "TALK_THOUGHTS3",
     "type": "talk_topic",
     "dynamic_line": [ "Well, I joined, advanced to the position of Homage, and learned the rites and rituals. I have not decided, actually." ],
     "responses": [ { "text": "Hmmm.", "topic": "TALK_NONE" },
@@ -30,9 +32,10 @@
   {
     "id": "TALK_JOB2",
     "type": "talk_topic",
-    "dynamic_line": [ "Oh, I am a Homage, you see. We are resonpisble for leading most of the cult in sacrifice to the Elder Ones. The Onocti aid me, preparing the sacrifice and whatnot." ],
+    "dynamic_line": [ "Oh, I am a Homage, you see. We are resonpisble for leading most of the cult in ritual sacrifice to the Elder Ones. The Onocti aid me, preparing the altar and whatnot." ],
     "responses": [ { "text": "Interesting.", "topic": "TALK_TOPICS3" },
-                   { "text": "Sacrifice?", "topic": "TALK_SACRIFICE_HOMAGE" } ]
+                   { "text": "Sacrifice?", "topic": "TALK_SACRIFICE_HOMAGE" },
+                   { "text": "With your position, is there anything I can do for you?", "topic": "TALK_CULT_JOBS" } ]
   },
   {
     "id": "TALK_SACRIFICE_HOMAGE",

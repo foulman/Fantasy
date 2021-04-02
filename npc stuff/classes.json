@@ -6,6 +6,7 @@
     "job_description": "I know the ways of the forge.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 4, 6 ] },
@@ -27,6 +28,7 @@
     "job_description": "I own a tavern and provide its services.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 0, 2 ] },
@@ -65,6 +67,7 @@
     "job_description": "I get to decide who goes into the joint and who doesn't.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 3, 5 ] },
@@ -84,6 +87,7 @@
     "job_description": "I clean and sometimes cook.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 0, 1 ] },
@@ -103,6 +107,7 @@
     "job_description": "Just living my life.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 0, 1 ] },
@@ -122,6 +127,7 @@
     "job_description": "Just living my life.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 0, 2 ] },
@@ -141,6 +147,7 @@
     "job_description": "Fishing has been my life.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 0, 2 ] },
@@ -274,6 +281,7 @@
     "job_description": "I run games within the tavern, betting upon dice rolls.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 0, 2 ] },
@@ -308,6 +316,7 @@
     "job_description": "I own a general store.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 0, 2 ] },
@@ -327,6 +336,7 @@
     "job_description": "I work at an infirmary.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 0, 2 ] },
@@ -346,6 +356,7 @@
     "job_description": "I man the stables.",
     "traits": [
       { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
     "bonus_str": { "rng": [ 0, 2 ] },
@@ -356,6 +367,28 @@
     "weapon_override": "MTC_STABLEMASTER_carry",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 3, 3 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_CARPENTER",
+    "name": { "str": "Carpenter" },
+    "job_description": "I own a carpentry shop.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 1, 2 ] },
+    "bonus_per": { "rng": [ 1, 2 ] },
+    "worn_override": "NPC_tavernkeep_worn",
+    "weapon_override": "NPC_cult_member_wield",
+    "shopkeeper_item_group": "NPC_CARPENTER_carry",
+    "carry_override": "NPC_CARPENTER_carry",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
 	},
 {
@@ -391,7 +424,7 @@
     "bonus_int": { "rng": [ 0, 1 ] },
     "bonus_per": { "rng": [ 0, 1 ] },
     "worn_override": "NPC_cultist_worn",
-    "weapon_override": "NPC_male_citizen_wield",
+    "weapon_override": "NPC_cult_member_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
@@ -410,7 +443,7 @@
     "bonus_int": { "rng": [ 0, 1 ] },
     "bonus_per": { "rng": [ 0, 1 ] },
     "worn_override": "NPC_cult_onocti_worn",
-    "weapon_override": "NPC_male_citizen_wield",
+    "weapon_override": "NPC_cult_member_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
@@ -429,7 +462,7 @@
     "bonus_int": { "rng": [ 0, 1 ] },
     "bonus_per": { "rng": [ 0, 1 ] },
     "worn_override": "NPC_cult_homage_worn",
-    "weapon_override": "NPC_male_citizen_wield",
+    "weapon_override": "NPC_cult_member_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
@@ -448,7 +481,7 @@
     "bonus_int": { "rng": [ 0, 2 ] },
     "bonus_per": { "rng": [ 0, 1 ] },
     "worn_override": "NPC_cult_homage_worn",
-    "weapon_override": "NPC_male_citizen_wield",
+    "weapon_override": "NPC_cult_member_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
@@ -467,7 +500,7 @@
     "bonus_int": { "rng": [ 0, 1 ] },
     "bonus_per": { "rng": [ 0, 1 ] },
     "worn_override": "NPC_cult_communer_worn",
-    "weapon_override": "NPC_male_citizen_wield",
+    "weapon_override": "NPC_cult_member_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
@@ -486,7 +519,45 @@
     "bonus_int": { "rng": [ 0, 1 ] },
     "bonus_per": { "rng": [ 0, 1 ] },
     "worn_override": "NPC_cult_elder_worn",
-    "weapon_override": "NPC_male_citizen_wield",
+    "weapon_override": "NPC_cult_member_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_BANDIT_MTC",
+    "name": { "str": "Highwayman" },
+    "job_description": "I rob people.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 3, 5 ] },
+    "bonus_dex": { "rng": [ 1, 3 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 1, 3 ] },
+	"worn_override": "NPC_bouncer_worn",
+    "weapon_override": "NPC_knight_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_CULT_MAGICIAN",
+    "name": { "str": "Magician" },
+    "job_description": "I joined a cult, and sell magic scrolls.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 1 ] },
+    "bonus_int": { "rng": [ 0, 3 ] },
+    "bonus_per": { "rng": [ 0, 1 ] },
+    "worn_override": "NPC_cultist_worn",
+    "weapon_override": "NPC_CULT_MAGICIAN_MTC",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]

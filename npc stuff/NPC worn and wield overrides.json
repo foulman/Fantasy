@@ -309,18 +309,56 @@
     "type": "item_group",
     "id": "NPC_GAMBLER_carry",
     "subtype": "collection",
-    "items": [ { "item": "copper_coin", "count-min": 5000, "count-max": 30000, "prob": 100 }, { "item": "silver_coin", "count-min": 100, "count-max": 300, "prob": 100 } ]
+    "items": [ { "item": "copper_coin", "count-min": 500, "count-max": 3000, "prob": 100 }, { "item": "silver_coin", "count-min": 100, "count-max": 300, "prob": 100 } ]
   },
   {
     "type": "item_group", 
     "id": "NPC_SHOPKEEPER_carry",
     "subtype": "collection",
-    "items": [ { "item": "copper_coin", "count-min": 5000, "count-max": 30000, "prob": 100 }, 
+    "items": [ { "item": "copper_coin", "count-min": 500, "count-max": 3000, "prob": 100 }, 
                { "item": "silver_coin", "count-min": 100, "count-max": 300, "prob": 100 },
                { "item": "clay_pot", "count-min": 10, "count-max": 25, "prob": 100 },
                { "item": "clay_teapot", "count-min": 10, "count-max": 25, "prob": 100 },
                { "item": "mortar_pestle", "count-min": 10, "count-max": 25, "prob": 100 },
+               { "item": "cordage_6", "count-min": 10, "count-max": 25, "prob": 75 },
+               { "item": "cordage_36", "count-min": 10, "count-max": 25, "prob": 75 },         
+               { "item": "string_6", "count-min": 10, "count-max": 25, "prob": 75 },
+               { "item": "string_36", "count-min": 10, "count-max": 25, "prob": 75 },
+               { "item": "rope_6", "count-min": 10, "count-max": 25, "prob": 75 },
+               { "item": "rope_30", "count-min": 10, "count-max": 25, "prob": 75 },      
+               { "item": "copper_knife", "count-min": 1, "count-max": 3, "prob": 75 },
                { "item": "crude_picklock", "count-min": 10, "count-max": 100, "prob": 100 } ]
+  },
+  {
+    "type": "item_group", 
+    "id": "NPC_CARPENTER_carry",
+    "subtype": "collection",
+    "items": [ { "item": "copper_coin", "count-min": 500, "count-max": 3000, "prob": 100 }, 
+               { "item": "silver_coin", "count-min": 100, "count-max": 300, "prob": 100 },
+               { "item": "cordage_6", "count-min": 10, "count-max": 25, "prob": 75 },
+               { "item": "cordage_36", "count-min": 10, "count-max": 25, "prob": 75 },         
+               { "item": "string_6", "count-min": 10, "count-max": 25, "prob": 75 },
+               { "item": "string_36", "count-min": 10, "count-max": 25, "prob": 75 },
+               { "item": "rope_6", "count-min": 10, "count-max": 25, "prob": 75 },
+               { "item": "rope_30", "count-min": 10, "count-max": 25, "prob": 75 },      
+               { "item": "copper_knife", "count-min": 1, "count-max": 3, "prob": 75 },
+               { "item": "ax", "count-min": 1, "count-max": 3, "prob": 75 },
+               { "item": "hatchet", "count-min": 1, "count-max": 3, "prob": 75 },
+               { "item": "saw", "count-min": 1, "count-max": 3, "prob": 75 },
+               { "item": "stone_chisel", "count-min": 1, "count-max": 3, "prob": 75 },
+               { "item": "hammer", "count-min": 1, "count-max": 3, "prob": 75 },
+               { "item": "wood_beam", "count-min": 10, "count-max": 90, "prob": 75 },
+               { "item": "wood_panel", "count-min": 10, "count-max": 90, "prob": 75 },
+               { "item": "wood_sheet", "count-min": 10, "count-max": 90, "prob": 75 },
+               { "item": "long_pole", "count-min": 10, "count-max": 90, "prob": 75 },
+               { "item": "broom", "count-min": 1, "count-max": 3, "prob": 75 },
+               { "item": "button_wood", "count-min": 10, "count-max": 30, "prob": 75 },
+               { "item": "2h_flail_wood", "count-min": 3, "count-max": 5, "prob": 75 },
+               { "item": "bokken", "count-min": 3, "count-max": 5, "prob": 75 },
+               { "item": "cane", "count-min": 3, "count-max": 5, "prob": 75 },
+               { "item": "cudgel", "count-min": 3, "count-max": 5, "prob": 75 },
+               { "item": "q_staff", "count-min": 3, "count-max": 5, "prob": 75 }
+                ]
   },
   {
     "type": "item_group",
@@ -425,5 +463,30 @@
       { "item": "boots" },
       { "item": "leather_pouch" }
     ]
-  }
+  },
+{
+    "type": "item_group", 
+    "id": "NPC_CULT_MAGICIAN_MTC",
+    "subtype": "collection",
+    "items": [ { "item": "copper_coin", "count-min": 5000, "count-max": 30000, "prob": 100 }, 
+               { "item": "silver_coin", "count-min": 100, "count-max": 300, "prob": 100 },
+               { "item": "spell_scroll_bloodshot", "count-min": 5, "count-max": 10, "prob": 100 },
+	       { "item": "spell_scroll_shadowmorph", "count-min": 5, "count-max": 10, "prob": 85 },
+		{ "item": "spell_scroll_multi_bloodshot", "count-min": 5, "count-max": 10, "prob": 85 },
+ 		{ "item": "spell_scroll_tentacle_whip", "count-min": 5, "count-max": 10, "prob": 70 },
+		{ "item": "spell_scroll_lash", "count-min": 5, "count-max": 10, "prob": 70 },
+		{ "item": "spell_scroll_eright", "count-min": 5, "count-max": 10, "prob": 100 },
+		{ "item": "spell_scroll_hex", "count-min": 5, "count-max": 10, "prob": 60 },
+		{ "item": "spell_scroll_carm", "count-min": 5, "count-max": 10, "prob": 90 },
+		{ "item": "spell_scroll_cause_fear", "count-min": 5, "count-max": 10, "prob": 75 },
+		{ "item": "spell_scroll_magic_stone", "count-min": 5, "count-max": 10, "prob": 80 },
+		{ "item": "spell_scroll_wtrance", "count-min": 5, "count-max": 10, "prob": 60 }
+                ]
+  },
+{
+    "type": "item_group",
+    "id": "NPC_cult_member_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "primitive_knife" } ]
+	}
 ]

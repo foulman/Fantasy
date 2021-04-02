@@ -18,6 +18,7 @@
     "dynamic_line": [ "So, what can I do for you?" ],
     "responses": [
                    { "text": "I noticed your robes are decorated. What do you do?", "topic": "TALK_JOB" },
+                   { "text": "<end_talking>", "topic": "TALK_DONE" },
                    { "text": "What is your opinion upon this place?", "topic": "TALK_OPINION2" } ]
   },
   {
@@ -38,6 +39,6 @@
     "id": "TALK_ONOCTI_SACRIFICE",
     "type": "talk_topic",
     "dynamic_line": [ "That's all I know. You should talk to the Homage." ],
-    "responses": [ { "text": "Thank you.", "topic": "TALK_TOPICS2" } ]
+    "responses": [ { "text": "Thank you.", "topic": "TALK_TOPICS2" }, { "text": "<end_talking>", "topic": "TALK_DONE" } ]
   }
 ]

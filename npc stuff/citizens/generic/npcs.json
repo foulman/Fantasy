@@ -55,11 +55,29 @@
   },
 {
     "type": "npc",
+    "id": "generic_worshiper",
+    "class": "NPC_FEMALE_CITIZEN",
+    "attitude": 0,
+    "mission": 0,
+    "chat": "TALK_WORSHIPER",
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
     "id": "stablemaster",
     "class": "NPC_STABLEMASTER",
     "attitude": 0,
     "mission": 0,
     "chat": "TALK_STABLEMASTER",
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
+    "id": "carpenter",
+    "class": "NPC_CARPENTER",
+    "attitude": 0,
+    "mission": 0,
+    "chat": "TALK_SHOPKEEPER_general",
     "faction": "kingdom"
   }
 ]
