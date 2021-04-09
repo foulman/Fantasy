@@ -55,6 +55,7 @@
       { "item": "boots_larmor" },
       { "item": "leather_pouch" },
       { "item": "chainmail_suit" },
+      { "group": "shields_all" },
       { "item": "scabbard" }
     ]
 	},
@@ -231,6 +232,7 @@
       { "item": "chainmail_suit" },
 	  { "item": "helmet_barbute" },
 	  { "item": "armor_lightplate" },
+      { "group": "metal_shields" },
       { "item": "scabbard" }
     ]
 	},
@@ -255,6 +257,7 @@
       { "item": "chainmail_suit" },
 	  { "item": "helmet_plate" },
 	  { "item": "armor_plate" },
+      { "group": "metal_shields" },
       { "item": "scabbard" }
     ]
 	},
@@ -281,6 +284,7 @@
       { "item": "leather_pouch" },
 	  { "item": "vambrace_larmor" },
 	  { "item": "cloak_leather" },
+      { "group": "bucklers" },
       { "item": "scabbard" }
     ]
 	},
@@ -357,7 +361,8 @@
                { "item": "bokken", "count-min": 3, "count-max": 5, "prob": 75 },
                { "item": "cane", "count-min": 3, "count-max": 5, "prob": 75 },
                { "item": "cudgel", "count-min": 3, "count-max": 5, "prob": 75 },
-               { "item": "q_staff", "count-min": 3, "count-max": 5, "prob": 75 }
+               { "item": "q_staff", "count-min": 3, "count-max": 5, "prob": 75 },
+               { "group": "wooden_shields", "prob": 75 }
                 ]
   },
   {
@@ -386,6 +391,7 @@
       { "item": "boots_larmor" },
       { "item": "leather_pouch" },
       { "item": "cult_robes_defender" },
+      { "group": "shields_all" },
       { "item": "scabbard" }
     ]
 	},

@@ -208,6 +208,7 @@
         { "item": "legguard_lightplate", "prob": 100 },
         { "item": "chainmail_vest", "prob": 100 },
         { "item": "knife_baselard", "prob": 100 },
+        { "group": "shields_all", "prob": 70 },
         { "item": "spear_steel", "prob": 100 }
       ]
     }
