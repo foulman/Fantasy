@@ -125,8 +125,8 @@
 
     ],
     "locations": [ "land" ],
-    "city_distance": [ 4, 25 ],
-    "city_sizes": [ 4, 16 ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 1, -1 ],
     "occurrences": [ 0, 5 ]
 	},
     {
