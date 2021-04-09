@@ -17,5 +17,24 @@
     "intelligence": 9,
     "time": "20 m",
     "fun": 1
+  },
+ {
+    "id": "infusion_basic",
+    "type": "BOOK",
+    "name": { "str": "Basic Infusion Practices", "str_pl": "copies of Basic Infusion Practices" },
+    "description": "An instruction booklet upon the infusion of magic into normally mundane items; intended for novice wizards.",
+    "weight": "2 kg",
+    "volume": "200 ml",
+    "price": 1000,
+    "bashing": 3,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "white",
+    "skill": "spellcraft",
+    "required_level": 0,
+    "max_level": 2,
+    "intelligence": 9,
+    "time": "10 m",
+    "fun": 2
   }
 ]

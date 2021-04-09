@@ -1,5 +1,17 @@
 [
 {
+    "//": "Nested group for goblin camps",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "goblin_nested",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "place_nested": [
+        { "chunks": [ [ "hut", 25 ], [ "firepit", 25 ], [ "food", 25 ] ], "x": 0, "y": 0 }
+      ]
+    }
+  },
+{
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "hut",
@@ -166,25 +178,6 @@
         "q0....0q",
         "q000000q",
         "qqqqqqqq"
-      ],
-      "palettes": [ "goblin_camp" ]
-    }
-    },
-{
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "none",
-    "object": {
-      "mapgensize": [ 8, 8 ],
-      "rows": [
-        "        ",
-        "        ",
-        "        ",
-        "        ",
-        "        ",
-        "        ",
-        "        ",
-        "        "
       ],
       "palettes": [ "goblin_camp" ]
     }

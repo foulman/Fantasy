@@ -35,6 +35,7 @@
         { "item": "chaps_leather", "prob": 20 },
         { "item": "boots_larmor", "prob": 20 },
         { "item": "armguard_larmor", "prob": 20 },
+        { "group": "shields_all", "prob": 40 },
         { "item": "armor_lamellar", "prob": 20 }
       ]
     },
@@ -62,6 +63,7 @@
         { "item": "chaps_leather", "prob": 40 },
         { "item": "boots_larmor", "prob": 40 },
         { "item": "armguard_larmor", "prob": 40 },
+        { "group": "shields_all", "prob": 40 },
         { "item": "armor_lamellar", "prob": 40 },
         {
           "distribution": [
@@ -96,6 +98,7 @@
         { "item": "boots_larmor", "prob": 40 },
         { "item": "armguard_larmor", "prob": 40 },
         { "item": "armor_lamellar", "prob": 40 },
+        { "group": "shields_all", "prob": 40 },
         { "item": "warhammer" }
       ]
     }
@@ -122,6 +125,7 @@
         { "item": "boots_larmor", "prob": 40 },
         { "item": "armguard_larmor", "prob": 40 },
         { "item": "armor_lamellar", "prob": 40 },
+        { "group": "shields_all", "prob": 40 },
         {
           "distribution": [
             { "item": "halberd_rusted", "prob": 30 },
@@ -186,6 +190,7 @@
         { "item": "boots_larmor", "prob": 40 },
         { "item": "armguard_larmor", "prob": 40 },
         { "item": "armor_lamellar", "prob": 40 },
+        { "group": "shields_all", "prob": 40 },
         {
           "distribution": [
             { "item": "longsword", "prob": 20 },

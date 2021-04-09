@@ -85,5 +85,56 @@
       { "item": "silver_coin", "prob": 30, "count-min": 10, "count-max": 50 },
       { "item": "gold_coin", "prob": 3, "count-min": 1, "count-max": 5 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "wooden_shields",
+    "subtype": "distribution",
+    "items": [
+      { "item": "wooden_buckler", "prob": 30 },
+      { "item": "wooden_shield", "prob": 30 },
+      { "item": "wooden_shield_tower", "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "metal_shields",
+    "subtype": "distribution",
+    "items": [
+      { "item": "metal_buckler", "prob": 30 },
+      { "item": "metal_shield", "prob": 30 },
+      { "item": "metal_shield_tower", "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "shields_all",
+    "subtype": "distribution",
+    "items": [
+      { "group": "wooden_shields" },
+      { "group": "metal_shields" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "bucklers",
+    "subtype": "distribution",
+    "items": [
+      { "item": "metal_buckler", "prob": 50 },
+      { "item": "wooden_buckler", "prob": 50 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "shields_degraded",
+    "subtype": "distribution",
+    "items": [
+      { "item": "metal_buckler_rusted", "prob": 30 },
+      { "item": "metal_shield_rusted", "prob": 30 },
+      { "item": "metal_shield_tower_rusted", "prob": 30 },
+      { "item": "wooden_buckler_rotten", "prob": 30 },
+      { "item": "wooden_shield_rotten", "prob": 30 },
+      { "item": "wooden_shield_tower_rotten", "prob": 30 }
+    ]
   }
 ]
