@@ -28,5 +28,10 @@
     "type": "construction_group",
     "id": "lock_chest",
     "name": "Locks your chest."
+	},
+        {
+    "type": "construction_group",
+    "id": "construct_infusion_table",
+    "name": "Build an infusion table."
 	}
 ]

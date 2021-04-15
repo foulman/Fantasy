@@ -67,11 +67,66 @@
     "items": [
       [ "spell_scroll_mu_spell_armor", 20 ],
       [ "spell_scroll_firebolt", 30 ],
-      [ "spell_scroll_magic_stone_mage", 30 ],
+      [ "spell_scroll_lightning_bolt", 15 ],
+      [ "spell_scroll_mu_spell_quicken_step", 15 ],
+      [ "spell_scroll_mu_spell_light", 15 ],
+      [ "spell_scroll_mu_spell_darkness", 15 ],
+      [ "spell_scroll_mu_spell_armor_elemental", 15 ],
+      [ "spell_scroll_mage_burning_hands", 15 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "spell_scrolls_wizard2",
+    "subtype": "distribution",
+    "items": [
+      [ "spell_scroll_mu_spell_nightsight", 20 ],
+      [ "spell_scroll_mu_spell_hold", 15 ],
+      [ "spell_scroll_mu_spell_blur", 15 ],
+      [ "spell_scroll_arcane_bolt", 15 ],
+      [ "spell_scroll_magic_stone_mage", 15 ],
       [ "spell_scroll_shield", 15 ],
       [ "spell_scroll_magic_sword", 15 ],
-      [ "spell_scroll_mu_spell_light", 15 ],
-      [ "spell_scroll_mu_spell_darkness", 15 ]
+      [ "spell_scroll_mage_charm_beast", 15 ],
+      [ "spell_scroll_toxic_cloud_mage", 15 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "spell_scrolls_wizard3",
+    "subtype": "distribution",
+    "items": [
+      [ "spell_scroll_lightning_bolt_greater", 15 ],
+      [ "spell_scroll_aniweapon_mage", 15 ],
+      [ "spell_scroll_firesphere_mage", 15 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "spell_scrolls_wizard4",
+    "subtype": "distribution",
+    "items": [
+      [ "spell_scroll_raise_dead", 15 ],
+      [ "spell_scroll_freeze", 15 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "spell_scrolls_wizard_all",
+    "subtype": "distribution",
+    "items": [
+      { "group": "spell_scrolls_wizard1", "prob": 30 },
+      { "group": "spell_scrolls_wizard2", "prob": 25 },
+      { "group": "spell_scrolls_wizard3", "prob": 20 },
+      { "group": "spell_scrolls_wizard4", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "crystallized_mana",
+    "subtype": "distribution",
+    "items": [
+      { "item": "crystallized_mana", "prob": 70, "count-min": 2, "count-max": 4 }
     ]
   },
   {
