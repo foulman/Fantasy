@@ -1,0 +1,12 @@
+[
+  {
+    "type": "proficiency",
+    "id": "prof_infusion",
+    "name": { "str": "Infusion" },
+    "description": "You know the basics of incanting raw magic with mundane objects.",
+    "can_learn": true,
+    "default_time_multiplier": 2,
+    "default_fail_multiplier": 3,
+    "time_to_learn": "10 h"
+  }
+]

@@ -142,5 +142,37 @@
     "name": { "str": "Scroll of Greater Lightning Bolt", "str_pl": "Scrolls of Greater Lightning Bolt" },
     "description": "ZAP!",
     "use_action": { "type": "learn_spell", "spells": [ "lightning_bolt_greater" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_firesphere_mage",
+    "name": { "str": "Scroll of Flame Sphere", "str_pl": "Scrolls of Flame Sphere" },
+    "description": "Burn!",
+    "use_action": { "type": "learn_spell", "spells": [ "firesphere_mage" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_mage_charm_beast",
+    "name": { "str": "Scroll of Charm Beast", "str_pl": "Scrolls of Charm Beast" },
+    "description": "There, there.",
+    "use_action": { "type": "learn_spell", "spells": [ "mage_charm_beast" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_aniweapon_mage",
+    "name": { "str": "Scroll of Animate Weapons", "str_pl": "Scrolls of Animate Weapons" },
+    "description": "I need you to kill that for me.",
+    "use_action": { "type": "learn_spell", "spells": [ "aniweapon_mage" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_toxic_cloud_mage",
+    "name": { "str": "Scroll of Toxic Mist", "str_pl": "Scrolls of Toxic Mist" },
+    "description": "Pshhhhh.",
+    "use_action": { "type": "learn_spell", "spells": [ "toxic_cloud_mage" ] }
   }
 ]

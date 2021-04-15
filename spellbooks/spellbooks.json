@@ -2,7 +2,7 @@
     "id": "cleric",
     "type": "GENERIC",
     "name": "Pantheons",
-    "description": "A small tome, containing basic incantations of divine origons.",
+    "description": "A small tome, containing basic incantations of divine origins.",
     "weight": 800,
     "volume": 1,
     "price": 300,

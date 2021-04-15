@@ -1,0 +1,39 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "TALK_NPC_APPRENTICE_MAGE",
+    "dynamic_line": [ "Hello there." ],
+    "responses": [
+      { 
+         "text": "Hello.", 
+         "topic": "TALK_NEED"
+	  
+      }
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_NEED",
+    "dynamic_line": [ "What do you need?" ],
+    "responses": [
+      { 
+         "text": "Who are you?", 
+         "topic": "TALK_MAGE"
+	  
+      },
+      { 
+         "text": "Is there anything I can do for you?", 
+         "topic": "TALK_MISSION_OFFER",
+         "condition": { "u_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" }
+  
+      }
+    ]
+  },
+ {
+    "id": "TALK_MAGE",
+    "type": "talk_topic",
+    "dynamic_line": [ "Oh, I'm an apprentice. I'm just learning magic, but one day I hope to delve deep into the arcane. Oh, how exciting!" ],
+    "responses": [ { "text": "Hmm.", "topic": "TALK_NEED", "effect": { "u_add_var": "known", "type": "dialogue", "context": "mage", "value": "yes" } },
+                   { "text": "Could I help you?", "topic": "TALK_MISSION_OFFER", "effect": { "u_add_var": "known", "type": "dialogue", "context": "mage", "value": "yes" } } ]
+  }
+]

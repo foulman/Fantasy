@@ -10,7 +10,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armguard_larmor", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armguard_larmor", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armguard_lightplate+1",
@@ -23,7 +26,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armguard_lightplate", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armguard_lightplate", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
   { 
     "result": "chainmail_arms+1",
@@ -36,7 +42,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_arms", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_arms", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
   { 
     "result": "vambrace_larmor+1",
@@ -49,7 +58,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "vambrace_larmor", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "vambrace_larmor", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "boots_larmor+1",
@@ -62,7 +74,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "boots_larmor", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "boots_larmor", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "boots_plate+1",
@@ -75,7 +90,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "boots_plate", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "boots_plate", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "chainmail_feet+1",
@@ -88,7 +106,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_feet", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_feet", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "chainmail_hands+1",
@@ -101,7 +122,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_hands", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_hands", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "gauntlets_larmor+1",
@@ -114,7 +138,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "gauntlets_larmor", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "gauntlets_larmor", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "gloves_plate+1",
@@ -127,7 +154,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "gloves_plate", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "gloves_plate", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "helmet_barbute+1",
@@ -140,7 +170,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_barbute", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_barbute", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "helmet_conical+1",
@@ -153,7 +186,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_conical", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_conical", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "helmet_galea+1",
@@ -166,7 +202,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_galea", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_galea", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "helmet_kabuto+1",
@@ -179,7 +218,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_kabuto", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_kabuto", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "helmet_nasal+1",
@@ -192,7 +234,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_nasal", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_nasal", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "helmet_nomad+1",
@@ -205,7 +250,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_nomad", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_nomad", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "helmet_plate+1",
@@ -218,7 +266,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_plate", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_plate", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "helmet_corinthian+1",
@@ -231,7 +282,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_corinthian", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "helmet_corinthian", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "chainmail_legs+1",
@@ -244,7 +298,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_legs", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_legs", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "chaps_leather+1",
@@ -257,7 +314,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chaps_leather", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chaps_leather", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "legguard_bronze+1",
@@ -270,7 +330,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "legguard_bronze", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "legguard_bronze", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "legguard_lightplate+1",
@@ -283,7 +346,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "legguard_lightplate", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "legguard_lightplate", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "legguard_metal+1",
@@ -296,7 +362,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "legguard_metal", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "legguard_metal", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armor_cuirass+1",
@@ -309,7 +378,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_cuirass", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_cuirass", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armor_lamellar+1",
@@ -322,7 +394,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_lamellar", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_lamellar", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armor_lorica+1",
@@ -335,7 +410,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_lorica", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_lorica", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "chainmail_vest+1",
@@ -348,7 +426,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_vest", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_vest", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "cuirass_lightplate+1",
@@ -361,7 +442,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cuirass_lightplate", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cuirass_lightplate", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armor_blarmor+1",
@@ -374,7 +458,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_blarmor", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_blarmor", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armor_farmor+1",
@@ -387,7 +474,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_farmor", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_farmor", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armor_larmor+1",
@@ -400,7 +490,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_larmor", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_larmor", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armor_lightplate+1",
@@ -413,7 +506,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_lightplate", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_lightplate", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armor_plarmor+1",
@@ -426,7 +522,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_plarmor", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_plarmor", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "armor_samurai+1",
@@ -439,7 +538,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_samurai", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "armor_samurai", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "chainmail_hauberk+1",
@@ -452,7 +554,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_hauberk", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_hauberk", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "chainmail_suit+1",
@@ -465,7 +570,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_suit", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_suit", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "cult_robes_defender+1",
@@ -478,7 +586,10 @@
     "time": "15 m",
     "book_learn": [ [ "archaesth", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cult_robes_defender", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cult_robes_defender", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "wooden_buckler+1",
@@ -491,7 +602,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_suit", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "wooden_buckler", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "wooden_shield+1",
@@ -504,7 +618,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_suit", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "wooden_shield", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "wooden_shield_tower+1",
@@ -517,7 +634,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_suit", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "wooden_shield_tower", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "metal_buckler+1",
@@ -530,7 +650,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_suit", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "metal_buckler", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "metal_shield+1",
@@ -543,7 +666,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_suit", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "metal_shield", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "metal_shield_tower+1",
@@ -556,6 +682,9 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "chainmail_suit", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "metal_shield_tower", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   }
 ]

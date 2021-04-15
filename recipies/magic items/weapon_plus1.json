@@ -10,7 +10,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "longsword", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "longsword", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "wood_sword+1",
@@ -23,7 +26,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "sword_wood", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "sword_wood", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "makeshift_knife+1",
@@ -36,7 +42,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "makeshift_knife", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "makeshift_knife", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "knife_baselard+1",
@@ -49,7 +58,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "knife_baselard", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "knife_baselard", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "machete+1",
@@ -62,7 +74,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "machete", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "machete", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "cavalry_sabre+1",
@@ -75,7 +90,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cavalry_sabre", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cavalry_sabre", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "kris+1",
@@ -88,7 +106,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "kris", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "kris", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "kukri+1",
@@ -101,7 +122,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "kukri", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "kukri", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "jian+1",
@@ -114,7 +138,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "jian", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "jian", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "scimitar+1",
@@ -127,7 +154,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "scimitar", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "scimitar", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "estoc+1",
@@ -140,7 +170,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "estoc", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "estoc", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "arming_sword+1",
@@ -153,7 +186,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "arming_sword", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "arming_sword", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "tanto+1",
@@ -166,7 +202,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "tanto", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "tanto", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "wakizashi+1",
@@ -179,7 +218,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "wakizashi", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "wakizashi", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "zweihander+1",
@@ -192,7 +234,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "zweihander", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "zweihander", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "nodachi+1",
@@ -205,7 +250,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "nodachi", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "nodachi", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "broadsword+1",
@@ -218,7 +266,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "broadsword", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "broadsword", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "rapier+1",
@@ -231,7 +282,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "rapier", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "rapier", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "katana+1",
@@ -244,7 +298,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "katana", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "katana", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "butterfly_swords+1",
@@ -257,7 +314,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "butterfly_swords", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "butterfly_swords", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "cutlass+1",
@@ -270,7 +330,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cutlass", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cutlass", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "lajatang+1",
@@ -283,7 +346,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "lajatang", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "lajatang", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "war_flail+1",
@@ -296,7 +362,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "2h_flail_steel", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "2h_flail_steel", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "peasant_flail+1",
@@ -309,7 +378,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "2h_flail_wood", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "2h_flail_wood", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "battleaxe+1",
@@ -322,7 +394,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "battleaxe", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "battleaxe", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "bokken+1",
@@ -335,7 +410,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "bokken", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "bokken", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   }, 
 { 
     "result": "cudgel+1",
@@ -348,7 +426,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cudgel", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cudgel", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "hammer_sledge+1",
@@ -361,7 +442,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "hammer_sledge", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "hammer_sledge", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "lucern_hammer+1",
@@ -374,7 +458,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "lucern_hammer", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "lucern_hammer", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "mace+1",
@@ -387,7 +474,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "mace", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "mace", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "morningstar+1",
@@ -400,7 +490,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "morningstar", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "morningstar", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "q_staff+1",
@@ -413,7 +506,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "q_staff", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "q_staff", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "shillelagh+1",
@@ -426,7 +522,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "shillelagh", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "shillelagh", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "tonfa_wood+1",
@@ -439,7 +538,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "tonfa_wood", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "tonfa_wood", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "warhammer+1",
@@ -452,7 +554,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "warhammer", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "warhammer", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "pitchfork+1",
@@ -465,7 +570,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "pitchfork", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "pitchfork", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "spear_steel+1",
@@ -478,7 +586,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "spear_steel", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "spear_steel", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "qiang+1",
@@ -491,7 +602,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "qiang", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "qiang", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "halberd+1",
@@ -504,7 +618,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "halberd", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "halberd", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "glaive+1",
@@ -517,7 +634,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "glaive", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "glaive", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "naginata+1",
@@ -530,7 +650,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "naginata", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "naginata", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "pike+1",
@@ -543,7 +666,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "pike", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "pike", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "bullet_crossbow+1",
@@ -556,7 +682,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "bullet_crossbow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "bullet_crossbow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "hand_crossbow+1",
@@ -569,7 +698,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "hand_crossbow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "hand_crossbow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "crossbow+1",
@@ -582,7 +714,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "crossbow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "crossbow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "huge_crossbow+1",
@@ -595,7 +730,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "huge_crossbow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "huge_crossbow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "selfbow+1",
@@ -608,7 +746,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "selfbow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "selfbow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "shortbow+1",
@@ -621,7 +762,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "shortbow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "shortbow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "compositebow+1",
@@ -634,7 +778,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "compositebow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "compositebow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "reflexbow+1",
@@ -647,7 +794,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "reflexbow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "reflexbow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   }, 
 { 
     "result": "longbow+1",
@@ -660,7 +810,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "longbow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "longbow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   }, 
 { 
     "result": "woodgreatbow+1",
@@ -673,7 +826,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "woodgreatbow", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "woodgreatbow", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   }, 
 { 
     "result": "bagh_nakha+1",
@@ -686,7 +842,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "bagh_nakha", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "bagh_nakha", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "cestus+1",
@@ -699,7 +858,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cestus", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "cestus", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "knuckle_brass+1",
@@ -712,7 +874,10 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "knuckle_brass", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "knuckle_brass", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   },
 { 
     "result": "punch_dagger+1",
@@ -725,6 +890,9 @@
     "time": "15 m",
     "book_learn": [ [ "infusion_basic", 1 ] ],
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
-    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "punch_dagger", 1 ] ] ]   
+    "components": [ [ [ "crystallized_mana", 150 ] ], [ [ "punch_dagger", 1 ] ] ],
+    "proficiencies": [
+      { "proficiency": "prof_infusion", "required": false } 
+                     ]   
   } 
 ]
