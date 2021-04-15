@@ -95,7 +95,7 @@
     "skill": "occult",
     "difficulty": 1,
     "max_level": 20,
-    "damage_type": "biological",
+    "damage_type": "cut",
     "flags": [ "VERBAL", "NO_HANDS" ],
     "energy_source": "MANA"
   },

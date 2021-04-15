@@ -57,7 +57,7 @@
     "id": "toxic_cloud",
     "type": "SPELL",
     "name": "Toxic Mist",
-    "description": "Draws forth a broad wall of poisionous vapors, harming any who pass through",
+    "description": "Draws forth a broad wall of poisionous vapors, harming any who pass through.",
     "valid_targets": [ "hostile", "ground", "ally" ],
     "effect": "attack",
     "shape": "line",

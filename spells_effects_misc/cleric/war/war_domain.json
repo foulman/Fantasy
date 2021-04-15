@@ -56,7 +56,7 @@
     "name": "Bites The Dust",
     "description": "Originating from the lands of the Kath, this spell infects the eye of the target, destroying them, whilst healing the user. However, the kickback can be quite intense.",
     "valid_targets": [ "hostile" ],
-    "message": "Bakuden No Daisan, Bites Za Dusto!",
+    "message": "Another one bites the dust.",
     "min_damage": 10000,
     "max_damage": 10000,
     "damage_increment": 0,
@@ -106,7 +106,7 @@
 {
     "id": "enlarged",
     "type": "SPELL",
-    "name": "Giants Strength",
+    "name": "Giant's Strength",
     "description": "When cast, you enlarge yourself to gargantuan proportions, gaining the strength of a giant. However, you cannot fit inside vehicles, and your clothing is torn.",
     "valid_targets": [ "self" ],
     "effect": "spawn_item",
