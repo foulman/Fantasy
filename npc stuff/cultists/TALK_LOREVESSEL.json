@@ -9,11 +9,16 @@
                         "no": "<greet> Who are you?", "yes": "<greet>" } ],
     "responses": [ { 
                      "text": "<greet>, I came to see you.",  
-                     "topic": "TALK_INTRO",
-                     "effect": { "u_add_var": "known", "type": "dialogue", "context": "lorevessel", "value": "yes" } } ]
+                     "topic": "TALK_INTRO2",
+                     "effect": { "u_add_var": "known", "type": "dialogue", "context": "lorevessel", "value": "yes" } },
+                   { 
+                     "text": "I heard you have the Homage's reference notes.",  
+                     "topic": "TALK_DONE",
+                     "condition": { "u_has_mission": "MISSION_RITUAL2" },
+                     "effect": { "u_buy_item": "spell_scroll_sacrifice" } } ]
    },
 {
-    "id": "TALK_INTRO",
+    "id": "TALK_INTRO2",
     "type": "talk_topic",
     "dynamic_line": [ { "u_has_var": "known", 
                         "type": "dialogue", 
@@ -58,6 +63,10 @@
     "type": "talk_topic",
     "dynamic_line": [ "Okay, which one? It is my duty as Lorevessel." ],
     "responses": [ { "text": "What about that book?", "topic": "TALK_ARCHAESTH" },
+                   { "text": "What about that sword?", "topic": "TALK_SWORD" },
+                   { "text": "What's that bone for?", "topic": "TALK_FEMUR" },
+                   { "text": "What about that ring?", "topic": "TALK_RING" },
+                   { "text": "What's that mask?", "topic": "TALK_MASK" },
                    { "text": "Nice to know.", "topic": "TALK_DONE" } ]
   },
 {
@@ -75,7 +84,19 @@
 {
     "id": "TALK_SWORD",
     "type": "talk_topic",
-    "dynamic_line": [ "The Longsword? That is one of two artifacts our founder recieved, the other being the Archae" ],
+    "dynamic_line": [ "The Longsword? That is one of two artifacts our founder recieved, the other being the Archae Aesthetica. They bore it during their time as our leader, dying with it in their hands. It is said that the sword steals the life of any it strikes, and transfers it to the wielder." ],
+    "responses": [ { "text": "What else is there?", "topic": "TALK_NONE" } ]
+  },
+{
+    "id": "TALK_RING",
+    "type": "talk_topic",
+    "dynamic_line": [ "Don't touch that! That ring is extremely dangerous. We know not if to consider it a blessing or curse, and rightly so. To anyone who wears it, they are transformed into a monster. That happened to the one who recieved it, they lost their mind. It didn't end well..." ],
+    "responses": [ { "text": "What else is there?", "topic": "TALK_NONE" } ]
+  },
+{
+    "id": "TALK_MASK",
+    "type": "talk_topic",
+    "dynamic_line": [ "Like the ring, that mask is extremely dangerous. It is said to grant magical powers from the beyond, at the cost of your sanity. It makes you never want to take it off, either. The one who recieved it put it on a squirrel, and they nearly died because of it. I'd keep away, if I were you." ],
     "responses": [ { "text": "What else is there?", "topic": "TALK_NONE" } ]
   }
 ]

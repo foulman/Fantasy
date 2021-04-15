@@ -494,5 +494,26 @@
     "id": "NPC_cult_member_wield",
     "subtype": "collection",
     "entries": [ { "item": "primitive_knife" } ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_wizard_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "cloak" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" }
+    ]
+  },
+{
+    "type": "item_group",
+    "id": "NPC_wizard_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "magic_focus_staff" } ]
 	}
 ]

@@ -34,7 +34,7 @@
                    },
                    {
         "text": "Can you teach me?",
-        "topic": "TALK_TRAIN_FORCE",
+        "topic": "TALK_TRAIN",
         "condition": { "u_has_var": "TRAIN_ELIGEBLE", "type": "general", "context": "mission", "value": "yes" }
                    } ]
    },

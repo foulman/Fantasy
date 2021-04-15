@@ -12,7 +12,7 @@
           "has_no_assigned_mission": "There's a few things I need. Want to take them on?",
           "no": {
             "has_many_assigned_missions": "Are ya achin' for more work?",
-            "no": "If'n ye believe ye can take on some more work I can give'em to ya."
+            "no": "I have other things I need done, if you want."
           }
         },
         "no": {

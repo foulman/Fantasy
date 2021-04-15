@@ -131,6 +131,7 @@
     "attitude": 0,
     "mission": 3,
     "chat": "TALK_NPC_LONE_BLACKSMITH",
+    "mission_offered": "MISSION_GET_LEATHER",
     "faction": "cultists"
   },
   {
@@ -151,6 +152,7 @@
     "attitude": 0,
     "mission": 3,
     "chat": "TALK_SHOPKEEPER_general",
+    "mission_offered": "MISSION_GET_PAPER",
     "faction": "cultists"
   }
 ]
