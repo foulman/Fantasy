@@ -331,7 +331,12 @@
                { "item": "rope_6", "count-min": 10, "count-max": 25, "prob": 75 },
                { "item": "rope_30", "count-min": 10, "count-max": 25, "prob": 75 },      
                { "item": "copper_knife", "count-min": 1, "count-max": 3, "prob": 75 },
-               { "item": "crude_picklock", "count-min": 10, "count-max": 100, "prob": 100 } ]
+               { "item": "crude_picklock", "count-min": 10, "count-max": 100, "prob": 100 },
+               { "group": "dry_goods", "prob": 70 },
+               { "group": "mtc_pantry_liquids", "prob": 70 },
+               { "group": "male_citizen_clothing", "prob": 70 },
+               { "group": "female_citizen_clothing", "prob": 70 },
+               { "group": "kitchenstaff_wield", "prob": 70 } ]
   },
   {
     "type": "item_group", 
@@ -362,7 +367,8 @@
                { "item": "cane", "count-min": 3, "count-max": 5, "prob": 75 },
                { "item": "cudgel", "count-min": 3, "count-max": 5, "prob": 75 },
                { "item": "q_staff", "count-min": 3, "count-max": 5, "prob": 75 },
-               { "group": "wooden_shields", "prob": 75 }
+               { "group": "wooden_shields", "prob": 75 },
+               { "group": "trinkets_misc", "prob": 70 }
                 ]
   },
   {
@@ -515,5 +521,27 @@
     "id": "NPC_wizard_wield",
     "subtype": "collection",
     "entries": [ { "item": "magic_focus_staff" } ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_priest_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" },
+      { "item": "holy_symbol_wood" },
+      { "item": "cloak" }
+    ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_priest_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "gods_and_godesses" } ]
 	}
 ]

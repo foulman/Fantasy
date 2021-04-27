@@ -81,5 +81,15 @@
     "chat": "TALK_SHOPKEEPER_general",
     "mission_offered": "MISSION_GET_LOGS",
     "faction": "kingdom"
+  },
+{
+    "type": "npc",
+    "id": "priest",
+    "class": "NPC_PRIEST",
+    "attitude": 0,
+    "mission": 0,
+    "chat": "TALK_PRIEST",
+    "mission_offered": [ "MISSION_SAINT_BENEVOLENCE", "MISSION_HOLY_SYMBOL" ],
+    "faction": "kingdom"
   }
 ]
