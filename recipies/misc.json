@@ -6,8 +6,7 @@
     "subcategory": "CSC_OTHER_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
-    "time": "10 m",
-    "autolearn": "true",  
+    "time": "10 m",  
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "proficiencies": [ { "proficiency": "prof_carving" } ],
     "components": [ [ [ "splinter", 1 ] ] ]
@@ -19,8 +18,7 @@
     "subcategory": "CSC_OTHER_OTHER",
     "skill_used": "fabrication",
     "difficulty": 0,
-    "time": "10 m",
-    "autolearn": "true",  
+    "time": "10 m",  
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "proficiencies": [ { "proficiency": "prof_carving" } ],
     "components": [ [ [ "bone_any", 10, "LIST" ] ] ]
