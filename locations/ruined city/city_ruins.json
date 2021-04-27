@@ -459,13 +459,13 @@
         "  wb       ~       bw   ",
         "  w   O   ~~~   O   w   ",
         "  w      ~~~~~      w   ",
-        "  w     ~~~~~~~     w   ",
+        "  w  ^^ ~~~~~~~     w   ",
+        "  w  ^ ~~~~~~~~~    w   ",
+        "  w   ~~~~~~~~~~~   w   ",
+        "  w   ~~~~~~~~~~~  ^w   ",
+        "  w   ~~~~~~~~~~~   w   ",
         "  w    ~~~~~~~~~    w   ",
-        "  w   ~~~~~~~~~~~   w   ",
-        "  w   ~~~~~~~~~~~   w   ",
-        "  w   ~~~~~~~~~~~   w   ",
-        "  w    ~~~~~~~~~    w   ",
-        "  w     ~~~~~~~     w   ",
+        "  w  ^  ~~~~~~~     w   ",
         "  w      ~~~~~      w   ",
         "  w   O   ~~~   O   w   ",
         "  wb       ~       bw   ",
@@ -478,14 +478,18 @@
         "                        "
       ],
       "terrain": { "w": "t_rock", "c": "t_rock_floor",  "d": "t_door_c", "~": "t_water_sh_underground" },
-      "furniture": { "b": "f_straw_bed", "O": "f_firering", "?": "f_hanging_lantern" },
+      "furniture": { "b": "f_straw_bed", "O": "f_firering", "?": "f_hanging_lantern", "^": "f_barrel_o" },
      "place_monsters": [
-        { "monster": "GROUP_DMBB_ELDRITCH_WATER", "x": [ 4 ], "y": [ 4 ], "density": 0.1, "repeat": [ 1, 3 ] },
+        { "monster": "GROUP_DMBB_ELDRITCH_WATER", "x": [ 4 ], "y": [ 4 ], "density": 0.1, "repeat": [ 2, 4 ] },
         { "monster": "GROUP_POND_FISH", "x": [ 6 ], "y": [ 6 ], "repeat": 3 }
       ],
       "items": {
       "b": { "item": "bed", "chance": 100 },
-      "O": { "item": "oven", "chance": 100, "repeat": [ 3, 5 ] }
+      "O": { "item": "oven", "chance": 100, "repeat": [ 3, 5 ] },
+      "^": [ { "item": "potions_all", "chance": 10 }, 
+             { "item": "group_water_alchemy", "chance": 30, "repeat": [ 3, 5 ] },  
+             { "item": "trinkets_misc", "chance": 50, "repeat": [ 2, 4 ] },
+             { "item": "lair_loot_generic", "chance": 40, "repeat": [ 1, 2 ] } ]
     }
     }
   }

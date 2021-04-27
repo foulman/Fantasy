@@ -1,1 +1,429 @@
-[ ]
+[
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_enter" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "sffffffffffffffffffffffs",
+            "ssffffffffffffffffffffss",
+            " soosqffffffffffffqsoos ",
+            "    sffffffffffffffs    ",
+            "    sffffffffffffffs    ",
+            "    offffffffffffffo    ",
+            "    offffffffffffffo    ",
+            "    sqffffffffffffqs    ",
+            "    offffffffffffffo    ",
+            "    shfffffffffftffs    ",
+            "    shfffffffffft1fs    ",
+            "    shffffqffqffthfs    ",
+            "    ssoosssddsoossss    ",
+            "          llll          ",
+            "          llll          ",
+            "           ll           ",
+            "           ..           ",
+            "           ..           ",
+            "           ..           ",
+            "           ..           ",
+            "           ..           ",
+            "           ..           ",
+            "           ..           ",
+            "           ..           "
+      ],
+      "palettes": [ "wizard_academy" ],
+      "npcs": {
+		"1": { "class": "priest" }
+		}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_dining" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "sssssssssfffffssssssssss",
+            "sffffffffffffffffffffffs",
+            "sffqssqfffffffffqssqfffs",
+            "sffssssfffffffffssssfffs",
+            "sffqssqfffcccfffqssqfffs",
+            "sffffffffctttcfffffffffs",
+            "sfffccfffctttcfffccffffs",
+            "fffcttcffctttcffcttcffff",
+            "fffcttcffctttcffcttcffff",
+            "fffcttcffctttcffcttcffff",
+            "fffcttcffctttcffcttcffff",
+            "sffcttcffctttcffcttcfffs",
+            "sffcttcffctttcffcttcfffs",
+            "sffcttcffctttcffcttcfffs",
+            "sfffccfffctttcfffccffffs",
+            "sffffffffctttcfffffffffs",
+            "sffqssqfffcccfffqssqfffs",
+            "sffssssfffffffffssssfffs",
+            "sffqssqfffffffffqssqfffs",
+            "sffffffffffffffffffffffs",
+            "sffffffffffffffffffffffs",
+            "sffffffffffffffffffffffs",
+            "sffffffffffffffffffffffs",
+            "sssssssssfffffssssssssss"
+      ],
+      "palettes": [ "wizard_academy" ],
+      "items": {
+	  "t": { "item": "dishes_dining", "chance": 70, "repeat": [ 2, 5 ] }
+    },
+      "npcs": {
+		"1": { "class": "priest" }
+		}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_dorm_right" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "ssssssssssssssssssssssss",
+            "sudffsqffffffffff***fbbs",
+            "sssffsfffffccffffffffbbs",
+            "sudffdffffcttcfffffffffo",
+            "sssffsfffffccffffffffffs",
+            "sudffsqff2fffffffBBBBfqs",
+            "sssffsssssssssddssssssss",
+            "ffffffffffqfffffffffffqs",
+            "fffffffffffffffffffffffo",
+            "fffffffffffffffffffffffo",
+            "fffffffffffffffffffffffo",
+            "sffffffffffffffffffffffs",
+            "sqfffffffqsqffffffffffqs",
+            "sssffsssssssssssffssssss",
+            "sudffsBffqsBffqsffsBffqs",
+            "sssffdffffsffffdffdffffo",
+            "sudffsf*bbsbb*fsffsf*bbs",
+            "sssffsssssssssssffssssss",
+            "sudffsBffqsBffqsffsBffqs",
+            "sssffdffffsffffdffdffffo",
+            "sudffsf*bbsbb*fsffsf*bbs",
+            "sssoosssossssossoosssoss",
+            "                        ",
+            "                        "
+      ],
+      "palettes": [ "wizard_academy" ],
+      "items": {
+	  "t": { "item": "dishes_dining", "chance": 70, "repeat": [ 2, 5 ] },
+          "u": { "item": "bucket", "chance": 100 },
+          "B": { "item": "textbooks_school", "chance": 70, "repeat": [ 2, 5 ] }, 
+          "b": { "item": "bed", "chance": 100 },
+          "*": { "item": "coinage", "chance": 70, "repeat": [ 10, 25 ] }
+    },
+      "npcs": {
+		"1": { "class": "priest" }
+		}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_dorm_left" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "ssssssssssssssssssssssss",
+            "sudffsqffffffffff***fbbs",
+            "sssffsfffffccffffffffbbs",
+            "sudffdffffcttcfffffffffs",
+            "sssffsfffffccffffffffffs",
+            "sudffsqff2fffffffBBBBfqs",
+            "sssffsssssssssddssssssss",
+            "sqffffffffqfffffffffff f",
+            "offfffffffffffffffffffff",
+            "offfffffffffffffffffffff",
+            "offfffffffffffffffffffff",
+            "sffffffffffffffffffffffs",
+            "sqfffffffqsqffffffffffqs",
+            "sssffsssssssssssffssssss",
+            "sudffsBffqsBffqsffsBffqs",
+            "sssffdffffsffffdffdffffo",
+            "sudffsf*bbsbb*fsffsf*bbs",
+            "sssffsssssssssssffssssss",
+            "sudffsBffqsBffqsffsBffqs",
+            "sssffdffffsffffdffdffffo",
+            "sudffsf*bbsbb*fsffsf*bbs",
+            "sssoosssossssossoosssoss",
+            "                        ",
+            "                        "
+      ],
+      "palettes": [ "wizard_academy" ],
+      "items": {
+	  "t": { "item": "dishes_dining", "chance": 70, "repeat": [ 2, 5 ] },
+          "u": { "item": "bucket", "chance": 100 },
+          "B": { "item": "textbooks_school", "chance": 70, "repeat": [ 2, 5 ] }, 
+          "b": { "item": "bed", "chance": 100 },
+          "*": { "item": "coinage", "chance": 70, "repeat": [ 10, 25 ] }
+    },
+      "npcs": {
+		"1": { "class": "priest" }
+		}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_classrooms" ],
+    "//": "In the future, specialized classrooms will be here.",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "sssssssssooooossssssssss",
+            "srrrrrrrsfffffsrrBBr^r/s",
+            "srrrrrrrsfffffsrrrrrrrrs",
+            "srrrrrrrdfffffdrrrrrrrro",
+            "srrrrrrrsfffffsrrrrrrrro",
+            "srrrrrrrsfffffs----rr--s",
+            "ssssdssssfffffsssssdssss",
+            "fffffffffffqffffffffffff",
+            "ffffffffffqsqfffffffffff",
+            "fffffffffffqffffffffffff",
+            "ffffffffffffffffffffffff",
+            "ssssdssssfffffsssssdssss",
+            "srrrrrrrsfffffsrrrrrrrrs",
+            "orrrrrrrsfffffsrrrrrrrro",
+            "orrrrrrrdfffffdrrrrrrrro",
+            "orrrrrrrsfffffsrrrrrrrro",
+            "srrrrrrrsfffffsrrrrrrrrs",
+            "sssssssssfffffssssssssss",
+            "srrrrrrrsfffffsrrrrrrrrs",
+            "orrrrrrrsfffffsrrrrrrrro",
+            "orrrrrrrdfffffdrrrrrrrro",
+            "orrrrrrrsfffffsrrrrrrrro",
+            "srrrrrrrsfffffsrrrrrrrrs",
+            "sssssssssfffffssssssssss"
+      ],
+      "palettes": [ "wizard_academy" ],
+      "furniture": { "^": "f_still", "/": "f_woodstove", "-": "f_barrel_o" },
+      "items": {
+	  "/": { "item": "stash_wood", "chance": 70, "repeat": [ 2, 5 ] },
+          "-": { "item": "ingredients_all", "chance": 70, "repeat": [ 20, 70 ] },
+          "B": { "item": "alchemy_books", "chance": 70, "repeat": [ 2, 5 ] }
+    },
+      "npcs": {
+		"1": { "class": "priest" }
+		}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_garden_right" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_dirt",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "ssssssssssssssssssssssss",
+            "                       s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "                       s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "                       s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "                       s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "                       s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "  ###  ###  ###  ###   s",
+            "                       s",
+            "                       s",
+            "                       s"
+      ],
+      "palettes": [ "wizard_academy" ],
+      "npcs": {
+		"1": { "class": "priest" }
+		}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_garden_left" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_dirt",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "ssssssssssssssssssssssss",
+            "s                       ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s                       ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s                       ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s                       ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s                       ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s  ###  ###  ###  ###   ",
+            "s                       ",
+            "s                       ",
+            "s                       "
+      ],
+      "palettes": [ "wizard_academy" ],
+      "npcs": {
+		"1": { "class": "priest" }
+		}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_enter_roof" ],
+    "weight": 100,
+    "object": {
+    "fill_ter": "t_open_air",
+      "rows": [
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            " uuuuuuuuuuuuuuuuuuuuuu ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "    uuuuuuuuuuuuuuuu    ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        "
+      ],
+      "palettes": [ "city_building_roof_palette" ]
+    }
+  },  
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_dining_roof" ], 
+    "//": "Use over the classrooms.",
+    "weight": 100,
+    "object": {
+    "fill_ter": "t_open_air",
+      "rows": [
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu"
+      ],
+      "palettes": [ "city_building_roof_palette" ]
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_dorm_roof" ], 
+    "weight": 100,
+    "object": {
+    "fill_ter": "t_open_air",
+      "rows": [
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "uuuuuuuuuuuuuuuuuuuuuuuu",
+            "                        ",
+            "                        "
+      ],
+      "palettes": [ "city_building_roof_palette" ]
+    }
+  }
+]

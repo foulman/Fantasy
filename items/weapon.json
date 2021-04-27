@@ -12,7 +12,7 @@
     "min_range": 1,
     "effect": "attack",
 	"shape": "blast",
-    "targeted_monster_ids": [ "mon_mtc_dragon_fire_adult", "mon_mtc_dragon_ice_adult", "mon_mtc_dragon_storm_adult" ]
+    "targeted_monster_ids": [ "mon_mtc_dragon_fire_adult", "mon_mtc_dragon_ice_adult", "mon_mtc_dragon_storm_adult", "mon_mtc_dragon_fire_young", "mon_mtc_dragon_ice_young", "mon_mtc_dragon_storm_young" ]
   },
   {
     "id": "mtc_sword_dragonslayer",

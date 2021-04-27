@@ -7,7 +7,7 @@
     "object": {
       "mapgensize": [ 8, 8 ],
       "place_nested": [
-        { "chunks": [ [ "pillar", 25 ], [ "cave_none", 25 ], [ "cave_pond", 25 ], [ "flesh_egg", 25 ], [ "cultists", 3 ] ], "x": 0, "y": 0 }
+        { "chunks": [ [ "pillar", 25 ], [ "cave_none", 25 ], [ "cave_pond", 25 ], [ "flesh_egg", 25 ], [ "cultists", 3 ], [ "quellna_camp", 1 ] ], "x": 0, "y": 0 }
       ]
     }
   },

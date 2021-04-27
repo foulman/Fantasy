@@ -36,13 +36,15 @@
         "           ff           "
       ],
       "palettes": [ "city_building_store" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
     "npcs": {
 		"!": { "class": "shopkeeper_general" }
 	},
 	"items": {
       "x": { "item": "stash_wood", "chance": 100, "repeat": [ 2, 5 ] },
-      "Y": [ { "item": "dry_goods", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "mtc_pantry_liquids", "chance": 70, "repeat": [ 2, 5 ] } ],
-      "X": [ { "item": "male_citizen_clothing", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "female_citizen_clothing", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "kitchenstaff_wield", "chance": 100, "repeat": [ 2, 5 ] } ]
+      "X": [ { "item": "NPC_SHOPKEEPER_carry", "chance": 100 } ]
 	  
     }
     }
@@ -84,6 +86,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
     "furniture": { "1": "f_bed" },
     "npcs": {
 		"1": [ { "class": "generic_male_citizen" }, { "class": "generic_female_citizen" } ],
@@ -116,7 +121,7 @@
         "                        ",
         "                        ",
         "   wwwwwwoowwoowwwwww   ",
-        "   w.......UU.......w   ",
+        "   w.......UU...2...w   ",
         "   w......cHHc......w   ",
         "   w................w   ",
         "   w.###1#...#####1.w   ",
@@ -135,8 +140,12 @@
         "           ff           "
       ],
       "palettes": [ "mtc_church" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
     "npcs": {
-		"1": { "class": "generic_worshiper" }
+		"1": { "class": "generic_worshiper" },
+                "2": { "class": "priest" }
 	},
 	"items": {
       "c": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
@@ -161,15 +170,15 @@
         "........................",
         "........................",
         "...wwwwwwwooowwwwwsss...",
-        "...wxxxxfffffff~ffrOs...",
+        "...wxxxxffffffffffrOs...",
         "...wxffxffffffffffrrs...",
         "...wxfffftttttffffffw...",
         "...offffffff~fffffffo...",
-        "...o~ffttttttttttfffo...",
+        "...offfttttttttttfffo...",
         "...wffffffffffffffffw...",
-        "...wfffttttttttttfffw...",
-        "...wff~ffffffff~fff!w...",
-        "...wwwwowwwddwwwowttw...",
+        "...wffftttttttttfjfjw...",
+        "...wff~ffffffff~fjf!w...",
+        "...wwwwowwwddwwwowoow...",
         "........................",
         "........................",
         "........................",
@@ -180,13 +189,17 @@
         "........................"
       ],
       "palettes": [ "city_building_palette" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
     "npcs": {
 		"!": { "class": "carpenter" },
                 "~": [ { "class": "generic_male_citizen" }, { "class": "generic_female_citizen" } ]
 	},
 	"items": { 
       "x": { "item": "stash_wood", "chance": 100, "repeat": [ 9, 15 ] },
-      "t": [ { "item": "stash_wood", "chance": 100, "repeat": [ 7, 10 ] }, { "item": "tools_general", "chance": 75, "repeat": [ 2, 5 ] } ],
+      "j": { "item": "NPC_CARPENTER_carry", "chance": 50 },
+      "t": [ { "item": "stash_wood", "chance": 100, "repeat": [ 7, 10 ] }, { "item": "tools_general", "chance": 70, "repeat": [ 2, 5 ] } ],
       "O": { "item": "stash_wood", "chance": 100, "repeat": [ 2, 5 ] }
 	  
     }
@@ -211,7 +224,7 @@
         "      g    g   g   g    ",
         "                        ",
         "   wwwwwwoowwoowwwwww   ",
-        "   w.......UU.......w   ",
+        "   w.......UU....2..w   ",
         "   w......cHHc......w   ",
         "   w................w   ",
         "   w.###1#...#####1.w   ",
@@ -230,8 +243,12 @@
         "           ff           "
       ],
       "palettes": [ "mtc_church" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
     "npcs": {
-		"1": { "class": "generic_worshiper" }
+		"1": { "class": "generic_worshiper" },
+                "2": { "class": "priest" }
 	},
 	"items": {
       "c": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
@@ -275,6 +292,9 @@
             "                        "
       ],
       "palettes": [ "mtc_cemetary" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
     "npcs": {
 		"1": { "class": "generic_worshiper" }
 	},
@@ -470,6 +490,9 @@
         "           dd           "
       ],
       "palettes": [ "mtc_stables" ],
+      "place_zones": [
+        { "type": "NPC_INVESTIGATE_ONLY", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
       "monster": { "O": { "monster": "mon_horse", "chance": 70 } },
     "npcs": {
 		"#": { "class": "stablemaster" }

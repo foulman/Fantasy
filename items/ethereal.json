@@ -100,7 +100,7 @@
         { "has": "WORN", "condition": "ALWAYS", "mutations": [ "HIDE_GOBLINOID" ] }
       ]
     },
-	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE" ]
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]
   },
  {
     "id": "cantrip_item",
@@ -186,7 +186,7 @@
 	"bashing": 0,
     "symbol": "*",
     "color": "white",
-    "covers": [ "HEAD" ],
+    "covers": [ "head" ],
     "flags": [ "LIGHT_30", "AURA", "SEMITANGIBLE", "ZERO_WEIGHT" ]
   },
 {
@@ -235,6 +235,59 @@
     }
   },
 {
+    "type": "ARMOR",
+    "id": "fire_protect_item",
+    "name": { "str": "flame resistant skin" },
+	"symbol": "O",
+	"color": "white",
+    "volume": "1 ml",
+    "description": "The epidermis of your skin has re-molded itself to protect against fire.",
+    "flags": [ "AURA", "STURDY", "NO_TAKEOFF", "ONLY_ONE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "ARMOR_HEAT", "add": -10 } ]
+        }
+      ]
+    }
+  },
+{
+    "type": "ARMOR",
+    "id": "ice_protect_item",
+    "name": { "str": "cold resistant skin" },
+	"symbol": "O",
+	"color": "white",
+    "volume": "1 ml",
+    "description": "The epidermis of your skin has re-molded itself to protect against low temperatures.",
+    "flags": [ "AURA", "STURDY", "NO_TAKEOFF", "ONLY_ONE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "ARMOR_COLD", "add": -10 } ]
+        }
+      ]
+    }
+  },
+{
+    "id": "water_breathe_aura",
+    "type": "ARMOR",
+    "description": "You wear it.",
+    "volume": "1 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "gilly field", "str_pl": "gilly fields" },
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "GILLS" ] }
+      ]
+    },
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]
+  },
+{
     "id": "mu_tend_wound_item",
     "type": "COMESTIBLE",
     "comestible_type": "MED",
@@ -262,7 +315,7 @@
         { "has": "WORN", "condition": "ALWAYS", "mutations": [ "MU_MUT_HIDE_UNDEAD" ] }
       ]
     },
-	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE" ]
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]
   },
 {
     "id": "hide_demons_item",
@@ -277,7 +330,7 @@
         { "has": "WORN", "condition": "ALWAYS", "mutations": [ "MUT_HIDE_DEMONS" ] }
       ]
     },
-	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE" ]
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]
   },
 {
     "id": "mu_barkskin_token",
@@ -312,7 +365,7 @@
         { "has": "WORN", "condition": "ALWAYS", "mutations": [ "ENLARGE_HUGE" ] }
       ]
     },
-	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE" ]
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]
   },
 {
     "id": "ebuckler",
@@ -333,5 +386,20 @@
     "material_thickness": 3,
     "techniques": [ "WBLOCK_2" ],
     "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN", "TRADER_AVOID", "UNBREAKABLE_MELEE", "NO_REPAIR", "NO_SALVAGE" ]
+  },
+{
+    "id": "spell_item_beauty",
+    "type": "ARMOR",
+    "description": "Your skin has morphed into an attractive form.",
+    "volume": "1 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "beautiful skin", "str_pl": "beautiful skin" },
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PRETTY" ] }
+      ]
+    },
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]
   }
 ]
