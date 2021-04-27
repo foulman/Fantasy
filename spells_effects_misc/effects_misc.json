@@ -47,7 +47,7 @@
     "apply_message": "Your body cleanses itself!",
     "remove_message": "The influx fades.",
     "rating": "good",
-    "removes_effects": [ "bleed", "bite", "poison", "tetanus", "common_cold", "foodpoison", "shakes", "visuals", "taint", "nausea", "dazed", "stunned", "blisters", "smoke" ]
+    "removes_effects": [ "bleed", "bite", "poison", "redcells_anemia", "tetanus", "common_cold", "foodpoison", "shakes", "visuals", "taint", "nausea", "dazed", "stunned", "blisters", "smoke" ]
   },
 {
     "type": "effect_type",
@@ -57,7 +57,7 @@
     "apply_message": "Your body cleanses itself!",
     "remove_message": "The influx fades.",
     "rating": "good",
-    "removes_effects": [ "bleed", "bite", "poison", "badpoison", "paralyzepoison", "tetanus", "darkness", "common_cold", "flu", "blind", "deaf", "foodpoison", "smoke", "shakes", "blisters", "dermatik", "bloodworms", "paincysts", "tapeworm", "redcells_anemia", "hypovolemia", "infected", "frostbite", "visuals", "taint", "nausea", "dazed", "stunned" ]
+    "removes_effects": [ "bleed", "bite", "anemia", "redcells_anemia", "hypovolemia", "poison", "badpoison", "paralyzepoison", "tetanus", "darkness", "common_cold", "flu", "blind", "deaf", "foodpoison", "smoke", "shakes", "blisters", "dermatik", "bloodworms", "paincysts", "tapeworm", "redcells_anemia", "hypovolemia", "infected", "frostbite", "visuals", "taint", "nausea", "dazed", "stunned" ]
   },
 {
     "type": "effect_type",
@@ -185,5 +185,90 @@
     "remove_message": "The roots and vines wither up and die.",
     "base_mods": { "speed_mod": [ -60 ] },
     "scaling_mods": { "speed_mod": [ -10 ] }
+  },
+{
+    "type": "effect_type",
+    "//": "Even Speedwagon is afraid!",
+    "id": "fear",
+    "name": [ "Afraid" ],
+    "desc": [ "Your hands tremble as you gaze upon some frightening thing." ],
+    "apply_message": "Your heartbeat increases as fear overtakes you!",
+    "decay_messages": [ [ "You calm down.", "good" ] ],
+    "rating": "bad",
+	"int_add_val": 1,
+    "max_intensity": 6,
+    "base_mods": { "str_mod": [ -2 ], "dex_mod": [ -2 ] },
+    "scaling_mods": { "str_mod": [ -1 ], "dex_mod": [ -1 ] }
+  },
+{
+    "type": "effect_type",
+    "id": "strength",
+    "name": [ "Strength" ],
+    "desc": [ "Your muscles have grown in size, giving you a boost to physical strength!" ],
+    "apply_message": "You muscles swell!",
+    "remove_message": "Your ability fades.",
+    "rating": "good",
+    "base_mods": { "str_mod": [ 2 ] }
+  },
+{
+    "type": "effect_type",
+    "id": "speed",
+    "name": [ "Haste" ],
+    "desc": [ "Your muscles have grown in size, giving you a boost to speed!" ],
+    "apply_message": "You muscles swell!",
+    "remove_message": "Your ability fades.",
+    "rating": "good",
+    "base_mods": { "speed_mod": [ 20 ] }
+  },
+{
+    "type": "effect_type",
+    "id": "sight",
+    "//": "Normal sight, excludes night vision",
+    "name": [ "Sight" ],
+    "desc": [ "Your retnas have contracted, allowing for increased perception!" ],
+    "apply_message": "You eyes morph...",
+    "remove_message": "Your ability fades.",
+    "rating": "good",
+    "base_mods": { "per_mod": [ 2 ] }
+  },
+{
+    "type": "effect_type",
+    "id": "cleansing",
+    "name": [ "Cleansing" ],
+    "desc": [ "Massive health boost, at the cost of stamina." ],
+    "remove_message": "Your bodily cleansing ends.",
+    "rating": "good",
+    "max_duration": "8 h",
+    "base_mods": {
+      "health_min": [ 3 ],
+      "health_chance": [ 12 ],
+      "stamina_min": [ -40 ],
+      "stamina_chance": [ -8 ]
+    }
+  },
+{
+    "type": "effect_type",
+    "id": "muscle_cool",
+    "name": [ "Muscular Regulation" ],
+    "desc": [ "Grants a boost to stamina, at the cost of speed." ],
+    "remove_message": "Your bodily cleansing ends.",
+    "rating": "good",
+    "max_duration": "8 h",
+    "base_mods": {
+      "stamina_min": [ 20 ],
+      "stamina_chance": [ 16 ],
+      "speed_mod": [ -20 ]
+    }
+  },
+{
+    "type": "effect_type",
+    "id": "para_immune",
+    "name": [ "Anti-Paralysis" ],
+    "desc": [ "You are immune to paralysis" ],
+    "apply_message": "Your liver has been fortified!",
+    "remove_message": "The magic dispels.",
+    "rating": "good",
+    "removes_effects": [ "paralyzepoison" ],
+    "blocks_effects": [ "paralyzepoison" ]
   }
 ]

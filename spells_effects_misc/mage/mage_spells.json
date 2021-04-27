@@ -229,7 +229,7 @@
     "id": "mage_burning_hands",
     "type": "SPELL",
     "name": "Burning Hands",
-    "description": "You project a cone of fire",
+    "description": "You project a cone of fire.",
     "valid_targets": [ "ally", "hostile", "ground" ],
     "effect": "attack",
     "shape": "cone",

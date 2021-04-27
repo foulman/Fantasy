@@ -36,7 +36,7 @@
     "aoe_increment": 0.45,
     "effect": "attack",
     "shape": "blast",
-    "effect_str": "eff_frightful_presence",
+    "effect_str": "fear",
     "min_duration": 6000,
     "max_duration": 12000,
     "duration_increment": 300,
