@@ -613,5 +613,30 @@
     "city_sizes": [ 1, -1 ],
     "occurrences": [ 0, 3 ],
     "flags": [ "CLASSIC", "WILDERNESS" ]
+  },
+{
+    "type": "overmap_special",
+    "id": "wizard_academy",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "wizard_academy_enter_north" },
+      { "point": [ 0, -1, 0 ], "overmap": "wizard_academy_dining_north" },
+      { "point": [ 1, -1, 0 ], "overmap": "wizard_academy_dorm_right_north" },
+      { "point": [ -1, -1, 0 ], "overmap": "wizard_academy_dorm_left_north" },
+      { "point": [ 0, -2, 0 ], "overmap": "wizard_academy_classrooms_north" },
+      { "point": [ 1, -2, 0 ], "overmap": "wizard_academy_garden_right_north" },
+      { "point": [ -1, -2, 0 ], "overmap": "wizard_academy_garden_left_north" },
+
+      { "point": [ 0, 0, 1 ], "overmap": "wizard_academy_enter_roof_north" },
+      { "point": [ 0, -1, 1 ], "overmap": "wizard_academy_dining_roof_north" },
+      { "point": [ 1, -1, 1 ], "overmap": "wizard_academy_dorm_roof_north" },
+      { "point": [ -1, -1, 1 ], "overmap": "wizard_academy_dorm_roof_north" },
+      { "point": [ 0, -2, 1 ], "overmap": "wizard_academy_dining_roof_north" }
+    ],
+    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "locations": [ "forest", "swamp", "land" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 1, -1 ],
+    "occurrences": [ 0, 1 ],
+    "flags": [ "CLASSIC", "WILDERNESS" ]
   }
  ]

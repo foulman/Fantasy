@@ -1,1 +1,95 @@
-[ ]
+[
+{
+    "id": "MISSION_BOTCHED_NECROMANCY",
+    "type": "mission_definition",
+    "name": "Botched Necromancy",
+    "description": "Find and kill a zombie horde.",
+    "goal": "MGOAL_KILL_MONSTER",
+    "followup": "MISSION_GOLEM_CONSTRUCT",
+    "difficulty": 1,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "min_distance": 4, "z": 0 },
+      "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_zombie", "x": 11, "y": 11, "target": true },
+                                            { "monster": "mon_mtc_zombie", "x": 11, "y": 12, "target": true },
+                                            { "monster": "mon_mtc_zombie", "x": 11, "y": 13, "target": true },
+                                            { "monster": "mon_mtc_zombie_warrior_cut", "x": 11, "y": 14, "target": true },
+                                            { "monster": "mon_mtc_skeleton", "x": 11, "y": 10, "target": true },
+                                            { "monster": "mon_mtc_skeleton", "x": 11, "y": 9, "target": true } ] }
+    },
+	"end": { "effect": [
+		{ "u_buy_item": "silver_coin", "count": 5 },
+                { "u_add_var": "MAGE_APPRENTICE", "type": "general", "context": "mission", "value": "yes" }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "A summoning ritual went wrong, and now risen dead wander.",
+	  "offer": "Well, you see...I was working on my magic practice; summoning, it was, and my...summons went rouge. IF you could stop them for me, I'd appreciate it. Heck, I'll even pay you.",
+	  "advice": "They're...tough, let's say. I would recommend keeping your guard up.",
+      "accepted": "Be careful.",
+      "rejected": "Come on, its important.",
+      "inquire": "Did you do it?",
+      "success": "Thank you! I was worried something bad would happen!",
+      "success_lie": "Wonderful. Though, I thought I saw something strange moving about...",
+      "failure": "Oh no."
+    }
+  },
+{
+    "id": "MISSION_GOLEM_CONSTRUCT",
+    "type": "mission_definition",
+    "name": "Wizard's Best Friend",
+    "description": "Obtain clay (40 chunks)",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_GOLEM_CONSTRUCT2",
+     "item": "clay_lump",
+	"count": 40,
+    "difficulty": 1,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": { "assign_mission_target": { "om_terrain": "river", "reveal_radius": 1, "random": true } },
+	"end": { "effect": [
+		{ "u_buy_item": "copper_coin", "count": 35 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "I've been working on my summoning magic, and I'm building a golem. I need clay, though.",
+	  "offer": "I've been working on my summoning magic, and I'm planning building a golem, nothing too fancy. I need clay, however, and I'd appreciate if you could get some for me.",
+	  "advice": "I've seen clay deposits near rivers.",
+      "accepted": "Thank you.",
+      "rejected": "Ah, well.",
+      "inquire": "Do you have the clay?",
+      "success": "Thank you. It'll be a while before it's ready, though.",
+      "success_lie": "Where is the clay?",
+      "failure": "Oh well."
+    }
+  },
+{
+    "id": "MISSION_GOLEM_CONSTRUCT2",
+    "type": "mission_definition",
+    "name": "Wizard's Best Friend Pt. II",
+    "description": "Get a small relic (a small totem)",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_GOLEM_CONSTRUCT2",
+     "item": "totem_small",
+	"count": 1,
+    "difficulty": 1,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": { "effect": [
+		{ "u_buy_item": "copper_coin", "count": 5 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "I need a small totem.",
+	  "offer": "I've almost got the body finished, though I need something to bind the golem too. Could you get me a small relic of some sort...I don't know how to carve, you see.",
+	  "advice": "I think the general store may have one, or you could make one yourself.",
+      "accepted": "Thank you.",
+      "rejected": "Ah, well.",
+      "inquire": "Do you have it?",
+      "success": "Thank you.",
+      "success_lie": "Where is it?",
+      "failure": "Oh well."
+    }
+  } 
+]

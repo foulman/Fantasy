@@ -1,0 +1,58 @@
+[
+{
+    "id": "MISSION_SAINT_BENEVOLENCE",
+    "type": "mission_definition",
+    "name": "Benevolence of a Saint",
+    "description": "Get some salt (20 pieces)",
+    "goal": "MGOAL_FIND_ITEM",
+	"item": "salt",
+	"count": 20,
+    "difficulty": 1,
+    "value": 1,
+    "followup": "MISSION_SAINT_BENEVOLENCE", 
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": { "effect": [
+		{ "u_buy_item": "copper_coin", "count": 15 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "Bring me some salt.",
+	  "offer": "I need some salt, for a blessing, but I'm out. Can you get me some?",
+	  "advice": "Boiling some salt water should get you some.",
+      "accepted": "Good.",
+      "rejected": "Someone must do it.",
+      "inquire": "Do you have what I need?",
+      "success": "Good. Here, for your trouble.",
+      "success_lie": "Where is it?",
+      "failure": "Ah, well."
+    }
+  },
+{
+    "id": "MISSION_HOLY_SYMBOL",
+    "type": "mission_definition",
+    "name": "Symbology",
+    "description": "Get holy symbols (10 handmade holy symbols)",
+    "goal": "MGOAL_FIND_ITEM",
+	"item": "holy_symbol_wood",
+	"count": 10,
+    "difficulty": 1,
+    "value": 1,
+    "followup": "MISSION_HOLY_SYMBOL",
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": { "effect": [
+		{ "u_buy_item": "copper_coin", "count": 35 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "Bring me holy symbols.",
+	  "offer": "I tend to sell holy symbols to passerbys; it helps fund us. I was wondering if you could get me some. I'll give you a portion of the profit.",
+	  "advice": "It just takes some sticks and grass, nothin' to it.",
+      "accepted": "Good.",
+      "rejected": "Someone must do it.",
+      "inquire": "Do you have what I need?",
+      "success": "Good. Here, for your trouble.",
+      "success_lie": "Where are they?",
+      "failure": "Ah, well."
+    }
+  }
+]

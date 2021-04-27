@@ -434,5 +434,85 @@
     "sym": "s",
     "color": "blue",
     "see_cost": 1
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_enter",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dining",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dorm_right",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dorm_left",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_classrooms",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_garden_right",
+    "name": "academy gardens",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "green"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_garden_left",
+    "name": "academy gardens",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "green"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_enter_roof",
+    "name": "roof",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dining_roof",
+    "name": "roof",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dorm_roof",
+    "name": "roof",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
   }
 ]
