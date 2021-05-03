@@ -59,165 +59,28 @@
     "id": "TALK_GAMBLE",
     "dynamic_line": "Okay. So, I roll a...",
     "responses": [
-      { "text": "...", "topic": "TALK_RESULT" }
+      {
+        "switch": true,
+        "default": true,
+        "text": "...",
+        "trial": { "type": "PERSUADE", "difficulty": 5 },
+        "success": { "topic": "TALK_WIN" },
+        "failure": { "topic": "TALK_LOSS" }
+      }
     ]
   },
   {
     "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "1. I win!",
+    "id": "TALK_WIN",
+    "dynamic_line": "I win!",
     "responses": [
       { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
     ]
   },
   {
     "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "2. I win!",
-    "responses": [
-      { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "3. I win!",
-    "responses": [
-      { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "4. I win!",
-    "responses": [
-      { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "5. I win!",
-    "responses": [
-      { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "6. I win!",
-    "responses": [
-      { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "7. I win!",
-    "responses": [
-      { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "8. I win!",
-    "responses": [
-      { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "9. I win!",
-    "responses": [
-      { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "10. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "11. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "12. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "13. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "14. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "15. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "16. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "17. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "18. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "19. You win.",
-    "responses": [
-      { "text": "Yes!", "topic": "TALK_WINNINGS" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_RESULT",
-    "dynamic_line": "20. You win.",
+    "id": "TALK_LOSS",
+    "dynamic_line": "You win.",
     "responses": [
       { "text": "Yes!", "topic": "TALK_WINNINGS" }
     ]

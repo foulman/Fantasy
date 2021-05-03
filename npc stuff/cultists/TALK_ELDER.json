@@ -28,7 +28,8 @@
     "type": "talk_topic",
     "dynamic_line": [ "So, what is it you desire?" ],
     "responses": [
-                   { "text": "Your robes seem highly decorated, what do you do?", "topic": "TALK_LEAD" } ]
+                   { "text": "Your robes seem highly decorated, what do you do?", "topic": "TALK_LEAD" },
+                   { "text": "I gotta go.", "topic": "TALK_DONE" } ]
   },
   {
     "id": "TALK_LEAD",
@@ -42,7 +43,8 @@
         "trial": { "type": "PERSUADE", "difficulty": 0 },
         "success": { "topic": "TALK_POSITION", "opinion": { "trust": 1, "value": 1 } },
         "failure": { "topic": "TALK_WORK" }
-      } ]
+      },
+      { "text": "With your position, is there anything I can do for you?", "topic": "TALK_CULT_JOBS", "condition": { "u_is_wearing": "cult_robes_ritual" } } ]
   },
   {
     "id": "TALK_WORK",

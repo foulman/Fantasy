@@ -29,6 +29,7 @@
     "dynamic_line": [ "Welcome, through the doors. Vulgtmah!" ],
     "responses": [ { "text": "Vulgtmah!", 
                      "topic": "TALK_DONE", 
-                     "effect": [ { "u_add_var": "joined_cult", "type": "dialogue", "context": "cult", "value": "yes" } ] } ]
+                     "effect": [ { "u_add_var": "joined_cult", "type": "dialogue", "context": "cult", "value": "yes" },
+                                 { "u_buy_item": "cult_robes" } ] } ]
   }
 ]

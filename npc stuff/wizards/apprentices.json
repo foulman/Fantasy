@@ -1,0 +1,13 @@
+[
+{
+    "type": "npc",
+    "id": "apprentice_mage",
+    "name_suffix": "apprentice mage",
+    "class": "NPC_MAGE_APPRENTICE",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_APPRENTICE_MAGE",
+    "mission_offered": [ "MISSION_BOTCHED_NECROMANCY", "MISSION_GET_PAPER" ],
+    "faction": "kingdom"
+  } 
+]

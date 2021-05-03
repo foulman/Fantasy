@@ -482,5 +482,71 @@
     "proportional": { "price": 0.3, "bashing": 0.6, "cutting": 0.6, "weight": 0.9 },
     "extend": { "flags": [ "FRAGILE_MELEE" ] },
 	"delete": { "flags": [ "DURABLE_MELEE" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "wooden_buckler_rotten",
+    "copy-from": "wooden_buckler",
+    "looks_like": "wooden_buckler",
+    "name": "rotten wooden buckler",
+	"description": "An old, rotten bucker that has seen better days. Its not gonna last long.",
+    "proportional": { "price": 0.3, "bashing": 0.6, "cutting": 0.5, "weight": 0.9 },
+   "extend": { "flags": [ "FRAGILE_MELEE" ] },
+	"delete": { "flags": [ "DURABLE_MELEE" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "wooden_shield_rotten",
+    "copy-from": "wooden_shield",
+    "looks_like": "wooden_shield",
+    "name": "rotten wooden shield",
+	"description": "An old, rotten shield, riddled with cuts and arrowmarks, that's definetly seen better days. Its not gonna last long.",
+    "proportional": { "price": 0.3, "bashing": 0.6, "cutting": 0.5, "weight": 0.9 },
+    "extend": { "flags": [ "FRAGILE_MELEE" ] },
+	"delete": { "flags": [ "DURABLE_MELEE" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "wooden_shield_tower_rotten",
+    "copy-from": "wooden_shield_tower",
+    "looks_like": "wooden_shield_tower",
+    "name": "rotten wooden tower shield",
+	"description": "Once a mighty tower shield, this rotten piece is not but a husk of its former self. You wonder how many lives it saved, before it eventually failed.",
+    "proportional": { "price": 0.3, "bashing": 0.6, "cutting": 0.5, "weight": 0.9 },
+    "extend": { "flags": [ "FRAGILE_MELEE" ] },
+	"delete": { "flags": [ "DURABLE_MELEE" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "metal_buckler_rusted",
+    "copy-from": "metal_buckler",
+    "looks_like": "metal_buckler",
+    "name": "rusted metallic buckler",
+	"description": "An old, rusted bucker that has seen better days. While it may still have some spunk, it won't last long.",
+    "proportional": { "price": 0.3, "bashing": 0.6, "cutting": 0.5, "weight": 0.9 },
+    "extend": { "flags": [ "FRAGILE_MELEE" ] },
+	"delete": { "flags": [ "DURABLE_MELEE" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "metal_shield_rusted",
+    "copy-from": "metal_shield",
+    "looks_like": "metal_shield",
+    "name": "rusted metallic shield",
+	"description": "An old, rusted shield, riddled with cuts and arrowmarks, that's definetly seen better days. While it may still have some spunk, it won't last long.",
+    "proportional": { "price": 0.3, "bashing": 0.6, "cutting": 0.5, "weight": 0.9 },
+   "extend": { "flags": [ "FRAGILE_MELEE" ] },
+	"delete": { "flags": [ "DURABLE_MELEE" ] }
+  },
+  {
+    "type": "GENERIC",
+    "id": "metal_shield_tower_rusted",
+    "copy-from": "metal_shield_tower",
+    "looks_like": "metal_shield_tower",
+    "name": "rusted metallic tower shield",
+	"description": "Once a mighty tower of iron, this rusted piece of scrap is not but a husk of its former self. You wonder how many lives it saved, before it eventually failed.",
+    "proportional": { "price": 0.3, "bashing": 0.6, "cutting": 0.5, "weight": 0.9 },
+    "extend": { "flags": [ "FRAGILE_MELEE" ] },
+	"delete": { "flags": [ "DURABLE_MELEE" ] }
   }
 ]

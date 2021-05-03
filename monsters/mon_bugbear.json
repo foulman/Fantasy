@@ -49,6 +49,7 @@
       "subtype": "collection",
       "items": [
         { "item": "chaps_leather", "prob": 80 },
+        { "group": "shields_all", "prob": 40 },
         { "item": "morningstar" }
       ]
     }
@@ -96,6 +97,7 @@
       "subtype": "collection",
       "items": [
         { "item": "chaps_leather" },
+        { "group": "shields_all", "prob": 40 },
         { "item": "morningstar" }
       ]
     }

@@ -37,7 +37,8 @@
     "attitude": 0,
     "mission": 3,
     "chat": "TALK_HOMAGE",
-    "faction": "cultists"
+    "faction": "cultists",
+    "mission_offered": [ "MISSION_GET_LEATHER", "MISSION_GET_PAPER", "MISSION_PRIVACY_FENCE" ]
   },
   {
     "type": "npc",
@@ -88,6 +89,70 @@
     "mission": 7,
     "chat": "TALK_RECRUITER",
     "mission_offered": "MISSION_JOIN_CULT",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_defender_gate",
+    "name_suffix": "cultist",
+    "class": "NPC_FEMALE_CITIZEN",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_DEFENDER_GATE",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_recruiter",
+    "class": "NPC_FEMALE_CITIZEN",
+    "name_suffix": "cultist",          
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_RECRUITER",
+    "mission_offered": "MISSION_JOIN_CULT",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_guard_captian",
+    "name_suffix": "guard captian",
+    "class": "NPC_CULT_DEFENDER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_CAPTAIN",
+    "mission_offered": "MISSION_ROUGE_SUMMON",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_blacksmith",
+    "name_suffix": "blacksmith",
+    "class": "NPC_BLACKSMITH",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_LONE_BLACKSMITH",
+    "mission_offered": "MISSION_GET_LEATHER",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "psycho_cult_member",
+    "name_suffix": "cult member",
+    "class": "NPC_CULT_MEMBER",
+    "attitude": 10,
+    "mission": 3,
+    "chat": "TALK_MEMBER",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_magician",
+    "name_suffix": "cult member",
+    "class": "NPC_CULT_MAGICIAN",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_SHOPKEEPER_general",
+    "mission_offered": "MISSION_GET_PAPER",
     "faction": "cultists"
   }
 ]

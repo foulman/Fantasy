@@ -8,7 +8,8 @@
     "description": "Warlocks are those who have made a deal with an otherworldly entity for knowledge.",
     "starting_trait": false,
     "purifiable": false,
-    "valid": false
+    "valid": false,
+    "cancels": [ "CLERIC" ]
   },
   {
     "type": "mutation",
@@ -27,7 +28,7 @@
   {
     "type": "mutation",
     "id": "WARLOCK_C",
-    "name": "Hexbound",
+    "name": "Pact of The Hexbound",
     "//": "Variation",
     "points": 0,
     "description": "The Hexbound are the indentured of Qliphoth, The Patron Mistress. They are known for their curses, charms, and weaponplay.",

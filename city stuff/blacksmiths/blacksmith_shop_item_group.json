@@ -61,7 +61,8 @@
     "id": "BLACKSMITH_SHOP",
     "subtype": "collection",
     "entries": [
-      { "group": "blacksmith_weapons_and_armour", "prob": 100 }
+      { "group": "blacksmith_weapons_and_armour", "prob": 100 },
+      { "group": "shields_all", "prob": 100 }
     ]
   }
 ]

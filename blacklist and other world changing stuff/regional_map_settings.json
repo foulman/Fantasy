@@ -492,7 +492,9 @@
         "generalstore": 5, 
         "infirmary": 5, 
         "stables": 3,
-        "church_mtc": 5, 
+        "church_mtc": 5,
+        "carpentry_workshop": 5,
+        "cemetary_mtc": 5, 
         "house_two_story_basement": 0,
         "house_prepper": 0,
         "house_prepper2": 0,
@@ -1047,7 +1049,7 @@
   },
   {
     "type": "overmap_special",
-    "id": "Farm",
+    "id": "farm_lot_2x4",
     "overmaps": [  ],
 	"occurrences": [ 0, 0 ]
   },
@@ -1078,6 +1080,60 @@
   {
     "type": "overmap_special",
     "id": "farm_lot_forest",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "St_Johns_farm",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Strangle Temple",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Mine Entrance",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Farm",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "bandit_camp",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "rural_house",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "rural_house_turn",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "rural_house_yard",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "tree farm",
     "overmaps": [  ],
 	"occurrences": [ 0, 0 ]
   }

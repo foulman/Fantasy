@@ -27,5 +27,29 @@
 		"extra_effects": [ { "id": "min_water_item_stun", "hit_self": true } ],
 		"min_duration": 1,
 		"max_duration": 1
-    }
+    },
+    {
+    "id": "mu_spell_cantrip",
+    "type": "SPELL",
+    "name": "Cantrip",
+    "description": "This is the first spell any mage learns, designed to teach them to manipulate mana to accomplish many minor tasks with a minimum of effort.  Eventually this becomes reflexive and you can simply do things at will with no spell casting required, just using background mana.",
+    "valid_targets": [ "self" ],
+    "effect": "spawn_item",
+    "shape": "blast",
+    "effect_str": "cantrip_item",
+    "flags": [ "SILENT", "NO_HANDS", "VERBAL", "NO_LEGS" ],
+    "energy_source": "MANA",
+    "base_casting_time": 200,
+    "casting_time_increment": -10,
+    "final_casting_time": 80,
+    "base_energy_cost": 25,
+    "energy_increment": -1,
+    "final_energy_cost": 5,
+    "difficulty": 0,
+    "max_level": 20,
+    "min_damage": 1,
+    "max_damage": 1,
+    "min_duration": 36000,
+    "max_duration": 36000
+  }
 ]

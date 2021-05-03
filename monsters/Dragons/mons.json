@@ -47,7 +47,7 @@
     "armor_acid": 3,
     "vision_day": 50,
     "vision_night": 10,
-    "harvest": "animal_large_noskin",
+    "harvest": "dragon",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
@@ -74,7 +74,6 @@
       "PATH_AVOID_DANGER_2",
       "WARM",
       "SWIMS",
-      "ATTACKMON",
       "FIREPROOF",
       "PUSH_MON",
       "FLIES"
@@ -111,7 +110,7 @@
     "armor_acid": 1,
     "vision_day": 50,
     "vision_night": 10,
-    "harvest": "animal_large_noskin",
+    "harvest": "dragon",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
@@ -138,7 +137,6 @@
       "PATH_AVOID_DANGER_2",
       "WARM",
       "SWIMS",
-      "ATTACKMON",
       "COLDPROOF",
       "PUSH_MON",
       "FLIES"
@@ -176,7 +174,7 @@
     "armor_acid": 1,
     "vision_day": 50,
     "vision_night": 10,
-    "harvest": "animal_large_noskin",
+    "harvest": "dragon",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
@@ -203,7 +201,6 @@
       "PATH_AVOID_DANGER_2",
       "WARM",
       "SWIMS",
-      "ATTACKMON",
       "ELECTRIC",
       "PUSH_MON",
       "FLIES"
@@ -240,7 +237,7 @@
     "armor_acid": 3,
     "vision_day": 50,
     "vision_night": 10,
-    "harvest": "animal_large_noskin",
+    "harvest": "dragon",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
@@ -261,7 +258,6 @@
       "PATH_AVOID_DANGER_2",
       "WARM",
       "SWIMS",
-      "ATTACKMON",
       "FIREPROOF",
       "PUSH_MON",
       "FLIES"
@@ -298,7 +294,7 @@
     "armor_acid": 3,
     "vision_day": 50,
     "vision_night": 10,
-    "harvest": "animal_large_noskin",
+    "harvest": "dragon",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
@@ -319,8 +315,7 @@
       "PATH_AVOID_DANGER_2",
       "WARM",
       "SWIMS",
-      "ATTACKMON",
-      "FIREPROOF",
+      "COLDPROOF",
       "PUSH_MON",
       "FLIES"
     ]
@@ -356,7 +351,7 @@
     "armor_acid": 3,
     "vision_day": 50,
     "vision_night": 10,
-    "harvest": "animal_large_noskin",
+    "harvest": "dragon",
     "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
@@ -377,8 +372,7 @@
       "PATH_AVOID_DANGER_2",
       "WARM",
       "SWIMS",
-      "ATTACKMON",
-      "FIREPROOF",
+      "ELECTRIC",
       "PUSH_MON",
       "FLIES"
     ]

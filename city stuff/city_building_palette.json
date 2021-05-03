@@ -290,7 +290,8 @@
       "c": "f_counter",
       "1": "f_bench",
       "U": "f_statue", 
-      "H": "f_table"
+      "H": "f_table",
+      "g": [ [ "f_slab", 10 ], [ "f_grave_head", 10 ], [ "f_grave_stone", 10 ], [ "f_grave_stone_old", 10 ], [ "f_grave_monument", 2 ] ]
     }
 },
 {
@@ -310,17 +311,20 @@
   },
 {
     "type": "palette",
-    "id": "mtc_stables",
+    "id": "mtc_cemetary",
     "terrain": {
       "f": "t_fencegate_c",
       "d": "t_dirt",
       "s": "t_splitrail_fence",
       "w": "t_wall_w",
-      ".": "t_floor"
+      ".": "t_floor",
+      "D": "t_door_c"
     },
     "furniture": {
       "#": "f_chair",
-      "t": "f_table"
+      "g": [ [ "f_slab", 10 ], [ "f_grave_head", 10 ], [ "f_grave_stone", 10 ], [ "f_grave_stone_old", 10 ], [ "f_grave_monument", 2 ] ],
+      "t": "f_table",
+      "?": "f_hanging_lantern"
     }
   }
 ]

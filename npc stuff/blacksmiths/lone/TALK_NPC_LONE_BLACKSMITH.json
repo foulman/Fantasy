@@ -10,7 +10,11 @@
 	  {
 		"text": "Bye.",
 		"topic": "TALK_DONE"
-	  }
+	  },
+          {
+		"text": "Is there anything you need?",
+		"topic": "TALK_NPC_GENERIC_TAVERNKEEP_JOBS"
+		}
     ]
   },
   {

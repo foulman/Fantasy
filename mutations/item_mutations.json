@@ -5,6 +5,7 @@
     "name": "Runic Strength",
     "points": 2,
     "description": "Strength +1",
+    "player_display": false,
     "passive_mods": { "str_mod": 1 }
   },
 {
@@ -13,6 +14,7 @@
     "name": "Runic Strength +2",
     "points": 2,
     "description": "Strength +2",
+	"player_display": false,
     "passive_mods": { "str_mod": 2 }
   },
 {
@@ -21,6 +23,7 @@
     "name": "Runic Strength +3",
     "points": 2,
     "description": "Strength +3",
+    "player_display": false,
     "passive_mods": { "str_mod": 3 }
   },
 {
@@ -29,6 +32,7 @@
     "name": "Runic Mind",
     "points": 2,
     "description": "Intelligence +1",
+    "player_display": false,
     "passive_mods": { "int_mod": 1 }
   },
 {
@@ -37,6 +41,7 @@
     "name": "Runic Mind +2",
     "points": 2,
     "description": "Intelligence +2",
+	"player_display": false,
     "passive_mods": { "int_mod": 2 }
   },
 {
@@ -45,6 +50,7 @@
     "name": "Runic Mind +3",
     "points": 2,
     "description": "Intelligence +3",
+	"player_display": false,
     "passive_mods": { "int_mod": 3 }
   },
 {
@@ -53,6 +59,7 @@
     "name": "Runic Flexibility",
     "points": 2,
     "description": "Dexterity +1",
+	"player_display": false,
     "passive_mods": { "dex_mod": 1 }
   },
 {
@@ -61,6 +68,7 @@
     "name": "Runic Flexibility +2",
     "points": 2,
     "description": "Dexterity +2",
+	"player_display": false,
     "passive_mods": { "dex_mod": 2 }
   },
 {
@@ -69,6 +77,7 @@
     "name": "Runic Flexibility +3",
     "points": 2,
     "description": "Dexterity +3",
+	"player_display": false,
     "passive_mods": { "dex_mod": 3 }
   },
 {
@@ -77,6 +86,7 @@
     "name": "Fake Mutation",
     "points": 2,
     "description": "Perception +1",
+	"player_display": false,
     "passive_mods": { "per_mod": 1 }
   },
 {
@@ -85,6 +95,7 @@
     "name": "Fake Mutation",
     "points": 2,
     "description": "Perception +2",
+	"player_display": false,
     "passive_mods": { "per_mod": 2 }
   },
 {
@@ -93,6 +104,7 @@
     "name": "Fake Mutation",
     "points": 2,
     "description": "Perception +3",
+	"player_display": false,
     "passive_mods": { "per_mod": 3 }
   },
 {
@@ -101,6 +113,7 @@
     "name": "Fake Mutation",
     "points": 2,
     "description": "Intimidation +10",
+	"player_display": false,
     "social_modifiers": { "intimidate": 10 }
   },
 {
@@ -109,6 +122,7 @@
     "name": "Fake Mutation",
     "points": 2,
     "description": "Persuasion +10",
+	"player_display": false,
     "social_modifiers": { "persuade": 10 }
   },
 {
@@ -117,6 +131,7 @@
     "name": "Fake Mutation",
     "points": 2,
     "description": "Deception +10",
+	"player_display": false,
     "social_modifiers": { "lie": 10 }
   },
 {
@@ -136,5 +151,35 @@
     "description": "An extraterrestrial power haunts this mask.",
     "flags": [ "NON_THRESH" ],
     "spells_learned": [ [ "shadowmorph", 15 ], [ "hex", 20 ], [ "multi_bloodshot", 7 ] ]
+  },
+{
+    "type": "mutation",
+    "id": "HIDE_GOBLINOID",
+    "name": { "str": "Hide from Goblins" },
+    "points": 1,
+    "description": "Disguised by photomancy to appear nondescript, you are harder to notice at a distance.",
+    "starting_trait": false,
+    "stealth_modifier": 60,
+	"anger_relations": [ [ "GOBLINOID", -100 ] ]
+  },
+{
+    "type": "mutation",
+    "id": "MU_MUT_HIDE_UNDEAD",
+    "name": { "str": "Hide from Undead" },
+    "points": 1,
+    "description": "Disguised by photomancy to appear nondescript, you are harder to notice at a distance.",
+    "starting_trait": false,
+    "stealth_modifier": 60,
+	"anger_relations": [ [ "UNDEAD", -100 ] ]
+  },
+{
+    "type": "mutation",
+    "id": "MUT_HIDE_DEMONS",
+    "name": { "str": "Hide from Demons" },
+    "points": 1,
+    "description": "Disguised by photomancy to appear nondescript, you are harder to notice at a distance.",
+    "starting_trait": false,
+    "stealth_modifier": 60,
+	"anger_relations": [ [ "DEMON", -100 ] ]
   }
 ]

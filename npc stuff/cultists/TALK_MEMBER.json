@@ -9,8 +9,7 @@
     "id": "TALK_INQUIRY",
     "type": "talk_topic",
     "dynamic_line": [ "Oh, feeling <good>." ],
-    "responses": [ { "text": "That is wonderful.", "topic": "TALK_TOPICS" },
-                   { "text": "Humph.", "topic": "TALK_INSULT" } ]
+    "responses": [ { "text": "Good.", "topic": "TALK_TOPICS" } ]
   },
   {
     "id": "TALK_INSULT",
@@ -23,10 +22,10 @@
     "type": "talk_topic",
     "dynamic_line": [ "So, what can I do for you?" ],
     "responses": [ { "text": "Oh, nothing", "topic": "TALK_DONE" },
-                   { "text": "What is your opinion upon this place?", "topic": "TALK_OPINION" } ]
+                   { "text": "What is your opinion upon this place?", "topic": "TALK_THOUGHTS" } ]
   },
   {
-    "id": "TALK_OPINION",
+    "id": "TALK_THOUGHTS",
     "type": "talk_topic",
     "dynamic_line": [ "It seems quite nice. I have been a memeber for some time now, and everyone here is absolutley wonderful. I feel like I belong." ],
     "responses": [ { "text": "Hmmm.", "topic": "TALK_NONE" } ]

@@ -110,6 +110,7 @@
     "encumbrance": 4,
     "warmth": 40,
     "material_thickness": 4,
+    "bashing": 6,
     "environmental_protection": 20,
     "flags": [ "OVERSIZE", "OUTER", "HELMET_COMPAT", "NONCONDUCTIVE" ]
 	},

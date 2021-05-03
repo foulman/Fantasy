@@ -80,6 +80,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+      "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
 	  "npcs": {
 		"!": { "class": "generic_female_citizen" }
 		}
@@ -123,6 +126,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+      "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
 	  "npcs": {
 		"!": { "class": "generic_female_citizen" },
 		"?": { "class": "generic_male_citizen" }  
@@ -167,6 +173,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+      "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
 	  "npcs": {
 		"!": { "class": "generic_female_citizen" },
 		"?": { "class": "generic_male_citizen" },
@@ -212,6 +221,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+      "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
 	  "npcs": {
 		"!": { "class": "generic_female_citizen" },
 		"?": { "class": "generic_male_citizen" },

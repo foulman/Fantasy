@@ -36,13 +36,15 @@
         "           ff           "
       ],
       "palettes": [ "city_building_store" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
     "npcs": {
 		"!": { "class": "shopkeeper_general" }
 	},
 	"items": {
       "x": { "item": "stash_wood", "chance": 100, "repeat": [ 2, 5 ] },
-      "Y": [ { "item": "dry_goods", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "mtc_pantry_liquids", "chance": 70, "repeat": [ 2, 5 ] } ],
-      "X": [ { "item": "male_citizen_clothing", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "female_citizen_clothing", "chance": 100, "repeat": [ 2, 5 ] }, { "item": "kitchenstaff_wield", "chance": 100, "repeat": [ 2, 5 ] } ]
+      "X": [ { "item": "NPC_SHOPKEEPER_carry", "chance": 100 } ]
 	  
     }
     }
@@ -65,13 +67,13 @@
         " wuccccc!rrrr!ccc!cccc!w",
         " oc!cccccccccccccccccccw",
         " wcwwwwwwowwwowwwwwwwwcw",
-        " wcw1bwbbw1bwbbw1bwbbwcw",
+        " wcwbbwbbw1bwbbwbbwbbwcw",
         " ocwccwccwccwccwccwccwcw",
         " wcwdwwdwwdwwdwwdwwwdwcw",
         " wcccccccccccccccccccccw",
         " wwwwdwwdwcccwwdwwdwwdww",
         "   occwccwc!cwccwccwccw ",
-        "   wc1wc1wcccwc1wcbwc1w ",
+        "   wc1wcbwcccwc1wcbwc1w ",
         "   wcbwcbwcccwcbwcbwcbw ",
         "   wwwwowwwddwwwowwwwww ",
         "           ff           ",
@@ -84,6 +86,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
     "furniture": { "1": "f_bed" },
     "npcs": {
 		"1": [ { "class": "generic_male_citizen" }, { "class": "generic_female_citizen" } ],
@@ -116,7 +121,7 @@
         "                        ",
         "                        ",
         "   wwwwwwoowwoowwwwww   ",
-        "   w.......UU.......w   ",
+        "   w.......UU...2...w   ",
         "   w......cHHc......w   ",
         "   w................w   ",
         "   w.###1#...#####1.w   ",
@@ -135,11 +140,166 @@
         "           ff           "
       ],
       "palettes": [ "mtc_church" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
+    "npcs": {
+		"1": { "class": "generic_worshiper" },
+                "2": { "class": "priest" }
+	},
+	"items": {
+      "c": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
+    }
+    }
+ },
+ {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "carpentry_workshop" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "...wwwwwwwooowwwwwsss...",
+        "...wxxxxffffffffffrOs...",
+        "...wxffxffffffffffrrs...",
+        "...wxfffftttttffffffw...",
+        "...offffffff~fffffffo...",
+        "...offfttttttttttfffo...",
+        "...wffffffffffffffffw...",
+        "...wffftttttttttfjfjw...",
+        "...wff~ffffffff~fjf!w...",
+        "...wwwwowwwddwwwowoow...",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................"
+      ],
+      "palettes": [ "city_building_palette" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
+    "npcs": {
+		"!": { "class": "carpenter" },
+                "~": [ { "class": "generic_male_citizen" }, { "class": "generic_female_citizen" } ]
+	},
+	"items": { 
+      "x": { "item": "stash_wood", "chance": 100, "repeat": [ 9, 15 ] },
+      "j": { "item": "NPC_CARPENTER_carry", "chance": 50 },
+      "t": [ { "item": "stash_wood", "chance": 100, "repeat": [ 7, 10 ] }, { "item": "tools_general", "chance": 70, "repeat": [ 2, 5 ] } ],
+      "O": { "item": "stash_wood", "chance": 100, "repeat": [ 2, 5 ] }
+	  
+    }
+    }
+ },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "church_mtc" ],
+    "//": "Church with cemetary",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+        "                        ",
+        "       g           g    ",
+        "   g         g          ",
+        "                        ",
+        "      g    g   g   g    ",
+        "                        ",
+        "   wwwwwwoowwoowwwwww   ",
+        "   w.......UU....2..w   ",
+        "   w......cHHc......w   ",
+        "   w................w   ",
+        "   w.###1#...#####1.w   ",
+        "   o................o   ",
+        "   o.#1###...####1#.o   ",
+        "   o................o   ",
+        "   w.1####...###1##.w   ",
+        "   w................w   ",
+        "   ww....#1###.....ww   ",
+        "    w..............w    ",
+        "    o..............o    ",
+        "    wH............Hw    ",
+        "    ww............ww    ",
+        "     wwwowwddwwowww     ",
+        "           ff           ",
+        "           ff           "
+      ],
+      "palettes": [ "mtc_church" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
+    "npcs": {
+		"1": { "class": "generic_worshiper" },
+                "2": { "class": "priest" }
+	},
+	"items": {
+      "c": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
+    }
+    }
+ },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "cemetary_mtc" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_dirt",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "                        ",
+            "ssssssssssssssssssssssss",
+            "s g   g       g   g    s",
+            "s                      s",
+            "s g   g       g   g    s",
+            "s                      s",
+            "s g   g       g   g    s",
+            "s                      s",
+            "s g   g       g   g    s",
+            "s                      s",
+            "s g   g       g   g    s",
+            "s                      s",
+            "s g   g                s",
+            "s                      s",
+            "s g   g                s",
+            "s                1wDww s",
+            "s g   g           w.?w s",
+            "s                 w..w s",
+            "s g   g           w#tw s",
+            "s                 wwww s",
+            "s g   g                s",
+            "s                      s",
+            "sssssssssssffsssssssssss",
+            "                        "
+      ],
+      "palettes": [ "mtc_cemetary" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
     "npcs": {
 		"1": { "class": "generic_worshiper" }
 	},
 	"items": {
-      "c": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
+      "t": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
     }
     }
  },
@@ -260,6 +420,42 @@
 {
     "type": "mapgen",
     "method": "json",
+    "om_terrain": [ "cemetary_roof" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_open_air",
+      "rows": [
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                  uuuu  ",
+            "                  uuuu  ",
+            "                  uuuu  ",
+            "                  uuuu  ",
+            "                  uuuu  ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        "
+      ],
+      "palettes": [ "city_building_roof_palette" ]
+    }
+ },
+{
+    "type": "mapgen",
+    "method": "json",
     "om_terrain": [ "stables" ],
     "weight": 100,
     "object": {
@@ -294,6 +490,9 @@
         "           dd           "
       ],
       "palettes": [ "mtc_stables" ],
+      "place_zones": [
+        { "type": "NPC_INVESTIGATE_ONLY", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
       "monster": { "O": { "monster": "mon_horse", "chance": 70 } },
     "npcs": {
 		"#": { "class": "stablemaster" }

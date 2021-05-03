@@ -46,7 +46,7 @@
   {
     "type": "overmap_terrain",
     "id": "old_catacomb_roof",
-    "name": "catacombs roof",
+    "name": "catacomb roof",
     "sym": "0",
     "see_cost": 5,
     "color": "brown"
@@ -274,5 +274,245 @@
     "sym": "#",
     "see_cost": 1,
     "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "goblin_camp_gate",
+    "name": "goblin camp",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "goblin_camp_wall",
+    "name": "goblin camp",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "goblin_camp_rangen",
+    "name": "goblin camp",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "goblin_camp_gate_upper",
+    "name": "open air",
+    "sym": ".",
+    "see_cost": 1,
+    "color": "blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "goblin_camp_wall_upper",
+    "name": "open air",
+    "sym": ".",
+    "see_cost": 1,
+    "color": "blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "goblin_camp_rangen_roof",
+    "name": "open air",
+    "sym": ".",
+    "see_cost": 1,
+    "color": "blue"
+  },                                                                
+  {
+    "type": "overmap_terrain",
+    "id": "home_ruins",
+    "name": "ruined home",
+    "sym": ">",
+    "see_cost": 5,
+    "color": "green"
+	},
+  {
+    "type": "overmap_terrain",
+    "id": "home_roof_ruins",
+    "name": "ruined roof",
+    "sym": ">",
+    "see_cost": 5,
+    "color": "green"
+	},
+  {
+    "type": "overmap_terrain",
+    "id": "ruined_city_road",
+    "name": "road",
+    "sym": "│",
+    "color": "dark_gray"
+	},
+  {
+    "type": "overmap_terrain",
+    "id": "ruined_city_road_enter",
+    "name": "road",
+    "sym": "│",
+    "color": "dark_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "home_ruins_down",
+    "name": "ruined home",
+    "sym": ">",
+    "see_cost": 5,
+    "color": "green"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "home_basement",
+    "name": "basement",
+    "sym": "O",
+    "color": "dark_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "elder_caves",
+    "name": "otherworldly caves",
+    "sym": "0",
+    "color": "red"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "dragon_lair_surface",
+    "name": "forest",
+    "sym": "F",
+    "color": "green"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "dragon_lair_down",
+    "name": "dragon's lair",
+    "sym": "0",
+    "color": "green"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "dragon_lair_bottom",
+    "name": "dragon's lair",
+    "sym": "0",
+    "color": "green"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "bandit_camp_hut",
+    "name": "bandit camp",
+    "sym": "C",
+    "color": "green"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "bandit_camp_important",
+    "name": "bandit camp",
+    "sym": "C",
+    "color": "green"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "bandit_camp_roof",
+    "name": "longhouse roof",
+    "sym": "0",
+    "see_cost": 5,
+    "color": "green"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_study",
+    "name": "arcane study",
+    "sym": "s",
+    "color": "blue",
+    "see_cost": 1,
+    "flags": [ "RISK_LOW", "SOURCE_SAFETY" ]
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_study_roof",
+    "name": "roof",
+    "sym": "s",
+    "color": "blue",
+    "see_cost": 1
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_enter",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dining",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dorm_right",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dorm_left",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_classrooms",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_garden_right",
+    "name": "academy gardens",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "green"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_garden_left",
+    "name": "academy gardens",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "green"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_enter_roof",
+    "name": "roof",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dining_roof",
+    "name": "roof",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "wizard_academy_dorm_roof",
+    "name": "roof",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
   }
 ]

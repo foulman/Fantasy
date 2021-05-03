@@ -1,0 +1,78 @@
+[
+{
+    "id": "fire_protection_lesser",
+    "name": { "str": "potion of fire protection" },
+    "description": "A dark red liquid, seemingly magical in nature. When consumed, it boosts your resistance to heat.",
+    "use_action": { "type": "cast_spell", "spell_id": "fire_protect_item", "no_fail": true, "level": 0 },
+    "type": "COMESTIBLE",
+    "weight": "265 g",
+    "quench": 10,
+    "calories": 75,
+    "volume": "250ml",
+    "charges": 1,
+    "fun": -1,
+    "healthy": 1,
+    "symbol": "~",
+    "container": "bowl_clay",
+    "color": "red",
+    "comestible_type": "DRINK",
+    "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
+    "phase": "liquid",
+    "price": 2500,
+    "freezing_point": 40
+  },
+{
+    "id": "fire_protection",
+    "type": "COMESTIBLE",
+    "name": { "str": "concentrated potion of fire protection" },
+    "copy-from": "fire_protection_lesser",
+    "use_action": { "type": "cast_spell", "spell_id": "fire_protect_item", "no_fail": true, "level": 5 },
+    "price": 10000
+  },
+{
+    "id": "fire_protection_greater",
+    "type": "COMESTIBLE",
+    "name": { "str": "elixer of fire protection" },
+    "copy-from": "fire_protection_lesser",
+    "use_action": { "type": "cast_spell", "spell_id": "fire_protect_item", "no_fail": true, "level": 10 },
+    "price": 20000
+  },
+{
+    "id": "fire_breath_lesser",
+    "name": { "str": "potion of firey breath" },
+    "description": "A dark red liquid, seemingly magical in nature. When consumed, it allows you to spew liquid fire.",
+    "use_action": { "type": "cast_spell", "spell_id": "mage_burning_hands", "no_fail": true, "level": 0 },
+    "type": "COMESTIBLE",
+    "weight": "265 g",
+    "quench": 10,
+    "calories": 75,
+    "volume": "250ml",
+    "charges": 1,
+    "fun": -1,
+    "healthy": 1,
+    "symbol": "~",
+    "container": "bowl_clay",
+    "color": "red",
+    "comestible_type": "DRINK",
+    "flags": [ "EATEN_COLD", "NUTRIENT_OVERRIDE" ],
+    "phase": "liquid",
+    "price": 2500,
+    "freezing_point": 40
+  },
+{
+    "id": "fire_breath",
+    "type": "COMESTIBLE",
+    "name": { "str": "concentrated potion of firey breath" },
+    "copy-from": "fire_breath_lesser",
+    "use_action": { "type": "cast_spell", "spell_id": "mage_burning_hands", "no_fail": true, "level": 5 },
+    "price": 10000
+  },
+{
+    "id": "fire_breath_greater",
+    "type": "COMESTIBLE",
+    "name": { "str": "elixer of firey breath" },
+    "copy-from": "fire_breath_lesser",
+    "use_action": { "type": "cast_spell", "spell_id": "mage_burning_hands", "no_fail": true, "level": 10 },
+    "price": 20000
+  }
+]

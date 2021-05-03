@@ -117,6 +117,7 @@
         { "item": "armguard_scrap", "prob": 40 },
         { "item": "cuirass_scrap", "prob": 40 },
         { "item": "longsword_rusted", "prob": 80 },
+        { "group": "bucklers", "prob": 40 },
         { "item": "goblin_ears", "prob": 100 }
       ]
     }
@@ -145,6 +146,7 @@
         { "item": "armguard_scrap", "prob": 40 },
         { "item": "cuirass_scrap", "prob": 40 },
         { "item": "spear_steel_rusted", "prob": 80 },
+        { "group": "bucklers", "prob": 40 },
         { "item": "goblin_ears", "prob": 100 }
       ]
     }
@@ -172,6 +174,7 @@
         { "item": "armguard_scrap", "prob": 40 },
         { "item": "cuirass_scrap", "prob": 40 },
         { "item": "warhammer_rusted", "prob": 80 },
+        { "group": "bucklers", "prob": 40 },
         { "item": "goblin_ears", "prob": 100 }
       ]
     }
@@ -496,6 +499,7 @@
         { "item": "armguard_scrap", "prob": 80 },
         { "item": "cuirass_scrap", "prob": 80 },
         { "item": "broadsword_rusted", "prob": 90 },
+        { "group": "bucklers", "prob": 40 },
         { "item": "goblin_ears", "prob": 100 }
       ]
     }
@@ -529,7 +533,7 @@
       "special_attacks": [
         {
           "type": "spell",
-          "spell_data": { "id": "necromancer_zombie" },
+          "spell_data": { "id": "mon_goblin_necromancer_target" },
           "cooldown": 25,
           "monster_message": "<color_yellow>%1$s performs a hand gesture...</color>"
         }

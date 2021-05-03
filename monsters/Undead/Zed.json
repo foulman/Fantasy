@@ -52,6 +52,7 @@
         { "item": "machete_rusted", "prob": 20 },
         { "item": "cavalry_sabre_rusted", "prob": 20 },
         { "item": "kris_rusted", "prob": 20 },
+        { "group": "shields_degraded", "prob": 20 },
         { "item": "scimitar_rusted", "prob": 20 }
       ]
     },
@@ -71,6 +72,7 @@
       "subtype": "distribution",
       "items": [
         { "item": "q_staff_moldy", "prob": 30 },
+        { "group": "shields_degraded", "prob": 20 },
         { "item": "cudgel_moldy", "prob": 40 },
         { "item": "bokken_moldy", "prob": 30 }
       ]

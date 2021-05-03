@@ -639,5 +639,47 @@
         "cut": 2
       }
     ]
+  },
+{
+    "type": "mutation",
+    "id": "ENLARGE_HUGE",
+    "name": { "str": "Enlarged" },
+    "points": 2,
+    "visibility": 4,
+    "ugliness": 3,
+    "mixed_effect": true,
+    "description": "Your cardiovascular system has caught up with your muscular physique, so who needs pathetic human cars?  Strength +4.",
+    "passive_mods": { "str_mod": 4 },
+    "restricts_gear": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r" ],
+    "destroys_gear": true,
+    "weight_capacity_modifier": 1.1
+  },
+{
+    "type": "mutation",
+    "id": "BARKSKIN",
+    "name": { "str": "Barkskin" },
+    "points": 5,
+    "visibility": 10,
+    "ugliness": 3,
+    "description": "Your skin is coated in a light bark, like that of a tree.  This provides resistance to cutting damage and minor protection from fire.  Greatly reduces wet effects.",
+    "types": [ "SKIN", "skin_tone" ],
+    "wet_protection": [
+      { "part": "head", "ignored": 5 },
+      { "part": "leg_l", "ignored": 16 },
+      { "part": "leg_r", "ignored": 16 },
+      { "part": "foot_l", "ignored": 5 },
+      { "part": "foot_r", "ignored": 5 },
+      { "part": "arm_l", "ignored": 14 },
+      { "part": "arm_r", "ignored": 14 },
+      { "part": "hand_l", "ignored": 4 },
+      { "part": "hand_r", "ignored": 4 },
+      { "part": "torso", "ignored": 30 }
+    ],
+    "armor": [
+      {
+        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
+        "cut": 6, "bash": 2
+      }
+    ]
   }
 ]

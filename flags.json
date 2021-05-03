@@ -1,0 +1,14 @@
+[
+{
+    "id": "element_fire_armor",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by elemental magic, increasing its <good>protection</good>."
+  },
+{
+    "id": "element_acid_armor",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by elemental magic, increasing its <good>protection</good>."
+  }
+]

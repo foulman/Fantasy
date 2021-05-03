@@ -1,0 +1,185 @@
+[
+{
+    "//": "Nested group for goblin camps",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "goblin_nested",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "place_nested": [
+        { "chunks": [ [ "hut", 25 ], [ "firepit", 25 ], [ "food", 25 ] ], "x": 0, "y": 0 }
+      ]
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "hut",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "qqqqqqqq",
+        "qb....bq",
+        "q......q",
+        "q.....@q",
+        "h.....tq",
+        "q.....@q",
+        "qb....bq",
+        "qqqqqqqq"
+      ],
+      "palettes": [ "goblin_camp" ]
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "hut",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "qqqqqqqq",
+        "qb....bq",
+        "q......q",
+        "qb....bq",
+        "h......q",
+        "q......q",
+        "qb....bq",
+        "qqqqqqqq"
+      ],
+      "palettes": [ "goblin_camp" ]
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "hut",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "qqqqqqqq",
+        "qb....bq",
+        "q......q",
+        "qb....bq",
+        "h......q",
+        "q......q",
+        "qb..@.bq",
+        "qqqqqqqq"
+      ],
+      "palettes": [ "goblin_camp" ]
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "hut",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "qqqqqqqq",
+        "qb.t@.bq",
+        "q......q",
+        "qb....bq",
+        "h......q",
+        "q......q",
+        "qb.t@.bq",
+        "qqqqqqqq"
+      ],
+      "palettes": [ "goblin_camp" ]
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "hut",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "qqqqqqqq",
+        "qb....bq",
+        "q......q",
+        "q.@t@..q",
+        "h.@t@..q",
+        "q..... q",
+        "qb.@@.bq",
+        "qqqqqqqq"
+      ],
+      "palettes": [ "goblin_camp" ]
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "hut",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "qqqqqqqq",
+        "qb....bq",
+        "q......q",
+        "q@...t@q",
+        "h....t@q",
+        "q......q",
+        "qb.@@.bq",
+        "qqqqqqqq"
+      ],
+      "palettes": [ "goblin_camp" ]
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "firepit",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "q  x   q",
+        "   xx   ",
+        " @....@ ",
+        " ..cc.. ",
+        " ..cc.. ",
+        " @....@ ",
+        "   ..   ",
+        "q      q"
+      ],
+      "palettes": [ "goblin_camp" ]
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "roof",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "uuuuuuuu",
+        "uuuuuuuu",
+        "uuuuuuuu",
+        "uuuuuuuu",
+        "uuuuuuuu",
+        "uuuuuuuu",
+        "uuuuuuuu",
+        "uuuuuuuu"
+      ],
+      "palettes": [ "goblin_camp_roof" ]
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "food",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "qqqqqqqq",
+        "q000000q",
+        "q0....0q",
+        "h...0.0q",
+        "q0..0.0q",
+        "q0....0q",
+        "q000000q",
+        "qqqqqqqq"
+      ],
+      "palettes": [ "goblin_camp" ]
+    }
+    }
+]
