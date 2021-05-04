@@ -57,7 +57,9 @@
 	"worn_override": "NPC_guard_worn",
     "weapon_override": "NPC_guard_wield",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "melee", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 2, 3 ] } }
     ]
 	},
 	{
@@ -77,7 +79,9 @@
 	"worn_override": "NPC_bouncer_worn",
     "weapon_override": "NPC_bouncer_wield",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "melee", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 2, 3 ] } }
     ]
 	},
 	{
@@ -217,7 +221,10 @@
 	"worn_override": "NPC_dragonslayer_worn",
     "weapon_override": "NPC_dragonslayer_wield",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "melee", "bonus": { "rng": [ 4, 5 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 4, 5 ] } },
+      { "skill": "cutting", "bonus": { "rng": [ 4, 5 ] } }
     ]
 	},
 	{
@@ -237,7 +244,9 @@
 	"worn_override": "NPC_knight_worn",
     "weapon_override": "NPC_knight_wield",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "melee", "bonus": { "rng": [ 4, 5 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 4, 5 ] } }
     ]
 	},
 	{
@@ -257,7 +266,9 @@
 	"worn_override": "NPC_rogue_worn",
     "weapon_override": "NPC_rogue_wield",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "melee", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 3, 4 ] } }
     ]
 	},
 	{
@@ -329,7 +340,7 @@
     "bonus_dex": { "rng": [ 0, 2 ] },
     "bonus_int": { "rng": [ 1, 2 ] },
     "bonus_per": { "rng": [ 1, 2 ] },
-    "worn_override": "NPC_tavernkeep_worn",
+    "worn_override": "NPC_shopkeeper_worn",
     "shopkeeper_item_group": "NPC_SHOPKEEPER_carry",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
@@ -389,7 +400,7 @@
     "bonus_dex": { "rng": [ 0, 2 ] },
     "bonus_int": { "rng": [ 1, 2 ] },
     "bonus_per": { "rng": [ 1, 2 ] },
-    "worn_override": "NPC_tavernkeep_worn",
+    "worn_override": "NPC_shopkeeper_worn",
     "weapon_override": "NPC_cult_member_wield",
     "shopkeeper_item_group": "NPC_CARPENTER_carry",
     "skills": [
@@ -413,7 +424,9 @@
     "worn_override": "NPC_cult_defender_worn",
     "weapon_override": "NPC_guard_wield",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "melee", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 1, 2 ] } }
     ]
 	},
 {
@@ -552,7 +565,9 @@
 	"worn_override": "NPC_bouncer_worn",
     "weapon_override": "NPC_knight_wield",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "melee", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 1, 1 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "dodge", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 1, 1 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
 	},
 {
@@ -572,7 +587,8 @@
     "worn_override": "NPC_cultist_worn",
     "weapon_override": "NPC_CULT_MAGICIAN_MTC",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "occult", "bonus": { "rng": [ 2, 3 ] } }
     ]
 	},
 {
@@ -593,7 +609,8 @@
     "worn_override": "NPC_wizard_worn",
     "weapon_override": "NPC_wizard_wield",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "spellcraft", "bonus": { "rng": [ 1, 2 ] } }
     ]
 	},
 {
@@ -613,7 +630,29 @@
     "worn_override": "NPC_priest_worn",
     "weapon_override": "NPC_priest_wield",
     "skills": [
-      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 1, 1 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 1, 1 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "faith", "bonus": { "rng": [ 1, 2 ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_FIRST_INSTRUCTOR",
+    "name": { "str": "First Year Instructor" },
+    "job_description": "I teach magic.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+       { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "spells": [ { "id": "mu_spell_cantrip", "level": 1 } ],
+    "bonus_str": { "rng": [ 0, 0 ] },
+    "bonus_dex": { "rng": [ 0, 0 ] },
+    "bonus_int": { "rng": [ 1, 4 ] },
+    "bonus_per": { "rng": [ 0, 0 ] },
+    "worn_override": "NPC_wizard_worn",
+    "weapon_override": "NPC_wizard_wield",
+    "skills": [
+      { "skill": "spellcraft", "bonus": { "rng": [ 2, 2 ] } }
     ]
 	}
 ]
