@@ -47,7 +47,8 @@
     "base_casting_time": 100,
     "base_energy_cost": 200,
     "extra_effects": [
-      { "id": "mace_effect" }
+      { "id": "mace_effect" },
+      { "id": "sword_effect" }
     ]
   },
  {
