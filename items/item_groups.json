@@ -223,10 +223,19 @@
   },
   {
     "type": "item_group",
+    "id": "infusion_books",
+    "subtype": "distribution",
+    "items": [
+      [ "infusion_basic", 70 ]
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "manuals",
     "subtype": "distribution",
     "entries": [
-      { "group": "alchemy_books", "prob": 6 }
+      { "group": "alchemy_books", "prob": 6 },
+      { "group": "infusion_books", "prob": 2 }
     ]
   },
   {
@@ -473,6 +482,14 @@
       { "group": "potions_lesser", "prob": 50 },
       { "group": "potions_mid", "prob": 10 },
       { "group": "potions_greater", "prob": 3 }
+    ]
+  },
+{
+    "type": "item_group",
+    "id": "reception_paperwork",
+    "subtype": "distribution",
+    "items": [
+      [ "reception_paperwork", 100 ]
     ]
   }
 ]
