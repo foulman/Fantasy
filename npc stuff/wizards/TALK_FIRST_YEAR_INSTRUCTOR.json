@@ -1,0 +1,68 @@
+[
+{
+    "type": "talk_topic",
+    "id": "TALK_INSTRUCTOR_Y1",
+    "dynamic_line": [ "Greetings. Can I help you with anything?" ],
+    "responses": [
+      { 
+         "text": "No, thanks.", 
+         "topic": "TALK_DONE"	  
+      },
+      { 
+         "text": "Who are you?", 
+         "topic": "TALK_TEACH"	  
+      },
+      { 
+         "text": "Don't we have lessons today?", 
+         "topic": "TALK_CULT_JOBS",
+         "condition": { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" } 	  
+      },
+      { 
+         "text": "There's something I'm not getting...", 
+         "topic": "TALK_MISSION_STUDY",
+         "condition": { "npc_has_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" } 	  
+      }
+    ]
+  },
+{
+    "type": "talk_topic",
+    "id": "TALK_TEACH",
+    "dynamic_line": [ "I'm the first year instructor here. I teach the new students." ],
+    "responses": [
+      { 
+         "text": "Oh.", 
+         "topic": "TALK_DONE"	  
+      },
+      { 
+         "text": "I think I'm in your class.", 
+         "topic": "TALK_CLASS",
+         "condition": { "u_has_items": { "item": "first_enrollment_slip", "count": 1 } },  
+         "effect": [ { "u_sell_item": "first_enrollment_slip", "count": 1 } ] 	  
+      }
+    ]
+  },
+{
+    "type": "talk_topic",
+    "id": "TALK_CLASS",
+    "dynamic_line": [ "Well, let's see... Yep, it's all valid. The receptionist is good these days." ],
+    "responses": [
+      { 
+         "text": "Okay.", 
+         "topic": "TALK_CULT_JOBS",
+         "effect": [ { "npc_add_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" } ] 	  	  
+      }
+    ]
+  },
+{
+    "type": "talk_topic",
+    "id": "TALK_MISSION_STUDY",
+    "dynamic_line": [ "Since there's nothing else to do right now, I vote you practice basic magical manipulation. Just get a feel for it, and I'll show you a few things as we go along." ],
+    "responses": [
+      { 
+         "text": "Okay.", 
+         "topic": "TALK_DONE",
+         "effect": [ { "add_mission": "MISSION_STUDY" } ] 	  	  
+      }
+    ]
+  }
+]

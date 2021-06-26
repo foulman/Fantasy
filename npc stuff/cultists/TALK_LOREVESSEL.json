@@ -34,7 +34,6 @@
     "dynamic_line": [ "So, what is it you desire?" ],
     "responses": [
                    { "text": "What is this place?", "topic": "TALK_HALL" },
-                   { "text": "Who are you?", "topic": "TALK_POSITION" },
                    { "text": "Nothing.", "topic": "TALK_DONE" } ]
   }, 
 {

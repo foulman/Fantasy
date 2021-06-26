@@ -14,5 +14,55 @@
     "volume": "600 ml",
     "bashing": 7,
     "price": 900
-	}
+	},
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "first_enrollment_slip",
+    "name": { "str": "first year enrollment slip" },
+    "description": "Your paperwork for first year Ivy enrollment. It's important, so keep it."
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "second_enrollment_slip",
+    "name": { "str": "second year enrollment slip" },
+    "description": "Your paperwork for second year Ivy enrollment. It's important, so keep it."
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "third_enrollment_slip",
+    "name": { "str": "third year enrollment slip" },
+    "description": "Your paperwork for third year Ivy enrollment. It's important, so keep it."
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "fourth_enrollment_slip",
+    "name": { "str": "fourth year enrollment slip" },
+    "description": "Your paperwork for fourth year Ivy enrollment. It's important, so keep it."
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "alchemy_enrollment_slip",
+    "name": { "str": "alchemy enrollment slip" },
+    "description": "Your paperwork for alchemic class Ivy enrollment. It's important, so keep it."
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "infusion_enrollment_slip",
+    "name": { "str": "infusion enrollment slip" },
+    "description": "Your paperwork for infusion class Ivy enrollment. It's important, so keep it."
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "reception_paperwork",
+    "//": "Quest item, should not spawn naturally",
+    "name": { "str": "paperwork" },
+    "description": "A sheet of odd paperwork, notes scrawled across it. It seems to belong to some large organization."
+  }
 ]

@@ -91,5 +91,150 @@
       "success_lie": "Where is it?",
       "failure": "Oh well."
     }
+  },
+{
+    "id": "MISSION_VISIT_DORM",
+    "type": "mission_definition",
+    "name": "Visit Your Dorm",
+    "description": "Visit your dorm room and retrive the receptionists paperwork.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "reception_paperwork",
+	"count": 1,
+    "difficulty": 1,
+    "value": 10,
+    "start": {
+      "assign_mission_target": { "om_terrain": "wizard_academy_dorm_right", "om_special": "wizard_academy" },
+      "update_mapgen": [
+        { "om_terrain": "wizard_academy_dorm_right", "place_nested": [ { "chunks": [ "your_dorm" ], "x": 0, "y": 0 } ] }
+      ]
+    },
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "end": { "effect": [
+		{ "u_buy_item": "copper_coin", "count": 5 }
+		] },
+    "has_generic_rewards": false,
+    "dialogue": {
+    "describe": "Why don't you go visit your dorm?",
+    "offer": "Why don't you go visit your dorm? I think I left some paperwork in there, could you get it for me?",
+    "advice": "Just go to your dorm.",
+      "accepted": "Thanks!",
+      "rejected": "Ah well.",
+      "inquire": "Do you have it?",
+      "success": "Wonderful!",
+      "success_lie": "Where is it?",
+      "failure": "How could you possibly fuck that up you <name_b>?!"
+    }
+  },
+{
+    "id": "MISSION_FIRST_LESSON",
+    "type": "mission_definition",
+    "name": "First Lessons",
+    "description": "Crystalize some raw magic.",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_SECOND_LESSON",
+    "item": "crystallized_mana",
+	"count": 10,
+    "difficulty": 1,
+    "value": 10,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "end": { "effect": [
+		{ "u_buy_item": "wizard_basic", "count": 1 },
+                { "npc_add_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "For our first lesson, I need a demonstration of your magical abilities. Within that case, I need you to bring me some crystalized mana, just a bit. Infusion benches are in the back.",
+    "advice": "Its simple, just make some magic.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it? Get back out there!",
+      "success": "Good job.",
+      "success_lie": "I don't see anything.",
+      "failure": "Ah well."
+    }
+  },
+{
+    "id": "MISSION_SECOND_LESSON",
+    "type": "mission_definition",
+    "name": "Second Swing",
+    "description": "Demonstrate your magical prowess.",
+    "goal": "MGOAL_KILL_MONSTER",
+    "difficulty": 1,
+    "value": 10,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "z": 0 },
+      "update_mapgen": { "place_monster": [ { "monster": "mon_target_light", "x": 11, "y": 11, "target": true } ] }
+    },
+    "end": { "effect": [
+                { "npc_add_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "For our nest lesson, we're studying the effects of magic on living creatures. For this, I set a target light out, and I want you to kill it. I can sense magic used on it, so I can gauge your abilities.",
+    "advice": "Now, its very hard to hit with normal weapons, but magic should do it.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it? Get back out there!",
+      "success": "Good job.",
+      "success_lie": "I don't sense anything.",
+      "failure": "Ah well."
+    }
+  },
+{
+    "id": "MISSION_STUDY",
+    "type": "mission_definition",
+    "name": "Magical Study",
+    "description": "Demonstrate your magical prowess.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "cantrip_item",
+	"count": 1,
+    "difficulty": 1,
+    "value": 10,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "followup": "MISSION_STUDY",
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "Since there's nothing else to do right now, I vote you practice the Cantrip spell. Just cast it, give me the representation, and I'll show you a few things.",
+    "advice": "It's not hard, just cast the spell.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it? Get back out there!",
+      "success": "Good job.",
+      "success_lie": "I don't see anything.",
+      "failure": "Ah well."
+    }
+  },
+{
+    "id": "MISSION_THIRD_LESSON",
+    "type": "mission_definition",
+    "name": "Advanced Study",
+    "description": "Demonstrate your magical prowess.",
+    "goal": "MGOAL_KILL_MONSTER",
+    "difficulty": 1,
+    "value": 10,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "z": 0 },
+      "update_mapgen": { "place_monster": [ { "monster": "animated_mace", "x": 11, "y": 11, "target": true } ] }
+    },
+    "end": { "effect": [
+                { "npc_add_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "This one's a bit more complicated, which is why I had you wait.",
+    "advice": "Now, its very hard to hit with normal weapons, but magic should do it.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it? Get back out there!",
+      "success": "Good job.",
+      "success_lie": "I don't sense anything.",
+      "failure": "Ah well."
+    }
   } 
 ]

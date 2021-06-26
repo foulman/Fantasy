@@ -11,17 +11,17 @@
       ],
       "rows": [
             "sffffffffffffffffffffffs",
-            "ssffffffffffffffffffffss",
+            "ssfffffffffffffffffff3ss",
             " soosqffffffffffffqsoos ",
             "    sffffffffffffffs    ",
-            "    sffffffffffffffs    ",
+            "    s3fffffffffffffs    ",
             "    offffffffffffffo    ",
             "    offffffffffffffo    ",
             "    sqffffffffffffqs    ",
             "    offffffffffffffo    ",
             "    shfffffffffftffs    ",
             "    shfffffffffft1fs    ",
-            "    shffffqffqffthfs    ",
+            "    shff3fqffqffthfs    ",
             "    ssoosssddsoossss    ",
             "          llll          ",
             "          llll          ",
@@ -37,7 +37,8 @@
       ],
       "palettes": [ "wizard_academy" ],
       "npcs": {
-		"1": { "class": "priest" }
+		"1": { "class": "receptionist" },
+                "3": { "class": "academy_apprentice" }
 		}
     }
   },
@@ -53,7 +54,7 @@
       ],
       "rows": [
             "sssssssssfffffssssssssss",
-            "sffffffffffffffffffffffs",
+            "sfffffffffffff1ffffffffs",
             "sffqssqfffffffffqssqfffs",
             "sffssssfffffffffssssfffs",
             "sffqssqfffcccfffqssqfffs",
@@ -64,17 +65,17 @@
             "fffcttcffctttcffcttcffff",
             "fffcttcffctttcffcttcffff",
             "sffcttcffctttcffcttcfffs",
-            "sffcttcffctttcffcttcfffs",
+            "s1fcttcffctttcffcttcfffs",
             "sffcttcffctttcffcttcfffs",
             "sfffccfffctttcfffccffffs",
             "sffffffffctttcfffffffffs",
             "sffqssqfffcccfffqssqfffs",
             "sffssssfffffffffssssfffs",
             "sffqssqfffffffffqssqfffs",
+            "sfffffffffffff1ffffffffs",
             "sffffffffffffffffffffffs",
             "sffffffffffffffffffffffs",
-            "sffffffffffffffffffffffs",
-            "sffffffffffffffffffffffs",
+            "sffffffffffffffffffff1fs",
             "sssssssssfffffssssssssss"
       ],
       "palettes": [ "wizard_academy" ],
@@ -82,7 +83,7 @@
 	  "t": { "item": "dishes_dining", "chance": 70, "repeat": [ 2, 5 ] }
     },
       "npcs": {
-		"1": { "class": "priest" }
+		"1": { "class": "academy_apprentice" }
 		}
     }
   },
@@ -104,7 +105,7 @@
             "sssffsfffffccffffffffffs",
             "sudffsqff2fffffffBBBBfqs",
             "sssffsssssssssddssssssss",
-            "ffffffffffqfffffffffffqs",
+            "ffffffffffqf1fffffffffqs",
             "fffffffffffffffffffffffo",
             "fffffffffffffffffffffffo",
             "fffffffffffffffffffffffo",
@@ -112,12 +113,12 @@
             "sqfffffffqsqffffffffffqs",
             "sssffsssssssssssffssssss",
             "sudffsBffqsBffqsffsBffqs",
-            "sssffdffffsffffdffdffffo",
+            "sssffdffffsffffdffdfff1o",
             "sudffsf*bbsbb*fsffsf*bbs",
             "sssffsssssssssssffssssss",
-            "sudffsBffqsBffqsffsBffqs",
-            "sssffdffffsffffdffdffffo",
-            "sudffsf*bbsbb*fsffsf*bbs",
+            "sudf1sBffqsBffqsffsffffs",
+            "sssffdffffsf1ffdffdffffo",
+            "sudffsf*bbsbb*fsffsffffs",
             "sssoosssossssossoosssoss",
             "                        ",
             "                        "
@@ -131,7 +132,7 @@
           "*": { "item": "coinage", "chance": 70, "repeat": [ 10, 25 ] }
     },
       "npcs": {
-		"1": { "class": "priest" }
+		"1": { "class": "academy_apprentice" }
 		}
     }
   },
@@ -153,18 +154,18 @@
             "sssffsfffffccffffffffffs",
             "sudffsqff2fffffffBBBBfqs",
             "sssffsssssssssddssssssss",
-            "sqffffffffqfffffffffff f",
+            "sqffffff1fqfffffffffff f",
             "offfffffffffffffffffffff",
             "offfffffffffffffffffffff",
-            "offfffffffffffffffffffff",
+            "o1ffffffffffffffffffffff",
             "sffffffffffffffffffffffs",
             "sqfffffffqsqffffffffffqs",
             "sssffsssssssssssffssssss",
             "sudffsBffqsBffqsffsBffqs",
-            "sssffdffffsffffdffdffffo",
+            "sssf1dffffsffffdffdffffo",
             "sudffsf*bbsbb*fsffsf*bbs",
             "sssffsssssssssssffssssss",
-            "sudffsBffqsBffqsffsBffqs",
+            "sudffsBffqsBffqsf1sBffqs",
             "sssffdffffsffffdffdffffo",
             "sudffsf*bbsbb*fsffsf*bbs",
             "sssoosssossssossoosssoss",
@@ -180,7 +181,7 @@
           "*": { "item": "coinage", "chance": 70, "repeat": [ 10, 25 ] }
     },
       "npcs": {
-		"1": { "class": "priest" }
+		"1": { "class": "academy_apprentice" }
 		}
     }
   },
@@ -188,7 +189,7 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ "wizard_academy_classrooms" ],
-    "//": "In the future, specialized classrooms will be here.",
+    "//": "In the future, instructing NPC's will reside here.",
     "weight": 100,
     "object": {
       "fill_ter": "t_floor",
@@ -197,39 +198,47 @@
       ],
       "rows": [
             "sssssssssooooossssssssss",
-            "srrrrrrrsfffffsrrBBr^r/s",
-            "srrrrrrrsfffffsrrrrrrrrs",
-            "srrrrrrrdfffffdrrrrrrrro",
-            "srrrrrrrsfffffsrrrrrrrro",
-            "srrrrrrrsfffffs----rr--s",
+            "sr2r2r2rsfffffsqrBBr^r/s",
+            "orrrrrrrsfffffsrrrrrrrKs",
+            "orrrrrrrdfffffdrrrrrrrro",
+            "orrrrrrrsfffffsrrrrrrrro",
+            "s```rrrqsfffffs----r---s",
             "ssssdssssfffffsssssdssss",
             "fffffffffffqffffffffffff",
             "ffffffffffqsqfffffffffff",
             "fffffffffffqffffffffffff",
             "ffffffffffffffffffffffff",
             "ssssdssssfffffsssssdssss",
-            "srrrrrrrsfffffsrrrrrrrrs",
+            "scrcrcrcsfffffscrcrrrcrs",
             "orrrrrrrsfffffsrrrrrrrro",
-            "orrrrrrrdfffffdrrrrrrrro",
+            "ocrcrcrrdfffffdrrcrcrcro",
             "orrrrrrrsfffffsrrrrrrrro",
-            "srrrrrrrsfffffsrrrrrrrrs",
+            "sFFFFFrqsfffffsqrrGGGGGs",
             "sssssssssfffffssssssssss",
-            "srrrrrrrsfffffsrrrrrrrrs",
+            "sqrrEEEEsfffffsCCCr1CCCs",
             "orrrrrrrsfffffsrrrrrrrro",
-            "orrrrrrrdfffffdrrrrrrrro",
+            "orcrcrrrdfffffdrrrrcrcro",
             "orrrrrrrsfffffsrrrrrrrro",
-            "srrrrrrrsfffffsrrrrrrrrs",
+            "srcrcrcrsfffffsqrcrcrcrs",
             "sssssssssfffffssssssssss"
       ],
       "palettes": [ "wizard_academy" ],
-      "furniture": { "^": "f_still", "/": "f_woodstove", "-": "f_barrel_o" },
-      "items": {
+      "liquids": {
+      "K": { "liquid": "water", "amount": [ 100, 175 ] }
+	  },
+      "furniture": { "^": "f_still", "/": "f_woodstove", "-": "f_barrel_o", "`": "f_barrel_o", "C": "f_bookcase", "E": "f_bookcase", "F": "f_bookcase", "G": "f_bookcase", "K": "f_wood_keg" },
+      "items": { 
 	  "/": { "item": "stash_wood", "chance": 70, "repeat": [ 2, 5 ] },
           "-": { "item": "ingredients_all", "chance": 70, "repeat": [ 20, 70 ] },
-          "B": { "item": "alchemy_books", "chance": 70, "repeat": [ 2, 5 ] }
+          "`": { "item": "crystallized_mana", "chance": 100, "repeat": [ 3, 6 ] },
+          "B": { "item": "ingredients_all", "chance": 70, "repeat": [ 20, 70 ] },
+          "C": { "item": "spell_scrolls_wizard1", "chance": 70, "repeat": [ 2, 5 ] },
+          "E": { "item": "spell_scrolls_wizard2", "chance": 70, "repeat": [ 2, 5 ] },
+          "F": { "item": "spell_scrolls_wizard3", "chance": 70, "repeat": [ 2, 5 ] },
+          "G": { "item": "spell_scrolls_wizard4", "chance": 70, "repeat": [ 2, 5 ] }
     },
       "npcs": {
-		"1": { "class": "priest" }
+		"1": { "class": "first_year_instructor" }
 		}
     }
   },
@@ -245,7 +254,7 @@
       ],
       "rows": [
             "ssssssssssssssssssssssss",
-            "                       s",
+            "  1                    s",
             "  ###  ###  ###  ###   s",
             "  ###  ###  ###  ###   s",
             "  ###  ###  ###  ###   s",
@@ -265,13 +274,13 @@
             "  ###  ###  ###  ###   s",
             "  ###  ###  ###  ###   s",
             "  ###  ###  ###  ###   s",
-            "                       s",
+            "                     1 s",
             "                       s",
             "                       s"
       ],
       "palettes": [ "wizard_academy" ],
       "npcs": {
-		"1": { "class": "priest" }
+		"1": { "class": "academy_apprentice" }
 		}
     }
   },
@@ -295,7 +304,7 @@
             "s  ###  ###  ###  ###   ",
             "s  ###  ###  ###  ###   ",
             "s  ###  ###  ###  ###   ",
-            "s                       ",
+            "s          1            ",
             "s  ###  ###  ###  ###   ",
             "s  ###  ###  ###  ###   ",
             "s  ###  ###  ###  ###   ",
@@ -308,12 +317,12 @@
             "s  ###  ###  ###  ###   ",
             "s  ###  ###  ###  ###   ",
             "s                       ",
-            "s                       ",
+            "s   1                   ",
             "s                       "
       ],
       "palettes": [ "wizard_academy" ],
       "npcs": {
-		"1": { "class": "priest" }
+		"1": { "class": "academy_apprentice" }
 		}
     }
   },

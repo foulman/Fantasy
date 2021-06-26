@@ -87,5 +87,24 @@
     "material": [ "paper" ],
     "color": "red",
     "use_action": { "type": "learn_spell", "spells": [ "hellish_rebuke", "sense_lesser_demons" ] }
+  },
+  {
+    "id": "wizard_basic",
+    "type": "GENERIC",
+    "name": "Basic Magical Practice",
+    "description": "A leather-bound spellbook, containing rudementry magic for novice spellcasters.",
+    "weight": 800,
+    "volume": 1,
+    "price": 2000,
+    "symbol": "?",
+    "material": [ "paper" ],
+    "color": "blue",
+    "use_action": { "type": "learn_spell", "spells": [ "mu_spell_armor", 
+							"mu_spell_cantrip", 
+                                                        "mu_spell_light", 
+						        "firebolt",
+							"lightning_bolt",
+							"magic_stone_mage"
+                                                       ] }
   }
 ]

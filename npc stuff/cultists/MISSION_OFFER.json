@@ -1,6 +1,7 @@
 [
  {
     "id": "TALK_CULT_JOBS",
+    "//": "Not just for cult members, can apply to anyone using grammar or educated.",
     "type": "talk_topic",
     "dynamic_line": {
       "has_no_available_mission": {

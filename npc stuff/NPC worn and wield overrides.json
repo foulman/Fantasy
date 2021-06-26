@@ -543,5 +543,21 @@
     "id": "NPC_priest_wield",
     "subtype": "collection",
     "entries": [ { "item": "gods_and_godesses" } ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_shopkeeper_worn",
+    "//": "Includes massive bag for shopkeepers.",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "group": "male_citizen_clothing" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" },
+      { "item": "bigpack_mtc" }
+    ]
 	}
 ]
