@@ -139,7 +139,7 @@
     "id": "COTB_max_bloodshot",
     "name": "Otherworldly Magics",
     "points": 2,
-    "description": "An extraterrestrial power haunts these robes, gifting you arcane power.",
+    "description": "An extraterrestrial power haunts these robes.",
     "flags": [ "NON_THRESH" ],
     "spells_learned": [ [ "bloodshot", 15 ] ]
   },

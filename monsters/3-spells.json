@@ -636,7 +636,7 @@
       { "id": "hellbolt" },
       { "id": "hellbolt" },
       { "id": "toxic_cloud" },
-      { "id": "cause_fear" },
+      { "id": "sense_lesser_demons" },
       { "id": "hellswipe" }
     ],
     "flags": [ "SILENT", "WONDER" ],
