@@ -12,7 +12,7 @@
     "copy-from": "spell_scroll",
     "id": "spell_scroll_demons",
     "name": { "str": "Scroll of Sense Lesser Demons", "str_pl": "Scrolls of Sense Lesser Demons" },
-    "description": "Dark One's minions, defend me!",
+    "description": "I call to the Abyss...",
     "use_action": { "type": "learn_spell", "spells": [ "sense_lesser_demons" ] }
   },
 {
@@ -28,7 +28,7 @@
     "copy-from": "spell_scroll",
     "id": "spell_scroll_hellswipe",
     "name": { "str": "Scroll of Daemons Blade", "str_pl": "Scrolls of Daemons Blade" },
-    "description": "Daemons, burn them!",
+    "description": "Wrath brings destruction.",
     "use_action": { "type": "learn_spell", "spells": [ "hellswipe" ] }
   },
 {
@@ -36,7 +36,7 @@
     "copy-from": "spell_scroll",
     "id": "spell_scroll_hellish_rebuke",
     "name": { "str": "Scroll of Hellish Rebuke", "str_pl": "Scrolls of Hellish Rebuke" },
-    "description": "Come no further",
+    "description": "Come no further.",
     "use_action": { "type": "learn_spell", "spells": [ "hellish_rebuke" ] }
   }
 ]

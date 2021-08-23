@@ -17,7 +17,7 @@
     "type": "skill",
     "id": "occult",
     "name": { "str": "occultism" },
-    "description": "Your knowledge of the otherworldly occult. The greater your knowledge, the stronger the eldritch influence you wield.",
+    "description": "Your knowledge of the otherworldly occult. The greater your knowledge, the stronger the otherworldly influence you wield.",
     "display_category": "display_crafting"
   }
 ]

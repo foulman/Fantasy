@@ -77,6 +77,14 @@
   },
   {
     "type": "overmap_terrain",
+    "id": "ocata3_open",
+    "name": "catacombs",
+    "sym": "0",
+    "see_cost": 5,
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
     "id": "ocata4r",
     "name": "catacombs",
     "sym": "0",
@@ -322,7 +330,55 @@
     "sym": ".",
     "see_cost": 1,
     "color": "blue"
-  },                                                                
+  },  
+{
+    "type": "overmap_terrain",
+    "id": "hobgoblin_camp_gate",
+    "name": "goblin camp",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hobgoblin_camp_wall",
+    "name": "goblin camp",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hobgoblin_camp_rangen",
+    "name": "goblin camp",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "red"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hobgoblin_camp_gate_upper",
+    "name": "open air",
+    "sym": ".",
+    "see_cost": 1,
+    "color": "blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hobgoblin_camp_wall_upper",
+    "name": "open air",
+    "sym": ".",
+    "see_cost": 1,
+    "color": "blue"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "hobgoblin_camp_rangen_roof",
+    "name": "open air",
+    "sym": ".",
+    "see_cost": 1,
+    "color": "blue"
+  },                                                              
   {
     "type": "overmap_terrain",
     "id": "home_ruins",
@@ -514,5 +570,120 @@
     "sym": "0",
     "see_cost": 1,
     "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "cave_blank",
+    "name": "cave system",
+    "sym": "0",
+    "color": "dark_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "cave_enter",
+    "name": "cave",
+    "sym": "0",
+    "color": "dark_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "cave_downward_slope_blank",
+    "name": "cave system",
+    "sym": "0",
+    "color": "dark_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "cave_upward_slope_blank",
+    "name": "cave system",
+    "sym": "0",
+    "color": "dark_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "mushroom_cave_blank",
+    "name": "fungal cave system",
+    "sym": "0",
+    "color": "brown"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "demon_cult_enter",
+    "name": "forest",
+    "sym": "F",
+    "see_cost": 3,
+    "color": "green"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "demon_cult_enter_down",
+    "name": "enterance",
+    "sym": "#",
+    "see_cost": 3,
+    "color": "red"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "demon_cult_altar",
+    "name": "altar",
+    "sym": "#",
+    "see_cost": 3,
+    "color": "red"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "demon_cult_chamber_left",
+    "name": "chamber",
+    "sym": "#",
+    "see_cost": 3,
+    "color": "red"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "demon_cult_chamber_right",
+    "name": "chamber",
+    "sym": "#",
+    "see_cost": 3,
+    "color": "red"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "cathedral_enter",
+    "name": "cathdedral",
+    "sym": "C",
+    "see_cost": 1,
+    "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "cathedral_altar",
+    "name": "cathdedral",
+    "sym": "C",
+    "see_cost": 1,
+    "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "cathedral_left",
+    "name": "cathdedral",
+    "sym": "C",
+    "see_cost": 1,
+    "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "cathedral_right",
+    "name": "cathdedral",
+    "sym": "C",
+    "see_cost": 1,
+    "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "cathedral_roof",
+    "name": "cathdedral roof",
+    "sym": "C",
+    "see_cost": 1,
+    "color": "dark_gray"
   }
 ]
