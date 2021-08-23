@@ -51,7 +51,8 @@
              { "item": "lair_loot_generic", "chance": 75, "repeat": [ 5, 8 ] },
              { "item": "lair_loot_generic", "chance": 50, "repeat": [ 5, 8 ] },
              { "item": "lair_loot_generic", "chance": 25, "repeat": [ 5, 8 ] },
-             { "item": "potions_all", "chance": 25, "repeat": [ 2, 4 ] } ]
+             { "item": "potions_all", "chance": 25, "repeat": [ 2, 4 ] },
+             { "item": "dragon_loot", "chance": 25, "repeat": [ 2, 4 ] } ]
     }
     }
   },
@@ -95,7 +96,8 @@
              { "item": "lair_loot_generic", "chance": 75, "repeat": [ 5, 8 ] },
              { "item": "lair_loot_generic", "chance": 50, "repeat": [ 5, 8 ] },
              { "item": "lair_loot_generic", "chance": 25, "repeat": [ 5, 8 ] },
-             { "item": "potions_all", "chance": 25, "repeat": [ 2, 4 ] } ]
+             { "item": "potions_all", "chance": 25, "repeat": [ 2, 4 ] },
+             { "item": "dragon_loot", "chance": 25, "repeat": [ 2, 4 ] }  ]
     }
     }
   },
@@ -139,7 +141,8 @@
              { "item": "lair_loot_generic", "chance": 75, "repeat": [ 5, 8 ] },
              { "item": "lair_loot_generic", "chance": 50, "repeat": [ 5, 8 ] },
              { "item": "lair_loot_generic", "chance": 25, "repeat": [ 5, 8 ] },
-             { "item": "potions_all", "chance": 25, "repeat": [ 2, 4 ] } ]
+             { "item": "potions_all", "chance": 25, "repeat": [ 2, 4 ] },
+             { "item": "dragon_loot", "chance": 25, "repeat": [ 2, 4 ] }  ]
     }
     }
   },
@@ -183,7 +186,8 @@
              { "item": "lair_loot_generic", "chance": 75, "repeat": [ 2, 4 ] },
              { "item": "lair_loot_generic", "chance": 50, "repeat": [ 2, 4 ] },
              { "item": "lair_loot_generic", "chance": 25, "repeat": [ 2, 4 ] },
-             { "item": "potions_all", "chance": 25, "repeat": [ 1, 2 ] } ]
+             { "item": "potions_all", "chance": 25, "repeat": [ 1, 2 ] },
+             { "item": "dragon_loot", "chance": 25, "repeat": [ 1, 2 ] }  ]
     }
     }
   },
@@ -227,7 +231,8 @@
              { "item": "lair_loot_generic", "chance": 75, "repeat": [ 2, 4 ] },
              { "item": "lair_loot_generic", "chance": 50, "repeat": [ 2, 4 ] },
              { "item": "lair_loot_generic", "chance": 25, "repeat": [ 2, 4 ] },
-             { "item": "potions_all", "chance": 25, "repeat": [ 1, 2 ] } ]
+             { "item": "potions_all", "chance": 25, "repeat": [ 1, 2 ] },
+             { "item": "dragon_loot", "chance": 25, "repeat": [ 1, 2 ] }  ]
     }
     }
   },
@@ -271,7 +276,8 @@
              { "item": "lair_loot_generic", "chance": 75, "repeat": [ 2, 4 ] },
              { "item": "lair_loot_generic", "chance": 50, "repeat": [ 2, 4 ] },
              { "item": "lair_loot_generic", "chance": 25, "repeat": [ 2, 4 ] },
-             { "item": "potions_all", "chance": 25, "repeat": [ 1, 2 ] } ]
+             { "item": "potions_all", "chance": 25, "repeat": [ 1, 2 ] },
+             { "item": "dragon_loot", "chance": 25, "repeat": [ 1, 2 ] }  ]
     }
     }
   }

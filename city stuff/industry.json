@@ -44,7 +44,8 @@
 	},
 	"items": {
       "x": { "item": "stash_wood", "chance": 100, "repeat": [ 2, 5 ] },
-      "X": [ { "item": "NPC_SHOPKEEPER_carry", "chance": 100 } ]
+      "X": { "item": "NPC_SHOPKEEPER_carry", "chance": 100 },
+      "Y": { "item": "NPC_SHOPKEEPER_carry", "chance": 60 }
 	  
     }
     }
@@ -63,8 +64,8 @@
         "                        ",
         "                        ",
         " wwowwwowwwwowwwowwwwoww",
-        " wuuuu!ccrOOrxccc_cuuuuw",
-        " wuccccc!rrrr!ccc!cccc!w",
+        " wuuuucccrOOrxccc_cuuuuw",
+        " wuccccc!rrrrccccccccc!w",
         " oc!cccccccccccccccccccw",
         " wcwwwwwwowwwowwwwwwwwcw",
         " wcwbbwbbw1bwbbwbbwbbwcw",
@@ -300,6 +301,57 @@
 	},
 	"items": {
       "t": { "item": "candle", "chance": 100, "repeat": [ 2, 5 ] }	  
+    }
+    }
+ },
+ {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "alchemists_shop" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "   wwwwwwowwwowwwwwww   ",
+        "   wxxrOOrFFFcccXXXXw   ",
+        "   oxcrrrrcccc╦cc!cXw   ",
+        "   wcccccccccc╦╦╦╦╦╦o   ",
+        "   wcccVccccccccccccw   ",
+        "   wccccccccccccccccw   ",
+        "   occccccccctctctcco   ",
+        "   wccccccccchchchccw   ",
+        "   wcchhhcccccccccccw   ",
+        "   wwwwowwwddwwwowwww   ",
+        "           ff           ",
+        "           ff           ",
+        "           ff           ",
+        "           ff           ",
+        "           ff           ",
+        "           ff           ",
+        "           ff           ",
+        "           ff           "
+      ],
+      "palettes": [ "city_building_alchemist" ],
+    "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
+      ],
+    "npcs": {
+		"!": { "class": "shopkeeper_alchemist" }
+	},
+	"items": {
+      "x": { "item": "stash_wood", "chance": 100, "repeat": [ 2, 5 ] },
+      "F": { "item": "NPC_ALCHEMIST_shopkeep", "chance": 100, "repeat": [ 2, 5 ] },
+      "X": { "item": "NPC_ALCHEMIST_shopkeep", "chance": 100, "repeat": [ 5, 7 ] }
+	  
     }
     }
  },

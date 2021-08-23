@@ -48,7 +48,7 @@
     "stack_size": 200,
     "weight": "20 g",
     "volume": "20 ml",
-    "price": 100,
+    "price": 1000,
     "material": "copper",
     "symbol": "o",
 	"color": "brown"

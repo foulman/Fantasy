@@ -209,6 +209,15 @@
 	},
 {
     "type": "overmap_terrain",
+    "id": "alchemists_shop",
+    "name": "alchemists workshop",
+    "sym": "A",
+    "see_cost": 5,
+    "color": "blue",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
     "id": "cemetary_mtc",
     "name": "cemetery",
     "sym": "#",
@@ -223,5 +232,13 @@
     "sym": "#",
     "see_cost": 5,
     "color": "white"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "city_market",
+    "name": "market square",
+    "sym": "O",
+    "see_cost": 1,
+    "color": "red"
 	}
 ]

@@ -157,7 +157,8 @@
 	"subtype": "collection",
     "entries": [
 	  { "item": "tunic", "prob": 70 },
-	  { "item": "gambeson", "prob": 40 }
+	  { "item": "gambeson", "prob": 40 },
+          { "item": "bigpack_mtc", "prob": 40 }
     ]
 	},
 	{
@@ -167,7 +168,8 @@
     "entries": [
 	  { "item": "dress", "prob": 90 },
 	  { "item": "gambeson", "prob": 30 },
-	  { "item": "sundress", "prob": 30 }
+	  { "item": "sundress", "prob": 30 },
+          { "item": "bigpack_mtc", "prob": 40 }
     ]
 	},
 	{
@@ -231,8 +233,10 @@
     "id": "dragon_loot",
     "items": [
       { "group": "warrior_weapons", "prob": 80 },
-      { "group": "coinage", "prob": 100 },
-      { "group": "rogue_weapons", "prob": 80 }
+      { "group": "rogue_weapons", "prob": 80 },
+      { "group": "shields_all", "prob": 70 },
+      { "group": "trinkets_misc", "prob": 50 },
+      { "group": "weapons_plus1", "prob": 30 }
     ]
   }
 ]

@@ -39,6 +39,81 @@
   {
     "type": "mapgen",
     "method": "json",
+    "om_terrain": [ "old_catacomb_enter" ],
+    "//": "Open air",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "                  S     ",
+        "            S         S ",
+        "   S                    ",
+        "         S     S      S ",
+        "        S               ",
+        "   S            S       ",
+        "   l................l  S",
+        "   ..................   ",
+        " S .........>........   ",
+        "   ..................S  ",
+        "   ..................   ",
+        "   .........l........ S ",
+        " S ..................   ",
+        "   .................. S ",
+        "  S..................   ",
+        "   l................l   ",
+        "  S        .. S     S   ",
+        "     S   S .. S         ",
+        "         S  . S    S S  ",
+        "   S   S              S ",
+        "                        ",
+        "        S    S     S    ",
+        "    S                   ",
+        "            S    S      "
+      ],
+      "palettes": [ "catacombs" ]
+    }
+  }, 
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "old_catacomb_enter" ],
+    "//": "Old church, mabey?",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "                  S     ",
+        "            S         S ",
+        "   S                    ",
+        "         S     S      S ",
+        "        S               ",
+        "   S            S       ",
+        "   llllllllllllllllll  S",
+        "   l.......UU.......l   ",
+        " S l........>.......l   ",
+        "   l................lS  ",
+        "   lH.////////////.Hl   ",
+        "   lH..............Hl S ",
+        " S l..////////////..l   ",
+        "   l................l S ",
+        "  Sl....H.......H...l   ",
+        "   llllllllhhllllllll   ",
+        "  S        .. S     S   ",
+        "     S   S .. S         ",
+        "         S  . S    S S  ",
+        "   S   S              S ",
+        "                        ",
+        "        S    S     S    ",
+        "    S                   ",
+        "            S    S      "
+      ],
+      "palettes": [ "catacombs" ],  
+      "furniture": { "U": "f_table", "/": "f_bench", "H": "f_table" }
+    }
+  }, 
+  {
+    "type": "mapgen",
+    "method": "json",
     "om_terrain": [ "old_catacomb_roof" ],
     "weight": 100,
     "object": {
@@ -356,6 +431,51 @@
         "####lC.xx.......xx.Cl###",
         "####lC.xx.......xx.Cl###",
         "####llClCllhhhllClCll###",
+        "lllllllllll...llllllllll",
+        "l......................l",
+        "........ll....ll........",
+        ".....x..x.x...x.x..x....",
+        "l....x..x.x...x.x..x...l",
+        "llllll..x.x.l.x.x.llllll",
+        "#####llllll...lllll#####",
+        "##########l...l#########",
+        "####llClCll...llClCll###",
+        "####lC.xx.......xx.Cl###",
+        "####lC.xx.......xx.Cl###",
+        "####llClCll...llClCll###",
+        "##########l...l#########",
+        "####llClCll...llClCll###",
+        "####lC...xx...xx...Cl###",
+        "####lC...xxx.xxx...Cl###",
+        "####llClCllx.xllClCll###",
+        "##########l...l#########",
+        "##########l...l#########"
+      ],
+      "palettes": [ "catacombs" ],
+      "furniture": { "C": "f_coffin_c" },
+      "monster": { "x": { "monster": "mon_mtc_zombie", "chance": 50 } },
+      "sealed_item": {
+      "C": {
+      "items": { "item": "lair_loot_generic", "chance": 20 },
+      "furniture": "f_coffin_c"
+  }
+}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "ocata3_open" ],
+    "//": "Passage connector with opening.",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "###########...##########",
+        "####llClCll...llClCll###",
+        "####lC.xx.......xx.Cl###",
+        "####lC.xx.......xx.Cl###",
+        "####llClCll...llClCll###",
         "lllllllllll...llllllllll",
         "l......................l",
         "........ll....ll........",

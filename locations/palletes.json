@@ -67,7 +67,8 @@
       "@": "f_logstool",
       "c": "f_firering",
       "0": "f_barrel_c",
-      "t": "f_table"
+      "t": "f_table",
+      "L": "f_hanging_lantern"
     },
     "terrain": {
       ".": "t_dirtfloor",
@@ -88,8 +89,7 @@
       "x": { "item": "stash_wood", "chance": 100, "repeat": [ 1, 2 ] },
       "b": { "item": "bed", "chance": 100 },
       "c": { "item": "oven", "chance": 100, "repeat": [ 3, 5 ] }
-    },
-    "sealed_item": { "0": { "item": { "item": "raw_meat" }, "furniture": "f_barrel_c", "chance": 70 } }
+    }
     },
 {
     "type": "palette",
@@ -208,6 +208,30 @@
       "#": "t_rock",
       ">": "t_slope_down",
       "<": "t_slope_up",
+      "~": "t_water_sh_underground",
+      "A": "t_open_air"
+    }
+    },
+{
+    "type": "palette",
+    "id": "caves_enter",
+    "terrain": {
+      " ":  [ [ "t_dirt", 1 ], [ "t_grass", 5 ] ],
+      "#": "t_rock",
+      ">": "t_slope_down",
+      "<": "t_slope_up",
+      "~": "t_water_sh_underground",
+      "A": "t_open_air"
+    }
+    },
+{
+    "type": "palette",
+    "id": "mushroom_caves",
+    "terrain": {
+      " ": [ [ "t_rock_floor", 55 ], [ "t_dirt", 75 ], [ "t_rock", 2 ] ],
+      "#": "t_rock",
+      ">": "t_slope_down",
+      "<": "t_slope_up",
       "~": "t_water_sh_underground"
     }
     },
@@ -311,5 +335,48 @@
           "2": "f_infusion_bench"
     },
     "sealed_item": { "#": { "item": { "item": "seed_fire_flower" }, "furniture": "f_plant_seedling", "chance": 90 } }
-  }
+  },
+{
+    "type": "palette",
+    "id": "fiend_cult",
+    "terrain": {
+      ".": "t_rock_floor",
+      " ": [ [ "t_tree", 15 ], [ "t_shrub", 15 ], [ "t_grass", 13 ], [ "t_dirt", 4 ] ],
+      "<": "t_slope_up",
+      ">": "t_slope_down",
+      "#": "t_rock",
+      "~": "t_water_moving_sh_underground",
+      "l": "t_rock_wall",
+      "h": "t_door_c"
+    },
+    "furniture": {
+      "A": "f_burning_brazier",
+          "q": "f_hanging_lantern",
+	  "t": "f_table",
+	  "c": "f_chair",
+	  "B": "f_bookcase"
+    }
+    },
+{
+    "type": "palette",
+    "id": "cathedral",
+    "terrain": {
+      ".": "t_rock_floor",
+      " ": [ [ "t_tree", 5 ], [ "t_region_shrub", 5 ], [ "t_grass", 13 ], [ "t_dirt", 4 ] ],
+      "u": "t_shingle_flat_roof",
+      "l": "t_rock_wall",
+      "h": "t_door_c",
+      "O": "t_column",
+      "0": [ [ "t_window_stained_green", 10 ], [ "t_window_stained_red", 10 ], [ "t_window_stained_blue", 10 ] ]
+    },
+    "furniture": {
+      "A": "f_burning_brazier",
+          "q": "f_hanging_lantern",
+	  "t": "f_table",
+	  "c": "f_chair",
+          "/": "f_bench",
+	  "B": "f_bookcase",
+          "o": "f_barrel_o"
+    }
+    }
 ]
