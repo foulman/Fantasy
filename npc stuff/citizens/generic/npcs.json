@@ -4,7 +4,7 @@
     "id": "gambler",
     "class": "NPC_GAMBLER",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_GAMBLER",
     "faction": "kingdom"
   },
@@ -13,7 +13,7 @@
     "id": "child",
     "class": "NPC_CHILD",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_CHILD_YOUNG",
     "faction": "kingdom"
   },
@@ -22,9 +22,18 @@
     "id": "shopkeeper_general",
     "class": "NPC_SHOPKEEPER",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_SHOPKEEPER_general",
     "mission_offered": [ "MISSION_GET_LEATHER", "MISSION_GET_PAPER", "MISSION_GET_LOGS" ],
+    "faction": "kingdom"
+  },
+  {
+    "type": "npc",
+    "id": "shopkeeper_alchemist",
+    "class": "NPC_ALCHEMIST",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_SHOPKEEPER_general",
     "faction": "kingdom"
   },
   {
@@ -32,7 +41,7 @@
     "id": "medic",
     "class": "NPC_MEDIC",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_NPC_GENERIC_CITIZEN",
     "faction": "kingdom"
   },
@@ -41,7 +50,7 @@
     "id": "medic_head",
     "class": "NPC_MEDIC",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_INFIRMARY_HEAD",
     "faction": "kingdom"
   },
@@ -50,7 +59,7 @@
     "id": "generic_worshiper",
     "class": "NPC_MALE_CITIZEN",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_WORSHIPER",
     "faction": "kingdom"
   },
@@ -59,7 +68,7 @@
     "id": "generic_worshiper",
     "class": "NPC_FEMALE_CITIZEN",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_WORSHIPER",
     "faction": "kingdom"
   },
@@ -68,7 +77,7 @@
     "id": "stablemaster",
     "class": "NPC_STABLEMASTER",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_STABLEMASTER",
     "faction": "kingdom"
   },
@@ -77,7 +86,7 @@
     "id": "carpenter",
     "class": "NPC_CARPENTER",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_SHOPKEEPER_general",
     "mission_offered": "MISSION_GET_LOGS",
     "faction": "kingdom"
@@ -87,7 +96,7 @@
     "id": "priest",
     "class": "NPC_PRIEST",
     "attitude": 0,
-    "mission": 0,
+    "mission": 3,
     "chat": "TALK_PRIEST",
     "mission_offered": [ "MISSION_SAINT_BENEVOLENCE", "MISSION_HOLY_SYMBOL" ],
     "faction": "kingdom"

@@ -20,7 +20,7 @@
     },
 	"end": { "effect": [
 		{ "u_buy_item": "silver_coin", "count": 5 },
-                { "u_add_var": "MAGE_APPRENTICE", "type": "general", "context": "mission", "value": "yes" }
+                { "npc_add_var": "MAGE_APPRENTICE", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -131,11 +131,11 @@
     "name": "First Lessons",
     "description": "Crystalize some raw magic.",
     "goal": "MGOAL_FIND_ITEM",
-    "followup": "MISSION_SECOND_LESSON",
+    "followup": "MISSION_MAGIC_LESSONS",
     "item": "crystallized_mana",
 	"count": 10,
     "difficulty": 1,
-    "value": 10,
+    "value": 4000,
     "origins": [ "ORIGIN_OPENER_NPC" ],
     "end": { "effect": [
 		{ "u_buy_item": "wizard_basic", "count": 1 },
@@ -155,86 +155,233 @@
     }
   },
 {
-    "id": "MISSION_SECOND_LESSON",
+    "id": "MISSION_MAGIC_LESSONS",
     "type": "mission_definition",
-    "name": "Second Swing",
-    "description": "Demonstrate your magical prowess.",
-    "goal": "MGOAL_KILL_MONSTER",
+    "name": "Magical Study",
+    "description": "Crystalize some raw magic (100 units).",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_MAGIC_LESSONS",
+    "item": "crystallized_mana",
+	"count": 100,
     "difficulty": 1,
-    "value": 10,
+    "value": 1000,
     "origins": [ "ORIGIN_OPENER_NPC" ],
-    "start": {
-      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "z": 0 },
-      "update_mapgen": { "place_monster": [ { "monster": "mon_target_light", "x": 11, "y": 11, "target": true } ] }
-    },
-    "end": { "effect": [
-                { "npc_add_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" }
-		] },
     "has_generic_rewards": true,
     "dialogue": {
     "describe": "Demonstrate your magic to me.",
-    "offer": "For our nest lesson, we're studying the effects of magic on living creatures. For this, I set a target light out, and I want you to kill it. I can sense magic used on it, so I can gauge your abilities.",
-    "advice": "Now, its very hard to hit with normal weapons, but magic should do it.",
+    "offer": "For today's lesson, I want you to practice channeling magic. Bring it to me when you're finished. I'll give you some scrolls for it, if you like.",
+    "advice": "Its simple, just make some raw magic.",
       "accepted": "Good.",
       "rejected": "This is required, you know.",
-      "inquire": "Have you done it? Get back out there!",
+      "inquire": "Have you done it?",
       "success": "Good job.",
-      "success_lie": "I don't sense anything.",
-      "failure": "Ah well."
+      "success_lie": "",
+      "failure": ""
     }
   },
 {
-    "id": "MISSION_STUDY",
+    "id": "MISSION_SECOND_LESSON",
     "type": "mission_definition",
-    "name": "Magical Study",
-    "description": "Demonstrate your magical prowess.",
-    "goal": "MGOAL_FIND_ITEM",
-    "item": "cantrip_item",
-	"count": 1,
+    "name": "Mage-Hunter",
+    "description": "Find and kill a goblin.",
+    "goal": "MGOAL_KILL_MONSTER",
     "difficulty": 1,
-    "value": 10,
-    "origins": [ "ORIGIN_OPENER_NPC" ],
-    "followup": "MISSION_STUDY",
-    "has_generic_rewards": true,
-    "dialogue": {
-    "describe": "Demonstrate your magic to me.",
-    "offer": "Since there's nothing else to do right now, I vote you practice the Cantrip spell. Just cast it, give me the representation, and I'll show you a few things.",
-    "advice": "It's not hard, just cast the spell.",
-      "accepted": "Good.",
-      "rejected": "This is required, you know.",
-      "inquire": "Have you done it? Get back out there!",
-      "success": "Good job.",
-      "success_lie": "I don't see anything.",
-      "failure": "Ah well."
+    "value": 1000,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "min_distance": 4, "z": 0 },
+      "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_goblin", "x": 1, "y": 1, "target": true } ] }
+    },
+	"end": { "effect": [
+		{ "u_buy_item": "magic_focus_staff" },
+                { "npc_add_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_lose_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" }
+		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "A goblin is on the loose.",
+	  "offer": "We've seen a goblin wandering around here, stealing our materials. I want you to kill it.",
+	  "advice": "I would recommend keeping your guard up.",
+      "accepted": "Be careful.",
+      "rejected": "Ah well.",
+      "inquire": "Did you do it?",
+      "success": "Good job. I belive you have earned this.",
+      "success_lie": "",
+      "failure": "Oh no."
     }
   },
 {
     "id": "MISSION_THIRD_LESSON",
     "type": "mission_definition",
-    "name": "Advanced Study",
-    "description": "Demonstrate your magical prowess.",
+    "name": "Third Lesson",
+    "description": "Find and kill two zombies.",
     "goal": "MGOAL_KILL_MONSTER",
     "difficulty": 1,
-    "value": 10,
-    "origins": [ "ORIGIN_OPENER_NPC" ],
-    "start": {
-      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "z": 0 },
-      "update_mapgen": { "place_monster": [ { "monster": "animated_mace", "x": 11, "y": 11, "target": true } ] }
+    "value": 1000,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "min_distance": 4, "z": 0 },
+      "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_zombie", "x": 1, "y": 1, "target": true },
+                                            { "monster": "mon_mtc_zombie", "x": 2, "y": 2, "target": true } ] }
     },
-    "end": { "effect": [
-                { "npc_add_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" }
+	"end": { "effect": [
+                { "npc_add_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_lose_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" }
 		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "I have set out two undead for you to slay.",
+	  "offer": "For your third lesson, I have set two undead out. I want you to kill them.",
+	  "advice": "I would recommend keeping your guard up.",
+      "accepted": "Be careful.",
+      "rejected": "This is required, you know.",
+      "inquire": "Did you do it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": "Oh no."
+    }
+  },
+{
+    "id": "MISSION_FOURTH_LESSON",
+    "type": "mission_definition",
+    "name": "Fourth Lesson",
+    "description": "Find and kill three zombies.",
+    "goal": "MGOAL_KILL_MONSTER",
+    "difficulty": 1,
+    "value": 1000,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "min_distance": 4, "z": 0 },
+      "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_zombie", "x": 1, "y": 1, "target": true },
+                                            { "monster": "mon_mtc_zombie", "x": 2, "y": 2, "target": true },
+                                            { "monster": "mon_mtc_zombie", "x": 4, "y": 4, "target": true } ] }
+    },
+	"end": { "effect": [
+                { "u_buy_item": "first_grad_slip" },
+                { "npc_lose_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_lose_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" }
+		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "I have set out three undead for you to slay.",
+	  "offer": "For your final lesson, I have set three undead out. I want you to kill them.",
+	  "advice": "I would recommend keeping your guard up.",
+      "accepted": "Be careful.",
+      "rejected": "This is required to pass, you know.",
+      "inquire": "Did you do it?",
+      "success": "Good job. I present your certificate of course completion. Use this magic, and your knowledge, wisely.",
+      "success_lie": "",
+      "failure": "Oh no."
+    }
+  },
+{
+    "id": "MISSION_MAGIC_LESSONS_II",
+    "type": "mission_definition",
+    "name": "Magical Study",
+    "description": "Crystalize some raw magic (150 units).",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_MAGIC_LESSONS_II",
+    "item": "crystallized_mana",
+	"count": 150,
+    "difficulty": 1,
+    "value": 1000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
     "has_generic_rewards": true,
     "dialogue": {
     "describe": "Demonstrate your magic to me.",
-    "offer": "This one's a bit more complicated, which is why I had you wait.",
-    "advice": "Now, its very hard to hit with normal weapons, but magic should do it.",
+    "offer": "For today's lesson, I want you to practice channeling magic. Bring it to me when you're finished. I'll give you some scrolls for it, if you like.",
+    "advice": "Its simple, just make some raw magic.",
       "accepted": "Good.",
       "rejected": "This is required, you know.",
-      "inquire": "Have you done it? Get back out there!",
+      "inquire": "Have you done it?",
       "success": "Good job.",
-      "success_lie": "I don't sense anything.",
-      "failure": "Ah well."
+      "success_lie": "",
+      "failure": ""
     }
-  } 
+  },
+{
+    "id": "MISSION_FIFTH_LESSON",
+    "type": "mission_definition",
+    "name": "Cold Snap",
+    "description": "Find and kill a flaming sphere.",
+    "goal": "MGOAL_KILL_MONSTER",
+    "difficulty": 1,
+    "value": 10000,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "min_distance": 4, "z": 0 },
+      "update_mapgen": { "place_monster": [ { "monster": "mon_mu_flaming_sphere", "x": 1, "y": 1, "target": true } ] }
+    },
+	"end": { "effect": [
+                { "npc_add_var": "magic_lesson_5", "type": "general", "context": "mission", "value": "yes" }
+		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "A flaming sphere is on the loose.",
+	  "offer": "One of my students summons went ary, now its terrorizing the landscape. I want you to kill it.",
+	  "advice": "I would recommend keeping your guard up.",
+      "accepted": "Be careful.",
+      "rejected": "Ah well.",
+      "inquire": "Did you do it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": "Oh no."
+    }
+  },
+{
+    "id": "MISSION_SIXTH_LESSON",
+    "type": "mission_definition",
+    "name": "Sixth Lesson",
+    "description": "Crystalize 200 units of raw magic.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "crystallized_mana",
+	"count": 200,
+    "value": 1000,
+    "difficulty": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": { "effect": [
+                { "npc_add_var": "magic_lesson_6", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_lose_var": "magic_lesson_5", "type": "general", "context": "mission", "value": "yes" }
+		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "Get me some raw crystal magic.",
+	  "offer": "To test your magical ability thus far, I want you to crystalize some magic for me.",
+	  "advice": "",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Did you do it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_SEVENTH_LESSON",
+    "type": "mission_definition",
+    "name": "Seventh Lesson",
+    "description": "Crystalize 200 units of raw magic.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "crystallized_mana",
+	"count": 200,
+    "value": 1000,
+    "difficulty": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": { "effect": [
+                { "npc_lose_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_lose_var": "magic_lesson_6", "type": "general", "context": "mission", "value": "yes" }
+		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "Get me some raw crystal magic.",
+	  "offer": "To test your magical ability thus far, I want you to crystalize some magic for me.",
+	  "advice": "",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Did you do it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  }
 ]

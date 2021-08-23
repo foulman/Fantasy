@@ -15,7 +15,7 @@
     "dynamic_line": "Eventually, funds ran short. Our sponsors dropped the bottom out on us, those <name_b>. I had to quit, though I never lost my research papers.",
     "responses": [
       { "text": "<done_conversation_section>", "topic": "TALK_FRIEND" },
-      { "text": "Go on.", "topic": "BGSS_ANTHRO_END1", "condition": { "not": { "u_has_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" } } },
+      { "text": "Go on.", "topic": "BGSS_ANTHRO_END1", "condition": { "not": { "npc_has_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" } } },
       { "text": "<end_talking>", "topic": "TALK_DONE" }
     ]
   },
@@ -52,21 +52,21 @@
     "id": "TALK_FRIEND",
     "type": "talk_topic",
     "responses": [
-      { "text": "Where to now?", "topic": "ANTHRO_MISSION", "condition": { "u_has_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" } }
+      { "text": "Where to now?", "topic": "ANTHRO_MISSION", "condition": { "npc_has_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" } }
     ]
   },
 {
     "id": "TALK_FRIEND",
     "type": "talk_topic",
     "responses": [
-      { "text": "Where to now?", "topic": "ANTHRO_MISSION2", "condition": { "u_has_var": "ANTHRO_MISSION_2", "type": "general", "context": "mission", "value": "yes" } }
+      { "text": "Where to now?", "topic": "ANTHRO_MISSION2", "condition": { "npc_has_var": "ANTHRO_MISSION_2", "type": "general", "context": "mission", "value": "yes" } }
     ]
   },
 {
     "id": "TALK_FRIEND",
     "type": "talk_topic",
     "responses": [
-      { "text": "What now?", "topic": "ANTHRO_MISSION3", "condition": { "u_has_var": "ANTHRO_MISSION_3", "type": "general", "context": "mission", "value": "yes" } }
+      { "text": "What now?", "topic": "ANTHRO_MISSION3", "condition": { "npc_has_var": "ANTHRO_MISSION_3", "type": "general", "context": "mission", "value": "yes" } }
     ]
   },
 {

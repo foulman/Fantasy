@@ -13,7 +13,7 @@
     },
     "origins": [ "ORIGIN_OPENER_NPC" ],
     "end": { "effect": [
-		{ "u_add_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" }
+		{ "npc_add_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" }
 		] },
     "has_generic_rewards": true,
     "dialogue": {
@@ -42,8 +42,8 @@
     },
     "origins": [ "ORIGIN_OPENER_NPC" ],
     "end": { "effect": [
-		{ "u_add_var": "ANTHRO_MISSION_2", "type": "general", "context": "mission", "value": "yes" },
-                { "u_lose_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" }
+		{ "npc_add_var": "ANTHRO_MISSION_2", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_lose_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" }
 		],
                  "update_mapgen": [
         { "om_terrain": "home_ruins_down", "place_nested": [ { "chunks": [ "home_ruins_down_a" ], "x": 0, "y": 0 } ] }
@@ -78,8 +78,8 @@
 					 { "class": "mercenary_friendly", "x": 9, "y": 11, "target": true } ] }
     },
     "end": { "effect": [
-		{ "u_add_var": "ANTHRO_MISSION_3", "type": "general", "context": "mission", "value": "yes" },
-                { "u_lose_var": "ANTHRO_MISSION_2", "type": "general", "context": "mission", "value": "yes" }
+		{ "npc_add_var": "ANTHRO_MISSION_3", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_lose_var": "ANTHRO_MISSION_2", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {
@@ -108,7 +108,7 @@
                        { "om_terrain": "elder_caves", "place_nested": [ { "chunks": [ "quellna_camp" ], "x": 0, "y": 0 } ] } ]
     }, 
     "end": { "effect": [
-                { "u_lose_var": "ANTHRO_MISSION_3", "type": "general", "context": "mission", "value": "yes" }
+                { "npc_lose_var": "ANTHRO_MISSION_3", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {
@@ -137,7 +137,7 @@
     },
     "origins": [ "ORIGIN_OPENER_NPC" ],
     "end": { "effect": [
-		{ "u_add_var": "ARCH_MISSION_1", "type": "general", "context": "mission", "value": "yes" }
+		{ "npc_add_var": "ARCH_MISSION_1", "type": "general", "context": "mission", "value": "yes" }
 		] },
     "has_generic_rewards": true,
     "dialogue": {

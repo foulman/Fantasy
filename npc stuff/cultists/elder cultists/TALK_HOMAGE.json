@@ -1,0 +1,60 @@
+[
+  {
+    "id": "TALK_HOMAGE", 
+    "type": "talk_topic",
+    "dynamic_line": [ "<greet>" ],
+    "responses": [ { "text": "<greet> How are you?", "topic": "TALK_INQUIRY3" } ]
+  },
+  {
+    "id": "TALK_INQUIRY3",
+    "type": "talk_topic",
+    "dynamic_line": [ "Oh, feeling <good>." ],
+    "responses": [ { "text": "That is wonderful.", "topic": "TALK_TOPICS3" },
+                   { "text": "Humph.", "topic": "TALK_INSULT" },
+                   { "text": "See ya.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "id": "TALK_TOPICS3",
+    "type": "talk_topic",
+    "dynamic_line": [ "So, what can I do for you?" ],
+    "responses": [
+                   { "text": "I noticed your robes are decorated. What do you do?", "topic": "TALK_JOB2" },
+                   { "text": "What is your opinion upon this place?", "topic": "TALK_THOUGHTS3" },
+                   { "text": "Nothing, really.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "id": "TALK_THOUGHTS3",
+    "type": "talk_topic",
+    "dynamic_line": [ "Well, I joined, advanced to the position of Homage, and learned the rites and rituals. I have not decided, actually." ],
+    "responses": [ { "text": "Hmmm.", "topic": "TALK_NONE" },
+                   { "text": "Rituals?", "topic": "TALK_JOB2" } ]
+  },
+  {
+    "id": "TALK_JOB2",
+    "type": "talk_topic",
+    "dynamic_line": [ "Oh, I am a Homage, you see. We are resonpisble for leading most of the cult in ritual sacrifice to the Elder Ones. The Onocti aid me, preparing the altar and whatnot." ],
+    "responses": [ { "text": "Interesting.", "topic": "TALK_TOPICS3" },
+                   { "text": "Sacrifice?", "topic": "TALK_SACRIFICE_HOMAGE" },
+                   { "text": "With your position, is there anything I can do for you?", "topic": "TALK_CULT_JOBS" } ]
+  },
+  {
+    "id": "TALK_SACRIFICE_HOMAGE",
+    "type": "talk_topic",
+    "dynamic_line": [ "Yes. We sacrifice the butchered remains of animals in exchange for The Blood, a magical substance gifted to us by the Elder Ones as reward." ],
+    "responses": [ { "text": "Hmmm.", "topic": "TALK_TOPICS3" },
+                   { "text": "Elder Ones?", "topic": "TALK_ELDERONES" } ]
+  },
+  {
+    "id": "TALK_ELDERONES",
+    "type": "talk_topic",
+    "dynamic_line": [ "The Elder Ones are our patrons. They gifted our founder with otherworldly knowledge, contained within a tome. They spread such unto us." ],
+    "responses": [ { "text": "Interesting.", "topic": "TALK_TOPICS3" },
+                   { "text": "What is this, tome?", "topic": "TALK_BOOK" } ]
+  },
+  {
+    "id": "TALK_BOOK",
+    "type": "talk_topic",
+    "dynamic_line": [ "The Archaesth. It contains all knowledge of the breathren. Perhaps you should speak to the Lorevessel, they should be within the Hall of Artifacts, you can't miss it." ],
+    "responses": [ { "text": "Thank you.", "topic": "TALK_TOPICS3" } ]
+  }  
+]

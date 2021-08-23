@@ -93,7 +93,7 @@
     "id": "MISSION_GET_LOGS",
     "type": "mission_definition",
     "name": "Errand Running",
-    "description": "Get some wood (5 logs).",
+    "description": "Get some wood (10 logs).",
     "goal": "MGOAL_FIND_ITEM",
 	"item": "log",
 	"count": 10,
