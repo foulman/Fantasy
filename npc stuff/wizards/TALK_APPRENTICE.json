@@ -24,13 +24,13 @@
       { 
          "text": "Is there anything I can do for you?", 
          "topic": "TALK_CULT_JOBS",
-         "condition": { "u_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" }
+         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" }
   
       },
       { 
          "text": "Can you teach me anything?", 
          "topic": "TALK_TRAIN",
-         "condition": { "u_has_var": "MAGE_APPRENTICE", "type": "general", "context": "mission", "value": "yes" }
+         "condition": { "npc_has_var": "MAGE_APPRENTICE", "type": "general", "context": "mission", "value": "yes" }
   
       }
     ]
@@ -39,7 +39,7 @@
     "id": "TALK_MAGE",
     "type": "talk_topic",
     "dynamic_line": [ "Oh, I'm an apprentice. I'm just learning magic, but one day I hope to delve deep into the arcane. Oh, how exciting!" ],
-    "responses": [ { "text": "Hmm.", "topic": "TALK_NEED", "effect": { "u_add_var": "known", "type": "dialogue", "context": "mage", "value": "yes" } },
-                   { "text": "Could I help you?", "topic": "TALK_CULT_JOBS", "effect": { "u_add_var": "known", "type": "dialogue", "context": "mage", "value": "yes" } } ]
+    "responses": [ { "text": "Hmm.", "topic": "TALK_NEED", "effect": { "npc_add_var": "known", "type": "dialogue", "context": "mage", "value": "yes" } },
+                   { "text": "Could I help you?", "topic": "TALK_CULT_JOBS", "effect": { "npc_add_var": "known", "type": "dialogue", "context": "mage", "value": "yes" } } ]
   }
 ]

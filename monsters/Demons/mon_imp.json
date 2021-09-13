@@ -218,7 +218,7 @@
     "copy-from": "mon_mtc_fyllirbam",
     "type": "MONSTER",
     "name": { "str": "demon spellcaster" },
-    "description": "A large, humanoid demon from one of the regions in the Abyss. Within it's hands, you can see magical dust radiating.",
+    "description": "A large, humanoid demon from one of the regions in the Abyss. Within it's hands, you can see arcane power radiating.",
     "melee_skill": 4,
     "melee_dice": 3,
     "melee_dice_sides": 3,
@@ -230,7 +230,10 @@
     "death_drops": {
       "subtype": "collection",
       "items": [
-        { "item": "spell_scroll_hellbolt", "prob": 15 }
+        { "item": "spell_scroll_hellbolt", "prob": 15 },
+        { "item": "spell_scroll_demons", "prob": 10 },
+        { "item": "spell_scroll_toxic_cloud", "prob": 15 },
+        { "item": "spell_scroll_hellswipe", "prob": 10 }
       ]
     },
     "extend": {

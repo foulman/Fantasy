@@ -1,0 +1,32 @@
+[
+{
+    "type": "furniture",
+    "id": "f_fire_flower",
+    "name": "fire flower",
+    "description": "A short, bulbous flower with many petals. It is often found within volcanic enviornments.",
+    "looks_like": "f_dandelion",
+    "symbol": "f",
+    "color": "red",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE", "FLOWER" ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [ { "seasons": [ "summer" ], "entries": [ { "drop": "fire_flower", "base_num": [ 2, 5 ] } ] } ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  }, 
+{
+    "type": "furniture",
+    "id": "f_ash_vine",
+    "name": "ash creep cluster",
+    "description": "A collection of long, black vines, with bright red flowers. It is often found in volcanic enviornments.",
+    "looks_like": "f_dandelion",
+    "symbol": "c",
+    "color": "black",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE", "FLOWER" ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [ { "seasons": [ "summer", "autumn" ], "entries": [ { "drop": "ash_vine", "base_num": [ 2, 5 ] } ] } ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  }
+]

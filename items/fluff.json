@@ -64,5 +64,12 @@
     "//": "Quest item, should not spawn naturally",
     "name": { "str": "paperwork" },
     "description": "A sheet of odd paperwork, notes scrawled across it. It seems to belong to some large organization."
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "first_grad_slip",
+    "name": { "str": "first year graduation slip" },
+    "description": "Your paperwork for first year Ivy graduation. It's important, so keep it."
   }
 ]

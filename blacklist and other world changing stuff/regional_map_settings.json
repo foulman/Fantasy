@@ -492,6 +492,7 @@
         "generalstore": 5, 
         "infirmary": 5, 
         "stables": 3,
+        "alchemists_store": 3,
         "church_mtc": 5,
         "carpentry_workshop": 5,
         "cemetary_mtc": 5, 

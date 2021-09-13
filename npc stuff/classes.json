@@ -348,6 +348,26 @@
 	},
 {
     "type": "npc_class",
+    "id": "NPC_ALCHEMIST",
+    "name": { "str": "Alchemist" },
+    "job_description": "I own a potion store.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 1, 2 ] },
+    "bonus_per": { "rng": [ 1, 2 ] },
+    "worn_override": "NPC_shopkeeper_worn",
+    "shopkeeper_item_group": "NPC_ALCHEMIST_shopkeep",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+{
+    "type": "npc_class",
     "id": "NPC_MEDIC",
     "name": { "str": "Town Medic" },
     "job_description": "I work at an infirmary.",
@@ -551,6 +571,27 @@
 	},
 {
     "type": "npc_class",
+    "id": "NPC_CULT_ELDER_FIEND",
+    "name": { "str": "Elder" },
+    "job_description": "I joined a cult, and may or may not be the leader of said cult.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+       { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 1 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 0, 1 ] },
+    "worn_override": "NPC_cult_elder_worn",
+    "weapon_override": "NPC_cult_member_wield",
+    "shopkeeper_item_group": "warlock_magic_items",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+{
+    "type": "npc_class",
     "id": "NPC_BANDIT_MTC",
     "name": { "str": "Highwayman" },
     "job_description": "I rob people.",
@@ -585,7 +626,30 @@
     "bonus_int": { "rng": [ 0, 3 ] },
     "bonus_per": { "rng": [ 0, 1 ] },
     "worn_override": "NPC_cultist_worn",
-    "weapon_override": "NPC_CULT_MAGICIAN_MTC",
+    "weapon_override": "NPC_cult_member_wield",
+    "shopkeeper_item_group": "NPC_CULT_MAGICIAN_SELL",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "occult", "bonus": { "rng": [ 2, 3 ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_CULT_MAGICIAN_FIEND",
+    "name": { "str": "Magician" },
+    "job_description": "I joined a cult, and sell magic scrolls.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+       { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 1 ] },
+    "bonus_int": { "rng": [ 0, 3 ] },
+    "bonus_per": { "rng": [ 0, 1 ] },
+    "worn_override": "NPC_cultist_worn",
+    "weapon_override": "NPC_cult_member_wield",
+    "shopkeeper_item_group": "NPC_CULT_MAGICIAN_FIEND_SELL",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
       { "skill": "occult", "bonus": { "rng": [ 2, 3 ] } }
@@ -644,15 +708,50 @@
        { "group": "BG_story_COMMON" },
       { "group": "Appearance_demographics" }
     ],
-    "spells": [ { "id": "mu_spell_cantrip", "level": 1 } ],
-    "bonus_str": { "rng": [ 0, 0 ] },
-    "bonus_dex": { "rng": [ 0, 0 ] },
+    "spells": [ { "id": "mu_spell_cantrip", "level": 5 },
+                { "id": "mu_spell_armor", "level": 3 },
+                { "id": "mu_spell_light", "level": 3 },
+                { "id": "mu_spell_darkness", "level": 3 },
+                { "id": "mu_spell_armor_elemental", "level": 5 },
+                { "id": "mage_burning_hands", "level": 2 },
+                { "id": "firebolt", "level": 12 } ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
     "bonus_int": { "rng": [ 1, 4 ] },
-    "bonus_per": { "rng": [ 0, 0 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
     "worn_override": "NPC_wizard_worn",
     "weapon_override": "NPC_wizard_wield",
+    "shopkeeper_item_group": "spell_scrolls_wizard1",
     "skills": [
-      { "skill": "spellcraft", "bonus": { "rng": [ 2, 2 ] } }
+      { "skill": "spellcraft", "bonus": { "rng": [ 1, 2 ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_SECOND_INSTRUCTOR",
+    "name": { "str": "First Year Instructor" },
+    "job_description": "I teach magic.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+       { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "spells": [ { "id": "mu_spell_cantrip", "level": 10 },
+                { "id": "mu_spell_armor", "level": 6 },
+                { "id": "mu_spell_light", "level": 6 },
+                { "id": "mu_spell_darkness", "level": 6 },
+                { "id": "mu_spell_armor_elemental", "level": 10 },
+                { "id": "mage_burning_hands", "level": 4 },
+                { "id": "firebolt", "level": 14 } ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 1, 4 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+    "worn_override": "NPC_wizard_worn",
+    "weapon_override": "NPC_wizard_wield",
+    "shopkeeper_item_group": "spell_scrolls_wizard1",
+    "skills": [
+      { "skill": "spellcraft", "bonus": { "rng": [ 2, 3 ] } }
     ]
 	}
 ]

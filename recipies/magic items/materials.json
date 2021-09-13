@@ -7,7 +7,6 @@
     "skill_used": "spellcraft",
     "difficulty": 1,
     "time": "10 m",
-    "autolearn": "true",
     "charges": 10,
     "//": "The crafter, essentally, channels their raw magic into crystalized form for the recipie, hence the lack of materials. 500 mana in 8h 30m, with proficiency.",  
     "qualities": [ { "id": "INFUSION", "level": 1 } ],

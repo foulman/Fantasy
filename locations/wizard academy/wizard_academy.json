@@ -215,8 +215,8 @@
             "orrrrrrrsfffffsrrrrrrrro",
             "sFFFFFrqsfffffsqrrGGGGGs",
             "sssssssssfffffssssssssss",
-            "sqrrEEEEsfffffsCCCr1CCCs",
-            "orrrrrrrsfffffsrrrrrrrro",
+            "sqrrEEEEsfffffsCCCrrCCCs",
+            "orrrr3rrsfffffsr1rrrrrro",
             "orcrcrrrdfffffdrrrrcrcro",
             "orrrrrrrsfffffsrrrrrrrro",
             "srcrcrcrsfffffsqrcrcrcrs",
@@ -232,13 +232,14 @@
           "-": { "item": "ingredients_all", "chance": 70, "repeat": [ 20, 70 ] },
           "`": { "item": "crystallized_mana", "chance": 100, "repeat": [ 3, 6 ] },
           "B": { "item": "ingredients_all", "chance": 70, "repeat": [ 20, 70 ] },
-          "C": { "item": "spell_scrolls_wizard1", "chance": 70, "repeat": [ 2, 5 ] },
-          "E": { "item": "spell_scrolls_wizard2", "chance": 70, "repeat": [ 2, 5 ] },
-          "F": { "item": "spell_scrolls_wizard3", "chance": 70, "repeat": [ 2, 5 ] },
-          "G": { "item": "spell_scrolls_wizard4", "chance": 70, "repeat": [ 2, 5 ] }
+          "C": { "item": "spell_scrolls_wizard1", "chance": 70, "repeat": [ 3, 5 ] },
+          "E": { "item": "spell_scrolls_wizard2", "chance": 70, "repeat": [ 3, 5 ] },
+          "F": { "item": "spell_scrolls_wizard3", "chance": 70, "repeat": [ 3, 5 ] },
+          "G": { "item": "spell_scrolls_wizard4", "chance": 70, "repeat": [ 3, 5 ] }
     },
       "npcs": {
-		"1": { "class": "first_year_instructor" }
+		"1": { "class": "first_year_instructor" },
+                "3": { "class": "second_year_instructor" }
 		}
     }
   },

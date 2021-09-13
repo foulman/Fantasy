@@ -18,6 +18,16 @@
           {
 		"text": "Can I have something reforged?",
 		"topic": "TALK_NPC_LONE_BLACKSMITH_REPAIR"
+	  },
+          {
+		"text": "Do you need any help around here?",
+		"topic": "TALK_NPC_LONE_BLACKSMITH_HELP",
+                "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } } 
+	  },
+          {
+		"text": "Is there any work today?",
+		"topic": "TALK_NPC_LONE_BLACKSMITH_ORDERS",
+                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" }  
 	  }
     ]
   },
@@ -267,6 +277,66 @@
           {
 		"text": "I'm good, thanks.",
 		"topic": "NPC_LONE_BLACKSMITH_TRADE_EXIT"
+	  }
+    ]
+  },
+{
+    "type": "talk_topic",
+    "id": "TALK_NPC_LONE_BLACKSMITH_HELP",
+    "dynamic_line": "Well, I could use some help around here. Do you have any prior experience?",
+    "responses": [
+          {
+		"text": "Yes, actually. I studied the dwarven craft.",
+		"topic": "TALK_NPC_LONE_BLACKSMITH_HIREXP",
+                "condition": { "u_has_trait": "DWARF_CRAFTER" }
+	  },
+          {
+		"text": "No, I do not.",
+		"topic": "TALK_NPC_LONE_BLACKSMITH_HIRENXP"
+	  }
+    ]
+  },
+{
+    "type": "talk_topic",
+    "id": "TALK_NPC_LONE_BLACKSMITH_HIREXP",
+    "dynamic_line": "Well, it'd be a wonder to have you on.",
+    "responses": [
+          {
+		"text": "I accept.",
+		"topic": "TALK_DONE",
+                "effect": [ { "npc_add_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } ] 
+	  },
+          {
+		"text": "Nah.",
+		"topic": "TALK_DONE"
+	  }
+    ]
+  },
+{
+    "type": "talk_topic",
+    "id": "TALK_NPC_LONE_BLACKSMITH_HIRENXP",
+    "dynamic_line": "Hmm...I'd have to teach it to ya, its not simple. If ya can pass me test, I'll do it.",
+    "responses": [
+          {
+		"text": "I accept.",
+		"topic": "TALK_DONE",
+                "effect": [ { "add_mission": "MISSION_SMITH_TEST" } ] 
+	  },
+          {
+		"text": "Nah.",
+		"topic": "TALK_DONE"
+	  }
+    ]
+  },
+{
+    "type": "talk_topic",
+    "id": "TALK_NPC_LONE_BLACKSMITH_ORDERS",
+    "dynamic_line": "I've got new orders I need done. Here's one.",
+    "responses": [
+	  {
+		"text": "Thanks.",
+		"topic": "TALK_DONE",
+                "effect": [ { "add_mission": "MISSION_FORGE_SWORD" } ] 
 	  }
     ]
   }

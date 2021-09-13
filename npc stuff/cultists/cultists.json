@@ -83,8 +83,7 @@
   {
     "type": "npc",
     "id": "cult_recruiter",
-    "class": "NPC_MALE_CITIZEN",
-    "name_suffix": "cultist",          
+    "class": "NPC_MALE_CITIZEN",      
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_RECRUITER",
@@ -104,8 +103,7 @@
   {
     "type": "npc",
     "id": "cult_recruiter",
-    "class": "NPC_FEMALE_CITIZEN",
-    "name_suffix": "cultist",          
+    "class": "NPC_FEMALE_CITIZEN",     
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_RECRUITER",
@@ -153,6 +151,48 @@
     "mission": 3,
     "chat": "TALK_SHOPKEEPER_general",
     "mission_offered": "MISSION_GET_PAPER",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_member_fiend",
+    "name_suffix": "cult member",
+    "class": "NPC_CULT_MEMBER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_MEMBER",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_magician_fiend",
+    "name_suffix": "cult member",
+    "class": "NPC_CULT_MAGICIAN_FIEND",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_CULT_MAGICIAN_FIEND",
+    "mission_offered": "MISSION_GET_PAPER",
+    "faction": "cultists"
+  },
+{
+    "type": "npc",
+    "id": "cult_elder_fiend",
+    "name_suffix": "cult elder",
+    "class": "NPC_CULT_ELDER_FIEND",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_CULT_LEADER_FIEND",
+    "faction": "cultists"
+  },
+{
+    "type": "npc",
+    "id": "cult_sacrificer_fiend",
+    "name_suffix": "sacrificer",
+    "class": "NPC_CULT_ONOCTI",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_CULT_SACRIFICER_FIEND",
+    "mission_offered": [ "MISSION_RITUAL_FIEND" ],
     "faction": "cultists"
   }
 ]

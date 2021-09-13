@@ -62,6 +62,14 @@
   },
   {
     "type": "item_group",
+    "id": "training_weapons",
+    "subtype": "distribution",
+    "items": [
+      { "item": "cudgel", "prob": 70, "count-min": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "spell_scrolls_wizard1",
     "subtype": "distribution",
     "items": [
@@ -119,6 +127,37 @@
       { "group": "spell_scrolls_wizard2", "prob": 25 },
       { "group": "spell_scrolls_wizard3", "prob": 20 },
       { "group": "spell_scrolls_wizard4", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "spell_scrolls_warlock",
+    "subtype": "distribution",
+    "items": [
+      [ "spell_scroll_carm", 15 ],
+      [ "spell_scroll_cause_fear", 15 ],
+      [ "spell_scroll_magic_stone", 15 ],
+      [ "spell_scroll_wtrance", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "spell_scrolls_warlock_fiend",
+    "subtype": "distribution",
+    "items": [
+      [ "spell_scroll_hellbolt", 15 ],
+      [ "spell_scroll_demons", 15 ],
+      [ "spell_scroll_toxic_cloud", 15 ],
+      [ "spell_scroll_hellswipe", 10 ],
+      [ "spell_scroll_hellish_rebuke", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "warlock_magic_items",
+    "subtype": "distribution",
+    "items": [
+      { "item": "warlock_focus_staff", "prob": 40 }
     ]
   },
   {
@@ -201,7 +240,7 @@
       { "item": "totem_small_metal", "prob": 70, "count-min": 1, "count-max": 5 },
       { "item": "bone_charm", "prob": 70, "count-min": 1, "count-max": 5 },
       { "item": "totem_small_fiber", "prob": 70, "count-min": 1, "count-max": 5 },
-      { "item": "holy_symbol", "prob": 70, "count-min": 1, "count-max": 5 }
+      { "item": "holy_symbol_wood", "prob": 70, "count-min": 1, "count-max": 5 }
     ]
   },
   {
@@ -235,7 +274,8 @@
     "subtype": "distribution",
     "entries": [
       { "group": "alchemy_books", "prob": 6 },
-      { "group": "infusion_books", "prob": 2 }
+      { "group": "infusion_books", "prob": 2 },
+      { "item": "gods_and_godesses", "prob": 25 }
     ]
   },
   {
@@ -491,5 +531,66 @@
     "items": [
       [ "reception_paperwork", 100 ]
     ]
-  }
+  },
+{
+    "type": "item_group",
+    "id": "weapons_plus1",
+	"subtype": "collection",
+    "entries": [
+	  { "item": "knife_baselard+1", "prob": 35 },
+	  { "item": "cutlass+1", "prob": 35 },
+          { "item": "longsword+1", "prob": 35 },
+	  { "item": "arming_sword+1", "prob": 35 },
+	  { "item": "mace+1", "prob": 35 },
+	  { "item": "morningstar+1", "prob": 35 },
+	  { "item": "zweihander+1", "prob": 35 },
+	  { "item": "lucern_hammer+1", "prob": 35 },
+	  { "item": "spear_steel+1", "prob": 35 },
+          { "item": "wood_sword+1", "prob": 35 },
+	  { "item": "makeshift_knife+1", "prob": 35 },
+          { "item": "machete+1", "prob": 35 },
+	  { "item": "cavalry_sabre+1", "prob": 35 },
+	  { "item": "kris+1", "prob": 35 },
+	  { "item": "kukri+1", "prob": 35 },
+	  { "item": "jian+1", "prob": 35 },
+	  { "item": "scimitar+1", "prob": 35 },
+	  { "item": "estoc+1", "prob": 35 },
+          { "item": "tanto+1", "prob": 35 },
+	  { "item": "wakizashi+1", "prob": 35 },
+          { "item": "nodachi+1", "prob": 35 },
+	  { "item": "broadsword+1", "prob": 35 },
+	  { "item": "rapier+1", "prob": 35 },
+	  { "item": "katana+1", "prob": 35 },
+	  { "item": "butterfly_swords+1", "prob": 35 },
+	  { "item": "cutlass+1", "prob": 35 },
+	  { "item": "lajatang+1", "prob": 35 },
+          { "item": "war_flail+1", "prob": 35 },
+	  { "item": "peasant_flail+1", "prob": 35 },
+          { "item": "bokken+1", "prob": 35 },
+	  { "item": "battleaxe+1", "prob": 35 },
+	  { "item": "cudgel+1", "prob": 35 },
+	  { "item": "q_staff+1", "prob": 35 },
+	  { "item": "shillelagh+1", "prob": 35 },
+	  { "item": "tonfa_wood+1", "prob": 35 },
+	  { "item": "qiang+1", "prob": 35 },
+          { "item": "halberd+1", "prob": 35 },
+	  { "item": "glaive+1", "prob": 35 },
+          { "item": "naginata+1", "prob": 35 },
+	  { "item": "pike+1", "prob": 35 },
+	  { "item": "bullet_crossbow+1", "prob": 35 },
+	  { "item": "hand_crossbow+1", "prob": 35 },
+	  { "item": "crossbow+1", "prob": 35 },
+	  { "item": "huge_crossbow+1", "prob": 35 },
+	  { "item": "selfbow+1", "prob": 35 },
+          { "item": "shortbow+1", "prob": 35 },
+	  { "item": "compositebow+1", "prob": 35 },
+          { "item": "reflexbow+1", "prob": 35 },
+	  { "item": "longbow+1", "prob": 35 },
+	  { "item": "woodgreatbow+1", "prob": 35 },
+	  { "item": "bagh_nakha+1", "prob": 35 },
+	  { "item": "cestus+1", "prob": 35 },
+	  { "item": "knuckle_brass+1", "prob": 35 },
+	  { "item": "punch_dagger+1", "prob": 35 }
+    ]
+	}
 ]

@@ -40,5 +40,15 @@
     "chat": "TALK_INSTRUCTOR_Y1",
     "mission_offered": [ "MISSION_FIRST_LESSON" ],
     "faction": "kingdom"
-  }  
+  },
+{
+    "type": "npc",
+    "id": "second_year_instructor",
+    "class": "NPC_FIRST_INSTRUCTOR",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_INSTRUCTOR_Y2",
+    "mission_offered": [ "MISSION_MAGIC_LESSONS_II" ],
+    "faction": "kingdom"
+  } 
 ]
