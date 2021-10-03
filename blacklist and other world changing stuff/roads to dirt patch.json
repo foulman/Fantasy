@@ -12,6 +12,17 @@
   },
   {
     "type": "terrain",
+    "id": "t_zebra",
+    "name": "dirt",
+    "description": "It's dirt.  Looks like some fine soil for tillage.  Could also be dug out for construction projects.",
+    "symbol": ".",
+    "color": "brown",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "DIGGABLE", "FLAT", "PLOWABLE" ],
+    "bash": { "sound": "thump", "ter_set": "t_null", "str_min": 50, "str_max": 100, "str_min_supported": 100, "bash_below": true }
+  },
+  {
+    "type": "terrain",
     "id": "t_pavement_y",
     "name": "dirt",
     "description": "It's dirt.  Looks like some fine soil for tillage.  Could also be dug out for construction projects.",

@@ -3297,13 +3297,16 @@
       "rm51_assault_rifle",
       "rm614_lmg",
       "rm802",
-      "rm88_battle_rifle",
+      "rm88_battle_rifle",      
+      "m1911_10",
       "steel_rail",
       "taint_tornado",
       "unbio_blaster_gun",
       "v29",
       "v29_cheap",
-      "wine_mycus"
+      "wine_mycus",
+      "lighter",
+      "nailgun"
     ]
   },
   {
@@ -3741,24 +3744,29 @@
         ]
     },
 	{
-        "type" : "vehicle_group",
-        "id" : "city_pileup",
-        "vehicles" : [
-            [ "none", 1 ],
-            [ "car", 0 ],
-            [ "electric_car", 0 ],
-            [ "car_sports", 0 ],
-            [ "suv", 0 ],
-            [ "suv_electric", 0 ],
-            [ "car_mini", 0 ],
-            [ "beetle", 0 ],
-            [ "pickup", 0 ],
-            [ "flatbed_truck", 0 ],
-            [ "cube_van", 0 ],
-            [ "cube_van_cheap", 0 ],
-            [ "hippie_van", 0 ]
-        ]
-    },
+    "type": "vehicle_group",
+    "id": "city_pileup",
+    "vehicles": [
+      [ "car", 0 ],
+      [ "car_anmlcmpt", 0 ],
+      [ "car_hatch", 0 ],
+      [ "car_luxury", 0 ],
+      [ "electric_car", 0 ],
+      [ "car_sports", 0 ],
+      [ "suv", 0 ],
+      [ "suv_electric", 0 ],
+      [ "car_mini", 0 ],
+      [ "beetle", 0 ],
+      [ "pickup", 0 ],
+      [ "flatbed_truck", 0 ],
+      [ "cube_van", 0 ],
+      [ "cube_van_cheap", 0 ],
+      [ "hippie_van", 0 ],
+      [ "4x4_car", 0 ],
+      [ "car_hybrid", 0 ],
+      [ "underlift_tow_truck", 0 ]
+    ]
+  },
 	{
         "type" : "vehicle_group",
         "id" : "highway",
@@ -3986,5 +3994,15 @@
             [ "schoolbus", 0 ],
             [ "fire_truck", 0 ]
         ]
-    }
+    },
+    {
+    "type": "vehicle_group",
+    "id": "police_pileup",
+    "vehicles": [ [ "policecar", 0 ], [ "policesuv", 0 ], [ "policecar_k9", 0 ], [ "policesuv_k9", 0 ], [ "police_k9tpt", 0 ] ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "trains_draisine",
+    "vehicles": [ [ "motorized_draisine_6seats", 0 ], [ "motorized_draisine_2seats", 0 ] ]
+  }
 ]

@@ -218,6 +218,65 @@
 	},
 {
     "type": "overmap_terrain",
+    "id": "alchemists_shop_roof",
+    "name": "roof",
+    "sym": ">",
+    "see_cost": 5,
+    "color": "blue"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "pottery_shop",
+    "name": "pottery shop",
+    "sym": "P",
+    "see_cost": 5,
+    "color": "brown",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
+    "id": "pottery_shop_roof",
+    "name": "roof",
+    "sym": ">",
+    "see_cost": 5,
+    "color": "brown"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "bakery_mtc",
+    "name": "bakery",
+    "sym": "b",
+    "see_cost": 5,
+    "color": "black_white",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
+    "id": "bakery_roof_mtc",
+    "name": "roof",
+    "sym": "b",
+    "see_cost": 5,
+    "color": "black_white"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "brewery_mtc",
+    "name": "brewery",
+    "sym": "B",
+    "see_cost": 5,
+    "color": "light_green",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
+    "id": "brewery_roof_mtc",
+    "name": "roof",
+    "sym": "B",
+    "see_cost": 5,
+    "color": "light_green"
+	},
+{
+    "type": "overmap_terrain",
     "id": "cemetary_mtc",
     "name": "cemetery",
     "sym": "#",
@@ -240,5 +299,137 @@
     "sym": "O",
     "see_cost": 1,
     "color": "red"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "barracks",
+    "name": "gaurd barracks",
+    "sym": "H",
+    "see_cost": 1,
+    "color": "dark_gray",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
+    "id": "barracks_roof",
+    "name": "roof",
+    "sym": "H",
+    "see_cost": 1,
+    "color": "dark_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "council_hall",
+    "name": "council hall",
+    "sym": "W",
+    "see_cost": 1,
+    "color": "dark_gray",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
+    "id": "council_hall_roof",
+    "name": "roof",
+    "sym": "W",
+    "see_cost": 1,
+    "color": "dark_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "bank_mtc",
+    "name": "exchange office",
+    "sym": "C",
+    "see_cost": 1,
+    "color": "light_gray",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
+    "id": "bank_roof_mtc",
+    "name": "roof",
+    "sym": "C",
+    "see_cost": 1,
+    "color": "light_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "leatherworks",
+    "name": "leatherworks",
+    "sym": "L",
+    "see_cost": 1,
+    "color": "brown",
+    "flags": [ "SIDEWALK" ]
+	},
+{
+    "type": "overmap_terrain",
+    "id": "leatherworks_roof",
+    "name": "roof",
+    "sym": "L",
+    "see_cost": 1,
+    "color": "brown"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "carriage_works",
+    "name": "carriage house",
+    "sym": ">",
+    "see_cost": 1,
+    "color": "white"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "carriage_works_roof",
+    "name": "roof",
+    "sym": ">",
+    "see_cost": 1,
+    "color": "white"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "fishery",
+    "name": "fishery",
+    "sym": ">",
+    "see_cost": 1,
+    "color": "blue"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "fishery_roof",
+    "name": "roof",
+    "sym": ">",
+    "see_cost": 1,
+    "color": "blue"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "wharf_mtc",
+    "name": "docks",
+    "sym": "T",
+    "see_cost": 1,
+    "color": "brown"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "wharf_forefront_mtc",
+    "name": "lake",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "blue"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "dry_dock",
+    "name": "dry docks",
+    "sym": "D",
+    "see_cost": 1,
+    "color": "brown"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "lumber_yard_mtc",
+    "name": "lumber yard",
+    "sym": "Y",
+    "see_cost": 1,
+    "color": "green"
 	}
 ]
