@@ -16,10 +16,14 @@
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 25 } },
 		"effect": [ { "u_buy_item": "horse_tack" }, { "u_sell_item": "silver_coin", "count": 25 } ]
 		},
+                {
+		"text": "How much are your goods?",
+		"topic": "TALK_STABLEMASTER_PRICES"
+		},
 		{
 		"text": "No, thank you.",
 		"topic": "TALK_DONE"
-		}
+		}                 
     ]
   },
   {
@@ -30,6 +34,17 @@
 		{
 		"text": "Thanks.",
 		"topic": "TALK_DONE"
+		}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_STABLEMASTER_PRICES",
+    "dynamic_line": "Oh, a horse is a hundred gold, the tack's twenty-five silvers.",
+    "responses": [	
+		{
+		"text": "Thank you.",
+		"topic": "TALK_STABLEMASTER"
 		}
     ]
   }

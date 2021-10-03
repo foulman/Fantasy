@@ -66,9 +66,13 @@
       },
       {
         "text": "Whats your story?",
-        "topic": "BGSS_CITY_WATCH_STORY1",
+        "topic": "BGSS_DWARVEN_CRAFTSMAN_STORY1",
         "condition": { "npc_has_trait": "BGSS_Dwarf_Crafter_1" },
         "switch": true
+      },
+      {
+        "text": "<end_talking>",
+        "topic": "TALK_DONE"
       }
       ]
   }

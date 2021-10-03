@@ -38,6 +38,56 @@
   },
   {
     "type": "npc",
+    "id": "shopkeeper_potter",
+    "class": "NPC_POTTER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_SHOPKEEPER_general",
+    "mission_offered": [ "MISSION_GET_CLAY", "MISSION_GET_LOGS" ],
+    "faction": "kingdom"
+  },
+  {
+    "type": "npc",
+    "id": "shopkeeper_leatherworker",
+    "class": "NPC_LEATHERWORKER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_SHOPKEEPER_general",
+    "mission_offered": [ "MISSION_GET_LEATHER", "MISSION_GET_LOGS" ],
+    "faction": "kingdom"
+  },
+  {
+    "type": "npc",
+    "id": "shopkeeper_fisher",
+    "class": "NPC_FISHER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_SHOPKEEPER_general",
+    "mission_offered": [ "MISSION_FISH", "MISSION_GET_LOGS" ],
+    "faction": "kingdom"
+  },
+  {
+    "type": "npc",
+    "id": "shopkeeper_baker",
+    "class": "NPC_BAKER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_SHOPKEEPER_general",
+    "mission_offered": [ "MISSION_GET_LOGS" ],
+    "faction": "kingdom"
+  },
+  {
+    "type": "npc",
+    "id": "shopkeeper_brewer",
+    "class": "NPC_BREWER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_SHOPKEEPER_general",
+    "mission_offered": [ "MISSION_GET_LOGS" ],
+    "faction": "kingdom"
+  },
+  {
+    "type": "npc",
     "id": "medic",
     "class": "NPC_MEDIC",
     "attitude": 0,
@@ -93,12 +143,57 @@
   },
 {
     "type": "npc",
+    "id": "carriage_maker",
+    "class": "NPC_CARPENTER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_CARRIAGE_MAKER",
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
+    "id": "dry_dock_manager",
+    "class": "NPC_CARPENTER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_DRY_DOCK_MANAGER",
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
+    "id": "logger_mtc",
+    "class": "NPC_CARPENTER",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_LOGGER",
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
     "id": "priest",
     "class": "NPC_PRIEST",
     "attitude": 0,
     "mission": 3,
     "chat": "TALK_PRIEST",
     "mission_offered": [ "MISSION_SAINT_BENEVOLENCE", "MISSION_HOLY_SYMBOL" ],
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
+    "id": "generic_teller",
+    "class": "NPC_MALE_CITIZEN",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_TELLER",
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
+    "id": "generic_teller",
+    "class": "NPC_FEMALE_CITIZEN",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_TELLER",
     "faction": "kingdom"
   }
 ]
