@@ -252,5 +252,13 @@
         }
       ]
     }
+  },
+{
+    "id": "mon_mtc_goblin_skeleton",
+    "//": "Special undead, so goblin necromancers can control their summons.",
+    "copy-from": "mon_mtc_skeleton",
+    "type": "MONSTER",
+    "name": { "str": "skeleton" },
+    "default_faction": "goblinoid"
   }
 ]

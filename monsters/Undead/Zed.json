@@ -80,5 +80,13 @@
     "delete": {
       "flags": [ "GRABS" ]
     }
+  },
+  {
+    "id": "mon_mtc_goblin_zombie",
+    "//": "Special undead, so goblin necromancers can control their summons.",
+    "copy-from": "mon_mtc_zombie",
+    "type": "MONSTER",
+    "name": { "str": "zombie" },
+    "default_faction": "goblinoid"
   }
 ]

@@ -131,6 +131,54 @@
 {
     "type": "mapgen",
     "method": "json",
+    "om_terrain": [ "bandit_camp_important" ],
+    "//": "Stolen goods",
+    "weight": 80,
+    "object": {
+      "fill_ter": "t_dirt",
+	  "faction_owner": [
+		{ "id": "bandits", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "                        ",
+            "                        ",
+            "    wwwwwwwwwwwwwww     ",
+            "    wf!!fff!fff!!fw     ",
+            "    wfffffffffffffw     ",
+            "    wffffUfffffUffw     ",
+            "    wffffUfUUffUffw     ",
+            "    wfffffffffffffw     ",
+            "    wffffUfUUffUffw     ",
+            "    wffffUfffffUffw     ",
+            "    w!fffffUUffff!w     ",
+            "    w!fffUfffffUf!w     ",
+            "    wffffUfUUffUffw     ",
+            "    wfffffffffffffw     ",
+            "    wffffUfUUffUffw     ",
+            "    wffffUfffffUffw     ",
+            "    wffffffUUfffffw     ",
+            "    wffffUfffffUffw     ",
+            "    wffffUfUUffUffw     ",
+            "    wfffffffffffffw     ",
+            "    wf!!fffffff!!fw     ",
+            "    wwwwwwwdwwwwwww     ",
+            "                        ",
+            "                        "
+      ],
+      "palettes": [ "city_building_home" ], 
+      "items": {
+      "U": { "item": "bandit_loot", "chance": 100 }
+	  
+    }, 
+      "furniture": { "U": "f_table" },
+	  "npcs": {
+		"!": { "class": "bandit_mtc" }
+		}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
     "om_terrain": [ "bandit_camp_roof" ],
     "weight": 100,
     "object": {

@@ -40,7 +40,7 @@
     "vision_day": 15,
     "vision_night": 30,
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE", "CAN_OPEN_DOORS" ]
   },
 {
     "id": "mon_mtc_imp_spearsman",
@@ -124,7 +124,8 @@
     "name": "hellhound",
     "description": "A large, vicious, wolflike beast origonating from the Abyss. Often tamed and ridden by demons.",
     "default_faction": "demon",
-    "bodytype": "dog",
+    "bodytype": "dog",    
+    "categories": [ "MONSTERS" ],
     "species": [ "DEMON" ],
     "volume": "32625 ml",
     "weight": 32625,
@@ -182,7 +183,7 @@
     "vision_day": 25,
     "vision_night": 40,
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE", "CAN_OPEN_DOORS" ]
   },
 {
     "id": "mon_mtc_demon_warrior",
@@ -231,9 +232,10 @@
       "subtype": "collection",
       "items": [
         { "item": "spell_scroll_hellbolt", "prob": 15 },
-        { "item": "spell_scroll_demons", "prob": 10 },
         { "item": "spell_scroll_toxic_cloud", "prob": 15 },
-        { "item": "spell_scroll_hellswipe", "prob": 10 }
+        { "item": "spell_scroll_hellswipe", "prob": 10 },
+        { "item": "crystallized_mana", "prob": 40 },
+        { "item": "magic_focus_staff", "prob": 40 }
       ]
     },
     "extend": {

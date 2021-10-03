@@ -554,7 +554,7 @@
     "energy_source": "MANA",
     "shape": "blast",
     "effect": "summon",
-    "effect_str": "mon_mtc_skeleton",
+    "effect_str": "mon_mtc_goblin_skeleton",
     "min_duration": 30000,
     "max_duration": 150000,
     "duration_increment": 4000
@@ -579,7 +579,7 @@
     "flags": [ "HOSTILE_SUMMON" ],
     "shape": "blast",
     "effect": "summon",
-    "effect_str": "mon_mtc_zombie",
+    "effect_str": "mon_mtc_goblin_zombie",
     "min_duration": 30000,
     "max_duration": 150000,
     "duration_increment": 4000
@@ -636,7 +636,6 @@
       { "id": "hellbolt" },
       { "id": "hellbolt" },
       { "id": "toxic_cloud" },
-      { "id": "sense_lesser_demons" },
       { "id": "hellswipe" }
     ],
     "flags": [ "SILENT", "WONDER" ],
