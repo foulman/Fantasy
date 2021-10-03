@@ -17,15 +17,15 @@
     "apply_message": "You are filled with energy that improves everything you do!",
     "remove_message": "Your energy fades.",
     "rating": "good",
-    "base_mods": { "per_mod": [ 2 ], "dex_mod": [ 2 ], "str_mod": [ 2, 2 ], "speed_mod": [ 20 ] }
+    "base_mods": { "per_mod": [ 2 ], "dex_mod": [ 2 ], "str_mod": [ 2 ], "speed_mod": [ 20 ] }
   },
 {
     "type": "effect_type",
     "id": "mu_effect_bane",
     "name": [ "Bane" ],
-    "desc": [ "Your body is filled with positive energy, giving you a good boost." ],
-    "apply_message": "Your body is filled with positive energy!",
-    "remove_message": "The positive energy wanes and you return to normal.",
+    "desc": [ "Your body is filled with negative energy, giving you a hinderance." ],
+    "apply_message": "Your body is filled with negative energy!",
+    "remove_message": "The negative energy wanes and you return to normal.",
     "rating": "bad",
     "base_mods": { "dex_mod": [ -1 ], "speed_mod": [ -10 ] }
   },
@@ -131,6 +131,17 @@
   },
 {
     "type": "effect_type",
+    "id": "curse_immune",
+    "name": [ "Curse Removal" ],
+    "desc": [ "A magical barrier shields yourself from arcane curses." ],
+    "apply_message": "You feel a shielding effect wash over you.",
+    "remove_message": "The magic dispels.",
+    "rating": "good",
+    "removes_effects": [ "weakness", "feeblemind", "withering" ],
+    "blocks_effects": [ "weakness", "feeblemind", "withering" ]
+  },
+{
+    "type": "effect_type",
     "id": "mu_effect_rm_divine_favor",
     "name": [ "Blessed" ],
     "desc": [ "Your body is filled with positive energy, giving you a good boost." ],
@@ -212,6 +223,16 @@
   },
 {
     "type": "effect_type",
+    "id": "smarts",
+    "name": [ "Intellect" ],
+    "desc": [ "Your muscles have grown in size, giving you a boost to physical strength!" ],
+    "apply_message": "You muscles swell!",
+    "remove_message": "Your ability fades.",
+    "rating": "good",
+    "base_mods": { "int_mod": [ 2 ] }
+  },
+{
+    "type": "effect_type",
     "id": "speed",
     "name": [ "Haste" ],
     "desc": [ "Your muscles have grown in size, giving you a boost to speed!" ],
@@ -270,5 +291,16 @@
     "rating": "good",
     "removes_effects": [ "paralyzepoison" ],
     "blocks_effects": [ "paralyzepoison" ]
+  },
+{
+    "type": "effect_type",
+    "id": "eff_mtc_eldritch_buff",
+    "name": [ "Infused" ],
+    "show_in_info": true,
+    "int_add_val": 1,
+    "int_dur_factor": "60 seconds",
+    "max_intensity": 3,
+    "base_mods": { "bash_mod": [ 0.5 ], "cut_mod": [ 0.5 ], "hit_mod": [ 0.2 ], "speed_mod": [ 1.25 ] },
+    "scaling_mods": { "bash_mod": [ 0.5 ], "cut_mod": [ 0.5 ], "hit_mod": [ 0.2 ], "speed_mod": [ 1.25 ] }
   }
 ]

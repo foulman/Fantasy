@@ -285,6 +285,62 @@
   },
   {
     "type": "overmap_terrain",
+    "id": "rangen_ranch_building",
+    "name": "ranchers house",
+    "sym": ">",
+    "see_cost": 1,
+    "color": "green"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ranch_field_ulc",
+    "name": "field",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ranch_field_urc",
+    "name": "field",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ranch_field_blc",
+    "name": "field",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ranch_field_brc",
+    "name": "field",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ranch_barn",
+    "name": "barn",
+    "sym": "B",
+    "see_cost": 1,
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "ranch_barn_roof",
+    "name": "roof",
+    "sym": "B",
+    "see_cost": 1,
+    "color": "brown"
+  },
+  {
+    "type": "overmap_terrain",
     "id": "goblin_camp_gate",
     "name": "goblin camp",
     "sym": "#",
@@ -533,6 +589,14 @@
   },
 {
     "type": "overmap_terrain",
+    "id": "wizard_academy_classrooms_2",
+    "name": "wizard academy",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
     "id": "wizard_academy_garden_right",
     "name": "academy gardens",
     "sym": "0",
@@ -546,6 +610,22 @@
     "sym": "0",
     "see_cost": 1,
     "color": "green"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "trial_maze_enter",
+    "name": "maze",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "trial_maze_second",
+    "name": "maze",
+    "sym": "0",
+    "see_cost": 1,
+    "color": "dark_gray"
   },
 {
     "type": "overmap_terrain",
@@ -608,6 +688,48 @@
 	},
 {
     "type": "overmap_terrain",
+    "id": "flooded_cave_blank",
+    "name": "flooded cavern",
+    "sym": "0",
+    "color": "blue"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "ruined_settlement_blank",
+    "name": "cavern ruins",
+    "sym": "C",
+    "color": "brown"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "u_swamp_blank",
+    "name": "swamp",
+    "sym": "0",
+    "color": "green"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "u_swamp_blank_roof",
+    "name": "chasm",
+    "sym": "0",
+    "color": "light_gray"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "swamp_town_blank",
+    "name": "shacks",
+    "sym": "#",
+    "color": "brown"
+	},
+{
+    "type": "overmap_terrain",
+    "id": "u_swamp_town_important",
+    "name": "keep",
+    "sym": "#",
+    "color": "brown"
+	},
+{
+    "type": "overmap_terrain",
     "id": "demon_cult_enter",
     "name": "forest",
     "sym": "F",
@@ -648,6 +770,22 @@
   },
 {
     "type": "overmap_terrain",
+    "id": "hexbound_cult",
+    "name": "small ring",
+    "sym": "o",
+    "see_cost": 3,
+    "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "hexbound_cult_roof",
+    "name": "roof",
+    "sym": "o",
+    "see_cost": 3,
+    "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
     "id": "cathedral_enter",
     "name": "cathdedral",
     "sym": "C",
@@ -685,5 +823,125 @@
     "sym": "C",
     "see_cost": 1,
     "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "mine_surface_mtc",
+    "name": "mine",
+    "sym": "M",
+    "see_cost": 1,
+    "color": "brown"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "mine_roof_mtc",
+    "name": "roof",
+    "sym": "M",
+    "see_cost": 1,
+    "color": "brown"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "blank_mineshaft_down",
+    "name": "mineshaft",
+    "sym": "M",
+    "see_cost": 1,
+    "color": "brown"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "blank_mineshaft",
+    "name": "mineshaft",
+    "sym": "M",
+    "see_cost": 1,
+    "color": "brown"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "blank_mineshaft_down2",
+    "name": "mineshaft",
+    "sym": "M",
+    "see_cost": 1,
+    "color": "brown"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "blank_mineshaft_up",
+    "name": "mineshaft",
+    "sym": "M",
+    "see_cost": 1,
+    "color": "brown"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "druid_circle",
+    "name": "forest",
+    "sym": "F",
+    "see_cost": 1,
+    "color": "green"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "druid_circle_roof",
+    "name": "open air",
+    "sym": ".",
+    "see_cost": 1,
+    "color": "blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "demon_ruins_blank",
+    "name": "ruins",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "demon_citadel",
+    "name": "citadel",
+    "sym": "@",
+    "see_cost": 1,
+    "color": "dark_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "lava_river",
+    "name": "lava flow",
+    "sym": "~",
+    "see_cost": 1,
+    "color": "red"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "lava_river_bridge",
+    "name": "bridged lava flow",
+    "sym": "~",
+    "see_cost": 1,
+    "color": "red"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "water_temple_surface",
+    "name": "temple",
+    "sym": "t",
+    "see_cost": 1,
+    "color": "light_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "water_temple_down",
+    "name": "temple",
+    "sym": "t",
+    "see_cost": 1,
+    "color": "light_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "water_temple_down2",
+    "name": "temple",
+    "sym": "t",
+    "see_cost": 1,
+    "color": "light_gray"
   }
 ]

@@ -13,7 +13,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_fire", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -31,7 +31,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_fire", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -49,7 +49,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -67,7 +67,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -85,7 +85,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -103,7 +103,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -121,7 +121,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_water", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "mana_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -139,7 +139,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -157,7 +157,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -175,7 +175,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -193,7 +193,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "health_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   },
@@ -211,7 +211,7 @@
     "time": "3 h",
     "using": [ [ "alchemy_earth", 3 ] ],
     "proficiencies": [ { "proficiency": "prof_alchemy" } ],
-    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ] ],
+    "components": [ [ [ "water", 3 ], [ "water_clean", 3 ] ], [ [ "poison_totem_fiber", 1 ] ] ],
     "tools": [ [ [ "surface_heat", 6, "LIST" ] ] ],
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "DISTILL", "level": 2 } ]
   }
