@@ -1,0 +1,22 @@
+[
+  {
+    "type": "npc",
+    "id": "city_guard",
+    "name_suffix": "guard",
+    "class": "NPC_GUARD",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_CITY_GUARD",
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
+    "id": "city_guard_captain",
+    "name_suffix": "guard",
+    "class": "NPC_GUARD",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_GUARD_CAPTIAN",
+    "faction": "kingdom"
+  }
+]
