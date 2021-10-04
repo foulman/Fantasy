@@ -31,6 +31,21 @@
 	},
         {
     "type": "construction_group",
+    "id": "hang_lantern",
+    "name": "Hang a lantern."
+	},
+        {
+    "type": "construction_group",
+    "id": "light_lantern",
+    "name": "Relight a lantern."
+	},
+        {
+    "type": "construction_group",
+    "id": "unlight_lantern",
+    "name": "Blow out a lantern."
+	},
+        {
+    "type": "construction_group",
     "id": "construct_infusion_table",
     "name": "Build an infusion table."
 	}

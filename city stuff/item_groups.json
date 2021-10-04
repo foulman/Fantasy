@@ -236,7 +236,20 @@
       { "group": "rogue_weapons", "prob": 80 },
       { "group": "shields_all", "prob": 70 },
       { "group": "trinkets_misc", "prob": 50 },
-      { "group": "weapons_plus1", "prob": 30 }
+      { "group": "weapons_plus1", "prob": 30 },
+      { "item": "book_of_golems", "prob": 10 }
+    ]
+  },
+{
+    "type": "item_group",
+    "id": "bandit_loot",
+    "items": [
+      { "group": "warrior_weapons", "prob": 80 },
+      { "group": "rogue_weapons", "prob": 80 },
+      { "group": "shields_all", "prob": 70 },
+      { "group": "trinkets_misc", "prob": 50 },
+      { "group": "weapons_plus1", "prob": 10 },
+      { "item": "book_of_golems", "prob": 1 }
     ]
   }
 ]

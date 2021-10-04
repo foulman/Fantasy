@@ -28,7 +28,7 @@
         "##    ##"
       ],
       "palettes": [ "caves" ],
-      "furniture": { "U": "f_burning_brazier", "H": "f_table" },
+      "furniture": { "U": "f_hanging_lantern_out", "H": "f_table" },
       "items": { "H": { "item": "knife_meat_cleaver", "chance": 100 } },
       "npcs": {
     "1": { "class": "cult_member" }

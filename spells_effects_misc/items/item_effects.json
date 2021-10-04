@@ -1,0 +1,17 @@
+[
+{
+    "id": "silver_ivy_locket_effect",
+    "type": "SPELL",
+    "name": "Ivy Locket Effect",
+    "description": "Recharges the wearers mana.",
+    "valid_targets": [ "self" ],
+    "message": "You feel a surge of magic!",
+    "min_damage": 500,
+    "max_damage": 500,
+    "max_level": 1,
+    "effect": "recover_energy",
+    "effect_str": "MANA",
+    "shape": "blast",
+    "flags": [ "SILENT" ]
+  }
+]

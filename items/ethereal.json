@@ -273,6 +273,25 @@
     }
   },
 {
+    "type": "ARMOR",
+    "id": "elect_protect_item",
+    "name": { "str": "energy resistant skin" },
+	"symbol": "O",
+	"color": "white",
+    "volume": "1 ml",
+    "description": "The epidermis of your skin has re-molded itself to protect against surges of electricity.",
+    "flags": [ "AURA", "STURDY", "NO_TAKEOFF", "ONLY_ONE" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ALWAYS",
+          "values": [ { "value": "ARMOR_COLD", "add": -10 } ]
+        }
+      ]
+    }
+  },
+{
     "id": "water_breathe_aura",
     "type": "ARMOR",
     "description": "You wear it.",

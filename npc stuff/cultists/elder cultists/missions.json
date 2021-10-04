@@ -199,6 +199,7 @@
     "name": "Pact of the Cosmos Pt. III",
     "description": "Conduct the ritual.",
     "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_BONE_BLESSING",
 	"item": "brain",
 	"count": 1,
     "difficulty": 1,
@@ -206,7 +207,8 @@
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
 		{ "u_buy_item": "silver_coin", "count": 15 },
-                { "u_buy_item": "spell_scroll_wtrance", "count": 1 }
+                { "u_buy_item": "spell_scroll_wtrance", "count": 1 },
+                { "npc_add_var": "has_notes", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -217,6 +219,118 @@
       "rejected": "Ah, well. Some other time.",
       "inquire": "Do you have it?",
       "success": "Wonderful. These should come in handy.",
+      "success_lie": "Where is it?",
+      "failure": "Ah, well. Some other time."
+    }
+  },
+{
+    "id": "MISSION_BONE_BLESSING",
+    "type": "mission_definition",
+    "name": "Bones Of Blessings",
+    "description": "Get some bone charms. (20 charms)",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_CREEPER_ASH",
+	"item": "bone_charm",
+	"count": 20,
+    "difficulty": 1,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": { "effect": [
+		{ "u_buy_item": "copper_coin", "count": 30 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "I am in need of bone charms.",
+	  "offer": "I have plans for an upcoming ritual, and I need some bone charms. Could you get me some?",
+	  "advice": "You can find bones just about anywhere.",
+      "accepted": "Good.",
+      "rejected": "Ah, well. Some other time.",
+      "inquire": "Do you have my charms?",
+      "success": "Wonderful.",
+      "success_lie": "Where are they?",
+      "failure": "Ah, well. Some other time."
+    }
+  },
+{
+    "id": "MISSION_CREEPER_ASH",
+    "type": "mission_definition",
+    "name": "Creeper Of Ash",
+    "description": "Get some ash creeps. (5 vines)",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_POTION_POWER",
+	"item": "ash_vine",
+	"count": 5,
+    "difficulty": 1,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": { "effect": [
+		{ "u_buy_item": "copper_coin", "count": 30 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "I am in need of ash creeps.",
+	  "offer": "I have plans for an upcoming ritual, and I need some ash creeps. Could you get me some?",
+	  "advice": "They usually grow doen in caves. An alchemist might carry some, too.",
+      "accepted": "Good.",
+      "rejected": "Ah, well. Some other time.",
+      "inquire": "Do you have vines?",
+      "success": "Wonderful.",
+      "success_lie": "Where are they?",
+      "failure": "Ah, well. Some other time."
+    }
+  },
+{
+    "id": "MISSION_POTION_POWER",
+    "type": "mission_definition",
+    "name": "Potion of Power",
+    "description": "Get a lesser potion of strength.",
+    "goal": "MGOAL_FIND_ITEM",
+	"item": "potion_strength_lesser",
+	"count": 1,
+    "difficulty": 1,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": { "effect": [
+		{ "u_buy_item": "silver_coin", "count": 15 },
+                { "u_buy_item": "potion_eldritch_power", "count": 1 },
+                { "npc_add_var": "sells_epotion", "type": "general", "context": "mission", "value": "yes" }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "I need a potion of strength.",
+	  "offer": "I'm nearly finished, though I require a lesser potion of strength for my upcoming work. If possible, could you obtain one?",
+	  "advice": "Alchemists usually have them for sale.",
+      "accepted": "Good.",
+      "rejected": "Ah, well. Some other time.",
+      "inquire": "Do you have my potion?",
+      "success": "Wonderful. I have something for you, too. It may taste bad, but I'd like you to have it.",
+      "success_lie": "Where is it?",
+      "failure": "Ah, well. Some other time."
+    }
+  },
+{
+    "id": "MISSION_RITUAL_RECURRING",
+    "type": "mission_definition",
+    "name": "Prepare The Altar",
+    "description": "Get some raw meat.",
+    "goal": "MGOAL_FIND_ITEM",
+	"item": "meat",
+	"count": 10,
+    "difficulty": 1,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"end": { "effect": [
+		{ "u_buy_item": "copper_coin", "count": 15 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "We need a sacrifice for the upcoming ritual. Get some meat.",
+	  "offer": "We need a sacrifice for the upcoming ritual. I lack only meat, and I need you to get it.",
+	  "advice": "Just butcher one of the animals we keep penned.",
+      "accepted": "Good.",
+      "rejected": "Ah, well. Some other time.",
+      "inquire": "Do you have my meat?",
+      "success": "Wonderful.",
       "success_lie": "Where is it?",
       "failure": "Ah, well. Some other time."
     }
@@ -316,6 +430,36 @@
       "success": "It was inevitable...",
       "success_lie": "Okay...",
       "failure": "Oh no."
+    }
+  },
+{
+    "id": "MISSION_RECRUIT_CULT_MEMBER",
+    "type": "mission_definition",
+    "name": "Guide of the Stars",
+    "description": "Lead the prospective member to the sanctuary.",
+    "goal": "MGOAL_RECRUIT_NPC",
+    "difficulty": 3,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "forest", "reveal_radius": 1, "random": true, "search_range": 10, "min_distance": 4, "z": 0 },
+      "update_mapgen": { "place_npcs": [ { "class": "mercenary_friendly", "x": 6, "y": 9, "target": true } ] }
+    },
+    "end": { "effect": [
+		
+		{ "u_buy_item": "silver_coin", "count": 5 }
+		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "A new member seeks us out.",
+	  "offer": "I have word that a prospective member seeks us. I want you to lead them here.",
+	  "advice": "Just go where I told you.",
+      "accepted": "Wonderful, go on.",
+      "rejected": "I can find someone else to do it, then.",
+      "inquire": "Do you know where they are?",
+      "success": "Good job.",
+      "success_lie": "This doesn't look like them...",
+      "failure": "Ah well."
     }
   }
   ]

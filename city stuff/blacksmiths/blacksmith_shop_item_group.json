@@ -53,7 +53,8 @@
 	  { "item": "cuirass_lightplate", "prob": 40 },
 	  { "item": "helmet_barbute", "prob": 40 },
 	  { "item": "boots_steel", "prob": 40 },
-	  { "item": "gloves_leather", "prob": 40 }
+	  { "item": "gloves_leather", "prob": 40 },
+	  { "item": "chain", "prob": 40, "count": [ 1, 5 ] }
     ]
   },
   {

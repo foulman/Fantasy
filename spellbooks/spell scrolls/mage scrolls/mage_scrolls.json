@@ -174,5 +174,102 @@
     "name": { "str": "Scroll of Toxic Mist", "str_pl": "Scrolls of Toxic Mist" },
     "description": "Pshhhhh.",
     "use_action": { "type": "learn_spell", "spells": [ "toxic_cloud_mage" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_thunderstorm",
+    "name": { "str": "Scroll of Thunderstorm", "str_pl": "Scrolls of Thunderstorm" },
+    "description": "How shocking.",
+    "use_action": { "type": "learn_spell", "spells": [ "thunderstorm" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_cone_of_cold",
+    "name": { "str": "Scroll of Cone of Cold", "str_pl": "Scrolls of Cone of Cold" },
+    "description": "How chilling.",
+    "use_action": { "type": "learn_spell", "spells": [ "cone_of_cold" ] }
+  },
+
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_minor_teleport",
+    "name": { "str": "Scroll of Minor Teleportation", "str_pl": "Scrolls of Minor Teleportation" },
+    "description": "Where'd they go?",
+    "use_action": { "type": "learn_spell", "spells": [ "minor_teleport" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_sear_ball",
+    "name": { "str": "Scroll of Searing Orb", "str_pl": "Scrolls of Searing Orb" },
+    "description": "Is that the sun?",
+    "use_action": { "type": "learn_spell", "spells": [ "sear_ball" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_sleep",
+    "name": { "str": "Scroll of Dreamer", "str_pl": "Scrolls of Dreamer" },
+    "description": "I feel tired.",
+    "use_action": { "type": "learn_spell", "spells": [ "sleep" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_summon_minor_elemental",
+    "name": { "str": "Scroll of Conjure Minor Elementals", "str_pl": "Scrolls of Conjure Minor Elementals" },
+    "description": "Reactive.",
+    "use_action": { "type": "learn_spell", "spells": [ "summon_minor_elemental" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_faithful_hound",
+    "name": { "str": "Scroll of Faithful Hound", "str_pl": "Scrolls of Faithful Hound" },
+    "description": "BARK",
+    "use_action": { "type": "learn_spell", "spells": [ "faithful_hound" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_ice_storm",
+    "name": { "str": "Scroll of Ice Storm", "str_pl": "Scrolls of Ice Storm" },
+    "description": "Oh my goodness its raining rocks!",
+    "use_action": { "type": "learn_spell", "spells": [ "ice_storm" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_polymorph",
+    "name": { "str": "Scroll of Polymorph", "str_pl": "Scrolls of Polymorph" },
+    "description": "Reminds me of a certain witch.",
+    "use_action": { "type": "learn_spell", "spells": [ "polymorph" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_mage_clairvoyance",
+    "name": { "str": "Scroll of Clairvoyance", "str_pl": "Scrolls of Clairvoyance" },
+    "description": "Surrender your secrets.",
+    "use_action": { "type": "learn_spell", "spells": [ "mage_clairvoyance" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_major_image",
+    "name": { "str": "Scroll of Major Image", "str_pl": "Scrolls of Major Image" },
+    "description": "Hey, it's me!",
+    "use_action": { "type": "learn_spell", "spells": [ "major_image" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_break_curse",
+    "name": { "str": "Scroll of Remove Curse", "str_pl": "Scrolls of Remove Curse" },
+    "description": "That gypsy witch was wrong.",
+    "use_action": { "type": "learn_spell", "spells": [ "break_curse" ] }
   }
 ]

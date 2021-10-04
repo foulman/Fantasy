@@ -48,7 +48,7 @@
         "        "
       ],
       "palettes": [ "mushroom_caves" ],
-      "terrain": { "/": "t_water_dp_underground"  },
+      "terrain": { "/": "t_water_dp_underground" },
       "place_monsters": [
         { "monster": "GROUP_POND_FISH", "x": [ 4 ], "y": [ 4 ], "repeat": 3 }
       ]

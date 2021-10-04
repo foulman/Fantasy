@@ -21,7 +21,10 @@
     "energy_source": "MANA",
     "shape": "blast",
     "effect": "summon",
-    "effect_str": "animated_mace"
+    "effect_str": "animated_mace",
+    "min_duration": 3000,
+    "max_duration": 15000,
+    "duration_increment": 400
   },
   {
     "type": "SPELL",
@@ -45,6 +48,9 @@
     "energy_source": "MANA",
     "shape": "blast",
     "effect": "summon",
-    "effect_str": "animated_sword"
+    "effect_str": "animated_sword",
+    "min_duration": 3000,
+    "max_duration": 15000,
+    "duration_increment": 400
   }
 ]

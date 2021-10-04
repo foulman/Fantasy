@@ -28,5 +28,35 @@
     "examine_action": "harvest_furn_nectar",
     "harvest_by_season": [ { "seasons": [ "summer", "autumn" ], "entries": [ { "drop": "ash_vine", "base_num": [ 2, 5 ] } ] } ],
     "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+{
+    "type": "furniture",
+    "id": "f_crystal_berry_purple",
+    "name": "crystal berry clump",
+    "description": "A small shrub, bearing purple crystaline berries. It is often found in shallow aquatic enviornments.",
+    "looks_like": "f_dandelion",
+    "symbol": "#",
+    "color": "red",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE", "FLOWER" ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [ { "seasons": [ "spring", "summer" ], "entries": [ { "drop": "crystal_berry_purple", "base_num": [ 5, 12 ] } ] } ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
+  },
+{
+    "type": "furniture",
+    "id": "f_crystal_berry_red",
+    "name": "crystal berry clump",
+    "description": "A small shrub, bearing red crystaline berries. It is often found in strands.",
+    "looks_like": "f_dandelion",
+    "symbol": "#",
+    "color": "red",
+    "move_cost_mod": 0,
+    "required_str": -1,
+    "flags": [ "TRANSPARENT", "TINY", "FLAMMABLE_ASH", "NOCOLLIDE", "FLOWER" ],
+    "examine_action": "harvest_furn_nectar",
+    "harvest_by_season": [ { "seasons": [ "spring", "summer" ], "entries": [ { "drop": "crystal_berry_red", "base_num": [ 5, 12 ] } ] } ],
+    "bash": { "str_min": 2, "str_max": 6, "sound": "crunch.", "sound_fail": "whish." }
   }
 ]

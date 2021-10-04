@@ -505,7 +505,7 @@
         "charges_per_use": 1,
         "use_action": { "type": "cast_spell", "spell_id": "mu_c_spell_flamestrike", "no_fail": true, "level": 1, "need_worn": true },
 	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "NULL": 3 } } ]
+        "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "holster": true, "ammo_restriction": { "NULL": 3 } } ]
   },
   {
     "id": "ench_tat_protect_1",

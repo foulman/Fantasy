@@ -73,17 +73,19 @@
             "sffssssfffffffffssssfffs",
             "sffqssqfffffffffqssqfffs",
             "sfffffffffffff1ffffffffs",
-            "sffffffffffffffffffffffs",
-            "sffffffffffffffffffffffs",
+            "s@@@@ffffffffffffffffffs",
+            "sff2@ffffffffffffffffffs",
             "sffffffffffffffffffff1fs",
             "sssssssssfffffssssssssss"
       ],
-      "palettes": [ "wizard_academy" ],
+      "palettes": [ "wizard_academy" ],      
+      "furniture": { "@": "f_table", "H": "f_table" },
       "items": {
 	  "t": { "item": "dishes_dining", "chance": 70, "repeat": [ 2, 5 ] }
     },
       "npcs": {
-		"1": { "class": "academy_apprentice" }
+		"1": { "class": "academy_apprentice" },
+                "2": { "class": "generic_academy_tavernkeep" }
 		}
     }
   },
@@ -198,11 +200,11 @@
       ],
       "rows": [
             "sssssssssooooossssssssss",
-            "sr2r2r2rsfffffsqrBBr^r/s",
-            "orrrrrrrsfffffsrrrrrrrKs",
+            "s`2`2`2`sff<ffsqrBBr^r/s",
+            "orrrrrrrsff>ffsrrrrrrrKs",
             "orrrrrrrdfffffdrrrrrrrro",
             "orrrrrrrsfffffsrrrrrrrro",
-            "s```rrrqsfffffs----r---s",
+            "s```r``qsfffffs----r---s",
             "ssssdssssfffffsssssdssss",
             "fffffffffffqffffffffffff",
             "ffffffffffqsqfffffffffff",
@@ -212,7 +214,7 @@
             "scrcrcrcsfffffscrcrrrcrs",
             "orrrrrrrsfffffsrrrrrrrro",
             "ocrcrcrrdfffffdrrcrcrcro",
-            "orrrrrrrsfffffsrrrrrrrro",
+            "orr4rrrrsfffffsrrrrr5rro",
             "sFFFFFrqsfffffsqrrGGGGGs",
             "sssssssssfffffssssssssss",
             "sqrrEEEEsfffffsCCCrrCCCs",
@@ -230,8 +232,8 @@
       "items": { 
 	  "/": { "item": "stash_wood", "chance": 70, "repeat": [ 2, 5 ] },
           "-": { "item": "ingredients_all", "chance": 70, "repeat": [ 20, 70 ] },
-          "`": { "item": "crystallized_mana", "chance": 100, "repeat": [ 3, 6 ] },
-          "B": { "item": "ingredients_all", "chance": 70, "repeat": [ 20, 70 ] },
+          "`": [ { "item": "crystallized_mana", "chance": 100, "repeat": [ 3, 6 ] }, { "item": "infusion_books", "chance": 70, "repeat": [ 1, 2 ] } ],
+          "B": { "item": "alchemy_books", "chance": 70, "repeat": [ 1, 2 ] },
           "C": { "item": "spell_scrolls_wizard1", "chance": 70, "repeat": [ 3, 5 ] },
           "E": { "item": "spell_scrolls_wizard2", "chance": 70, "repeat": [ 3, 5 ] },
           "F": { "item": "spell_scrolls_wizard3", "chance": 70, "repeat": [ 3, 5 ] },
@@ -239,7 +241,9 @@
     },
       "npcs": {
 		"1": { "class": "first_year_instructor" },
-                "3": { "class": "second_year_instructor" }
+                "3": { "class": "second_year_instructor" },
+                "4": { "class": "third_year_instructor" },
+                "5": { "class": "fourth_year_instructor" }
 		}
     }
   },
@@ -256,27 +260,27 @@
       "rows": [
             "ssssssssssssssssssssssss",
             "  1                    s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
             "                       s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
             "                       s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
             "                       s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
             "                       s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
-            "  ###  ###  ###  ###   s",
-            "                     1 s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
+            "   )))  )))  )))  )))  s",
             "                       s",
+            "                   1   s",
             "                       s"
       ],
       "palettes": [ "wizard_academy" ],
@@ -298,25 +302,25 @@
       "rows": [
             "ssssssssssssssssssssssss",
             "s                       ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
             "s                       ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
             "s          1            ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
             "s                       ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
             "s                       ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
-            "s  ###  ###  ###  ###   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
+            "s  )))  )))  )))  )))   ",
             "s                       ",
             "s   1                   ",
             "s                       "
@@ -324,6 +328,55 @@
       "palettes": [ "wizard_academy" ],
       "npcs": {
 		"1": { "class": "academy_apprentice" }
+		}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "wizard_academy_classrooms_2" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_floor",
+	  "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
+      "rows": [
+            "sssssssssooooossssssssss",
+            "srrrrrrrsff>ffsqrrrcrrrs",
+            "orr^rrrrsfffffsrrr^^^rro",
+            "orc^rrrrdfffffdrrrr1rrro",
+            "orr^rrrrsfffffsrrrrrrrro",
+            "srrrrrrqsfffffsrrrrrrrrs",
+            "sssssssssfffffssssssssss",
+            "orctrtrrsffqffsrrrrrrrro",
+            "ortt3trrsffsffdrrrrrrrro",
+            "orrrrrrrdffqffsrrrrrrrro",
+            "orrrrrrqsfffffsqrrrrrrro",
+            "sssssssssfffffssssssssss",
+            "srrrrrrrsfffffs$$$$$$$$s",
+            "orrrrrrrsfffffs$rrr2rrro",
+            "orrrrrrrdfffffdrrr^^^rro",
+            "orrrrrrrsfffffs$rrrrrrro",
+            "srrrrrrqsfffffsqrrrrrr$s",
+            "sssssssssffqffs$rrrrrr$s",
+            "sqrrrrrrsfffffs$rrrrrr$s",
+            "orrrrrrrsfffffs$rrrrrrro",
+            "orrrrrrrdfffffdrrrrrrrro",
+            "orrrrrrrsfffffsrrrrrrrro",
+            "srrrrrrrsfffffsqr$$$$$$s",
+            "sssssssssooooossssssssss"
+      ],
+      "palettes": [ "wizard_academy" ],
+      "furniture": { "^": "f_table",  "$": "f_bookcase" },
+      "items": {
+	  "$": { "item": "NPC_ACADEMY_LIBRARIAN_shopkeep", "chance": 70, "repeat": [ 2, 5 ] },
+          "t": { "item": "NPC_ACADEMY_INFUSIONIST_shopkeep", "chance": 70, "repeat": [ 2, 5 ] }
+    },
+      "npcs": {
+		"1": { "class": "academy_tatoo_artist" },
+                "2": { "class": "academy_librarian" },
+                "3": { "class": "academy_infusionist" }
 		}
     }
   },

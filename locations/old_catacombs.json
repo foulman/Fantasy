@@ -14,14 +14,14 @@
         "        S               ",
         "   S            S       ",
         "   llllllllllllllllll  S",
-        "   l.......UU.......l   ",
+        "   l.......UU.!.....l   ",
         " S l........>.......l   ",
-        "   l................lS  ",
-        "   lH..............Hl   ",
+        "   lH..............HlS  ",
+        "   l!..............!l   ",
         "   lH..............Hl S ",
         " S l................l   ",
         "   l................l S ",
-        "  Sl....H.......H...l   ",
+        "  Sl...!H.......H!..l   ",
         "   llllllllhhllllllll   ",
         "  S        .. S     S   ",
         "     S   S .. S         ",
@@ -33,7 +33,7 @@
         "            S    S      "
       ],
       "palettes": [ "catacombs" ],
-      "furniture": { "U": "f_table", "H": "f_table" }
+      "furniture": { "U": "f_table", "H": "f_table", "!": "f_hanging_lantern_out" }
     }
   }, 
   {
@@ -89,14 +89,14 @@
         "        S               ",
         "   S            S       ",
         "   llllllllllllllllll  S",
-        "   l.......UU.......l   ",
+        "   l.......U!U......l   ",
         " S l........>.......l   ",
-        "   l................lS  ",
+        "   l!..............!lS  ",
         "   lH.////////////.Hl   ",
         "   lH..............Hl S ",
-        " S l..////////////..l   ",
+        " S l!.////////////.!l   ",
         "   l................l S ",
-        "  Sl....H.......H...l   ",
+        "  Sl...!H.......H!..l   ",
         "   llllllllhhllllllll   ",
         "  S        .. S     S   ",
         "     S   S .. S         ",
@@ -108,7 +108,7 @@
         "            S    S      "
       ],
       "palettes": [ "catacombs" ],  
-      "furniture": { "U": "f_table", "/": "f_bench", "H": "f_table" }
+      "furniture": { "U": "f_table", "/": "f_bench", "H": "f_table", "!": "f_hanging_lantern_out" }
     }
   }, 
   {

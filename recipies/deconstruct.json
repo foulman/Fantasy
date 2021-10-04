@@ -446,5 +446,483 @@
     "time": "6 s",
     "qualities": [ { "id": "INFUSION", "level": 1 } ],
     "components": [ [ [ "punch_dagger", 1 ] ] ]
+  },
+{
+    "result": "longsword+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "longsword", 1 ] ] ]
+  },
+{
+    "result": "wood_sword+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "sword_wood", 1 ] ] ]
+  },
+{
+    "result": "makeshift_knife+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "makeshift_knife", 1 ] ] ]
+  },
+{
+    "result": "knife_baselard+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "knife_baselard", 1 ] ] ]
+  },
+{
+    "result": "machete+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "machete", 1 ] ] ]
+  },
+{
+    "result": "cavalry_sabre+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "cavalry_sabre", 1 ] ] ]
+  },
+{
+    "result": "kris+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "kris", 1 ] ] ]
+  },
+{
+    "result": "kukri+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "kukri", 1 ] ] ]
+  },
+{
+    "result": "jian+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "jian", 1 ] ] ]
+  },
+{
+    "result": "scimitar+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "scimitar", 1 ] ] ]
+  },
+{
+    "result": "estoc+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "estoc", 1 ] ] ]
+  },
+{
+    "result": "arming_sword+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "arming_sword", 1 ] ] ]
+  },
+{
+    "result": "tanto+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "tanto", 1 ] ] ]
+  },
+{
+    "result": "wakizashi+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "wakizashi", 1 ] ] ]
+  },
+{
+    "result": "zweihander+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "zweihander", 1 ] ] ]
+  },
+{
+    "result": "nodachi+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "nodachi", 1 ] ] ]
+  },
+{
+    "result": "broadsword+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "broadsword", 1 ] ] ]
+  },
+{
+    "result": "rapier+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "rapier", 1 ] ] ]
+  },
+{
+    "result": "katana+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "katana", 1 ] ] ]
+  },
+{
+    "result": "butterfly_swords+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "butterfly_swords", 1 ] ] ]
+  },
+{
+    "result": "cutlass+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "cutlass", 1 ] ] ]
+  },
+{
+    "result": "lajatang+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "lajatang", 1 ] ] ]
+  },
+{
+    "result": "war_flail+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "2h_flail_steel", 1 ] ] ]
+  },
+{
+    "result": "peasant_flail+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "2h_flail_wood", 1 ] ] ]
+  },
+{
+    "result": "battleaxe+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "battleaxe", 1 ] ] ]
+  },
+{
+    "result": "bokken+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "bokken", 1 ] ] ]
+  },
+{
+    "result": "cudgel+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "cudgel", 1 ] ] ]
+  },
+{
+    "result": "hammer_sledge+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "hammer_sledge", 1 ] ] ]
+  },
+{
+    "result": "lucern_hammer+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "lucern_hammer", 1 ] ] ]
+  },
+{
+    "result": "mace+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "mace", 1 ] ] ]
+  },
+{
+    "result": "morningstar+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "morningstar", 1 ] ] ]
+  },
+{
+    "result": "q_staff+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "q_staff", 1 ] ] ]
+  },
+{
+    "result": "shillelagh+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "shillelagh", 1 ] ] ]
+  },
+{
+    "result": "tonfa_wood+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "tonfa_wood", 1 ] ] ]
+  },
+{
+    "result": "warhammer+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "warhammer", 1 ] ] ]
+  },
+{
+    "result": "pitchfork+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "pitchfork", 1 ] ] ]
+  },
+{
+    "result": "spear_steel+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "spear_steel", 1 ] ] ]
+  },
+{
+    "result": "qiang+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "qiang", 1 ] ] ]
+  },
+{
+    "result": "halberd+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "halberd", 1 ] ] ]
+  },
+{
+    "result": "glaive+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "glaive", 1 ] ] ]
+  },
+{
+    "result": "naginata+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "naginata", 1 ] ] ]
+  },
+{
+    "result": "pike+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "pike", 1 ] ] ]
+  },
+{
+    "result": "bullet_crossbow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "bullet_crossbow", 1 ] ] ]
+  },
+{
+    "result": "hand_crossbow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "hand_crossbow", 1 ] ] ]
+  },
+{
+    "result": "crossbow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "crossbow", 1 ] ] ]
+  },
+{
+    "result": "huge_crossbow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "huge_crossbow", 1 ] ] ]
+  },
+{
+    "result": "selfbow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "selfbow", 1 ] ] ]
+  },
+{
+    "result": "shortbow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "shortbow", 1 ] ] ]
+  },
+{
+    "result": "compositebow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "compositebow", 1 ] ] ]
+  },
+{
+    "result": "reflexbow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "reflexbow", 1 ] ] ]
+  },
+{
+    "result": "longbow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "longbow", 1 ] ] ]
+  },
+{
+    "result": "woodgreatbow+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "woodgreatbow", 1 ] ] ]
+  },
+{
+    "result": "bagh_nakha+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "bagh_nakha", 1 ] ] ]
+  },
+{
+    "result": "cestus+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "cestus", 1 ] ] ]
+  },
+{
+    "result": "knuckle_brass+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "knuckle_brass", 1 ] ] ]
+  },
+{
+    "result": "punch_dagger+2",
+    "type": "uncraft",
+    "activity_level": "NO_EXERCISE",
+    "time": "6 s",
+    "qualities": [ { "id": "INFUSION", "level": 1 } ],
+    "components": [ [ [ "punch_dagger", 1 ] ] ]
+  },
+{
+    "result": "broken_clay_golem",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "4 h",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "clay_lump", 231 ] ] ]
+  },
+{
+    "result": "broken_stone_golem",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "4 h",
+    "qualities": [ { "id": "HAMMER", "level": 1 } ],
+    "components": [ [ [ "rock", 231 ] ] ]
+  },
+{
+    "result": "broken_iron_golem",
+    "type": "uncraft",
+    "activity_level": "fake",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "6 h",
+    "qualities": [ { "id": "HAMMER", "level": 2 } ],
+    "components": [ [ [ "steel_lump", 231 ] ] ]
   }
 ]

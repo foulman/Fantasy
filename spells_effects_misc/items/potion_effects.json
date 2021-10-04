@@ -126,6 +126,24 @@
     "duration_increment": 10000
   },
 {
+    "id": "int_effect_item",
+    "type": "SPELL",
+    "name": "Smarts",
+    "description": "int effect.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "message": "",
+    "min_damage": 1,
+    "max_damage": 1,
+    "max_level": 10,
+    "effect": "attack",
+    "shape": "blast",
+    "effect_str": "smarts",
+    "min_duration": 60000,
+    "max_duration": 120000,
+    "duration_increment": 10000
+  },
+{
     "id": "cleanse_effect_item",
     "type": "SPELL",
     "name": "Cleansing",
@@ -178,5 +196,26 @@
     "min_duration": 120000,
     "max_duration": 240000,
     "duration_increment": 12000
+  },
+{
+    "id": "eldritch_effect_item",
+    "type": "SPELL",
+    "name": "Infusion",
+    "description": "spell effect.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "message": "",
+    "min_damage": 1,
+    "max_damage": 1,
+    "max_level": 10,
+    "effect": "attack",
+    "shape": "blast",
+    "effect_str": "eff_mtc_eldritch_buff",
+    "min_duration": 12000,
+    "max_duration": 24000,
+    "duration_increment": 1200,
+    "extra_effects": [
+      { "id": "hide_demons" }
+    ]
   }
 ]

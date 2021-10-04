@@ -237,6 +237,48 @@
     },
 {
     "type": "palette",
+    "id": "cave_settlement",
+    "terrain": {
+      " ": [ [ "t_rock_floor", 75 ], [ "t_dirt", 4 ], [ "t_rock", 2 ] ],
+      "w": [ [ "t_wall_wood", 65 ], [ "t_rock_floor", 25 ] ],
+      "d": [ [ "t_door_c", 10 ], [ "t_door_o", 10 ], [ "t_rock_floor", 3 ] ]
+    },
+    "furniture": {
+      "A": "f_fireplace",
+      "b": [ [ "f_bed_frame", 5 ] ],
+	  "K": "f_cupboard", 
+	  "*": "f_cupboard",
+	  "t": "f_table",
+	  "h": "f_chair",
+	  "H": "f_armchair",
+	  "D": "f_dresser",
+	  "B": "f_bookcase",
+	  "T": "f_desk",
+	  "Y": "f_rack_coat",
+	  "O": "f_firering",
+	  "╦": "f_counter"
+    },
+   "items": {
+      "x": { "item": "stash_wood", "chance": 5, "repeat": [ 2, 5 ] },
+	  "O": { "item": "oven", "chance": 5, "repeat": [ 2, 5 ] },
+	  "K": { "item": "kitchen_counters", "chance": 5, "repeat": [ 2, 5 ] },
+	  "t": { "item": "dishes_dining", "chance": 5, "repeat": [ 2, 5 ] },
+	  "u": { "item": "bucket", "chance": 10 },
+	  "A": { "item": "stash_wood", "chance": 30, "repeat": [ 2, 5 ] },
+	  "B": { "item": "textbooks_school", "chance": 5, "repeat": [ 2, 5 ] },
+	  "T": { "item": "camping", "chance": 5, "repeat": [ 2, 5 ] },
+	  "*": { "item": "silver_coinage", "chance": 5, "repeat": [ 10, 25] },
+      "D": [
+			{ "item": "SUS_dresser_mens", "chance": 5, "repeat": [ 1, 2 ] },
+			{ "item": "SUS_dresser_womens", "chance": 5, "repeat": [ 1, 2 ] }
+		],
+	  "b": [
+			{ "item": "bed", "x": [ 10, 8 ], "y": [ 10, 9 ], "chance": 5 }
+		]
+    }
+    },
+{
+    "type": "palette",
     "id": "dragon_lair",
     "terrain": {
       " ": [ [ "t_dirt", 1 ], [ "t_grass", 5 ] ],
@@ -312,10 +354,10 @@
       "<": "t_wood_stairs_up",
       ">": "t_wood_stairs_down",
       "d": "t_door_c",
-      "#": "t_dirtmound",
       ")": "t_dirtmound",
       "(": "t_dirtmound",
-      "o": "t_window_domestic"
+      "o": "t_window_domestic",
+      "#": "t_rock"
     },
    "furniture": {
       "A": "f_fireplace",
@@ -334,7 +376,7 @@
 	  "╦": "f_bookcase",
           "2": "f_infusion_bench"
     },
-    "sealed_item": { "#": { "item": { "item": "seed_fire_flower" }, "furniture": "f_plant_seedling", "chance": 90 } }
+    "sealed_item": { ")": { "item": { "item": "seed_fire_flower" }, "furniture": "f_plant_seedling", "chance": 90 } }
   },
 {
     "type": "palette",
@@ -377,6 +419,92 @@
           "/": "f_bench",
 	  "B": "f_bookcase",
           "o": "f_barrel_o"
+    }
+    },
+{
+    "type": "palette",
+    "id": "mine_mtc",
+    "//": "A palette for mines.",
+    "terrain": {
+      " ": [ [ "t_dirt", 1 ], [ "t_grass", 5 ] ],
+      "f": "t_floor",
+      ".": "t_dirt",
+      "u": "t_dirt",
+      "s": "t_rock_wall",
+      "r": "t_rock_floor",
+      "l": "t_rock_floor_no_roof",
+      "<": "t_slope_down",
+      ">": "t_slope_up",
+      "d": "t_door_c",
+      "o": "t_window_domestic",
+      "#": "t_rock"
+    },
+   "furniture": {
+      "A": "f_fireplace",
+      "b": "f_bed",
+	  "K": "f_cupboard", 
+          "q": "f_hanging_lantern",
+	  "t": "f_table",
+	  "h": "f_chair",
+	  "T": "f_desk"
+    },
+   "items": {
+	  "u": { "item": "bucket", "chance": 100 },
+	  "A": [ { "item": "stash_wood", "chance": 70, "repeat": [ 2, 5 ] }, { "item": "oven", "chance": 70, "repeat": [ 2, 5 ] } ],
+	  "b": [
+			{ "item": "bed", "x": [ 10, 8 ], "y": [ 10, 9 ], "chance": 100 }
+		]
+    }
+  },
+{
+    "type": "palette",
+    "id": "hexbound_cult",
+    "terrain": {
+      ".": "t_dirt",
+      "f": "t_floor",
+      " ": [ [ "t_grass", 15 ], [ "t_dirt", 4 ], [ "t_shrub", 2 ], [ "t_tree", 1 ] ],
+      "w": "t_wall_wood",
+      "s": "t_rock_wall",
+      "S": "t_shrub",
+      "<": "t_slope_up",
+      ">": "t_slope_down",
+      "d": "t_door_c",
+      "-": "t_rock_floor_no_roof"
+    },
+    "furniture": {
+      "A": "f_straw_dummy",
+      "V": "f_burning_brazier",
+      "b": "f_bed",
+	  "B": "f_bookcase",
+          "F": "f_forge", 
+          "q": "f_hanging_lantern",
+	  "t": "f_table",
+	  "h": "f_chair",
+	  "C": "f_counter"
+    }
+    },
+{
+    "type": "palette",
+    "id": "water_temple",
+    "terrain": {
+      " ": "t_water_dp",
+      "f": "t_floor",
+      ".": [ [ "t_grass", 15 ], [ "t_dirt", 4 ], [ "t_shrub", 2 ], [ "t_tree", 1 ] ],
+      "w": "t_wall_wood",
+      "s": "t_rock_wall",
+      "<": "t_slope_up",
+      ">": "t_slope_down",
+      "d": "t_door_c",
+      "-": "t_rock_floor_no_roof"
+    },
+    "furniture": {
+      "A": "f_barrel_c",
+      "V": "f_burning_brazier",
+      "?": "f_hanging_lantern",
+      "b": "f_bed",
+	  "B": "f_bookcase",
+	  "t": "f_table",
+	  "h": "f_chair"
     }
     }
 ]

@@ -27,6 +27,6 @@
     "name": "dark focusing staff",
     "description": "A quarterstaff engraved with otherworldly symbology. In a pinch, it makes a good melee weapon. It is capable of minor spellcasting, independent of its wielder.",
     "extend": { "flags": [ "MAGIC_FOCUS" ] },
-    "use_action": { "type": "cast_spell", "spell_id": "bloodshot", "no_fail": true, "level": 3, "need_wield": true }
+    "use_action": { "type": "cast_spell", "spell_id": "bloodshot", "no_fail": true, "level": 3, "need_wielding": true }
  }
 ]

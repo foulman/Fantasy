@@ -22,6 +22,14 @@
   },
   {
     "type": "item_group",
+    "id": "bandages",
+    "subtype": "distribution",
+    "items": [
+      { "item": "bandages", "prob": 100, "count-max": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "archaesth",
     "subtype": "distribution",
     "items": [
@@ -33,7 +41,7 @@
     "id": "candlefemur",
     "subtype": "distribution",
     "items": [
-      [ "bone_torch", 100 ]
+      { "item": "bone_torch", "prob": 100, "charges": 50 }
     ]
   },
   {
@@ -66,6 +74,14 @@
     "subtype": "distribution",
     "items": [
       { "item": "cudgel", "prob": 70, "count-min": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "charm_passage_questspawn",
+    "subtype": "distribution",
+    "items": [
+      [ "charm_graduation", 100 ]
     ]
   },
   {
@@ -106,7 +122,10 @@
     "items": [
       [ "spell_scroll_lightning_bolt_greater", 15 ],
       [ "spell_scroll_aniweapon_mage", 15 ],
-      [ "spell_scroll_firesphere_mage", 15 ]
+      [ "spell_scroll_firesphere_mage", 15 ],
+      [ "spell_scroll_mage_clairvoyance", 15 ],
+      [ "spell_scroll_major_image", 15 ],
+      [ "spell_scroll_break_curse", 15 ]
     ]
   },
   {
@@ -115,7 +134,23 @@
     "subtype": "distribution",
     "items": [
       [ "spell_scroll_raise_dead", 15 ],
-      [ "spell_scroll_freeze", 15 ]
+      [ "spell_scroll_freeze", 15 ],      
+      [ "spell_scroll_summon_minor_elemental", 15 ],      
+      [ "spell_scroll_faithful_hound", 15 ],      
+      [ "spell_scroll_ice_storm", 15 ],     
+      [ "spell_scroll_polymorph", 15 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "spell_scrolls_wizard5",
+    "subtype": "distribution",
+    "items": [
+      [ "spell_scroll_thunderstorm", 15 ],
+      [ "spell_scroll_cone_of_cold", 15 ],
+      [ "spell_scroll_minor_teleport", 15 ],
+      [ "spell_scroll_sear_ball", 15 ],
+      [ "spell_scroll_sleep", 15 ]
     ]
   },
   {
@@ -123,10 +158,11 @@
     "id": "spell_scrolls_wizard_all",
     "subtype": "distribution",
     "items": [
-      { "group": "spell_scrolls_wizard1", "prob": 30 },
-      { "group": "spell_scrolls_wizard2", "prob": 25 },
-      { "group": "spell_scrolls_wizard3", "prob": 20 },
-      { "group": "spell_scrolls_wizard4", "prob": 15 }
+      { "group": "spell_scrolls_wizard1", "prob": 40 },
+      { "group": "spell_scrolls_wizard2", "prob": 35 },
+      { "group": "spell_scrolls_wizard3", "prob": 30 },
+      { "group": "spell_scrolls_wizard4", "prob": 25 },
+      { "group": "spell_scrolls_wizard5", "prob": 10 }
     ]
   },
   {
@@ -248,7 +284,7 @@
     "id": "candle",
     "subtype": "distribution",
     "items": [
-      [ "candle", 100 ]
+      { "item": "candle", "prob": 100, "charges": [ 0, 100] }
     ]
   },
   {
@@ -257,7 +293,7 @@
     "subtype": "distribution",
     "items": [
       [ "novice_potion", 20 ],
-      [ "al_reference", 15 ]
+      [ "al_reference", 35 ]
     ]
   },
   {
@@ -265,7 +301,9 @@
     "id": "infusion_books",
     "subtype": "distribution",
     "items": [
-      [ "infusion_basic", 70 ]
+      [ "infusion_basic", 70 ],
+      [ "totem_book", 50 ],
+      [ "basic_tatoo", 20 ]
     ]
   },
   {
@@ -275,7 +313,8 @@
     "entries": [
       { "group": "alchemy_books", "prob": 6 },
       { "group": "infusion_books", "prob": 2 },
-      { "item": "gods_and_godesses", "prob": 25 }
+      { "item": "gods_and_godesses", "prob": 25 },
+      { "item": "forging_book_mtc", "prob": 15 }
     ]
   },
   {
@@ -592,5 +631,70 @@
 	  { "item": "knuckle_brass+1", "prob": 35 },
 	  { "item": "punch_dagger+1", "prob": 35 }
     ]
-	}
+	},
+{
+    "type": "item_group",
+    "id": "armor_plus1",
+	"subtype": "collection",
+    "entries": [
+	  { "item": "armguard_larmor+1", "prob": 35 },
+	  { "item": "armguard_lightplate+1", "prob": 35 },
+          { "item": "chainmail_arms+1", "prob": 35 },
+	  { "item": "vambrace_larmor+1", "prob": 35 },
+	  { "item": "boots_larmor+1", "prob": 35 },
+	  { "item": "boots_plate+1", "prob": 35 },
+	  { "item": "chainmail_feet+1", "prob": 35 },
+	  { "item": "chainmail_hands+1", "prob": 35 },
+	  { "item": "gauntlets_larmor+1", "prob": 35 },
+          { "item": "gloves_plate+1", "prob": 35 },
+	  { "item": "helmet_barbute+1", "prob": 35 },
+          { "item": "helmet_conical+1", "prob": 35 },
+	  { "item": "helmet_galea+1", "prob": 35 },
+	  { "item": "helmet_kabuto+1", "prob": 35 },
+	  { "item": "helmet_larmor+1", "prob": 35 },
+	  { "item": "helmet_nasal+1", "prob": 35 },
+	  { "item": "helmet_nomad+1", "prob": 35 },
+	  { "item": "helmet_plate+1", "prob": 35 },
+          { "item": "helmet_corinthian+1", "prob": 35 },
+	  { "item": "chainmail_legs+1", "prob": 35 },
+          { "item": "chaps_leather+1", "prob": 35 },
+	  { "item": "legguard_bronze+1", "prob": 35 },
+	  { "item": "legguard_lightplate+1", "prob": 35 },
+	  { "item": "armor_cuirass+1", "prob": 35 },
+	  { "item": "armor_lamellar+1", "prob": 35 },
+	  { "item": "armor_lorica+1", "prob": 35 },
+	  { "item": "chainmail_vest+1", "prob": 35 },
+          { "item": "cuirass_lightplate+1", "prob": 35 },
+	  { "item": "armor_blarmor+1", "prob": 35 },
+          { "item": "armor_farmor+1", "prob": 35 },
+	  { "item": "armor_larmor+1", "prob": 35 },
+	  { "item": "armor_lightplate+1", "prob": 35 },
+	  { "item": "armor_plarmor+1", "prob": 35 },
+	  { "item": "armor_samurai+1", "prob": 35 },
+	  { "item": "chainmail_hauberk+1", "prob": 35 },
+	  { "item": "chainmail_suit+1", "prob": 35 },
+          { "item": "wooden_buckler+1", "prob": 35 },
+	  { "item": "wooden_shield+1", "prob": 35 },
+          { "item": "wooden_shield_tower+1", "prob": 35 },
+	  { "item": "metal_buckler+1", "prob": 35 },
+	  { "item": "metal_shield+1", "prob": 35 },
+	  { "item": "metal_shield_tower+1", "prob": 35 }
+    ]
+	},
+{
+    "id": "mine_sell_mtc",
+    "type": "item_group",
+    "items": [
+      { "item": "sheet_metal", "prob": 5 },
+      { "item": "sheet_metal_small", "prob": 5, "count": [ 2, 4 ] },
+      { "item": "steel_lump", "prob": 5, "count": [ 1, 3 ] },
+      { "item": "steel_chunk", "prob": 15, "count": [ 1, 5 ] },
+      { "item": "copper", "prob": 10, "count": [ 1, 5 ] },
+      { "item": "scrap_copper", "prob": 5, "count": [ 1, 10 ] },
+      { "item": "scrap", "prob": 70, "count": [ 1, 10 ] },
+      { "item": "chunk_iron_ore", "prob": 25, "count": [ 1, 3 ] },
+      { "item": "chunk_copper_ore", "prob": 25, "count": [ 1, 3 ] },
+      { "item": "chunk_silver_ore", "prob": 25, "count": [ 1, 3 ] }
+    ]
+  }
 ]

@@ -34,7 +34,7 @@
       ]
     },
     "death_function": [ "NORMAL" ],
-    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
+    "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2", "CAN_OPEN_DOORS" ]
   },
   {
     "id": "mon_mtc_bugbear_warrior",

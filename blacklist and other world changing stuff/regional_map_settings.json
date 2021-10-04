@@ -434,7 +434,8 @@
           "mx_fallen_shed": 0,
           "mx_pond": 20,
           "mx_point_burned_ground": 50,
-          "mx_nest_wasp": 0
+          "mx_nest_wasp": 0,
+          "mx_red_crystal_berry": 10
         }
       },
       "road": {
@@ -479,7 +480,7 @@
       "park_radius": 0,
       "park_sigma": 0,
       "houses": {
-        "blacksmith_city_lone": 1,
+        "blacksmith_city_lone": 10,
 		"Inn 1": 1,
 		"cabin_2": 0,
 		"cabin_3": 0,
@@ -488,14 +489,24 @@
 		"cabin_6": 0,
 		"cabin_7": 0,
         "home": 100, 
-        "home2": 1, 
-        "generalstore": 5, 
+        "home2": 40, 
+        "city_council_hall": 0,
+        "wharf_mtc": 3,
+        "carriage_workshop": 3,
+        "generalstore": 7, 
         "infirmary": 5, 
         "stables": 3,
         "alchemists_store": 3,
         "church_mtc": 5,
-        "carpentry_workshop": 5,
-        "cemetary_mtc": 5, 
+        "carpentry_workshop": 5,   
+        "bakery_mtc": 4,       
+        "brewery_mtc": 3,     
+        "city_gaurd_barracks": 3,
+        "city_exchange_office": 1,
+        "cemetary_mtc": 5,
+        "city_market": 2,
+        "leatherworks": 5,
+        "fishery": 4,
         "house_two_story_basement": 0,
         "house_prepper": 0,
         "house_prepper2": 0,
@@ -800,10 +811,7 @@
         "cs_sex_shop": 0,
         "cs_tire_shop": 0,
         "homeless_shelter": 0,
-        "parking_garage": 0,
-	"generalstore": 1600, 
-        "infirmary": 500, 
-        "stables": 225
+        "parking_garage": 0
       }
     },
     "weather": {
@@ -1135,6 +1143,114 @@
   {
     "type": "overmap_special",
     "id": "tree farm",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Riverside Dwelling",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_1",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_2",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_3",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_4",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_5",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_6",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_7",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cabin_Lapin",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Strange Cabin",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Cave",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Rat Cave",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "bandit_cabin",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Dairy Farm",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Derelict Property",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "desolate barn",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Hunting Blind",
     "overmaps": [  ],
 	"occurrences": [ 0, 0 ]
   }

@@ -4,7 +4,7 @@
     "id": "mtc_rune_fire_act",
     "name": "Runic Blaze",
     "description": "Deals 5-10 fire damage.",
-    "flags": [ "SILENT", "RANDOM_DAMAGE" ],
+    "flags": [ "SILENT", "RANDOM_DAMAGE", "IGNITE_FLAMMABLE" ],
     "valid_targets": [ "hostile" ],
     "damage_type": "heat",
     "min_damage": 5,
