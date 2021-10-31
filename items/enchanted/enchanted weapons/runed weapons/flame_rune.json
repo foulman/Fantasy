@@ -84,7 +84,7 @@
     "id": "estoc_fire",
     "copy-from": "estoc",
     "looks_like": "estoc",
-    "name": "<color_light_red>estoc",
+    "name": "<color_light_red>estoc</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -92,7 +92,7 @@
     "id": "arming_sword_fire",
     "copy-from": "arming_sword",
     "looks_like": "arming_sword",
-    "name": "<color_light_red>arming sword",
+    "name": "<color_light_red>arming sword</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -100,7 +100,7 @@
     "id": "tanto_fire",
     "copy-from": "tanto",
     "looks_like": "tanto",
-    "name": "<color_light_red>tanto",
+    "name": "<color_light_red>tanto</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -108,7 +108,7 @@
     "id": "wakizashi_fire",
     "copy-from": "wakizashi",
     "looks_like": "wakizashi",
-    "name": "<color_light_red>wakizashi",
+    "name": "<color_light_red>wakizashi</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -116,7 +116,7 @@
     "id": "zweihander_fire",
     "copy-from": "zweihander",
     "looks_like": "zweihander",
-    "name": "<color_light_red>zweihander",
+    "name": "<color_light_red>zweihander</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -124,7 +124,7 @@
     "id": "nodachi_fire",
     "copy-from": "nodachi",
     "looks_like": "nodachi",
-    "name": "<color_light_red>nodachi",
+    "name": "<color_light_red>nodachi</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -132,7 +132,7 @@
     "id": "broadsword_fire",
     "copy-from": "broadsword",
     "looks_like": "broadsword",
-    "name": "<color_light_red>broadsword",
+    "name": "<color_light_red>broadsword</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -140,7 +140,7 @@
     "id": "rapier_fire",
     "copy-from": "rapier",
     "looks_like": "rapier",
-    "name": "<color_light_red>rapier",
+    "name": "<color_light_red>rapier</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -148,7 +148,7 @@
     "id": "katana_fire",
     "copy-from": "katana",
     "looks_like": "katana",
-    "name": "<color_light_red>katana",
+    "name": "<color_light_red>katana</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -156,7 +156,7 @@
     "id": "butterfly_swords_fire",
     "copy-from": "butterfly_swords",
     "looks_like": "butterfly_swords",
-    "name": "<color_light_red>butterfly swords",
+    "name": "<color_light_red>butterfly swords</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -164,7 +164,7 @@
     "id": "cutlass_fire",
     "copy-from": "cutlass",
     "looks_like": "cutlass",
-    "name": "<color_light_red>cutlass",
+    "name": "<color_light_red>cutlass</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -172,7 +172,7 @@
     "id": "lajatang_fire",
     "copy-from": "lajatang",
     "looks_like": "lajatang",
-    "name": "<color_light_red>lajatang",
+    "name": "<color_light_red>lajatang</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -180,7 +180,7 @@
     "id": "war_flail_fire",
     "copy-from": "2h_flail_steel",
     "looks_like": "2h_flail_steel",
-    "name": "<color_light_red>war flail",
+    "name": "<color_light_red>war flail</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -188,7 +188,7 @@
     "id": "peasant_flail_fire",
     "copy-from": "2h_flail_wood",
     "looks_like": "2h_flail_wood",
-    "name": "<color_light_red>peasant flail",
+    "name": "<color_light_red>peasant flail</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -196,7 +196,7 @@
     "id": "battleaxe_fire",
     "copy-from": "battleaxe",
     "looks_like": "battleaxe",
-    "name": "<color_light_red>battleaxe",
+    "name": "<color_light_red>battleaxe</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -204,7 +204,7 @@
     "id": "bokken_fire",
     "copy-from": "bokken",
     "looks_like": "bokken",
-    "name": "<color_light_red>bokken",
+    "name": "<color_light_red>bokken</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -212,7 +212,7 @@
     "id": "cudgel_fire",
     "copy-from": "cudgel",
     "looks_like": "cudgel",
-    "name": "<color_light_red>cudgel",
+    "name": "<color_light_red>cudgel</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -220,7 +220,7 @@
     "id": "hammer_sledge_fire",
     "copy-from": "hammer_sledge",
     "looks_like": "hammer_sledge",
-    "name": "<color_light_red>sledge hammer",
+    "name": "<color_light_red>sledge hammer</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -228,7 +228,7 @@
     "id": "lucern_hammer_fire",
     "copy-from": "lucern_hammer",
     "looks_like": "lucern_hammer",
-    "name": "<color_light_red>lucern hammer",
+    "name": "<color_light_red>lucern hammer</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -236,7 +236,7 @@
     "id": "mace_fire",
     "copy-from": "mace",
     "looks_like": "mace",
-    "name": "<color_light_red>mace",
+    "name": "<color_light_red>mace</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -244,7 +244,7 @@
     "id": "morningstar_fire",
     "copy-from": "morningstar",
     "looks_like": "morningstar",
-    "name": "<color_light_red>morningstar",
+    "name": "<color_light_red>morningstar</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] } 
   },
   {
@@ -252,7 +252,7 @@
     "id": "q_staff_fire",
     "copy-from": "q_staff",
     "looks_like": "q_staff",
-    "name": "<color_light_red>quarterstaff",
+    "name": "<color_light_red>quarterstaff</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -260,7 +260,7 @@
     "id": "shillelagh_fire",
     "copy-from": "shillelagh",
     "looks_like": "shillelagh",
-    "name": "<color_light_red>shillelagh",
+    "name": "<color_light_red>shillelagh</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -268,7 +268,7 @@
     "id": "tonfa_wood_fire",
     "copy-from": "tonfa_wood",
     "looks_like": "tonfa_wood",
-    "name": "<color_light_red>tonfa",
+    "name": "<color_light_red>tonfa</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -276,7 +276,7 @@
     "id": "warhammer_fire",
     "copy-from": "warhammer",
     "looks_like": "warhammer",
-    "name": "<color_light_red>war hammer",
+    "name": "<color_light_red>war hammer</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -284,7 +284,7 @@
     "id": "pitchfork_fire",
     "copy-from": "pitchfork",
     "looks_like": "pitchfork",
-    "name": "<color_light_red>pitchfork",
+    "name": "<color_light_red>pitchfork</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -292,7 +292,7 @@
     "id": "spear_steel_fire",
     "copy-from": "spear_steel",
     "looks_like": "spear_steel",
-    "name": "<color_light_red>spear",
+    "name": "<color_light_red>spear</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -300,7 +300,7 @@
     "id": "qiang_fire",
     "copy-from": "qiang",
     "looks_like": "qiang",
-    "name": "<color_light_red>qiang",
+    "name": "<color_light_red>qiang</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -308,7 +308,7 @@
     "id": "halberd_fire",
     "copy-from": "halberd",
     "looks_like": "halberd",
-    "name": "<color_light_red>halberd",
+    "name": "<color_light_red>halberd</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -316,7 +316,7 @@
     "id": "glaive_fire",
     "copy-from": "glaive",
     "looks_like": "glaive",
-    "name": "<color_light_red>glave",
+    "name": "<color_light_red>glave</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -324,7 +324,7 @@
     "id": "naginata_fire",
     "copy-from": "naginata",
     "looks_like": "naginata",
-    "name": "<color_light_red>naginata",
+    "name": "<color_light_red>naginata</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -332,7 +332,7 @@
     "id": "pike_fire",
     "copy-from": "pike",
     "looks_like": "pike",
-    "name": "<color_light_red>pike",
+    "name": "<color_light_red>pike</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -340,7 +340,7 @@
     "id": "bagh_nakha_fire",
     "copy-from": "bagh_nakha",
     "looks_like": "bagh_nakha",
-    "name": "<color_light_red>tiger claws",
+    "name": "<color_light_red>tiger claws</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -348,7 +348,7 @@
     "id": "cestus_fire",
     "copy-from": "cestus",
     "looks_like": "cestus",
-    "name": { "str": "<color_light_red>cestus", "str_pl": "<color_light_red>cestuses" },
+    "name": { "str": "<color_light_red>cestus</color>", "str_pl": "<color_light_red>cestuses</color>" },
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -356,7 +356,7 @@
     "id": "knuckle_brass_fire",
     "copy-from": "knuckle_brass",
     "looks_like": "knuckle_brass",
-    "name": { "str": "<color_light_red>pair of brass knuckles", "str_pl": "<color_light_red>pairs of brass knuckles" },
+    "name": { "str": "<color_light_red>pair of brass knuckles</color>", "str_pl": "<color_light_red>pairs of brass knuckles</color>" },
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   },
   {
@@ -364,7 +364,7 @@
     "id": "punch_dagger_fire",
     "copy-from": "punch_dagger",
     "looks_like": "punch_dagger",
-    "name": "<color_light_red>punch dagger",
+    "name": "<color_light_red>punch dagger</color>",
     "relic_data": { "passive_effects": [ { "id": "mtc_rune_wield_fire_ench" } ] }
   } 
 ]

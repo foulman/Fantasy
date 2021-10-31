@@ -206,6 +206,73 @@
   },
 {
     "type": "furniture",
+    "id": "f_enhanced_infusion_bench",
+    "name": "enhanced infusion table",
+    "looks_like": "f_table",
+    "description": "A hexagonal table, with large magical runes carved into the surface. It is used to infuse magic into otherwise mundane items.",
+    "symbol": "0",
+    "bgcolor": "blue",
+    "move_cost_mod": 2,
+    "coverage": 60,                 
+    "required_str": -1,
+    "crafting_pseudo_item": "t_infusion2",
+    "flags": [ "TRANSPARENT", "PLACE_ITEM", "MOUNTABLE", "FLAT_SURF" ],
+    "deconstruct": {
+      "items": [
+        { "item": "wood_panel", "count": [ 1, 2 ] },
+        { "item": "2x4", "count": [ 3, 4 ] },
+        { "item": "nail", "count": [ 10, 15 ] }
+      ]
+    },
+    "max_volume": "1750 L",
+    "bash": {
+      "str_min": 35,
+      "str_max": 80,
+      "sound": "snap!",
+      "sound_fail": "whump!",
+      "items": [
+        { "item": "splinter", "count": [ 2, 8 ] },
+        { "item": "2x4", "count": [ 0, 2 ] },
+        { "item": "wood_panel", "count": [ 0, 1 ] },
+        { "item": "nail", "count": [ 10, 15 ] }
+      ]
+    },
+    "examine_action": "workbench",
+    "workbench": { "multiplier": 1.15, "mass": 300000, "volume": "100L" }
+  },
+{
+    "type": "furniture",
+    "id": "f_divine_altar",
+    "name": "divine altar",
+    "looks_like": "f_altar",
+    "description": "A solid altar, carved of stone. It has been engraved with religious symbology, and a small depression lies in the middle, likely for some kind of offering.",
+    "symbol": "#",
+    "bgcolor": "white",
+    "move_cost_mod": 2,
+    "coverage": 60,                 
+    "required_str": 15,
+    "crafting_pseudo_item": "t_daltar",
+    "flags": [ "TRANSPARENT", "PLACE_ITEM", "MOUNTABLE", "FLAT_SURF" ],
+    "deconstruct": {
+      "items": [
+        { "item": "rock", "count": 50 }
+      ]
+    },
+    "max_volume": "1750 L",
+    "bash": {
+      "str_min": 35,
+      "str_max": 80,
+      "sound": "snap!",
+      "sound_fail": "whump!",
+      "items": [
+        { "item": "rock", "count": 50 }
+      ]
+    },
+    "examine_action": "workbench",
+    "workbench": { "multiplier": 1.15, "mass": 300000, "volume": "100L" }
+  },
+{
+    "type": "furniture",
     "id": "f_straw_dummy",
     "name": "straw dummy",
     "description": "A plank-and-canvas dummy, suffed with straw in a humanoid shape. It can be used for exercise and combat training, with the notable advantage that it doesn't fight back.",

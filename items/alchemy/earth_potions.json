@@ -154,7 +154,7 @@
   },
 {
     "id": "potion_disinfect",
-    "name": { "str": "uninfectious potion" },
+    "name": { "str": "disinfectious potion" },
     "description": "A green liquid, seemingly magical in nature. When consumed, it can halt or cure wound infection. It has a notoriously sour taste.",
     "use_action": [ "ANTIBIOTIC" ],
     "type": "COMESTIBLE",
@@ -210,6 +210,6 @@
     "name": { "str": "elixer of anti-paralysis" },
     "copy-from": "potion_antipara_lesser",
     "use_action": { "type": "cast_spell", "spell_id": "antipara_effect_item", "no_fail": true, "level": 10 },
-    "price": 10000
+    "price": 20000
   }
 ]
