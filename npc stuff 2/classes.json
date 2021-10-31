@@ -903,6 +903,51 @@
 	},
 {
     "type": "npc_class",
+    "id": "NPC_INFUSION_INSTRUCTOR",
+    "name": { "str": "Infusion Instructor" },
+    "job_description": "I teach magic.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+       { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 1, 4 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+    "worn_override": "NPC_wizard_worn",
+    "weapon_override": "NPC_wizard_wield",
+    "shopkeeper_item_group": "spell_scrolls_wizard4",
+    "skills": [      
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "spellcraft", "bonus": { "rng": [ 4, 5 ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_ALCHEMY_INSTRUCTOR",
+    "name": { "str": "Alchemy Instructor" },
+    "job_description": "I teach alchemy.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+       { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 1, 4 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+    "worn_override": "NPC_wizard_worn",
+    "weapon_override": "NPC_wizard_wield",
+    "shopkeeper_item_group": "ingredients_all",
+    "skills": [      
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "spellcraft", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "chemistry", "bonus": { "rng": [ 4, 5 ] } }
+    ]
+	},
+{
+    "type": "npc_class",
     "id": "NPC_ACADEMY_LIBRARIAN",
     "name": { "str": "Librarian" },
     "job_description": "I handle magic books.",
@@ -996,6 +1041,49 @@
 	"shopkeeper_item_group": "mine_sell_mtc",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_ACOLYTE",
+    "name": { "str": "Acolyte" },
+    "job_description": "I'm a middle-man for gods.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 0, 2 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+	"worn_override": "NPC_acolyte_worn",
+    "weapon_override": "NPC_acolyte_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+	  { "skill": "faith", "bonus": { "rng": [ 1, 4 ] } }
+    ]
+	},
+{
+    "type": "npc_class",
+    "id": "NPC_ACOLYTE_SCRIBE",
+    "name": { "str": "Acolyte" },
+    "job_description": "I'm a middle-man for gods.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+      { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "bonus_str": { "rng": [ 0, 2 ] },
+    "bonus_dex": { "rng": [ 0, 2 ] },
+    "bonus_int": { "rng": [ 0, 2 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+	"worn_override": "NPC_shopkeeper_worn",
+    "weapon_override": "NPC_acolyte_wield",
+	"shopkeeper_item_group": "spell_scrolls_cleric",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+	  { "skill": "faith", "bonus": { "rng": [ 1, 4 ] } }
     ]
 	}
 ]

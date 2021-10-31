@@ -13,7 +13,7 @@
     "deadline_high": 3,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
         "start": { "effect": [
-		{ "u_buy_item": "ax" }
+		{ "u_spawn_item": "ax" }
 		] },
 	"end": { "effect": [
 		{ "npc_add_var": "u_hired", "type": "general", "context": "mission", "value": "yes" },

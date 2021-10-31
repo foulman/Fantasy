@@ -33,7 +33,6 @@
         { "item": "chaps_leather", "prob": 60 }
       ]
     },
-    "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2", "CAN_OPEN_DOORS" ]
   },
   {

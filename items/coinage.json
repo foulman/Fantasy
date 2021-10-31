@@ -14,11 +14,10 @@
     "weight": "450 g",
     "volume": "2001 ml",
     "price": 10,
-    "material": "leather",
+    "material": [ "leather" ],
     "symbol": "U",
     "color": "brown",
-	"covers": [ "torso" ],
-	"coverage": 5,
+        "armor": [ { "encumbrance": 0, "coverage": 5, "covers": [ "torso" ] } ],
 	"material_thickness": 1,
     "pocket_data": [
       {

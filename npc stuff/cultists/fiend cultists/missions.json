@@ -37,7 +37,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 15 }
+		{ "u_spawn_item": "copper_coin", "count": 15 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {

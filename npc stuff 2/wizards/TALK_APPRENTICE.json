@@ -59,7 +59,7 @@
                    {
 		"text": "Thank you",
 		"topic": "TALK_DONE",
-		"effect": [ { "u_buy_monster": "mon_clay_golem", "pacified": false }, { "u_buy_item": "gold_coin", "count": 15 }, { "npc_lose_var": "busy_with_something", "type": "general", "context": "mission", "value": "yes" } ]
+		"effect": [ { "u_buy_monster": "mon_clay_golem", "pacified": false }, { "u_spawn_item": "gold_coin", "count": 15 }, { "npc_lose_var": "busy_with_something", "type": "general", "context": "mission", "value": "yes" } ]
 		  }
                  ]
   }

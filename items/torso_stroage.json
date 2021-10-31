@@ -13,10 +13,7 @@
     "symbol": "[",
     "looks_like": "backpack",
     "color": "green",
-    "covers": [ "torso", "leg_l", "leg_r" ],
-    "coverage": 75,
-    "encumbrance": 20,
-    "max_encumbrance": 60,
+    "armor": [ { "encumbrance": [ 20, 60 ], "coverage": 75, "covers": [ "torso", "leg_l", "leg_r" ] } ],
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",

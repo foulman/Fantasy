@@ -48,7 +48,6 @@
     "vision_day": 50,
     "vision_night": 10,
     "harvest": "dragon",
-    "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
       "items": [
@@ -111,7 +110,6 @@
     "vision_day": 50,
     "vision_night": 10,
     "harvest": "dragon",
-    "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
       "items": [
@@ -175,7 +173,6 @@
     "vision_day": 50,
     "vision_night": 10,
     "harvest": "dragon",
-    "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
       "items": [
@@ -238,7 +235,6 @@
     "vision_day": 50,
     "vision_night": 10,
     "harvest": "dragon",
-    "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
       "items": [
@@ -295,7 +291,6 @@
     "vision_day": 50,
     "vision_night": 10,
     "harvest": "dragon",
-    "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
       "items": [
@@ -352,7 +347,6 @@
     "vision_day": 50,
     "vision_night": 10,
     "harvest": "dragon",
-    "death_function": [ "NORMAL" ],
 	"death_drops": {
       "subtype": "collection",
       "items": [

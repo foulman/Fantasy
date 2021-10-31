@@ -132,7 +132,7 @@
          "text": "I'll sign up. (35 gold)", 
          "topic": "TALK_ENROLL_NEXT",
 	 "condition": { "u_has_items": { "item": "gold_coin", "count": 35 } },
-         "effect": [ { "u_sell_item": "gold_coin", "count": 35 }, { "u_buy_item": "first_enrollment_slip", "count": 1 } ] 
+         "effect": [ { "u_sell_item": "gold_coin", "count": 35 }, { "u_spawn_item": "first_enrollment_slip", "count": 1 } ] 
       }
     ]
   },
@@ -204,7 +204,7 @@
          "text": "Thanks.", 
          "topic": "TALK_ENROLL_NEXT",
          "condition": { "u_has_items": { "item": "gold_coin", "count": 15 } },
-         "effect": [ { "u_buy_item": "alchemy_enrollment_slip", "count": 1 }, { "u_sell_item": "gold_coin", "count": 15 } ] 
+         "effect": [ { "u_spawn_item": "alchemy_enrollment_slip", "count": 1 }, { "u_sell_item": "gold_coin", "count": 15 } ] 
 	  
       },
       { 
@@ -223,7 +223,7 @@
          "text": "Thanks.", 
          "topic": "TALK_ENROLL_NEXT",
          "condition": { "u_has_items": { "item": "gold_coin", "count": 15 } },
-         "effect": [ { "u_buy_item": "infusion_enrollment_slip", "count": 1 }, { "u_sell_item": "gold_coin", "count": 15 } ]  
+         "effect": [ { "u_spawn_item": "infusion_enrollment_slip", "count": 1 }, { "u_sell_item": "gold_coin", "count": 15 } ]  
       },
       { 
          "text": "Nah.", 
@@ -264,7 +264,7 @@
       { 
          "text": "Thank you.", 
          "topic": "TALK_DONE",
-         "effect": [ { "u_buy_item": "second_enrollment_slip", "count": 1 } ]  
+         "effect": [ { "u_spawn_item": "second_enrollment_slip", "count": 1 } ]  
 	  
       }
     ]
@@ -277,7 +277,7 @@
       { 
          "text": "Thank you.", 
          "topic": "TALK_DONE",
-         "effect": [ { "u_buy_item": "third_enrollment_slip", "count": 1 } ]  
+         "effect": [ { "u_spawn_item": "third_enrollment_slip", "count": 1 } ]  
 	  
       }
     ]
@@ -290,7 +290,7 @@
       { 
          "text": "Thank you.", 
          "topic": "TALK_DONE",
-         "effect": [ { "u_buy_item": "fourth_enrollment_slip", "count": 1 } ]  
+         "effect": [ { "u_spawn_item": "fourth_enrollment_slip", "count": 1 } ]  
 	  
       }
     ]
@@ -303,7 +303,7 @@
       { 
          "text": "Thank you.", 
          "topic": "TALK_DONE",
-         "effect": [ { "u_buy_item": "silver_ivy_diploma", "count": 1 }, { "u_buy_item": "silver_ivy_gradlocket", "count": 1 }, { "npc_lose_var": "u_enrolled", "type": "general", "context": "mission", "value": "yes" } ]  
+         "effect": [ { "u_spawn_item": "silver_ivy_diploma", "count": 1 }, { "u_spawn_item": "silver_ivy_gradlocket", "count": 1 }, { "npc_lose_var": "u_enrolled", "type": "general", "context": "mission", "value": "yes" } ]  
 	  
       }
     ]

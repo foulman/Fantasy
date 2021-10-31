@@ -45,7 +45,28 @@
 	{
     "type": "overmap_terrain",
     "id": "straight_dirt_city_road",
-    "name": "building",
+    "name": "road",
+    "sym": "│",
+    "color": "dark_gray"
+	},
+        {
+    "type": "overmap_terrain",
+    "id": "straight_rock_underground_road",
+    "name": "road",
+    "sym": "│",
+    "color": "dark_gray"
+	},
+        {
+    "type": "overmap_terrain",
+    "id": "straight_rock_underground_road_up",
+    "name": "road",
+    "sym": "│",
+    "color": "dark_gray"
+	},
+        {
+    "type": "overmap_terrain",
+    "id": "straight_rock_underground_road_down",
+    "name": "road",
     "sym": "│",
     "color": "dark_gray"
 	},

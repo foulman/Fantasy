@@ -30,6 +30,6 @@
     "responses": [ { "text": "Vulgtmah!", 
                      "topic": "TALK_DONE", 
                      "effect": [ { "u_add_var": "joined_cult", "type": "dialogue", "context": "cult", "value": "yes" },
-                                 { "u_buy_item": "cult_robes" } ] } ]
+                                 { "u_spawn_item": "cult_robes" } ] } ]
   }
 ]

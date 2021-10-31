@@ -73,6 +73,26 @@
   },
 {
     "type": "npc",
+    "id": "infusion_instructor",
+    "class": "NPC_INFUSION_INSTRUCTOR",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_INSTRUCTOR_INFUSION",
+    "mission_offered": [ "MISSION_MAGIC_LESSONS" ],
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
+    "id": "alchemy_instructor",
+    "class": "NPC_ALCHEMY_INSTRUCTOR",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_ALCHEMY_INSTRUCTOR",
+    "mission_offered": [ "MISSION_ALCHEMY_LESSONS" ],
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
     "id": "academy_tatoo_artist",
     "name_suffix": "apprentice mage",
     "class": "NPC_MAGE_APPRENTICE",
@@ -101,5 +121,16 @@
     "mission": 3,
     "chat": "TALK_NPC_ACADEMY_INFUSIONIST",
     "faction": "kingdom"
-  }    
+  },
+{
+    "type": "npc",
+    "id": "silver_ivy_dean",
+    "name_suffix": "dean",
+    "class": "NPC_FOURTH_INSTRUCTOR",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_ACADEMY_DEAN",    
+    "mission_offered": [ "MISSION_DEAN_1" ],
+    "faction": "kingdom"
+  }        
 ]

@@ -27,7 +27,7 @@
     "dodge": 0,
     "vision_day": 40,
     "vision_night": 40,
-    "death_function": [ "BROKEN" ],
+    "death_function": { "corpse_type": "BROKEN" },
     "special_attacks": [ { "id": "slam", "damage_max_instance": [ { "damage_type": "bash", "amount": 20, "armor_multiplier": 0.2 } ] } ],
     "flags": [ "SEES", "NO_BREATHE", "ACIDPROOF", "LOUDMOVES", "PRIORITIZE_TARGETS" ]
   },
@@ -59,7 +59,7 @@
     "dodge": 0,
     "vision_day": 40,
     "vision_night": 40,
-    "death_function": [ "BROKEN" ],
+    "death_function": { "corpse_type": "BROKEN" },
     "special_attacks": [ { "id": "slam", "damage_max_instance": [ { "damage_type": "bash", "amount": 30, "armor_multiplier": 0.4 } ] } ],
     "flags": [ "SEES", "NO_BREATHE", "LOUDMOVES", "PRIORITIZE_TARGETS" ]
   },
@@ -91,7 +91,7 @@
     "dodge": 0,
     "vision_day": 40,
     "vision_night": 40,
-    "death_function": [ "BROKEN" ],
+    "death_function": { "corpse_type": "BROKEN" },
     "special_attacks": [ { "id": "slam", "damage_max_instance": [ { "damage_type": "bash", "amount": 40, "armor_multiplier": 0.6 } ] } ],
     "flags": [ "SEES", "NO_BREATHE", "LOUDMOVES", "PRIORITIZE_TARGETS" ]
   }

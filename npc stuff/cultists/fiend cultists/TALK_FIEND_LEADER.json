@@ -98,7 +98,7 @@
     "responses": [ { "text": "I agree.", 
                      "topic": "TALK_DONE", 
                      "effect": [ { "u_add_var": "joined_cult_fiend", "type": "dialogue", "context": "cult", "value": "yes" },
-                                 { "u_buy_item": "cult_robes" } ] } ]
+                                 { "u_spawn_item": "cult_robes" } ] } ]
   },
 {
     "type": "talk_topic",

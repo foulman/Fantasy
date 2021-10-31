@@ -95,37 +95,37 @@
 		"text": "Just a bit of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "platinum_coin", "count": 1 } },
-		"effect": [ { "u_sell_item": "platinum_coin", "count": 1 }, { "u_buy_item": "gold_coin", "count": 10 } ]
+		"effect": [ { "u_sell_item": "platinum_coin", "count": 1 }, { "u_spawn_item": "gold_coin", "count": 10 } ]
 		},
                 {
 		"text": "Some gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "platinum_coin", "count": 5 } },
-		"effect": [ { "u_sell_item": "platinum_coin", "count": 5 }, { "u_buy_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_sell_item": "platinum_coin", "count": 5 }, { "u_spawn_item": "gold_coin", "count": 50 } ]
 		},
                 {
 		"text": "A good deal of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "platinum_coin", "count": 10 } },
-		"effect": [ { "u_sell_item": "platinum_coin", "count": 10 }, { "u_buy_item": "gold_coin", "count": 100 } ]
+		"effect": [ { "u_sell_item": "platinum_coin", "count": 10 }, { "u_spawn_item": "gold_coin", "count": 100 } ]
 		},
                 {
 		"text": "A lot of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "platinum_coin", "count": 20 } },
-		"effect": [ { "u_sell_item": "platinum_coin", "count": 20 }, { "u_buy_item": "gold_coin", "count": 200 } ]
+		"effect": [ { "u_sell_item": "platinum_coin", "count": 20 }, { "u_spawn_item": "gold_coin", "count": 200 } ]
 		},
                 {
 		"text": "A sack of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "platinum_coin", "count": 50 } },
-		"effect": [ { "u_sell_item": "platinum_coin", "count": 50 }, { "u_buy_item": "gold_coin", "count": 500 } ]
+		"effect": [ { "u_sell_item": "platinum_coin", "count": 50 }, { "u_spawn_item": "gold_coin", "count": 500 } ]
 		},
                 {
 		"text": "A big sack of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "platinum_coin", "count": 100 } },
-		"effect": [ { "u_sell_item": "platinum_coin", "count": 100 }, { "u_buy_item": "gold_coin", "count": 1000 } ]
+		"effect": [ { "u_sell_item": "platinum_coin", "count": 100 }, { "u_spawn_item": "gold_coin", "count": 1000 } ]
 		},
                 {
 		"text": "I don't need it changed.",
@@ -142,37 +142,37 @@
 		"text": "Just a bit of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 1 } },
-		"effect": [ { "u_sell_item": "gold_coin", "count": 1 }, { "u_buy_item": "silver_coin", "count": 10 } ]
+		"effect": [ { "u_sell_item": "gold_coin", "count": 1 }, { "u_spawn_item": "silver_coin", "count": 10 } ]
 		},
                 {
 		"text": "Some silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 5 } },
-		"effect": [ { "u_sell_item": "gold_coin", "count": 5 }, { "u_buy_item": "silver_coin", "count": 50 } ]
+		"effect": [ { "u_sell_item": "gold_coin", "count": 5 }, { "u_spawn_item": "silver_coin", "count": 50 } ]
 		},
                 {
 		"text": "A good deal of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 10 } },
-		"effect": [ { "u_sell_item": "gold_coin", "count": 10 }, { "u_buy_item": "silver_coin", "count": 100 } ]
+		"effect": [ { "u_sell_item": "gold_coin", "count": 10 }, { "u_spawn_item": "silver_coin", "count": 100 } ]
 		},
                 {
 		"text": "A lot of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 20 } },
-		"effect": [ { "u_sell_item": "gold_coin", "count": 20 }, { "u_buy_item": "silver_coin", "count": 200 } ]
+		"effect": [ { "u_sell_item": "gold_coin", "count": 20 }, { "u_spawn_item": "silver_coin", "count": 200 } ]
 		},
                 {
 		"text": "A sack of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_sell_item": "gold_coin", "count": 50 }, { "u_buy_item": "silver_coin", "count": 500 } ]
+		"effect": [ { "u_sell_item": "gold_coin", "count": 50 }, { "u_spawn_item": "silver_coin", "count": 500 } ]
 		},
                 {
 		"text": "A big sack of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 100 } },
-		"effect": [ { "u_sell_item": "gold_coin", "count": 100 }, { "u_buy_item": "silver_coin", "count": 1000 } ]
+		"effect": [ { "u_sell_item": "gold_coin", "count": 100 }, { "u_spawn_item": "silver_coin", "count": 1000 } ]
 		},
                 {
 		"text": "I don't need it changed.",
@@ -189,37 +189,37 @@
 		"text": "Just a bit of platinum.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 10 } },
-		"effect": [ { "u_buy_item": "platinum_coin", "count": 1 }, { "u_sell_item": "gold_coin", "count": 10 } ]
+		"effect": [ { "u_spawn_item": "platinum_coin", "count": 1 }, { "u_sell_item": "gold_coin", "count": 10 } ]
 		},
                 {
 		"text": "Some platinum.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "platinum_coin", "count": 5 }, { "u_sell_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "platinum_coin", "count": 5 }, { "u_sell_item": "gold_coin", "count": 50 } ]
 		},
                 {
 		"text": "A good deal of platinum.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 100 } },
-		"effect": [ { "u_buy_item": "platinum_coin", "count": 10 }, { "u_sell_item": "gold_coin", "count": 100 } ]
+		"effect": [ { "u_spawn_item": "platinum_coin", "count": 10 }, { "u_sell_item": "gold_coin", "count": 100 } ]
 		},
                 {
 		"text": "A lot of platinum.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 200 } },
-		"effect": [ { "u_buy_item": "platinum_coin", "count": 20 }, { "u_sell_item": "gold_coin", "count": 200 } ]
+		"effect": [ { "u_spawn_item": "platinum_coin", "count": 20 }, { "u_sell_item": "gold_coin", "count": 200 } ]
 		},
                 {
 		"text": "A sack of platinum.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 500 } },
-		"effect": [ { "u_buy_item": "platinum_coin", "count": 50 }, { "u_sell_item": "gold_coin", "count": 500 } ]
+		"effect": [ { "u_spawn_item": "platinum_coin", "count": 50 }, { "u_sell_item": "gold_coin", "count": 500 } ]
 		},
                 {
 		"text": "A big sack of platinum.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 1000 } },
-		"effect": [ { "u_buy_item": "platinum_coin", "count": 100 }, { "u_sell_item": "gold_coin", "count": 1000 } ]
+		"effect": [ { "u_spawn_item": "platinum_coin", "count": 100 }, { "u_sell_item": "gold_coin", "count": 1000 } ]
 		},
                 {
 		"text": "I don't need it changed.",
@@ -236,37 +236,37 @@
 		"text": "Just a bit of copper.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 1 } },
-		"effect": [ { "u_sell_item": "silver_coin", "count": 1 }, { "u_buy_item": "copper_coin", "count": 10 } ]
+		"effect": [ { "u_sell_item": "silver_coin", "count": 1 }, { "u_spawn_item": "copper_coin", "count": 10 } ]
 		},
                 {
 		"text": "Some copper.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 5 } },
-		"effect": [ { "u_sell_item": "silver_coin", "count": 5 }, { "u_buy_item": "copper_coin", "count": 50 } ]
+		"effect": [ { "u_sell_item": "silver_coin", "count": 5 }, { "u_spawn_item": "copper_coin", "count": 50 } ]
 		},
                 {
 		"text": "A good deal of copper.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 10 } },
-		"effect": [ { "u_sell_item": "silver_coin", "count": 10 }, { "u_buy_item": "copper_coin", "count": 100 } ]
+		"effect": [ { "u_sell_item": "silver_coin", "count": 10 }, { "u_spawn_item": "copper_coin", "count": 100 } ]
 		},
                 {
 		"text": "A lot of copper.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 20 } },
-		"effect": [ { "u_sell_item": "silver_coin", "count": 20 }, { "u_buy_item": "copper_coin", "count": 200 } ]
+		"effect": [ { "u_sell_item": "silver_coin", "count": 20 }, { "u_spawn_item": "copper_coin", "count": 200 } ]
 		},
                 {
 		"text": "A sack of copper.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 50 } },
-		"effect": [ { "u_sell_item": "silver_coin", "count": 50 }, { "u_buy_item": "copper_coin", "count": 500 } ]
+		"effect": [ { "u_sell_item": "silver_coin", "count": 50 }, { "u_spawn_item": "copper_coin", "count": 500 } ]
 		},
                 {
 		"text": "A big sack of copper.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 100 } },
-		"effect": [ { "u_sell_item": "silver_coin", "count": 100 }, { "u_buy_item": "copper_coin", "count": 1000 } ]
+		"effect": [ { "u_sell_item": "silver_coin", "count": 100 }, { "u_spawn_item": "copper_coin", "count": 1000 } ]
 		},
                 {
 		"text": "I don't need it changed.",
@@ -283,37 +283,37 @@
 		"text": "Just a bit of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 10 } },
-		"effect": [ { "u_buy_item": "gold_coin", "count": 1 }, { "u_sell_item": "silver_coin", "count": 10 } ]
+		"effect": [ { "u_spawn_item": "gold_coin", "count": 1 }, { "u_sell_item": "silver_coin", "count": 10 } ]
 		},
                 {
 		"text": "Some gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "gold_coin", "count": 5 }, { "u_sell_item": "silver_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "gold_coin", "count": 5 }, { "u_sell_item": "silver_coin", "count": 50 } ]
 		},
                 {
 		"text": "A good deal of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 100 } },
-		"effect": [ { "u_buy_item": "gold_coin", "count": 10 }, { "u_sell_item": "silver_coin", "count": 100 } ]
+		"effect": [ { "u_spawn_item": "gold_coin", "count": 10 }, { "u_sell_item": "silver_coin", "count": 100 } ]
 		},
                 {
 		"text": "A lot of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 200 } },
-		"effect": [ { "u_buy_item": "gold_coin", "count": 20 }, { "u_sell_item": "silver_coin", "count": 200 } ]
+		"effect": [ { "u_spawn_item": "gold_coin", "count": 20 }, { "u_sell_item": "silver_coin", "count": 200 } ]
 		},
                 {
 		"text": "A sack of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 500 } },
-		"effect": [ { "u_buy_item": "gold_coin", "count": 50 }, { "u_sell_item": "silver_coin", "count": 500 } ]
+		"effect": [ { "u_spawn_item": "gold_coin", "count": 50 }, { "u_sell_item": "silver_coin", "count": 500 } ]
 		},
                 {
 		"text": "A big sack of gold.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 1000 } },
-		"effect": [ { "u_buy_item": "gold_coin", "count": 100 }, { "u_sell_item": "silver_coin", "count": 1000 } ]
+		"effect": [ { "u_spawn_item": "gold_coin", "count": 100 }, { "u_sell_item": "silver_coin", "count": 1000 } ]
 		},
                 {
 		"text": "I don't need it changed.",
@@ -330,37 +330,37 @@
 		"text": "Just a bit of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "copper_coin", "count": 10 } },
-		"effect": [ { "u_buy_item": "silver_coin", "count": 1 }, { "u_sell_item": "copper_coin", "count": 10 } ]
+		"effect": [ { "u_spawn_item": "silver_coin", "count": 1 }, { "u_sell_item": "copper_coin", "count": 10 } ]
 		},
                 {
 		"text": "Some silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "copper_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "silver_coin", "count": 5 }, { "u_sell_item": "copper_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "silver_coin", "count": 5 }, { "u_sell_item": "copper_coin", "count": 50 } ]
 		},
                 {
 		"text": "A good deal of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "copper_coin", "count": 100 } },
-		"effect": [ { "u_buy_item": "silver_coin", "count": 10 }, { "u_sell_item": "copper_coin", "count": 100 } ]
+		"effect": [ { "u_spawn_item": "silver_coin", "count": 10 }, { "u_sell_item": "copper_coin", "count": 100 } ]
 		},
                 {
 		"text": "A lot of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "copper_coin", "count": 200 } },
-		"effect": [ { "u_buy_item": "silver_coin", "count": 20 }, { "u_sell_item": "copper_coin", "count": 200 } ]
+		"effect": [ { "u_spawn_item": "silver_coin", "count": 20 }, { "u_sell_item": "copper_coin", "count": 200 } ]
 		},
                 {
 		"text": "A sack of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "copper_coin", "count": 500 } },
-		"effect": [ { "u_buy_item": "silver_coin", "count": 50 }, { "u_sell_item": "copper_coin", "count": 500 } ]
+		"effect": [ { "u_spawn_item": "silver_coin", "count": 50 }, { "u_sell_item": "copper_coin", "count": 500 } ]
 		},
                 {
 		"text": "A big sack of silver.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "copper_coin", "count": 1000 } },
-		"effect": [ { "u_buy_item": "silver_coin", "count": 100 }, { "u_sell_item": "copper_coin", "count": 1000 } ]
+		"effect": [ { "u_spawn_item": "silver_coin", "count": 100 }, { "u_sell_item": "copper_coin", "count": 1000 } ]
 		},
                 {
 		"text": "I don't need it changed.",

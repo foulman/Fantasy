@@ -94,49 +94,49 @@
 		"text": "I'd like the first rune of longevity.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "ench_tat_hp_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "ench_tat_hp_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
       },
       {
 		"text": "I'd like the first rune of mana.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "ench_tat_mana_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "ench_tat_mana_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
       },
       {
 		"text": "I'd like the first rune of stamina.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "ench_tat_stamina_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "ench_tat_stamina_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
       },
       {
 		"text": "I'd like the first rune of haste.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "ench_tat_speed_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "ench_tat_speed_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
       },
       {
 		"text": "I'd like the first rune of body.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "ench_tat_str_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "ench_tat_str_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
       },
       {
 		"text": "I'd like the first rune of mind.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "ench_tat_int_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "ench_tat_int_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
       },
       {
 		"text": "I'd like the first rune of flexibility.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "ench_tat_dex_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "ench_tat_dex_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
       },
       {
 		"text": "I'd like the first rune of senses.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "gold_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "ench_tat_per_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "ench_tat_per_1", "count": 1 }, { "u_sell_item": "gold_coin", "count": 50 } ]
       }
     ]
   }    

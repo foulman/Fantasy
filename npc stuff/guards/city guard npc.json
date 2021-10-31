@@ -17,6 +17,7 @@
     "attitude": 0,
     "mission": 3,
     "chat": "TALK_NPC_GUARD_CAPTIAN",
-    "faction": "kingdom"
+    "faction": "kingdom",
+    "mission_offered": [ "MISSION_SLAY_SLIMES_ON_ROAD_RECURRING", "MISSION_SLAY_GOBLINS_IN_FOREST_RECURRING" ]
   }
 ]

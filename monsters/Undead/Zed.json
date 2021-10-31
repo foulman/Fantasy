@@ -23,7 +23,6 @@
     "melee_damage": [ { "amount": 2, "damage_type": "cut" }, { "amount": 4, "damage_type": "bash" } ],
     "vision_night": 10,
     "harvest": "zombie",
-    "death_function": [ "NORMAL" ],
     "flags": [
       "SEES",
       "HEARS",
@@ -52,7 +51,7 @@
         { "item": "machete_rusted", "prob": 20 },
         { "item": "cavalry_sabre_rusted", "prob": 20 },
         { "item": "kris_rusted", "prob": 20 },
-        { "group": "shields_degraded", "prob": 20 },
+        { "group": "shields_all", "prob": 20, "damage": [ 2, 3 ] },
         { "item": "scimitar_rusted", "prob": 20 }
       ]
     },
@@ -72,7 +71,7 @@
       "subtype": "distribution",
       "items": [
         { "item": "q_staff_moldy", "prob": 30 },
-        { "group": "shields_degraded", "prob": 20 },
+        { "group": "shields_all", "prob": 20, "damage": [ 2, 3 ] },
         { "item": "cudgel_moldy", "prob": 40 },
         { "item": "bokken_moldy", "prob": 30 }
       ]

@@ -27,7 +27,6 @@
     "vision_night": 10,
     "harvest": "mutant_mammal_small_nofur",
     "special_attacks": [ { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 12, "armor_multiplier": 0.6 } ] } ],
-    "death_function": [ "NORMAL" ],
     "flags": [ "SMELLS", "SEES", "HEARS", "WARM", "PATH_AVOID_DANGER_2", "PRIORITIZE_TARGETS", "HARDTOSHOOT" ]
   },
   {
@@ -50,7 +49,6 @@
     "melee_cut": 0,
     "vision_night": 20,
     "harvest": "mutant_mammal_small_nofur",
-    "death_function": [ "NORMAL" ],
       "special_attacks": [
         {
           "type": "spell",
@@ -93,7 +91,6 @@
     "special_attacks": [ [ "SHRIEK_ALERT", 6 ] ],
     "anger_triggers": [ "PLAYER_CLOSE", "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
     "fear_triggers": [ "FIRE" ],
-    "death_function": [ "NORMAL" ],
     "flags": [ "SMELLS", "HEARS", "SEES", "SWIMS", "GRABS", "ARTHROPOD_BLOOD", "PATH_AVOID_DANGER_2" ]
   },
 {

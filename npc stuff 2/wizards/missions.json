@@ -19,7 +19,7 @@
                                             { "monster": "mon_mtc_skeleton", "x": 11, "y": 9, "target": true } ] }
     },
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 5 },
+		{ "u_spawn_item": "silver_coin", "count": 5 },
                 { "npc_add_var": "MAGE_APPRENTICE", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
@@ -49,7 +49,7 @@
 	"origins": [ "ORIGIN_OPENER_NPC" ],
         "start": { "assign_mission_target": { "om_terrain": "river", "reveal_radius": 1, "random": true } },
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 35 }
+		{ "u_spawn_item": "copper_coin", "count": 35 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -77,7 +77,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 5 }
+		{ "u_spawn_item": "copper_coin", "count": 5 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -105,7 +105,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 3 }
+		{ "u_spawn_item": "silver_coin", "count": 3 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -133,7 +133,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 3 }
+		{ "u_spawn_item": "silver_coin", "count": 3 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -161,7 +161,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 30 },
+		{ "u_spawn_item": "silver_coin", "count": 30 },
                 { "npc_add_var": "busy_with_something", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
@@ -195,7 +195,7 @@
     },
     "origins": [ "ORIGIN_OPENER_NPC" ],
     "end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 5 }
+		{ "u_spawn_item": "copper_coin", "count": 5 }
 		] },
     "has_generic_rewards": false,
     "dialogue": {
@@ -223,7 +223,7 @@
     "value": 4000,
     "origins": [ "ORIGIN_OPENER_NPC" ],
     "end": { "effect": [
-		{ "u_buy_item": "wizard_basic", "count": 1 },
+		{ "u_spawn_item": "wizard_basic", "count": 1 },
                 { "npc_add_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" }
 		] },
     "has_generic_rewards": true,
@@ -265,6 +265,34 @@
     }
   },
 {
+    "id": "MISSION_ALCHEMY_LESSONS",
+    "type": "mission_definition",
+    "name": "Alchemical Study",
+    "description": "Brew a potion of strength.",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_ALCHEMY_LESSONS",
+    "item": "potion_strength_lesser",
+	"count": 1,
+    "difficulty": 1,
+    "value": 3000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+     "start": { "effect": [   
+		{ "u_spawn_item": "health_totem_fiber" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "For today's lesson, I want you to practice alchemy. Brew me a potion of strength, and I'll give you something for it.",
+    "advice": "Its simple, just follow the recipe.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
     "id": "MISSION_SECOND_LESSON",
     "type": "mission_definition",
     "name": "Mage-Hunter",
@@ -278,7 +306,7 @@
       "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_goblin", "x": 1, "y": 1, "target": true } ] }
     },
 	"end": { "effect": [
-		{ "u_buy_item": "magic_focus_staff" },
+		{ "u_spawn_item": "magic_focus_staff" },
                 { "npc_add_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" },
                 { "npc_lose_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" }
 		] },
@@ -342,7 +370,7 @@
                                             { "monster": "mon_mtc_zombie", "x": 4, "y": 4, "target": true } ] }
     },
 	"end": { "effect": [
-                { "u_buy_item": "first_grad_slip" },
+                { "u_spawn_item": "first_grad_slip" },
                 { "npc_lose_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" },
                 { "npc_lose_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" }
 		] },
@@ -453,7 +481,7 @@
     "difficulty": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-                { "u_buy_item": "second_grad_slip" },
+                { "u_spawn_item": "second_grad_slip" },
                 { "npc_lose_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" },
                 { "npc_lose_var": "magic_lesson_6", "type": "general", "context": "mission", "value": "yes" }
 		] },
@@ -481,7 +509,7 @@
 	"origins": [ "ORIGIN_OPENER_NPC" ],
         "start": {
       "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "random": true, "search_range": 5, "min_distance": 4, "z": 0 },
-      "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_goblin", "x": 1, "y": 1, "target": true } ] }
+      "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_goblin_necromancer", "x": 1, "y": 1, "target": true } ] }
     },
 	"end": { "effect": [
                 { "npc_add_var": "magic_lesson_8", "type": "general", "context": "mission", "value": "yes" }
@@ -511,7 +539,7 @@
     "difficulty": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-                { "u_buy_item": "magic_focus_staff" },
+                { "u_spawn_item": "magic_focus_staff" },
                 { "npc_add_var": "magic_lesson_9", "type": "general", "context": "mission", "value": "yes" },
                 { "npc_lose_var": "magic_lesson_8", "type": "general", "context": "mission", "value": "yes" }
 		] },
@@ -540,7 +568,7 @@
     "difficulty": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-                { "u_buy_item": "third_grad_slip" },
+                { "u_spawn_item": "third_grad_slip" },
                 { "npc_lose_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" },
                 { "npc_lose_var": "magic_lesson_9", "type": "general", "context": "mission", "value": "yes" }
 		] },
@@ -569,7 +597,7 @@
     "difficulty": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-                { "u_buy_item": "fourth_grad_slip" },
+                { "u_spawn_item": "fourth_grad_slip" },
                 { "npc_lose_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": true,
@@ -598,7 +626,7 @@
     "followup": "MISSION_GET_PAPER",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 10 },
+		{ "u_spawn_item": "silver_coin", "count": 10 },
                 { "npc_add_var": "known", "type": "dialogue", "context": "mage", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
@@ -612,6 +640,527 @@
       "success": "Thank you.",
       "success_lie": "Where is the ink?",
       "failure": "Oh well."
+    }
+  },
+{
+    "id": "MISSION_BASIC_INFUSION",
+    "type": "mission_definition",
+    "name": "Dawn of The Arcanist",
+    "description": "Craft a runed wooden totem.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "runed_totem",
+	"count": 1,
+    "difficulty": 1,
+    "value": 1000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [
+		{ "u_spawn_item": "infusion_basic" }
+		] },
+     "end": { "effect": [		
+                { "npc_add_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_add_var": "u_learned_infusion", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "For our first lesson, I need you to practice basic infusion principles. To demonstrate this, bring me a runed wooden totem.",
+    "advice": "Its simple, just follow the recipe in the book.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_BASIC_INFUSION2",
+    "type": "mission_definition",
+    "name": "Spiraling Sword",
+    "description": "Enchant a longsword.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "longsword+1",
+	"count": 1,
+    "difficulty": 1,
+    "value": 1000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [
+		{ "u_spawn_item": "longsword" }
+		] },
+     "end": { "effect": [		
+                { "npc_lose_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_add_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "I think you're ready for something more advanced. For our next lesson, enchant this longsword, and give it to me.",
+    "advice": "Its simple, just follow the recipe in the book.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_BASIC_INFUSION3",
+    "type": "mission_definition",
+    "name": "Three of Clubs",
+    "description": "Enchant three cudgels.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "cudgel+1",
+	"count": 3,
+    "difficulty": 1,
+    "value": 1000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [
+		{ "u_spawn_item": "cudgel", "count": 3 }
+		] },
+     "end": { "effect": [		
+                { "npc_lose_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_add_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "You've proven yourself as a novice infusionist. Now, try enchanting these three cudgels, and give them to me.",
+    "advice": "Its simple, just follow the recipe in the book.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_BASIC_INFUSION4",
+    "type": "mission_definition",
+    "name": "Advanced Enchantments",
+    "description": "Enchant a cestus. (Craft a cestus++)",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "cestus+2",
+	"count": 1,
+    "difficulty": 1,
+    "value": 1000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [
+		{ "u_spawn_item": "cestus" },                
+		{ "u_spawn_item": "infusion_mid" }
+		] },
+     "end": { "effect": [		
+                { "npc_lose_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_add_var": "magic_lesson_4", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "I see your getting along. For our next lesson, try making something a bit more advanced. Give this cestus a reinforced enchantment, and bring it to me. This book holds the recipe.",
+    "advice": "Its simple, just follow the recipe in the book.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_BASIC_INFUSION5",
+    "type": "mission_definition",
+    "name": "Totemic Might",
+    "description": "Craft ten wooden totems of dawn.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "light_runed_totem",
+	"count": 10,
+    "difficulty": 1,
+    "value": 1000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [               
+		{ "u_spawn_item": "totem_book" }
+		] },
+     "end": { "effect": [		
+                { "npc_lose_var": "magic_lesson_4", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_add_var": "magic_lesson_5", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "Today, we're going to study more on totems. I need you to craft ten wooden totems od dawn, and bring them to me. The recipe is in this book.",
+    "advice": "Its simple, just follow the recipe in the book.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_BASIC_INFUSION6",
+    "type": "mission_definition",
+    "name": "Runic Surge",
+    "description": "Craft the first rune of longevity.",
+    "goal": "MGOAL_FIND_ITEM",
+    "item": "ench_tat_hp_1",
+	"count": 1,
+    "difficulty": 1,
+    "value": 1000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [               
+		{ "u_spawn_item": "totem_book" }
+		] },
+     "end": { "effect": [		
+                { "npc_lose_var": "magic_lesson_5", "type": "general", "context": "mission", "value": "yes" },
+                { "npc_lose_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "For your final lesson, I'm going to teach you basic runecraft. Take this book, and bring me the first rune of longevity.",
+    "advice": "Its simple, just follow the recipe in the book.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job. You're an official artificer now, congradulations.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_ALCHEMY_LESSON_1",
+    "type": "mission_definition",
+    "name": "Beginning The Brew",
+    "description": "Brew a potion of water breathing.",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_MAGIC_LESSONS",
+    "item": "water_breath_lesser",
+	"count": 1,
+    "difficulty": 1,
+    "value": 3000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [               
+		{ "u_spawn_item": "al_reference" },        
+		{ "u_spawn_item": "mana_totem_fiber" }
+		] },
+     "end": { "effect": [		
+                { "npc_add_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "For our first lesson, I'm gonna give you something simple. Take this phamplet, and make a potion of water breathing. I've got tons of ingredients here, so don't worry about getting any.",
+    "advice": "Its simple, just follow the recipe.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_ALCHEMY_LESSON_2",
+    "type": "mission_definition",
+    "name": "Fire and Flame",
+    "description": "Brew a potion of fire protection.",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_MAGIC_LESSONS",
+    "item": "fire_protection_lesser",
+	"count": 1,
+    "difficulty": 1,
+    "value": 3000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [          
+		{ "u_spawn_item": "mana_totem_fiber" }
+		] },
+     "end": { "effect": [		
+                { "npc_add_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" },	
+                { "npc_lose_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "Now, I'd like for you to try your hand at something of elemental fire. Brew a potion of fire protection, and bring it to me.",
+    "advice": "Its simple, just follow the recipe.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_ALCHEMY_LESSON_3",
+    "type": "mission_definition",
+    "name": "Rock Solid",
+    "description": "Brew a potion of speed.",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_MAGIC_LESSONS",
+    "item": "potion_speed_lesser",
+	"count": 1,
+    "difficulty": 1,
+    "value": 3000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [          
+		{ "u_spawn_item": "health_totem_fiber" }
+		] },
+     "end": { "effect": [		
+                { "npc_add_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" },	
+                { "npc_lose_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "Now, I'd like for you to try your hand at something of elemental earth. Brew a potion of speed, and bring it to me.",
+    "advice": "Its simple, just follow the recipe.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_ALCHEMY_LESSON_4",
+    "type": "mission_definition",
+    "name": "Rock Solid",
+    "description": "Brew a potion of speed.",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_MAGIC_LESSONS",
+    "item": "potion_speed_lesser",
+	"count": 1,
+    "difficulty": 1,
+    "value": 3000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [          
+		{ "u_spawn_item": "health_totem_fiber" }
+		] },
+     "end": { "effect": [		
+                { "npc_add_var": "magic_lesson_4", "type": "general", "context": "mission", "value": "yes" },	
+                { "npc_lose_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "Now, I'd like for you to try your hand at something of elemental earth. Brew a potion of speed, and bring it to me.",
+    "advice": "Its simple, just follow the recipe.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_ALCHEMY_LESSON_5",
+    "type": "mission_definition",
+    "name": "Advanced Alchemy",
+    "description": "Brew a concentrated potion of speed.",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_MAGIC_LESSONS",
+    "item": "potion_speed",
+	"count": 1,
+    "difficulty": 1,
+    "value": 3000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [ 
+                { "u_spawn_item": "potion_mid" },         
+		{ "u_spawn_item": "health_totem_fiber", "count": 4 }
+		] },
+     "end": { "effect": [		
+                { "npc_add_var": "magic_lesson_5", "type": "general", "context": "mission", "value": "yes" },	
+                { "npc_lose_var": "magic_lesson_4", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "You've come far as an alchemist, and I want you to try something more advanced now. Take this book, and brew me a concentrated potion of speed.",
+    "advice": "Its simple, just follow the recipe.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_ALCHEMY_LESSON_6",
+    "type": "mission_definition",
+    "name": "Final Flame",
+    "description": "Brew three concentrated potions of fire resistance.",
+    "goal": "MGOAL_FIND_ITEM",
+    "followup": "MISSION_MAGIC_LESSONS",
+    "item": "fire_protection",
+	"count": 3,
+    "difficulty": 1,
+    "value": 3000,
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "start": { "effect": [        
+		{ "u_spawn_item": "mana_totem_fiber", "count": 12 }
+		] },
+     "end": { "effect": [		
+                { "npc_add_var": "magic_lesson_5", "type": "general", "context": "mission", "value": "yes" },	
+                { "npc_lose_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "Demonstrate your magic to me.",
+    "offer": "Now we're at our final lesson. Make me three concentrated potions of fire resistance, and I'll pass you.",
+    "advice": "Its simple, just follow the recipe.",
+      "accepted": "Good.",
+      "rejected": "This is required, you know.",
+      "inquire": "Have you done it?",
+      "success": "Good job.",
+      "success_lie": "",
+      "failure": ""
+    }
+  },
+{
+    "id": "MISSION_DEAN_1",
+    "//": "Difficult missions, big money. That's what I'm going for with the dean.",
+    "type": "mission_definition",
+    "name": "Shamanic Scare",
+    "description": "Route the goblin mages. Bring back their ears as trophies.",    
+    "followup": "MISSION_DEAN_2",
+    "goal": "MGOAL_FIND_ITEM",
+	"item": "goblin_ears",
+	"count": 4,
+    "difficulty": 5,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "search_range": 100, "min_distance": 4 },
+      "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_goblin_necromancer", "x": 1, "y": 1, "target": true },
+                                            { "monster": "mon_mtc_goblin_necromancer", "x": 1, "y": 2, "target": true },
+                                            { "monster": "mon_mtc_goblin_shaman", "x": 1, "y": 3, "target": true },
+                                            { "monster": "mon_mtc_goblin_mage", "x": 1, "y": 4, "target": true } ] }
+    },
+	"end": { "effect": [
+		{ "u_spawn_item": "silver_coin", "count": 45 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "Magic-wielding goblins are on the loose.",
+	  "offer": "We've spotted several goblin mages near here. They've already tried to take this academy once, and I don't want that to happen. It is quite dangerous; but if you drive them away from here, I'll pay handsomely.",
+	  "advice": "I would recommend keeping your guard up, and bring a friend or two.",
+      "accepted": "Be careful.",
+      "rejected": "Ah well.",
+      "inquire": "Did you do it?",
+      "success": "Good job. I belive you have earned this.",
+      "success_lie": "",
+      "failure": "Oh no."
+    }
+  },
+{
+    "id": "MISSION_DEAN_2",
+    "type": "mission_definition",
+    "name": "Back In Force",
+    "description": "Route the goblin mages, again. Bring back their ears as trophies.",    
+    "followup": "MISSION_DEAN_3",
+   "goal": "MGOAL_FIND_ITEM",
+	"item": "goblin_ears",
+	"count": 8,
+    "difficulty": 6,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "search_range": 100, "min_distance": 4 },
+      "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_goblin_shaman", "x": 1, "y": 1, "target": true },
+                                            { "monster": "mon_mtc_goblin_necromancer", "x": 1, "y": 2, "target": true },
+                                            { "monster": "mon_mtc_goblin_shaman", "x": 1, "y": 3, "target": true },
+                                            { "monster": "mon_mtc_goblin_mage", "x": 1, "y": 4, "target": true },
+                                            { "monster": "mon_mtc_goblin_swordsman", "x": 1, "y": 5, "target": true },
+                                            { "monster": "mon_mtc_goblin_swordsman", "x": 1, "y": 6, "target": true },
+                                            { "monster": "mon_mtc_goblin_swordsman", "x": 1, "y": 7, "target": true },
+                                            { "monster": "mon_mtc_goblin_swordsman", "x": 1, "y": 8, "target": true } ] }
+    },
+	"end": { "effect": [
+		{ "u_spawn_item": "silver_coin", "count": 70 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "Magic-wielding goblins are on the loose.",
+	  "offer": "Those trouble-makers you delt with before had some friends, and they're coming back at us in force. We've got to get them out of here, and I need your help. There's some money in it for you, too.",
+	  "advice": "I would recommend keeping your guard up, and bring a friend or two.",
+      "accepted": "Be careful.",
+      "rejected": "Ah well.",
+      "inquire": "Did you do it?",
+      "success": "Good job. I belive you have earned this.",
+      "success_lie": "",
+      "failure": "Oh no."
+    }
+  },
+{
+    "id": "MISSION_DEAN_3",
+    "type": "mission_definition",
+    "name": "Mystery Man",
+    "description": "Retrieve the stolen book.",  
+   "goal": "MGOAL_FIND_ITEM",
+	"item": "reception_paperwork",
+	"count": 1,
+    "difficulty": 6,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],         
+        "followup": "MISSION_DEAN_4", 
+        "start": {
+      "assign_mission_target": { "om_terrain": "ocata5", "om_special": "catacombs", "reveal_radius": 1, "search_range": 100 },
+       "update_mapgen": [
+        { "om_terrain": "ocata5", "place_nested": [ { "chunks": [ "catacombs_stolen_books" ], "x": 0, "y": 0 } ] }
+      ]
+    },
+	"end": { "effect": [
+		{ "u_spawn_item": "silver_coin", "count": 30 },
+                { "u_spawn_item": "magic_focus_staff+2" }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "Some books were stolen, and I need you to get them.",
+	  "offer": "Well, a goblin mage snuck in here, and stole some of our books. Our scrying has tracked them down to an old catacomb. I need you to go in there, and get those books back.",
+	  "advice": "I would recommend keeping your guard up, and bring a friend or two. The theif may or may not be there, though.",
+      "accepted": "Be careful.",
+      "rejected": "Ah well.",
+      "inquire": "Did you do it?",
+      "success": "Good job. I belive you have earned this.",
+      "success_lie": "",
+      "failure": "Oh no."
+    }
+  },
+{
+    "id": "MISSION_DEAN_4",
+    "type": "mission_definition",
+    "name": "One Dead Dragon",
+    "description": "Assasinate the dragon, and bring back a tooth as proof.",  
+    "goal": "MGOAL_FIND_ITEM",
+	"item": "trophy_dragon_fang",
+	"count": 1,
+    "difficulty": 5,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "field", "reveal_radius": 1, "search_range": 100, "min_distance": 4, "z": -1 },
+      "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_dragon_fire_adult", "x": 12, "y": 12, "target": true } ] }
+    },
+	"end": { "effect": [
+		{ "u_spawn_item": "gold_coin", "count": 60 }
+		] },
+	"has_generic_rewards": false,
+	"dialogue": {
+      "describe": "A dragon is on the loose.",
+	  "offer": "A dragon has been sighted near here. I don't want it coming to this academy, so I need you to kill it. There's gold in it for you.",
+	  "advice": "I would recommend keeping your guard up, and bring a friend or two. It's an adult.",
+      "accepted": "Be careful.",
+      "rejected": "Ah well.",
+      "inquire": "Did you do it?",
+      "success": "Good job. I belive you have earned this.",
+      "success_lie": "",
+      "failure": "Oh no."
     }
   }
 ]

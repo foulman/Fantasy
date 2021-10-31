@@ -10,9 +10,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.05 } ] } ] }
   },
   {
@@ -26,9 +24,8 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
     "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.10 } ] } ] }
   },
   {
@@ -42,9 +39,8 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
     "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_HP", "multiply": 0.15 } ] } ] }
   },
   {
@@ -58,9 +54,8 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
     "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 0.05 } ] } ] }
   },
   {
@@ -74,9 +69,8 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
     "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 0.10 } ] } ] }
   },
   {
@@ -90,9 +84,8 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
     "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_MANA", "multiply": 0.15 } ] } ] }
   },
   {
@@ -106,9 +99,8 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
     "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.05 } ] } ] }
   },
   {
@@ -122,9 +114,8 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
     "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.10 } ] } ] }
   },
   {
@@ -138,9 +129,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MAX_STAMINA", "multiply": 0.15 } ] } ] }
   },
   {
@@ -154,9 +143,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -10 } ] } ] }
   },
   {
@@ -170,9 +157,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -20 } ] } ] }
   },
   {
@@ -186,9 +171,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "MOVE_COST", "add": -30 } ] } ] }
   },
   {
@@ -202,9 +185,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "STR1" ] } ] }
   },
   {
@@ -218,9 +199,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "STR2" ] } ] }
   },
   {
@@ -234,9 +213,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "STR3" ] } ] }
   },
   {
@@ -250,9 +227,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INT1" ] } ] }
   },
   {
@@ -266,9 +241,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INT2" ] } ] }
   },
   {
@@ -282,9 +255,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INT3" ] } ] }
   },
   {
@@ -298,9 +269,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEX1" ] } ] }
   },
   {
@@ -314,9 +283,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEX2" ] } ] }
   },
   {
@@ -330,9 +297,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "DEX3" ] } ] }
   },
   {
@@ -346,9 +311,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER1" ] } ] }
   },
   {
@@ -362,9 +325,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER2" ] } ] }
   },
   {
@@ -378,9 +339,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PER3" ] } ] }
   },
   {
@@ -394,9 +353,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "INTIMIDATE" ] } ] }
   },
   {
@@ -410,9 +367,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PERSUASION" ] } ] }
   },
   {
@@ -426,9 +381,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "mutations": [ "LIE" ] } ] }
   },
   {
@@ -442,9 +395,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "hand_l", "hand_r" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "hand_l", "hand_r" ] } ],
         "charges_per_use": 1,
         "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": true, "level": 3, "need_worn": true },
 	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
@@ -461,9 +412,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "hand_l", "hand_r" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "hand_l", "hand_r" ] } ],
         "charges_per_use": 5,
         "use_action": { "type": "cast_spell", "spell_id": "healing", "no_fail": true, "level": 1, "need_worn": true },
 	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
@@ -480,9 +429,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "hand_l", "hand_r" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "hand_l", "hand_r" ] } ],
         "charges_per_use": 1,
         "use_action": { "type": "cast_spell", "spell_id": "sacred_flame", "no_fail": true, "level": 5, "need_worn": true },
 	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "15 m", "regenerate_ammo": true } },
@@ -499,9 +446,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "head" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "hand_l", "hand_r" ] } ],
         "charges_per_use": 1,
         "use_action": { "type": "cast_spell", "spell_id": "mu_c_spell_flamestrike", "no_fail": true, "level": 1, "need_worn": true },
 	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
@@ -518,9 +463,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_CUT", "add": -2 }, { "value": "ARMOR_BASH", "add": -2 }, { "value": "ARMOR_STAB", "add": -2 } ] } ] }  
   },
   {
@@ -534,9 +477,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_CUT", "add": -4 }, { "value": "ARMOR_BASH", "add": -4 }, { "value": "ARMOR_STAB", "add": -4 } ] } ] }
   },
   {
@@ -550,9 +491,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "ARMOR_CUT", "add": -6 }, { "value": "ARMOR_BASH", "add": -6 }, { "value": "ARMOR_STAB", "add": -6 } ] } ] }
   },
   {
@@ -566,9 +505,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 1 } ] } ] }
   },
   {
@@ -582,9 +519,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 2 } ] } ] }
   },
   {
@@ -598,9 +533,7 @@
     "weight": "0 g",
     "volume": "0 ml",
     "material": [ "superalloy" ],
-	"covers": [ "torso" ],
-    "warmth": 0,
-    "coverage": 0,
+    "armor": [ { "encumbrance": 0, "coverage": 0, "covers": [ "torso" ] } ],
 	"relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ALWAYS", "values": [ { "value": "BONUS_DODGE", "add": 3 } ] } ] }
   }
 ]

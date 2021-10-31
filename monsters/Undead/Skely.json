@@ -50,7 +50,6 @@
     "vision_night": 3,
     "harvest": "mr_bones",
     "special_attacks": [ [ "scratch", 10 ] ],
-    "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "HARDTOSHOOT", "NO_BREATHE", "BASHES" ]
   },
   {
@@ -68,8 +67,8 @@
         { "item": "machete_rusted", "prob": 20 },
         { "item": "cavalry_sabre_rusted", "prob": 20 },
         { "item": "kris_rusted", "prob": 20 },
-        { "group": "shields_degraded", "prob": 20 },
-        { "item": "scimitar_rusted", "prob": 20 }
+        { "item": "scimitar_rusted", "prob": 20 },
+            { "group": "shields_all", "prob": 20, "damage": [ 2, 3 ] }
       ]
     }
   },
@@ -85,9 +84,9 @@
       "subtype": "distribution",
       "items": [
         { "item": "q_staff_moldy", "prob": 30 },
-        { "group": "shields_degraded", "prob": 20 },
         { "item": "cudgel_moldy", "prob": 40 },
-        { "item": "bokken_moldy", "prob": 30 }
+        { "item": "bokken_moldy", "prob": 30 },
+            { "group": "shields_all", "prob": 20, "damage": [ 2, 3 ] }
       ]
     }
   },
@@ -103,9 +102,9 @@
       "subtype": "distribution",
       "items": [
         { "item": "halberd_rusted", "prob": 30 },
-        { "group": "shields_degraded", "prob": 20 },
         { "item": "spear_steel_rusted", "prob": 40 },
-        { "item": "pike_rusted", "prob": 30 }
+        { "item": "pike_rusted", "prob": 30 },
+            { "group": "shields_all", "prob": 20, "damage": [ 2, 3 ] }
       ]
     }
   },
@@ -165,7 +164,6 @@
             { "item": "machete_rusted", "prob": 20 },
             { "item": "cavalry_sabre_rusted", "prob": 20 },
             { "item": "kris_rusted", "prob": 20 },
-            { "group": "shields_degraded", "prob": 20 },
             { "item": "scimitar_rusted", "prob": 20 }
           ]
         },
@@ -179,7 +177,8 @@
               ],
               "prob": 50
             },
-            { "item": "chainmail_suit", "prob": 50, "damage": [ 2, 3 ] }
+            { "item": "chainmail_suit", "prob": 50, "damage": [ 2, 3 ] },
+            { "group": "shields_all", "prob": 20, "damage": [ 2, 3 ] }
           ]
         }
       ]
@@ -213,7 +212,7 @@
               "prob": 50
             },
             { "item": "chainmail_suit", "prob": 50, "damage": [ 2, 3 ] },
-            { "group": "shields_degraded", "prob": 20 }
+            { "group": "shields_all", "prob": 20, "damage": [ 2, 3 ] }
           ]
         }
       ]
@@ -247,7 +246,7 @@
               "prob": 50
             },
             { "item": "chainmail_suit", "prob": 50, "damage": [ 2, 3 ] },
-            { "group": "shields_degraded", "prob": 20 }
+            { "group": "shields_all", "prob": 20, "damage": [ 2, 3 ] }
           ]
         }
       ]

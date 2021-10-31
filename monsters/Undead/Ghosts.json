@@ -28,7 +28,7 @@
     "harvest": "exempt",
     "vision_day": 32,
     "vision_night": 12,
-    "death_function": [ "MELT" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "special_attacks": [ { "type": "spell", "spell_data": { "id": "smite", "min_level": 2 }, "cooldown": 20, "monster_message": "<color_yellow>%1$s lifts their blade!</color>" } ],
     "flags": [ "SEES", "HEARS", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
   },
@@ -57,7 +57,7 @@
     "harvest": "exempt",
     "vision_day": 32,
     "vision_night": 12,
-    "death_function": [ "MELT" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE" ]
   },
  {
@@ -87,7 +87,7 @@
     "vision_night": 20,
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
     "placate_triggers": [ "MEAT" ],
-    "death_function": [ "MELT" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "special_attacks": [ [ "PARROT_AT_DANGER", 0 ] ],
     "flags": [
       "ANIMAL",
@@ -128,14 +128,13 @@
     "anger_triggers": [ "FRIEND_ATTACKED" ],
     "fear_triggers": [ "SOUND" ],
     "placate_triggers": [ "PLAYER_WEAK" ],
-    "death_function": [ "MELT" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "harvest": "exempt",
     "flags": [
       "SEES",
       "HEARS",
       "SMELLS",
       "ANIMAL",
-      "CATTLEFODDER",
       "PET_WONT_FOLLOW",
       "PET_MOUNTABLE",
       "PATH_AVOID_DANGER_1"

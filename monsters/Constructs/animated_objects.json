@@ -33,7 +33,7 @@
     "melee_dice_sides": 8,
     "melee_cut": 5,
     "dodge": 4,
-    "death_function": [ "MELT" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "special_attacks": [ { "id": "slam", "damage_max_instance": [ { "damage_type": "bash", "amount": 40, "armor_multiplier": 0.6 } ] } ],
     "death_drops": {
       "subtype": "collection",
@@ -67,7 +67,7 @@
     "melee_dice_sides": 8,
     "melee_cut": 30,
     "dodge": 4,
-    "death_function": [ "MELT" ],   
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "special_attacks": [ { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 30, "armor_multiplier": 0.6 } ] } ],
     "death_drops": {
       "subtype": "collection",
@@ -107,7 +107,7 @@
     "vision_night": 20,
     "material": [ "steel" ],
     "harvest": "exempt",
-    "death_function": [ "MELT" ],    
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },    
     "special_attacks": [ { "id": "slam", "damage_max_instance": [ { "damage_type": "bash", "amount": 40, "armor_multiplier": 0.6 } ] } ],
     "flags": [ "SEES", "NOHEAD", "HARDTOSHOOT", "FLIES", "PRIORITIZE_TARGETS", "NO_BREATHE", "NOGIB" ]
   }

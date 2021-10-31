@@ -15,7 +15,7 @@
 	   "update_mapgen": { "place_monster": [ { "monster": "mon_black_rat", "pack_size": [ 6, 6 ], "x": 8, "y": 8, "target": true } ] }
 		},
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 10 },
+		{ "u_spawn_item": "silver_coin", "count": 10 },
 		{ "u_add_var": "RAT_SLAY_1", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
@@ -47,7 +47,7 @@
 	   "update_mapgen": { "place_monster": [ { "monster": "mon_blob", "pack_size": [ 6, 6 ], "x": 8, "y": 8, "target": true } ] }
     },
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 20 },
+		{ "u_spawn_item": "silver_coin", "count": 20 },
 		{ "u_add_var": "SLIME_SLAY_1", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
@@ -79,7 +79,7 @@
 	   "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_goblin", "pack_size": [ 6, 6 ], "x": 8, "y": 8, "target": true } ] }
     },
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 30 },
+		{ "u_spawn_item": "silver_coin", "count": 30 },
 		{ "u_add_var": "GOBLINS_SLAY_1", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,

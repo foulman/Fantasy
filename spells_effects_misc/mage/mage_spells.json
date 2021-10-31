@@ -718,7 +718,7 @@
     "type": "SPELL",
     "name": "Minor Teleportation",
     "description": "You teleport yourself within a short range.",
-    "effect": "teleport_random",
+    "effect": "short_range_teleport",
     "shape": "blast",
     "skill": "spellcraft",
     "valid_targets": [ "none" ],
