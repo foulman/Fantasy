@@ -51,16 +51,27 @@
 {
     "type": "talk_topic",
     "id": "TALK_GODS",
-    "dynamic_line": [ "Oh, dear. That'll take a long time to explain." ],
+    "dynamic_line": [ "Well, there are four gods: Nero, Cassandra, Ajax, and Vernon. Nero is the god of twighlight, Cassandra the goddess of light, Ajax takes dominion over war, and Vernon over life." ],
     "responses": [
 		{
 		"text": "Okay.",
 		"topic": "TALK_DONE"
 		},
                 {
-		"text": "What were you saying?",
-		"topic": "TALK_CHURCH"
+		"text": "What did they do, exactly?",
+		"topic": "TALK_CREATION_STORY"
 		}
     ]
-  }
+  },
+{
+    "type": "talk_topic",
+    "id": "TALK_CREATION_STORY",
+    "dynamic_line": [ "Well now. In ancient times, the world was a formless, dark place. Cold stone dominated the landscape, and was all. The gods came to the world one day, and together they shaped it in their image. Cassandra lit her fire, and melded the dominating stone. Ajax lifted his mighty pick, and struck the molten earth to form. They traveled across doing the same; though some places where they had been began to cool. Taking advantage of this, Nero entered this place, and from it sprung the beginnings of life. Vernon came to this primordial place; and with her power shaped life to her image. So the world began there." ],
+    "responses": [
+                {
+		"text": "Thanks.",
+		"topic": "TALK_DONE"
+		}
+                ]
+}
 ]

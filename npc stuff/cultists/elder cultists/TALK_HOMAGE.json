@@ -82,7 +82,7 @@
 		"text": "I'll take one.",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 50 } },
-		"effect": [ { "u_buy_item": "potion_eldritch_power", "count": 1 }, { "u_sell_item": "silver_coin", "count": 50 } ]
+		"effect": [ { "u_spawn_item": "potion_eldritch_power", "count": 1 }, { "u_sell_item": "silver_coin", "count": 50 } ]
 		},
 		{
 		"text": "No, thank you.",

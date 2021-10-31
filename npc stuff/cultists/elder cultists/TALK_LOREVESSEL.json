@@ -15,7 +15,7 @@
                      "text": "I heard you have the Homage's reference notes.",  
                      "topic": "TALK_DONE",
                      "condition": { "u_has_mission": "MISSION_RITUAL2" },
-                     "effect": { "u_buy_item": "spell_scroll_sacrifice" } } ]
+                     "effect": { "u_spawn_item": "spell_scroll_sacrifice" } } ]
    },
 {
     "id": "TALK_INTRO2",

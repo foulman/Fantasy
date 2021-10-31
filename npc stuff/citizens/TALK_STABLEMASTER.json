@@ -14,7 +14,7 @@
 		"text": "Tack, you say? (25 silver)",
 		"topic": "TALK_SOLD",
                 "condition": { "u_has_items": { "item": "silver_coin", "count": 25 } },
-		"effect": [ { "u_buy_item": "horse_tack" }, { "u_sell_item": "silver_coin", "count": 25 } ]
+		"effect": [ { "u_spawn_item": "horse_tack" }, { "u_sell_item": "silver_coin", "count": 25 } ]
 		},
                 {
 		"text": "How much are your goods?",

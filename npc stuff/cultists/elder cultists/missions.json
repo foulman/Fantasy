@@ -37,7 +37,7 @@
     "followup": "MISSION_PRIVACY_FENCE2",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 20 }
+		{ "u_spawn_item": "silver_coin", "count": 20 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -65,7 +65,7 @@
     "followup": "MISSION_PRIVACY_FENCE3",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 20 }
+		{ "u_spawn_item": "silver_coin", "count": 20 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -93,7 +93,7 @@
     "followup": "MISSION_PROMOTION",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 75 }
+		{ "u_spawn_item": "silver_coin", "count": 75 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -121,7 +121,7 @@
     "followup": "MISSION_RITUAL",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "cult_robes_ritual" },
+		{ "u_spawn_item": "cult_robes_ritual" },
                 { "u_add_var": "ONOCTI", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
@@ -150,7 +150,7 @@
     "followup": "MISSION_RITUAL2",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 15 }
+		{ "u_spawn_item": "copper_coin", "count": 15 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -178,7 +178,7 @@
     "followup": "MISSION_RITUAL3",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 5 }
+		{ "u_spawn_item": "copper_coin", "count": 5 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -206,8 +206,8 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 15 },
-                { "u_buy_item": "spell_scroll_wtrance", "count": 1 },
+		{ "u_spawn_item": "silver_coin", "count": 15 },
+                { "u_spawn_item": "spell_scroll_wtrance", "count": 1 },
                 { "npc_add_var": "has_notes", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
@@ -236,7 +236,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 30 }
+		{ "u_spawn_item": "copper_coin", "count": 30 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -264,7 +264,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 30 }
+		{ "u_spawn_item": "copper_coin", "count": 30 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -291,8 +291,8 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 15 },
-                { "u_buy_item": "potion_eldritch_power", "count": 1 },
+		{ "u_spawn_item": "silver_coin", "count": 15 },
+                { "u_spawn_item": "potion_eldritch_power", "count": 1 },
                 { "npc_add_var": "sells_epotion", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
@@ -320,7 +320,7 @@
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 15 }
+		{ "u_spawn_item": "copper_coin", "count": 15 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -350,10 +350,10 @@
       "update_mapgen": { "place_monster": [ { "monster": "mon_shyleggah", "x": 11, "y": 11, "target": true } ] }
     },
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 5 },
-		{ "u_buy_item": "cult_robes_defender" },
-		{ "u_buy_item": "scabbard" },
-                { "u_buy_item": "arming_sword" },
+		{ "u_spawn_item": "silver_coin", "count": 5 },
+		{ "u_spawn_item": "cult_robes_defender" },
+		{ "u_spawn_item": "scabbard" },
+                { "u_spawn_item": "arming_sword" },
                 { "u_add_var": "TRAIN_ELIGEBLE", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
@@ -384,7 +384,7 @@
       "update_mapgen": { "place_npcs": [ { "class": "psycho_cult_member", "x": 8, "y": 17, "target": true } ] }
     },
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 20 }
+		{ "u_spawn_item": "silver_coin", "count": 20 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -417,7 +417,7 @@
 					 { "class": "bandit_mtc", "x": 3, "y": 19, "target": true } ] }
     },
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 90 }
+		{ "u_spawn_item": "silver_coin", "count": 90 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -446,8 +446,7 @@
       "update_mapgen": { "place_npcs": [ { "class": "mercenary_friendly", "x": 6, "y": 9, "target": true } ] }
     },
     "end": { "effect": [
-		
-		{ "u_buy_item": "silver_coin", "count": 5 }
+		{ "u_spawn_item": "silver_coin", "count": 5 }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {

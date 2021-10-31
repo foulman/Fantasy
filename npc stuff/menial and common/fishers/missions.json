@@ -15,7 +15,7 @@
        "assign_mission_target": { "om_terrain": "river", "reveal_radius": 1, "random": true, "search_range": 5, "min_distance": 1 },
 	   "update_mapgen": { "place_monster": [ { "monster": "mon_fish_sbass", "pack_size": [ 1, 2 ], "x": 8, "y": 8, "target": true } ] }
     },
-	"end": { "effect": [ { "u_buy_item": "silver_coin", "count": 3 } ] },
+	"end": { "effect": [ { "u_spawn_item": "silver_coin", "count": 3 } ] },
 	"has_generic_rewards": false,
 	"dialogue": {
       "describe": "",

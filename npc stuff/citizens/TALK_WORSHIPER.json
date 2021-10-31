@@ -2,7 +2,7 @@
   {
     "type": "talk_topic",
     "id": "TALK_WORSHIPER",
-    "dynamic_line": [ "Blessings unto you.", "May the gods guide you.", "Come to worship?.", "Within this time, the divine shall prevail. Do good to recall this, child." ],
+    "dynamic_line": [ "Blessings unto you.", "May the gods guide you.", "Come to worship?.", "Within this time, the divine shall prevail." ],
     "responses": [
 		{
 		"text": "Okay.",

@@ -15,8 +15,8 @@
 	   "update_mapgen": { "place_monster": [ { "monster": "mon_mtc_dragon_fire_young", "pack_size": [ 1, 1 ], "x": 8, "y": 8, "target": true } ] }
     },
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 50 },
-		{ "u_buy_item": "dragonslayer_recommendation", "count": 1 },
+		{ "u_spawn_item": "silver_coin", "count": 50 },
+		{ "u_spawn_item": "dragonslayer_recommendation", "count": 1 },
 		{ "u_add_var": "DRAGON_SLAY_1", "type": "general", "context": "mission", "value": "yes" }
 		] },
 	"has_generic_rewards": false,
