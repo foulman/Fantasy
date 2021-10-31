@@ -14,8 +14,8 @@
             "ssfffffffffffffffffff3ss",
             " soosqffffffffffffqsoos ",
             "    sffffffffffffffs    ",
-            "    s3fffffffffffffs    ",
-            "    offffffffffffffo    ",
+            "    s4tfffffffffff3s    ",
+            "    ottffffffffffffo    ",
             "    offffffffffffffo    ",
             "    sqffffffffffffqs    ",
             "    offffffffffffffo    ",
@@ -38,7 +38,8 @@
       "palettes": [ "wizard_academy" ],
       "npcs": {
 		"1": { "class": "receptionist" },
-                "3": { "class": "academy_apprentice" }
+                "3": { "class": "academy_apprentice" },
+                "4": { "class": "silver_ivy_dean" }
 		}
     }
   },
@@ -203,7 +204,7 @@
             "s`2`2`2`sff<ffsqrBBr^r/s",
             "orrrrrrrsff>ffsrrrrrrrKs",
             "orrrrrrrdfffffdrrrrrrrro",
-            "orrrrrrrsfffffsrrrrrrrro",
+            "or6rrrrrsfffffsrr7rrrrro",
             "s```r``qsfffffs----r---s",
             "ssssdssssfffffsssssdssss",
             "fffffffffffqffffffffffff",
@@ -243,7 +244,9 @@
 		"1": { "class": "first_year_instructor" },
                 "3": { "class": "second_year_instructor" },
                 "4": { "class": "third_year_instructor" },
-                "5": { "class": "fourth_year_instructor" }
+                "5": { "class": "fourth_year_instructor" },
+                "6": { "class": "infusion_instructor" },
+                "7": { "class": "alchemy_instructor" }
 		}
     }
   },
@@ -354,15 +357,15 @@
             "orrrrrrrdffqffsrrrrrrrro",
             "orrrrrrqsfffffsqrrrrrrro",
             "sssssssssfffffssssssssss",
-            "srrrrrrrsfffffs$$$$$$$$s",
-            "orrrrrrrsfffffs$rrr2rrro",
-            "orrrrrrrdfffffdrrr^^^rro",
+            "srttTTTTsfffffs$$$$$$$$s",
+            "orrrDcccsfffffs$rrr2rrro",
+            "orrrrDrrdfffffdrrr^^^rro",
             "orrrrrrrsfffffs$rrrrrrro",
             "srrrrrrqsfffffsqrrrrrr$s",
             "sssssssssffqffs$rrrrrr$s",
-            "sqrrrrrrsfffffs$rrrrrr$s",
-            "orrrrrrrsfffffs$rrrrrrro",
-            "orrrrrrrdfffffdrrrrrrrro",
+            "sqrrTcccsfffffs$rrrrrr$s",
+            "orrBTTbbsfffffs$rrrrrrro",
+            "orrrTbrrdfffffdrrrrrrrro",
             "orrrrrrrsfffffsrrrrrrrro",
             "srrrrrrrsfffffsqr$$$$$$s",
             "sssssssssooooossssssssss"
