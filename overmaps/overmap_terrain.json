@@ -943,5 +943,21 @@
     "sym": "t",
     "see_cost": 1,
     "color": "light_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "ruined_citadel_blank",
+    "name": "fortress",
+    "sym": "f",
+    "see_cost": 1,
+    "color": "light_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "ruined_citadel_important",
+    "name": "fortress",
+    "sym": "f",
+    "see_cost": 1,
+    "color": "light_gray"
   }
 ]

@@ -697,6 +697,21 @@
 	},
 {
     "type": "item_group",
+    "id": "NPC_acolyte_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "footrags" },
+      { "item": "tunic" },
+      { "item": "leather_belt" },
+      { "item": "pants_leather" },
+      { "item": "boots" },
+      { "item": "leather_pouch" },
+      { "item": "holy_symbol_wood" }
+    ]
+	},
+{
+    "type": "item_group",
     "id": "NPC_farmer_wield",
     "subtype": "collection",
     "entries": [ { "item": "2h_flail_wood" } ]
@@ -706,5 +721,11 @@
     "id": "NPC_miner_wield",
     "subtype": "collection",
     "entries": [ { "item": "pickaxe" } ]
+	},
+{
+    "type": "item_group",
+    "id": "NPC_acolyte_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "cleric_focus_staff" } ]
 	}
 ]

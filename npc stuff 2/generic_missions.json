@@ -14,7 +14,7 @@
     "deadline_high": 3,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 15 }
+		{ "u_spawn_item": "copper_coin", "count": 15 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -44,7 +44,7 @@
     "deadline_high": 6,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 45 }
+		{ "u_spawn_item": "copper_coin", "count": 45 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -74,7 +74,7 @@
     "deadline_high": 6,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 45 }
+		{ "u_spawn_item": "copper_coin", "count": 45 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -104,7 +104,7 @@
     "deadline_high": 7,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "silver_coin", "count": 5 }
+		{ "u_spawn_item": "silver_coin", "count": 5 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {
@@ -134,7 +134,7 @@
     "deadline_high": 6,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"end": { "effect": [
-		{ "u_buy_item": "copper_coin", "count": 25 }
+		{ "u_spawn_item": "copper_coin", "count": 25 }
 		] },
 	"has_generic_rewards": false,
 	"dialogue": {

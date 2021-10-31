@@ -57,7 +57,7 @@
     "name": "Bites The Dust",
     "description": "Originating from the lands of the Kath, this spell infects the eye of the target, destroying them, whilst healing the user. However, the kickback can be quite intense.",
     "valid_targets": [ "hostile" ],
-    "message": "Another one bites the dust.",
+    "message": "Another one bites the dust...",
     "min_damage": 10000,
     "max_damage": 10000,
     "damage_increment": 0,
