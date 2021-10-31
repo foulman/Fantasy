@@ -38,7 +38,7 @@
     "vision_night": 5,
 	"vision_day": 15,
     "harvest": "exempt",
-    "death_function": [ "DISINTEGRATE" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "NOHEAD", "WARM", "FIREY", "FIREPROOF", "NO_BREATHE", "PLASTIC" ]
   },
 {
@@ -69,7 +69,7 @@
     "vision_night": 0,
     "harvest": "exempt",
     "anger_triggers": [ "PLAYER_CLOSE" ],
-    "death_function": [ "MELT" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [
       "SEES",
       "HEARS",
@@ -109,7 +109,7 @@
     "vision_night": 0,
     "harvest": "exempt",
     "anger_triggers": [ "PLAYER_CLOSE" ],
-    "death_function": [ "MELT" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [
       "SEES",
       "HEARS",
@@ -156,7 +156,7 @@
     "vision_night": 15,
     "vision_day": 30,
     "harvest": "exempt",
-    "death_function": [ "DISINTEGRATE" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "WARM", "FIREY", "FIREPROOF", "NO_BREATHE", "PLASTIC" ]
   },
 {
@@ -188,7 +188,7 @@
     "harvest": "exempt",
     "vision_day": 15,
     "vision_night": 30,
-    "death_function": [ "DISINTEGRATE" ],
+    "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "NO_BREATHE" ]
   }
 ]

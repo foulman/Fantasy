@@ -27,7 +27,6 @@
     "vision_night": 5,
     "harvest": "arachnid",
     "anger_triggers": [ "HURT" ],
-    "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "HEARS", "VENOM", "WEBWALK", "CLIMBS", "PUSH_MON", "PATH_AVOID_FIRE", "PET_MOUNTABLE" ]
   } 
 ]

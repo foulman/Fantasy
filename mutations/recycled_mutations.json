@@ -2,684 +2,187 @@
  {
     "type": "mutation",
     "id": "LEG_TENTACLES",
-    "name": { "str": "Leg Tentacles" },
-    "points": -4,
-    "visibility": 8,
-    "ugliness": 4,
-    "mixed_effect": true,
-    "description": "Your legs have transformed into six tentacles.  This decreases your speed on land by 20%, makes your movement silent, increases your swimming speed, and reduces wet penalties.",
-    "types": [ "LEGS" ],
-    "leads_to": [ "LEG_TENT_BRACE" ],
-    "movecost_swim_modifier": 0.85,
-    "category": [ "CEPHALOPOD", "BLOOD" ],
-    "wet_protection": [
-      { "part": "leg_l", "neutral": 21 },
-      { "part": "leg_r", "neutral": 21 },
-      { "part": "foot_l", "neutral": 6 },
-      { "part": "foot_r", "neutral": 6 }
-    ],
-    "restricts_gear": [ "foot_l", "foot_r" ],
-    "movecost_modifier": 1.2,
-    "noise_modifier": 0.0
+    "copy-from": "LEG_TENTACLES",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "ARM_TENTACLES_8",
-    "name": { "str": "8 Tentacles" },
-    "points": -1,
-    "visibility": 9,
-    "ugliness": 6,
-    "description": "Your arms have transformed into eight tentacles, resulting in a bonus of 1 to Dexterity, permanent hand encumbrance of 30, and inability to wear gloves.  You can make up to 7 extra attacks with them.  Somewhat decreases wet penalties.",
-    "encumbrance_always": [ [ "hand_l", 30 ], [ "hand_r", 30 ] ],
-    "restricts_gear": [ "hand_l", "hand_r" ],
-    "types": [ "HANDS" ],
-    "prereqs": [ "ARM_TENTACLES_4" ],
-    "leads_to": [ "CLAWS_TENTACLE" ],
-    "category": [ "CEPHALOPOD", "BLOOD" ],
-    "wet_protection": [
-      { "part": "arm_l", "neutral": 19 },
-      { "part": "arm_r", "neutral": 19 },
-      { "part": "hand_l", "neutral": 5 },
-      { "part": "hand_r", "neutral": 5 }
-    ],
-    "attacks": [
-      {
-        "attack_text_u": "You slap %s with your tentacle",
-        "attack_text_npc": "%1$s slaps %2$s with their tentacle",
-        "blocker_mutations": [ "CLAWS_TENTACLE" ],
-        "chance": 1,
-        "hardcoded_effect": true
-      },
-      {
-        "attack_text_u": "You rake %s with your tentacle",
-        "attack_text_npc": "%1$s rakes %2$s with their tentacle",
-        "required_mutations": [ "CLAWS_TENTACLE" ],
-        "chance": 1,
-        "hardcoded_effect": true
-      }
-    ],
-    "passive_mods": { "dex_mod": 1 }
-  },
-  {
-    "type": "mutation",
-    "id": "ARM_TENTACLES",
-    "name": { "str": "Tentacle Arms" },
-    "points": -4,
-    "visibility": 7,
-    "ugliness": 4,
-    "mixed_effect": true,
-    "description": "Your arms have transformed into tentacles, resulting in a bonus of 1 to Dexterity, permanent hand encumbrance of 30, and inability to wear gloves.  Somewhat decreases wet penalties.",
-    "encumbrance_always": [ [ "hand_l", 30 ], [ "hand_r", 30 ] ],
-    "restricts_gear": [ "hand_l", "hand_r" ],
-    "types": [ "HANDS" ],
-    "leads_to": [ "CLAWS_TENTACLE" ],
-    "changes_to": [ "ARM_TENTACLES_4" ],
-    "cancels": [ "NAILS", "CLAWS", "TALONS", "WEBBED" ],
-    "wet_protection": [
-      { "part": "arm_l", "neutral": 19 },
-      { "part": "arm_r", "neutral": 19 },
-      { "part": "hand_l", "neutral": 5 },
-      { "part": "hand_r", "neutral": 5 }
-    ],
-    "attacks": [
-      {
-        "attack_text_u": "You slap %s with your tentacle",
-        "attack_text_npc": "%1$s slaps %2$s with their tentacle",
-        "blocker_mutations": [ "CLAWS_TENTACLE" ],
-        "chance": 1,
-        "hardcoded_effect": true
-      },
-      {
-        "attack_text_u": "You rake %s with your tentacle",
-        "attack_text_npc": "%1$s rakes %2$s with their tentacle",
-        "required_mutations": [ "CLAWS_TENTACLE" ],
-        "chance": 1,
-        "hardcoded_effect": true
-      }
-    ],
-    "passive_mods": { "dex_mod": 1 }
-  },
-  {
-    "type": "mutation",
-    "id": "ARM_TENTACLES_4",
-    "name": { "str": "4 Tentacles" },
-    "points": -2,
-    "visibility": 8,
-    "ugliness": 5,
-    "description": "Your arms have transformed into four tentacles, resulting in a bonus of 1 to Dexterity, permanent hand encumbrance of 30, and inability to wear gloves.  You can make up to 3 extra attacks with them.  Somewhat decreases wet penalties.",
-    "encumbrance_always": [ [ "hand_l", 30 ], [ "hand_r", 30 ] ],
-    "restricts_gear": [ "hand_l", "hand_r" ],
-    "types": [ "HANDS" ],
-    "prereqs": [ "ARM_TENTACLES" ],
-    "leads_to": [ "CLAWS_TENTACLE" ],
-    "changes_to": [ "ARM_TENTACLES_8" ],
-    "wet_protection": [
-      { "part": "arm_l", "neutral": 19 },
-      { "part": "arm_r", "neutral": 19 },
-      { "part": "hand_l", "neutral": 5 },
-      { "part": "hand_r", "neutral": 5 }
-    ],
-    "attacks": [
-      {
-        "attack_text_u": "You slap %s with your tentacle",
-        "attack_text_npc": "%1$s slaps %2$s with their tentacle",
-        "blocker_mutations": [ "CLAWS_TENTACLE" ],
-        "chance": 1,
-        "hardcoded_effect": true
-      },
-      {
-        "attack_text_u": "You rake %s with your tentacle",
-        "attack_text_npc": "%1$s rakes %2$s with their tentacle",
-        "required_mutations": [ "CLAWS_TENTACLE" ],
-        "chance": 1,
-        "hardcoded_effect": true
-      }
-    ],
-    "passive_mods": { "dex_mod": 1 }
+    "copy-from": "ARM_TENTACLES_8",
+    "extend": { "category": [ "BLOOD" ] }
   },
 {
     "type": "mutation",
     "id": "SHOUT1",
-    "name": { "str": "Shouter" },
-    "points": -2,
-    "description": "You occasionally shout uncontrollably.",
-    "changes_to": [ "SHOUT2" ],
-    "category": [ "BLOOD", "RAPTOR" ]
+    "copy-from": "SHOUT1",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "SHOUT2",
-    "name": { "str": "Screamer" },
-    "points": -3,
-    "description": "You sometimes scream uncontrollably.",
-    "prereqs": [ "SHOUT1" ],
-    "changes_to": [ "SHOUT3" ],
-    "category": [ "BLOOD", "BEAST" ]
+    "copy-from": "SHOUT2",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "SHOUT3",
-    "name": { "str": "Howler" },
-    "points": -4,
-    "description": "You frequently let out a piercing howl.",
-    "prereqs": [ "SHOUT2" ],
-    "category": [ "CHIMERA", "LUPINE", "BLOOD" ]
+    "copy-from": "SHOUT3",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "GROWL",
-    "name": { "str": "Growling Voice" },
-    "points": -1,
-    "mixed_effect": true,
-    "description": "You have a growling, rough voice.  Persuading NPCs will be more difficult, but threatening them will be easier.",
-    "changes_to": [ "SNARL" ],
-    "category": [ "RAT", "BLOOD", "URSINE", "LUPINE" ],
-    "social_modifiers": { "persuade": -20, "lie": -10, "intimidate": 10 }
-  },
-  {
-    "type": "mutation",
-    "id": "SNARL",
-    "name": { "str": "Snarling Voice" },
-    "points": -2,
-    "mixed_effect": true,
-    "description": "You have a threatening snarl in your voice.  Persuading NPCs will be near impossible, but threatening them will be much easier.",
-    "prereqs": [ "GROWL" ],
-    "category": [ "BEAST", "BLOOD", "CHIMERA", "FELINE", "LUPINE" ],
-    "social_modifiers": { "persuade": -60, "lie": -40, "intimidate": 20 }
+    "copy-from": "GROWL",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "HISS",
-    "name": { "str": "Hissing Voice" },
-    "mixed_effect": true,
-    "points": -1,
-    "description": "You hiss when speaking.  Persuading NPCs will be more difficult, but threatening them will be easier.",
-    "category": [ "LIZARD", "BLOOD", "RAPTOR" ],
-    "social_modifiers": { "persuade": -20, "lie": -10, "intimidate": 10 }
+    "copy-from": "HISS",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "CARNIVORE",
-    "name": { "str": "Carnivore" },
-    "points": -4,
-    "description": "Your body's ability to digest fruits, vegetables, grains and nuts is severely hampered.  You cannot eat anything besides meat.",
-    "cancels": [ "VEGETARIAN", "HERBIVORE", "RUMINANT", "GRAZER" ],
-    "leads_to": [ "SAPROVORE" ],
-    "category": [ "LIZARD", "BLOOD", "BEAST", "SPIDER", "CHIMERA", "RAPTOR", "FELINE" ],
-    "vitamin_rates": [ [ "vitC", -1200 ] ]
+    "copy-from": "CARNIVORE",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "PONDEROUS1",
-    "name": { "str": "Ponderous" },
-    "points": -3,
-    "description": "Your muscles are generally slow to move.  You move 10% slower.",
-    "types": [ "RUNNING" ],
-    "changes_to": [ "PONDEROUS2" ],
-    "category": [ "BLOOD", "URSINE" ],
-    "movecost_modifier": 1.1
+    "copy-from": "PONDEROUS1",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "PONDEROUS2",
-    "name": { "str": "Very Ponderous" },
-    "points": -5,
-    "description": "Your muscles are quite slow to move.  You move 20% slower.",
-    "types": [ "RUNNING" ],
-    "prereqs": [ "PONDEROUS1" ],
-    "changes_to": [ "PONDEROUS3" ],
-    "category": [ "BLOOD", "CATTLE" ],
-    "movecost_modifier": 1.2
+    "copy-from": "PONDEROUS2",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "PONDEROUS3",
-    "name": { "str": "Extremely Ponderous" },
-    "points": -6,
-    "description": "Your muscles are very slow to move.  You move 30% slower.",
-    "types": [ "RUNNING" ],
-    "prereqs": [ "PONDEROUS2" ],
-    "category": [ "BLOOD", "PLANT" ],
-    "movecost_modifier": 1.3
+    "copy-from": "PONDEROUS3",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "BIOLUM0",
-    "name": { "str": "Reflex Photophore" },
-    "points": -1,
-    "description": "A photophore has grown from your head.  You can't consciously control it, and it might start to shine in response to your emotions or your physiological state.",
-    "cost": 1,
-    "time": 810000,
-    "hunger": true,
-    "encumbrance_covered": [ [ "head", 5 ] ],
-    "changes_to": [ "BIOLUM1" ],
-    "category": [ "BLOOD", "ELFA", "INSECT", "FISH" ],
-    "triggers": [
-      [
-        {
-          "trigger_type": "MOOD",
-          "threshold_low": 20,
-          "msg_on": { "text": "You're so happy you're glowing!", "rating": "mixed" }
-        },
-        {
-          "trigger_type": "HUNGER",
-          "threshold_low": 110,
-          "msg_on": { "text": "You're feeling hungry, time to lure some preys!", "rating": "mixed" }
-        }
-      ]
-    ],
-    "transform": { "target": "BIOLUM0_active", "msg_transform": "Your photophore starts glowing.", "active": true, "moves": 10 }
-  },
-  {
-    "type": "mutation",
-    "id": "BIOLUM0_active",
-    "name": { "str": "Reflex Photophore (on)" },
-    "points": -1,
-    "description": "A photophore has grown from your head.  You can't consciously control it, and it might start to shine in response to your emotions or your physiological state.",
     "copy-from": "BIOLUM0",
-    "valid": false,
-    "triggers": [
-      [
-        { "trigger_type": "MOOD", "threshold_low": 20, "msg_off": { "text": "Your glow fades.", "rating": "mixed" } },
-        {
-          "trigger_type": "HUNGER",
-          "threshold_low": 110,
-          "msg_off": { "text": "Your glow fades.", "rating": "mixed" }
-        }
-      ]
-    ],
-    "transform": { "target": "BIOLUM0", "msg_transform": "Your photophore stops glowing.", "active": false, "moves": 10 },
-    "lumination": [ [ "head", 8 ] ]
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "BIOLUM1",
-    "name": { "str": "Weak Photophore" },
-    "points": 1,
-    "description": "A photophore has grown from your head, you can make it glow softly.  This will make you very visible in the dark, ideal to attract a partner during mating season.",
-    "active": true,
-    "cost": 1,
-    "time": 810000,
-    "hunger": true,
-    "encumbrance_covered": [ [ "head", 5 ] ],
-    "prereqs": [ "BIOLUM0" ],
-    "changes_to": [ "BIOLUM2" ],
-    "transform": { "target": "BIOLUM1_active", "msg_transform": "Your photophore starts glowing.", "active": true, "moves": 10 },
-    "category": [ "BLOOD", "ELFA", "INSECT", "FISH" ]
-  },
-  {
-    "type": "mutation",
-    "id": "BIOLUM1_active",
-    "name": { "str": "Weak Photophore (on)" },
-    "description": "Your photophore is glowing softly.",
     "copy-from": "BIOLUM1",
-    "valid": false,
-    "transform": { "target": "BIOLUM1", "msg_transform": "Your photophore stops glowing.", "active": false, "moves": 10 },
-    "lumination": [ [ "head", 8 ] ]
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "BIOLUM2",
-    "name": { "str": "Photophore" },
-    "points": 2,
-    "description": "You can make your photophore glow brightly.",
-    "active": true,
-    "cost": 1,
-    "time": 405000,
-    "hunger": true,
-    "encumbrance_covered": [ [ "head", 5 ] ],
-    "prereqs": [ "BIOLUM1" ],
-    "category": [ "BLOOD", "ELFA", "INSECT", "FISH" ],
-    "transform": { "target": "BIOLUM2_active", "msg_transform": "Your photophore starts glowing.", "active": true, "moves": 10 }
-  },
-  {
-    "type": "mutation",
-    "id": "BIOLUM2_active",
-    "name": { "str": "Photophore (on)" },
-    "description": "You photophore is glowing brightly.",
     "copy-from": "BIOLUM2",
-    "valid": false,
-    "transform": { "target": "BIOLUM2", "msg_transform": "Your photophore stops glowing.", "active": false, "moves": 10 },
-    "lumination": [ [ "head", 20 ] ]
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "PAINRESIST",
-    "name": { "str": "Pain Resistant" },
-    "points": 2,
-    "description": "You have a high tolerance for pain.",
-    "starting_trait": true,
-    "valid": false,
-    "cancels": [ "MORE_PAIN", "MORE_PAIN2", "MORE_PAIN3" ],
-    "category": [ "BLOOD", "MEDICAL" ]
+    "copy-from": "PAINRESIST",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "NIGHTVISION",
-    "name": { "str": "Night Vision" },
-    "points": 2,
-    "description": "You possess natural night vision, and can see further in the dark than most.  Activate to toggle NV-visible areas on or off.",
-    "starting_trait": true,
-    "changes_to": [ "NIGHTVISION2" ],
-    "cancels": [ "ELFA_NV", "ELFA_FNV", "FEL_NV", "URSINE_EYE" ],
-    "category": [ "BLOOD", "BIRD", "CATTLE", "INSECT" ],
-    "active": true,
-    "starts_active": true
+    "copy-from": "NIGHTVISION",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "POISRESIST",
-    "name": { "str": "Poison Resistant" },
-    "points": 1,
-    "description": "Your system is rather tolerant of poisons and toxins, and most will affect you less.",
-    "starting_trait": true,
-    "leads_to": [ "EATPOISON" ],
-    "category": [ "BLOOD", "INSECT", "SLIME", "SPIDER", "MEDICAL" ]
+    "copy-from": "POISRESIST",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "SCALES",
-    "name": { "str": "Scales" },
-    "points": 2,
-    "visibility": 10,
-    "ugliness": 3,
-    "description": "A set of flexible green scales has grown to cover your body, acting as natural armor.  Somewhat reduces wet effects.",
-    "types": [ "SKIN" ],
-    "category": [ "BLOOD", "CHIMERA", "RAPTOR", "LIZARD" ],
-    "prereqs": [ "SKIN_ROUGH" ],
-    "changes_to": [ "THICK_SCALES", "SLEEK_SCALES" ],
-    "movecost_swim_modifier": 0.9,
-    "wet_protection": [
-      { "part": "head", "ignored": 3 },
-      { "part": "leg_l", "ignored": 10 },
-      { "part": "leg_r", "ignored": 10 },
-      { "part": "foot_l", "ignored": 3 },
-      { "part": "foot_r", "ignored": 3 },
-      { "part": "arm_l", "ignored": 9 },
-      { "part": "arm_r", "ignored": 9 },
-      { "part": "hand_l", "ignored": 2 },
-      { "part": "hand_r", "ignored": 2 },
-      { "part": "torso", "ignored": 20 }
-    ],
-    "armor": [
-      {
-        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
-        "cut": 2
-      }
-    ]
+    "copy-from": "SCALES",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "THICK_SCALES",
-    "name": { "str": "Thick Scales" },
-    "points": 3,
-    "visibility": 10,
-    "ugliness": 4,
-    "mixed_effect": true,
-    "description": "A set of heavy green scales has grown to cover your body, acting as natural armor.  While difficult to penetrate, it also limits your flexibility, resulting in a -2 penalty to Dexterity.  Greatly reduces wet effects.",
-    "types": [ "SKIN" ],
-    "prereqs": [ "SCALES" ],
-    "threshreq": [ "THRESH_LIZARD" ],
-    "category": [ "BLOOD", "LIZARD" ],
-    "wet_protection": [
-      { "part": "head", "ignored": 5 },
-      { "part": "leg_l", "ignored": 16 },
-      { "part": "leg_r", "ignored": 16 },
-      { "part": "foot_l", "ignored": 5 },
-      { "part": "foot_r", "ignored": 5 },
-      { "part": "arm_l", "ignored": 14 },
-      { "part": "arm_r", "ignored": 14 },
-      { "part": "hand_l", "ignored": 4 },
-      { "part": "hand_r", "ignored": 4 },
-      { "part": "torso", "ignored": 30 }
-    ],
-    "armor": [
-      {
-        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
-        "cut": 4
-      }
-    ],
-    "passive_mods": { "dex_mod": -2 }
+    "copy-from": "THICK_SCALES",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "SLEEK_SCALES",
-    "name": { "str": "Sleek Scales" },
-    "points": 4,
-    "visibility": 10,
-    "ugliness": 4,
-    "description": "A set of very flexible and slick scales has grown to cover your body.  These act as weak natural armor, improve your ability to swim, and make you difficult to grab.  Mostly reduces wet effects.",
-    "types": [ "SKIN" ],
-    "prereqs": [ "SCALES" ],
-    "category": [ "BLOOD", "FISH" ],
-    "movecost_swim_modifier": 0.75,
-    "wet_protection": [
-      { "part": "head", "good": 7 },
-      { "part": "leg_l", "good": 21 },
-      { "part": "leg_r", "good": 21 },
-      { "part": "foot_l", "good": 6 },
-      { "part": "foot_r", "good": 6 },
-      { "part": "arm_l", "good": 19 },
-      { "part": "arm_r", "good": 19 },
-      { "part": "hand_l", "good": 5 },
-      { "part": "hand_r", "good": 5 },
-      { "part": "torso", "good": 40 }
-    ],
-    "armor": [
-      {
-        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
-        "cut": 1
-      }
-    ]
+    "copy-from": "SLEEK_SCALES",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "LIGHT_BONES",
-    "name": { "str": "Light Bones" },
-    "points": 2,
-    "description": "Your bones are very light.  This enables you to move and attack 10% faster, but also reduces your carrying weight by 20% and makes bashing attacks hurt a little more.",
-    "category": [ "BLOOD", "MOUSE" ],
-    "changes_to": [ "HOLLOW_BONES" ],
-    "movecost_modifier": 0.9,
-    "attackcost_modifier": 0.9,
-    "weight_capacity_modifier": 0.8
+    "copy-from": "LIGHT_BONES",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "FEATHERS",
-    "name": { "str": "Feathers" },
-    "points": 2,
-    "visibility": 10,
-    "ugliness": 3,
-    "bodytemp_modifiers": [ 50, 100 ],
-    "description": "Iridescent feathers have grown to cover your entire body, providing a marginal protection against attacks and minor protection from cold.  They also provide a natural waterproofing.",
-    "types": [ "SKIN" ],
-    "leads_to": [ "DOWN" ],
-    "prereqs": [ "SKIN_ROUGH" ],
-    "category": [ "BLOOD", "BIRD" ],
-    "armor": [
-      {
-        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
-        "bash": 1
-      }
-    ]
+    "copy-from": "FEATHERS",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "LIGHTFUR",
-    "name": { "str": "Lightly Furred" },
-    "points": 1,
-    "visibility": 6,
-    "ugliness": 2,
-    "bodytemp_modifiers": [ 250, 500 ],
-    "bodytemp_sleep": 100,
-    "description": "Light fur has grown to cover your entire body, providing slight protection from cold.",
-    "category": [ "BLOOD", "CHIMERA", "SPIDER", "MOUSE" ],
-    "types": [ "SKIN" ],
-    "prereqs": [ "SKIN_ROUGH" ],
-    "changes_to": [ "FUR", "FELINE_FUR", "LUPINE_FUR", "URSINE_FUR", "CHITIN_FUR" ]
+    "copy-from": "LIGHTFUR",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "FUR",
-    "name": { "str": "Furry" },
-    "points": 2,
-    "visibility": 10,
-    "ugliness": 3,
-    "bodytemp_modifiers": [ 750, 1500 ],
-    "bodytemp_sleep": 500,
-    "description": "Thick black fur has grown to cover your entire body, providing a marginal protection against attacks, and considerable protection from cold.",
-    "types": [ "SKIN" ],
-    "changes_to": [ "URSINE_FUR" ],
-    "prereqs": [ "LIGHTFUR" ],
-    "category": [ "BLOOD", "BEAST", "CATTLE", "RAT" ],
-    "armor": [
-      {
-        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
-        "bash": 1
-      }
-    ]
+    "copy-from": "FUR",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "URSINE_FUR",
-    "name": { "str": "Shaggy Fur" },
-    "points": 4,
-    "visibility": 10,
-    "ugliness": 3,
-    "bodytemp_modifiers": [ 750, 1500 ],
-    "bodytemp_sleep": 500,
-    "description": "Your fur has grown out and thickened, providing noticeable protection from attacks as well as considerable insulation.",
-    "types": [ "SKIN" ],
-    "prereqs": [ "LIGHTFUR" ],
-    "category": [ "BLOOD", "URSINE" ],
-    "armor": [
-      {
-        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
-        "bash": 1
-      }
-    ]
+    "copy-from": "URSINE_FUR",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "LUPINE_FUR",
-    "name": { "str": "Gray Fur" },
-    "points": 2,
-    "visibility": 10,
-    "ugliness": 3,
-    "bodytemp_modifiers": [ 750, 1500 ],
-    "bodytemp_sleep": 500,
-    "description": "Dense gray fur has grown to cover your entire body, providing a marginal protection against attacks, and considerable protection from cold.",
-    "types": [ "SKIN" ],
-    "prereqs": [ "LIGHTFUR" ],
-    "category": [ "BLOOD", "LUPINE" ],
-    "armor": [
-      {
-        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
-        "bash": 1
-      }
-    ]
+    "copy-from": "LUPINE_FUR",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "FELINE_FUR",
-    "name": { "str": "Sleek Fur" },
-    "points": 2,
-    "visibility": 10,
-    "ugliness": 3,
-    "bodytemp_modifiers": [ 500, 1000 ],
-    "bodytemp_sleep": 300,
-    "description": "You've grown sleek brown fur, providing some protection from cold.",
-    "types": [ "SKIN" ],
-    "prereqs": [ "LIGHTFUR" ],
-    "leads_to": [ "LYNX_FUR" ],
-    "category": [ "BLOOD", "BEAST", "FELINE", "MOUSE" ]
+    "copy-from": "FELINE_FUR",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "LYNX_FUR",
-    "name": { "str": "Lynx Fur" },
-    "points": 1,
-    "visibility": 8,
-    "ugliness": 1,
-    "description": "Your fur has grown out significantly around your cheeks and neck.  It provides minor protection against attacks.",
-    "types": [ "SKIN" ],
-    "prereqs": [ "FELINE_FUR" ],
-    "category": [ "BLOOD", "FELINE" ],
-    "armor": [ { "parts": [ "head", "mouth" ], "bash": 1 } ]
+    "copy-from": "LYNX_FUR",
+    "extend": { "category": [ "BLOOD" ] }
   },
   {
     "type": "mutation",
     "id": "CHITIN",
-    "name": { "str": "Chitinous Skin" },
-    "points": 2,
-    "visibility": 3,
-    "ugliness": 2,
-    "description": "Your epidermis has turned into a thin, flexible layer of chitin.  It provides minor protection from cutting wounds.  Slightly reduces wet effects.",
-    "types": [ "SKIN" ],
-    "prereqs": [ "SKIN_ROUGH" ],
-    "changes_to": [ "CHITIN2", "CHITIN_FUR" ],
-    "category": [ "BLOOD", "SPIDER" ],
-    "wet_protection": [
-      { "part": "head", "ignored": 1 },
-      { "part": "leg_l", "ignored": 5 },
-      { "part": "leg_r", "ignored": 5 },
-      { "part": "foot_l", "ignored": 1 },
-      { "part": "foot_r", "ignored": 1 },
-      { "part": "arm_l", "ignored": 4 },
-      { "part": "arm_r", "ignored": 4 },
-      { "part": "hand_l", "ignored": 1 },
-      { "part": "hand_r", "ignored": 1 },
-      { "part": "torso", "ignored": 10 }
-    ],
-    "armor": [
-      {
-        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
-        "bash": 2,
-        "cut": 2
-      }
-    ]
+    "copy-from": "CHITIN",
+    "extend": { "category": [ "BLOOD" ] }
   },
 {
     "type": "mutation",
     "id": "ENLARGE_HUGE",
-    "name": { "str": "Enlarged" },
-    "points": 2,
-    "visibility": 4,
-    "ugliness": 3,
-    "mixed_effect": true,
-    "description": "Your cardiovascular system has caught up with your muscular physique, so who needs pathetic human cars?  Strength +4.",
-    "passive_mods": { "str_mod": 4 },
-    "restricts_gear": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r", "hand_l", "hand_r", "head", "foot_l", "foot_r" ],
-    "destroys_gear": true,
-    "weight_capacity_modifier": 1.1
+    "copy-from": "ENLARGE_HUGE",
+    "extend": { "category": [ "BLOOD" ] }
   },
 {
     "type": "mutation",
     "id": "BARKSKIN",
-    "name": { "str": "Barkskin" },
-    "points": 5,
-    "visibility": 10,
-    "ugliness": 3,
-    "description": "Your skin is coated in a light bark, like that of a tree.  This provides resistance to cutting damage and minor protection from fire.  Greatly reduces wet effects.",
-    "types": [ "SKIN", "skin_tone" ],
-    "wet_protection": [
-      { "part": "head", "ignored": 5 },
-      { "part": "leg_l", "ignored": 16 },
-      { "part": "leg_r", "ignored": 16 },
-      { "part": "foot_l", "ignored": 5 },
-      { "part": "foot_r", "ignored": 5 },
-      { "part": "arm_l", "ignored": 14 },
-      { "part": "arm_r", "ignored": 14 },
-      { "part": "hand_l", "ignored": 4 },
-      { "part": "hand_r", "ignored": 4 },
-      { "part": "torso", "ignored": 30 }
-    ],
-    "armor": [
-      {
-        "parts": [ "torso", "arm_l", "arm_r", "hand_l", "hand_r", "leg_l", "leg_r", "foot_l", "foot_r", "mouth", "eyes" ],
-        "cut": 6, "bash": 2
-      }
-    ]
+    "copy-from": "BARKSKIN",
+    "extend": { "category": [ "BLOOD" ] }
   }
 ]

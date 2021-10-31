@@ -39,7 +39,6 @@
     "harvest": "demihuman",
     "vision_day": 15,
     "vision_night": 30,
-    "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE", "CAN_OPEN_DOORS" ]
   },
 {
@@ -149,7 +148,6 @@
     "path_settings": { "max_dist": 12 },
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
-    "death_function": [ "NORMAL" ],
     "special_attacks": [ [ "LUNGE", 15 ], [ "HOWL", 5 ] ],
     "flags": [ "SEES", "HEARS", "SMELLS", "GOODHEARING", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "HIT_AND_RUN" ]
   },
@@ -182,7 +180,6 @@
     "harvest": "demihuman",
     "vision_day": 25,
     "vision_night": 40,
-    "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "PATH_AVOID_DANGER_2", "NO_BREATHE", "CAN_OPEN_DOORS" ]
   },
 {
