@@ -8,7 +8,6 @@
     "dirty_transparency_cache": true,
     "outdoor_age_speedup": "0 turns",
     "priority": 8,
-    "light_emitted": 20,
     "half_life": "1 seconds",
     "phase": "plasma",
     "display_field": false
