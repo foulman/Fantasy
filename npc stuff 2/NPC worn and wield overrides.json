@@ -127,7 +127,7 @@
     "type": "item_group",
     "id": "NPC_female_citizen_wield",
     "subtype": "collection",
-    "entries": [ { "item": "knife_folding" } ]
+    "entries": [ { "item": "primitive_knife" } ]
 	},
 	{
     "type": "item_group",
@@ -147,7 +147,7 @@
     "type": "item_group",
     "id": "NPC_male_citizen_wield",
     "subtype": "collection",
-    "entries": [ { "item": "knife_folding" } ]
+    "entries": [ { "item": "primitive_knife" } ]
 	},
 	{
     "type": "item_group",
@@ -390,10 +390,10 @@
     "subtype": "collection",
     "items": [ { "item": "copper_coin", "count-min": 500, "count-max": 3000, "prob": 100 }, 
                { "item": "silver_coin", "count-min": 100, "count-max": 300, "prob": 100 },
-               { "group": "ingredients_all", "prob": 75, "repeat": [ 20, 70 ] },
-               { "group": "potions_all", "prob": 75, "repeat": [ 3, 5 ] },
-               { "group": "potions_lesser", "prob": 95, "repeat": [ 2, 5 ] },
-               { "group": "potions_mid", "prob": 85, "repeat": [ 2, 5 ] } ]
+               { "group": "ingredients_all", "prob": 75 },
+               { "group": "potions_all", "prob": 75 },
+               { "group": "potions_lesser", "prob": 95 },
+               { "group": "potions_mid", "prob": 85 } ]
   },
   {
     "type": "item_group", 
@@ -447,22 +447,22 @@
     "type": "item_group", 
     "id": "NPC_FISHER_shopkeep",
     "subtype": "collection",
-    "items": [ { "item": "salted_fish", "count-max": 30, "prob": 70, "repeat": [ 3, 5 ] },
-               { "item": "fish_smoked", "count-max": 30, "prob": 70, "repeat": [ 3, 5 ] },
-               { "item": "bone", "count-max": 15, "prob": 50, "repeat": [ 2, 5 ] },
-               { "item": "tallow", "count-max": 15, "prob": 70, "repeat": [ 2, 5 ] }
+    "items": [ { "item": "salted_fish", "count-max": 150, "prob": 70 },
+               { "item": "fish_smoked", "count-max": 150, "prob": 70 },
+               { "item": "bone", "count-max": 75, "prob": 50 },
+               { "item": "tallow", "count-max": 75, "prob": 70 }
              ]
   },
 {  
     "type": "item_group", 
     "id": "NPC_BAKER_shopkeep",
     "subtype": "collection",
-    "items": [ { "item": "pumpkin_muffins", "count-max": 10, "prob": 60, "repeat": [ 1, 3 ] },
-               { "item": "sourdough_bread", "count-max": 10, "prob": 80, "repeat": [ 1, 3 ] },
-               { "item": "flatbread", "count-max": 10, "prob": 80, "repeat": [ 1, 3 ] },
-               { "item": "bread", "count-max": 10, "prob": 80, "repeat": [ 1, 3 ] },
-               { "item": "hardtack", "count-max": 10, "prob": 80, "repeat": [ 1, 3 ] },
-               { "item": "brown_bread", "count-max": 10, "prob": 80, "repeat": [ 1, 3 ] }
+    "items": [ { "item": "pumpkin_muffins", "count-max": 30, "prob": 60 },
+               { "item": "sourdough_bread", "count-max": 30, "prob": 80 },
+               { "item": "flatbread", "count-max": 30, "prob": 80 },
+               { "item": "bread", "count-max": 30, "prob": 80 },
+               { "item": "hardtack", "count-max": 30, "prob": 80 },
+               { "item": "brown_bread", "count-max": 30, "prob": 80 }
              ]
   },
 {  
@@ -470,8 +470,8 @@
     "id": "NPC_BREWER_shopkeep",
     "subtype": "collection",
     "items": [ 
-               { "item": "beer", "count-min": 10, "count-max": 50, "prob": 80, "repeat": [ 1, 3 ] },
-               { "item": "whiskey", "count-min": 3, "count-max": 20, "prob": 60, "repeat": [ 1, 3 ] }
+               { "item": "beer", "count-min": 10, "count-max": 50, "prob": 80 },
+               { "item": "whiskey", "count-min": 3, "count-max": 20, "prob": 60 }
              ]
   },
 {
