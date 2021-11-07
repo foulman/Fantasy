@@ -325,7 +325,8 @@
     "bonus_dex": { "rng": [ -2, 1 ] },
     "bonus_int": { "rng": [ -2, 1 ] },
     "bonus_per": { "rng": [ -2, 1 ] },
-    "worn_override": "NPC_tavernkeep_worn"
+    "worn_override": "NPC_tavernkeep_worn",
+    "weapon_override": "NPC_male_citizen_wield"
 	},
  {
     "type": "npc_class",
@@ -343,6 +344,7 @@
     "bonus_per": { "rng": [ 1, 2 ] },
     "worn_override": "NPC_shopkeeper_worn",
     "shopkeeper_item_group": "NPC_SHOPKEEPER_carry",
+    "weapon_override": "NPC_male_citizen_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } }
     ]
@@ -363,6 +365,7 @@
     "bonus_per": { "rng": [ 1, 2 ] },
     "worn_override": "NPC_shopkeeper_worn",
     "shopkeeper_item_group": "NPC_ALCHEMIST_shopkeep",
+    "weapon_override": "NPC_male_citizen_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
          { "skill": "spellcraft", "bonus": { "rng": [ 1, 1 ] } },
@@ -385,6 +388,7 @@
     "bonus_per": { "rng": [ 0, 2 ] },
 	"worn_override": "NPC_shopkeeper_worn",
 	"shopkeeper_item_group": "NPC_POTTER_shopkeep",
+    "weapon_override": "NPC_male_citizen_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
 	  { "skill": "fabrication", "bonus": { "rng": [ 2, 3 ] } },
@@ -407,6 +411,7 @@
     "bonus_per": { "rng": [ 0, 2 ] },
 	"worn_override": "NPC_shopkeeper_worn",
 	"shopkeeper_item_group": "NPC_LEATHERWORKER_shopkeep",
+    "weapon_override": "NPC_male_citizen_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
 	  { "skill": "fabrication", "bonus": { "rng": [ 2, 3 ] } },
@@ -429,6 +434,7 @@
     "bonus_per": { "rng": [ 1, 2 ] },
     "worn_override": "NPC_shopkeeper_worn",
     "shopkeeper_item_group": "NPC_BAKER_shopkeep",
+    "weapon_override": "NPC_male_citizen_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },  
           { "skill": "cooking", "bonus": { "rng": [ 2, 3 ] } }
@@ -450,6 +456,7 @@
     "bonus_per": { "rng": [ 1, 2 ] },
     "worn_override": "NPC_shopkeeper_worn",
     "shopkeeper_item_group": "NPC_BREWER_shopkeep",
+    "weapon_override": "NPC_male_citizen_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },  
           { "skill": "cooking", "bonus": { "rng": [ 2, 3 ] } }
@@ -963,6 +970,7 @@
     "bonus_per": { "rng": [ 0, 0 ] },
     "worn_override": "NPC_wizard_worn",
     "shopkeeper_item_group": "NPC_ACADEMY_LIBRARIAN_shopkeep",
+    "weapon_override": "NPC_male_citizen_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
       { "skill": "spellcraft", "bonus": { "rng": [ 1, 2 ] } }
@@ -985,6 +993,7 @@
     "bonus_per": { "rng": [ 0, 0 ] },
     "worn_override": "NPC_wizard_worn",
     "shopkeeper_item_group": "NPC_ACADEMY_INFUSIONIST_shopkeep",
+    "weapon_override": "NPC_male_citizen_wield",
     "skills": [
       { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
       { "skill": "spellcraft", "bonus": { "rng": [ 1, 2 ] } }
@@ -1018,6 +1027,7 @@
     "bonus_int": { "rng": [ 1, 4 ] },
     "bonus_per": { "rng": [ 0, 2 ] },
     "worn_override": "NPC_wizard_worn",
+    "weapon_override": "NPC_wizard_wield",
     "skills": [
       { "skill": "spellcraft", "bonus": { "rng": [ 4, 5 ] } }
     ]

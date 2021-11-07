@@ -36,7 +36,7 @@
     "copy-from": "spell_scroll",
     "id": "spell_scroll_mu_spell_darkness",
     "name": { "str": "Scroll of Darkness", "str_pl": "Scrolls of Darkness" },
-    "description": "Who blew out the cande?",
+    "description": "Who blew out the candle?",
     "use_action": { "type": "learn_spell", "spells": [ "mu_spell_darkness" ] }
   },
 {
@@ -76,7 +76,7 @@
     "copy-from": "spell_scroll",
     "id": "spell_scroll_arcane_bolt",
     "name": { "str": "Scroll of Arcane Bolt", "str_pl": "Scrolls of Arcane Bolt" },
-    "description": ".",
+    "description": "Pew.",
     "use_action": { "type": "learn_spell", "spells": [ "arcane_bolt" ] }
   },
 {

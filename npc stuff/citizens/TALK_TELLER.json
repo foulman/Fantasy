@@ -78,7 +78,7 @@
   {
   "type": "talk_topic",
     "id": "TALK_NPC_TELLER_ERATES",
-    "dynamic_line": "I don't know.",
+    "dynamic_line": "Our currency operates on measures of ten. For example, ten copper pieces is the equivalent of one silver piece, and so on.",
     "responses": [
                 {
 		"text": "Thank you.",

@@ -180,7 +180,7 @@
 	"count": 3,
     "difficulty": 1,
     "value": 1,
-    "followup": "MISSION_HOLY_SYMBOL",
+    "followup": "MISSION_CLERIC_6",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"start": { "effect": [
 		{ "u_spawn_item": "holy_symbol_wood" },              
@@ -209,11 +209,69 @@
 	"count": 3,
     "difficulty": 1,
     "value": 1,
-    "followup": "MISSION_HOLY_SYMBOL",
+    "followup": "MISSION_CLERIC_7",
 	"origins": [ "ORIGIN_OPENER_NPC" ],
 	"start": { "effect": [
 		{ "u_spawn_item": "holy_symbol_wood" },              
 		{ "u_spawn_item": "divinity_war" }
+		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "Bring me holy symbols.",
+	  "offer": "We're continuing our denominal studies. Take this book, and make a holy symbol of cleaving. Give it to me when you're done.",
+	  "advice": "Just follow the recipe.",
+      "accepted": "Good.",
+      "rejected": "Someone must do it.",
+      "inquire": "Do you have what I need?",
+      "success": "Good. Here, for your trouble.",
+      "success_lie": "Where are they?",
+      "failure": "Ah, well."
+    }
+  },
+{
+    "id": "MISSION_CLERIC_7",
+    "type": "mission_definition",
+    "name": "Denominations: Light",
+    "description": "Craft a holy symbol of flame.",
+    "goal": "MGOAL_FIND_ITEM",
+	"item": "holy_symbol_sacred_flame",
+	"count": 3,
+    "difficulty": 1,
+    "value": 1,
+    "followup": "MISSION_CLERIC_8",
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"start": { "effect": [
+		{ "u_spawn_item": "holy_symbol_wood" },              
+		{ "u_spawn_item": "divinity_light" }
+		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "Bring me holy symbols.",
+	  "offer": "We're continuing our denominal studies. Take this book, and make a holy symbol of flame. Give it to me when you're done.",
+	  "advice": "Just follow the recipe.",
+      "accepted": "Good.",
+      "rejected": "Someone must do it.",
+      "inquire": "Do you have what I need?",
+      "success": "Good. Here, for your trouble.",
+      "success_lie": "Where are they?",
+      "failure": "Ah, well."
+    }
+  },
+{
+    "id": "MISSION_CLERIC_8",
+    "type": "mission_definition",
+    "name": "Denominations: Twilight",
+    "description": "Craft a holy symbol of starlight.",
+    "goal": "MGOAL_FIND_ITEM",
+	"item": "holy_symbol_star_beam",
+	"count": 3,
+    "difficulty": 1,
+    "value": 1,
+    "followup": "MISSION_HOLY_SYMBOL",
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+	"start": { "effect": [
+		{ "u_spawn_item": "holy_symbol_wood" },              
+		{ "u_spawn_item": "divinity_twilight" }
 		] },
 	"has_generic_rewards": true,
 	"dialogue": {

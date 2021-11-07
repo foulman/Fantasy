@@ -16,7 +16,7 @@
     "type": "requirement",
     "//": "Should contain all totems, symbols, etc. Basically anything to symbolically bind magic too, for the purpose of crafting and spellcasting.",
     "components": [ [                   
-                    [ "runed_totem_small", 1 ],   
+                    [ "runed_totem", 1 ],   
                     [ "runed_totem_metal", 1 ],
                     [ "runed_bone_charm", 1 ],
                     [ "runed_totem_fiber", 1 ],

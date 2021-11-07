@@ -1472,5 +1472,17 @@
     "id": "anthill",
     "overmaps": [  ],
 	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Spider Pit",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Slime Pit",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
   }
 ]
