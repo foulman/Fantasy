@@ -281,6 +281,7 @@
     "move_cost_mod": -1,
     "coverage": 65,
     "required_str": 10,
+    "crafting_pseudo_item": "training_dummy_light",
     "flags": [ "TRANSPARENT", "BASHABLE", "BLOCKSDOOR", "WORKOUT_ARMS", "WORKOUT_LEGS" ],
     "examine_action": "workout",
     "bash": {

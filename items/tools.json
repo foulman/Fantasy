@@ -15,8 +15,6 @@
     "color": "yellow",
     "ammo": [ "lamp_oil" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "watertight": true, "ammo_restriction": { "lamp_oil": 500 } } ],
-    "initial_charges": 500,
-    "max_charges": 500,
     "charges_per_use": 1,
     "use_action": {
       "target": "lantern_on",
