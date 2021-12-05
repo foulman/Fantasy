@@ -124,6 +124,16 @@
   },
 {
     "type": "npc",
+    "id": "academy_magic_item_seller",
+    "name_suffix": "apprentice mage",
+    "class": "NPC_ACADEMY_MAGIC_ITEM_SELL",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_NPC_ACADEMY_INFUSIONIST",
+    "faction": "kingdom"
+  },
+{
+    "type": "npc",
     "id": "silver_ivy_dean",
     "name_suffix": "dean",
     "class": "NPC_FOURTH_INSTRUCTOR",

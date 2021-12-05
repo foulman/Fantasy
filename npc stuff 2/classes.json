@@ -1001,6 +1001,29 @@
 	},
 {
     "type": "npc_class",
+    "id": "NPC_ACADEMY_MAGIC_ITEM_SELL",
+    "name": { "str": "Infusionist" },
+    "job_description": "I handle magic items.",
+    "traits": [
+      { "group": "NPC_starting_traits" },
+       { "group": "BG_story_COMMON" },
+      { "group": "Appearance_demographics" }
+    ],
+    "spells": [ { "id": "mu_spell_cantrip", "level": 4 }, { "id": "firebolt", "level": 6 } ],
+    "bonus_str": { "rng": [ 0, 0 ] },
+    "bonus_dex": { "rng": [ 0, 0 ] },
+    "bonus_int": { "rng": [ 1, 4 ] },
+    "bonus_per": { "rng": [ 0, 0 ] },
+    "worn_override": "NPC_wizard_worn",
+    "shopkeeper_item_group": "magic_items_all",
+    "weapon_override": "NPC_male_citizen_wield",
+    "skills": [
+      { "skill": "ALL", "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "rng": [ -1, -2 ] } ] } ] } },
+      { "skill": "spellcraft", "bonus": { "rng": [ 1, 2 ] } }
+    ]
+	},
+{
+    "type": "npc_class",
     "id": "NPC_DRUID_MASTER",
     "name": { "str": "Master Druid" },
     "job_description": "I'm a druid.",

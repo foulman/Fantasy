@@ -337,6 +337,7 @@
                { "item": "feather_quill", "count-max": 7, "prob": 65 },              
                { "item": "lantern", "prob": 70, "charges": 500 },
                { "item": "oil_lamp", "prob": 70, "charges": 750 },
+               { "item": "incense", "count-max": 3, "prob": 70 },
                { "group": "dry_goods", "prob": 70 },
                { "group": "mtc_pantry_liquids", "prob": 70 },
                { "group": "male_citizen_clothing", "prob": 70 },
@@ -602,17 +603,8 @@
     "type": "item_group", 
     "id": "NPC_CULT_MAGICIAN_SELL",
     "subtype": "collection",
-    "items": [ { "item": "spell_scroll_bloodshot", "count-min": 5, "count-max": 10, "prob": 100 },
-	       { "item": "spell_scroll_shadowmorph", "count-min": 5, "count-max": 10, "prob": 85 },
-		{ "item": "spell_scroll_multi_bloodshot", "count-min": 5, "count-max": 10, "prob": 85 },
- 		{ "item": "spell_scroll_tentacle_whip", "count-min": 5, "count-max": 10, "prob": 70 },
-		{ "item": "spell_scroll_lash", "count-min": 5, "count-max": 10, "prob": 70 },
-		{ "item": "spell_scroll_eright", "count-min": 5, "count-max": 10, "prob": 100 },
-		{ "item": "spell_scroll_hex", "count-min": 5, "count-max": 10, "prob": 60 },
-		{ "item": "spell_scroll_carm", "count-min": 5, "count-max": 10, "prob": 90 },
-		{ "item": "spell_scroll_cause_fear", "count-min": 5, "count-max": 10, "prob": 75 },
-		{ "item": "spell_scroll_magic_stone", "count-min": 5, "count-max": 10, "prob": 80 },
-		{ "item": "spell_scroll_wtrance", "count-min": 5, "count-max": 10, "prob": 60 }
+    "items": [ { "group": "spell_scrolls_warlock", "prob": 85 },
+	       { "group": "spell_scrolls_warlock_eldritch", "prob": 85 }
                 ]
   },
 {
@@ -726,6 +718,6 @@
     "type": "item_group",
     "id": "NPC_acolyte_wield",
     "subtype": "collection",
-    "entries": [ { "item": "cleric_focus_staff" } ]
+    "entries": [ { "item": "cleric_focus_staff", "charges": [ 7, 10 ] } ]
 	}
 ]
