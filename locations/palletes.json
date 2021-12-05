@@ -506,5 +506,25 @@
 	  "t": "f_table",
 	  "h": "f_chair"
     }
+    },
+{
+    "type": "palette",
+    "id": "waystation",
+    "terrain": {
+      ".": "t_rock_floor",
+      " ": [ [ "t_grass", 15 ], [ "t_dirt", 4 ], [ "t_shrub", 3 ], [ "t_tree", 2 ] ],
+      "~": "t_water_sh",
+      "s": "t_rock_wall",
+      "d": "t_door_c",
+      "o": "t_window_domestic"
+    },
+    "furniture": {
+      "A": "f_barrel_c",
+      "?": "f_hanging_lantern",
+      "b": "f_bed",
+	  "B": "f_bookcase",
+	  "t": "f_table",
+	  "c": "f_chair"
+    }
     }
 ]

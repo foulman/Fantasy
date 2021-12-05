@@ -27,7 +27,7 @@
     "responses": [
                 {
 		"text": "What about those scrolls over there. Do you think I could have any?",
-		"topic": "TALK_DONE"
+		"topic": "TALK_NPC_CLERIC_SCROLLKEEPER_SELL"
 		},
 		{
 		"text": "Thanks for the info.",

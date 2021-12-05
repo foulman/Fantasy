@@ -164,7 +164,7 @@
           "monster_message": "<color_yellow>%1$s performs a hand gesture...</color>"
         }
       ],
-      "flags": [ "HIT_AND_RUN" ]
+      "flags": [ "KEEP_DISTANCE" ]
     }
   },
   {

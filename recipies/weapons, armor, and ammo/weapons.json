@@ -9,7 +9,6 @@
     "difficulty": 5,
     "time": "4 h",
     "proficiencies": [
-      { "proficiency": "prof_metalworking" },
       { "proficiency": "prof_blacksmithing" },
       { "proficiency": "prof_bladesmith" },
       { "proficiency": "prof_articulation" } ],

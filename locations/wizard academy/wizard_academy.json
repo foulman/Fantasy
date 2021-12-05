@@ -357,11 +357,11 @@
             "orrrrrrrdffqffsrrrrrrrro",
             "orrrrrrqsfffffsqrrrrrrro",
             "sssssssssfffffssssssssss",
-            "srttTTTTsfffffs$$$$$$$$s",
-            "orrrDcccsfffffs$rrr2rrro",
-            "orrrrDrrdfffffdrrr^^^rro",
+            "srrPPPrrsfffffs$$$$$$$$s",
+            "orrP4Prrsfffffs$rrr2rrro",
+            "orrrrrrrdfffffdrrr^^^rro",
             "orrrrrrrsfffffs$rrrrrrro",
-            "srrrrrrqsfffffsqrrrrrr$s",
+            "sqrrrrrqsfffffsqrrrrrr$s",
             "sssssssssffqffs$rrrrrr$s",
             "sqrrTcccsfffffs$rrrrrr$s",
             "orrBTTbbsfffffs$rrrrrrro",
@@ -371,15 +371,17 @@
             "sssssssssooooossssssssss"
       ],
       "palettes": [ "wizard_academy" ],
-      "furniture": { "^": "f_table",  "$": "f_bookcase" },
+      "furniture": { "^": "f_table", "P": "f_table",  "$": "f_bookcase" },
       "items": {
 	  "$": { "item": "NPC_ACADEMY_LIBRARIAN_shopkeep", "chance": 70, "repeat": [ 2, 5 ] },
-          "t": { "item": "NPC_ACADEMY_INFUSIONIST_shopkeep", "chance": 70, "repeat": [ 2, 5 ] }
+          "t": { "item": "NPC_ACADEMY_INFUSIONIST_shopkeep", "chance": 70, "repeat": [ 2, 5 ] },
+          "P": { "item": "magic_items_all", "chance": 75, "repeat": [ 2, 5 ] }
     },
       "npcs": {
 		"1": { "class": "academy_tatoo_artist" },
                 "2": { "class": "academy_librarian" },
-                "3": { "class": "academy_infusionist" }
+                "3": { "class": "academy_infusionist" },
+                "4": { "class": "academy_magic_item_seller" }
 		}
     }
   },

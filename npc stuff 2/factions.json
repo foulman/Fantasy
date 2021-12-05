@@ -107,7 +107,7 @@
         "knows your voice": false
       }
     },
-    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_kingdom_0" } ],
+    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_blank" } ],
     "description": "Bandits. Cutthroats without tact or hygiene. The bane of travellers and merchants alike."
   },
   {
@@ -160,7 +160,7 @@
         "knows your voice": false
       }
     },
-    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_kingdom_0" } ],
+    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_blank" } ],
     "description": "Strange cultists who kidnap people and sacrifice them to perform their dark magic. Each member has had their hearts and eyes replaced by similar organs not of this world and their tomes have so far proven indecipherable."
   }
 ]

@@ -7,7 +7,7 @@
     "object": {
       "mapgensize": [ 8, 8 ],
       "place_nested": [
-        { "chunks": [ [ "pillar", 75 ], [ "cave_none", 75 ], [ "giant_mushrooms", 65 ], [ "underground_pond", 45 ], [ "bats", 20 ], [ "rats", 20 ], [ "cave_plant_patch", 20 ], [ "goblin_camp", 10 ], [ "ore_veins", 5 ] ], "x": 0, "y": 0 }
+        { "chunks": [ [ "pillar", 75 ], [ "cave_none", 75 ], [ "giant_mushrooms", 65 ], [ "underground_pond", 45 ], [ "bats", 20 ], [ "rats", 20 ], [ "cave_plant_patch", 20 ], [ "goblin_camp", 10 ], [ "snails", 10 ], [ "ore_veins", 5 ] ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -95,6 +95,26 @@
       ],
       "palettes": [ "caves" ],
       "monster": { "x": { "monster": "mon_black_rat", "chance": 85 } }
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "snails",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "   x    ",
+        "        ",
+        "    x   ",
+        " x      ",
+        "     x  ",
+        "   x    ",
+        "     x  ",
+        "        "
+      ],
+      "palettes": [ "caves" ],
+      "monster": { "x": { "monster": "mon_snail_giant", "chance": 85 } }
     }
     },
 {

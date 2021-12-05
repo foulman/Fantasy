@@ -11,7 +11,8 @@
     "locations": [ "land" ],
     "city_distance": [ 2, 25 ],
     "city_sizes": [ 0, -1 ],
-    "occurrences": [ 0, 1 ]
+    "occurrences": [ 0, 1 ],
+    "flags": [ "CLASSIC", "WILDERNESS" ]
 	},
 {
     "type": "overmap_special",
@@ -27,10 +28,11 @@
          { "point": [ 0, -1, -1 ], "overmap": "cult_catacombs_north" },
           { "point": [ 0, 1, 0 ], "overmap": "cult_enter_north" }
     ],
-    "locations": [ "land", "forest", "swamp" ],
+    "locations": [ "forest", "swamp" ],
     "city_distance": [ 5, 15 ],
     "city_sizes": [ 0, -1 ],
-    "occurrences": [ 0, 1 ]
+    "occurrences": [ 11, 100 ],
+    "flags": [ "CLASSIC", "WILDERNESS", "UNIQUE" ]
 	},
 {
     "type": "overmap_special",
@@ -531,10 +533,10 @@
           { "point": [ 3, -1, -1 ], "overmap": "elder_caves_north" } 
     ],
     "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
-    "flags": [ "WILDERNESS" ],
-    "city_distance": [ 8, -1 ],
+    "flags": [ "WILDERNESS", "UNIQUE" ],
+    "city_distance": [ 11, 12 ],
     "city_sizes": [ 0, -1 ],
-    "occurrences": [ 0, 1 ]
+    "occurrences": [ 33, 100 ]
 	},
 {
     "type": "overmap_special",
@@ -659,7 +661,7 @@
     "city_distance": [ 5, -1 ],
     "city_sizes": [ 1, -1 ],
     "occurrences": [ 0, 5 ],
-    "flags": [ "CLASSIC" ]
+    "flags": [ "URBAN" ]
   },
 {
     "type": "overmap_special",
@@ -801,6 +803,20 @@
     "occurrences": [ 0, 1 ],
     "flags": [ "CLASSIC", "WILDERNESS" ]
   },
+{
+    "type": "overmap_special",
+    "id": "druid_circle",
+    "//": "To be finished.",
+    "overmaps": [
+	  { "point": [ 0, 0, 0 ], "overmap": "druid_circle_north" },
+         { "point": [ 0, 0, 1 ], "overmap": "druid_circle_roof_north" }
+    ],
+    "locations": [ "land", "forest", "swamp" ],
+    "city_distance": [ 5, 15 ],
+    "city_sizes": [ 0, -1 ],
+    "occurrences": [ 0, 1 ],
+    "flags": [ "CLASSIC", "WILDERNESS" ]
+	},
 {
     "type": "overmap_special",
     "id": "caves_2_down",
@@ -1790,7 +1806,8 @@
                      { "point": [ -3, -12, -2 ], "terrain": "subway" } ],
     "city_distance": [ 5, 15 ],
     "city_sizes": [ 0, -1 ],
-    "occurrences": [ 0, 1 ]
+    "occurrences": [ 0, 1 ],
+    "flags": [ "CLASSIC", "WILDERNESS" ]
 	},
 {
     "type": "overmap_special",
@@ -2471,9 +2488,10 @@
     "connections": [ { "point": [ 3, 13, -2 ], "terrain": "subway" },
                      { "point": [ -3, -12, -2 ], "terrain": "subway" },
                      { "point": [ 12, 53, -5 ], "terrain": "subway" } ],
-    "city_distance": [ 5, 15 ],
+    "city_distance": [ 2, 15 ],
     "city_sizes": [ 0, -1 ],
-    "occurrences": [ 0, 1 ]
+    "occurrences": [ 0, 1 ],
+    "flags": [ "CLASSIC", "WILDERNESS" ]
 	},
 {
     "type": "overmap_special",
@@ -2579,7 +2597,8 @@
     "locations": [ "land", "forest", "swamp" ],
     "city_distance": [ 5, 15 ],
     "city_sizes": [ 0, -1 ],
-    "occurrences": [ 0, 1 ]
+    "occurrences": [ 11, 100 ],
+    "flags": [ "CLASSIC", "WILDERNESS", "UNIQUE" ]
 	},
 {
     "type": "overmap_special",
@@ -2844,9 +2863,52 @@
           { "point": [ 0, 0, -2 ], "overmap": "water_temple_down2_north" }
     ],
     "locations": [ "lake_surface" ],
-    "flags": [ "LAKE" ],
-    "city_distance": [ 5, 15 ],
+    "flags": [ "LAKE", "WILDERNESS" ],
+    "city_distance": [ 1, -1 ],
     "city_sizes": [ 1, -1 ],
     "occurrences": [ 0, 4 ]
+	},
+{
+    "type": "overmap_special",
+    "id": "waystation",
+    "overmaps": [
+	  { "point": [ 0, 0, 0 ], "overmap": "roadside_waystation_north" },
+          { "point": [ 0, 0, 1 ], "overmap": "roadside_waystation_roof_north" }
+    ],
+    "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
+    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "flags": [ "CLASSIC", "WILDERNESS" ],
+    "city_distance": [ 3, 9 ],
+    "city_sizes": [ 1, -1 ],
+    "occurrences": [ 0, 7 ]
+	},
+{
+    "type": "overmap_special",
+    "id": "guild_hall",
+    "overmaps": [
+	  { "point": [ 0, 0, 0 ], "overmap": "guildhall_north" },
+          { "point": [ 0, 0, 1 ], "overmap": "guildhall_roof_north" }
+    ],
+    "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
+    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "flags": [ "CLASSIC", "WILDERNESS" ],
+    "city_distance": [ 1, 4 ],
+    "city_sizes": [ 1, -1 ],
+    "occurrences": [ 0, 4 ]
+	},
+{
+    "type": "overmap_special",
+    "id": "watchtower",
+    "overmaps": [
+	  { "point": [ 0, 0, 0 ], "overmap": "watchtower_north" },
+          { "point": [ 0, 0, 1 ], "overmap": "watchtower_up_north" },
+          { "point": [ 0, 0, 2 ], "overmap": "watchtower_roof_north" }
+    ],
+    "locations": [ "land", "forest", "wilderness", "swamp", "field" ],
+    "connections": [ { "point": [ 0, 1, 0 ], "terrain": "road" } ],
+    "flags": [ "CLASSIC", "WILDERNESS" ],
+    "city_distance": [ 1, 5 ],
+    "city_sizes": [ 1, -1 ],
+    "occurrences": [ 1, 5 ]
 	}
  ]

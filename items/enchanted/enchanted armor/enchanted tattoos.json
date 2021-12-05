@@ -399,7 +399,7 @@
         "charges_per_use": 1,
         "use_action": { "type": "cast_spell", "spell_id": "smite", "no_fail": true, "level": 3, "need_worn": true },
 	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "NULL": 5 } } ]
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 3 }, "rigid": true } ]
   },
   {
     "id": "ench_tat_lres",
@@ -416,7 +416,7 @@
         "charges_per_use": 5,
         "use_action": { "type": "cast_spell", "spell_id": "healing", "no_fail": true, "level": 1, "need_worn": true },
 	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "NULL": 5 } } ]
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 5 }, "rigid": true } ]
   },
   {
     "id": "ench_tat_flame",
@@ -433,7 +433,7 @@
         "charges_per_use": 1,
         "use_action": { "type": "cast_spell", "spell_id": "sacred_flame", "no_fail": true, "level": 5, "need_worn": true },
 	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "15 m", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE", "holster": true, "ammo_restriction": { "NULL": 10 } } ]
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 10 }, "rigid": true } ]
   },
   {
     "id": "ench_tat_flamestrike",
@@ -450,7 +450,7 @@
         "charges_per_use": 1,
         "use_action": { "type": "cast_spell", "spell_id": "mu_c_spell_flamestrike", "no_fail": true, "level": 1, "need_worn": true },
 	"relic_data": { "charge_info": { "recharge_type": "periodic", "time": "3 h", "regenerate_ammo": true } },
-        "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "holster": true, "ammo_restriction": { "NULL": 3 } } ]
+        "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 3 }, "rigid": true } ]
   },
   {
     "id": "ench_tat_protect_1",

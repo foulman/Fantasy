@@ -23,7 +23,7 @@
       "rejected": "Someone must do it.",
       "inquire": "Do you have what I need?",
       "success": "Good. Your cart should be ready soon.",
-      "success_lie": "I doubt you",
+      "success_lie": "I doubt you.",
       "failure": "Ah well."
     }
   },
@@ -51,7 +51,7 @@
       "rejected": "Someone must do it.",
       "inquire": "Do you have what I need?",
       "success": "Good. Your cart should be ready soon.",
-      "success_lie": "I doubt you",
+      "success_lie": "I doubt you.",
       "failure": "Ah well."
     }
   },
@@ -79,7 +79,7 @@
       "rejected": "Someone must do it.",
       "inquire": "Do you have what I need?",
       "success": "Good. Your cart should be ready soon.",
-      "success_lie": "I doubt you",
+      "success_lie": "I doubt you.",
       "failure": "Ah well."
     }
   },
@@ -106,8 +106,8 @@
       "accepted": "Good.",
       "rejected": "Someone must do it.",
       "inquire": "Do you have what I need?",
-      "success": "Good. Your cart should be ready soon.",
-      "success_lie": "I doubt you",
+      "success": "Good. Your boat should be ready soon.",
+      "success_lie": "I doubt you.",
       "failure": "Ah well."
     }
   }

@@ -247,7 +247,7 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [ { "value": "ARMOR_HEAT", "add": -10 } ]
+          "values": [ { "value": "ARMOR_HEAT", "add": -20 } ]
         }
       ]
     }
@@ -266,7 +266,7 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [ { "value": "ARMOR_COLD", "add": -10 } ]
+          "values": [ { "value": "ARMOR_COLD", "add": -20 } ]
         }
       ]
     }
@@ -285,7 +285,7 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [ { "value": "ARMOR_COLD", "add": -10 } ]
+          "values": [ { "value": "ARMOR_ELEC", "add": -20 } ]
         }
       ]
     }
@@ -414,6 +414,21 @@
     "relic_data": {
       "passive_effects": [
         { "has": "WORN", "condition": "ALWAYS", "mutations": [ "PRETTY" ] }
+      ]
+    },
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]
+  },
+{
+    "id": "elder_form_item",
+    "type": "ARMOR",
+    "description": "You wear it.",
+    "volume": "1 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "far realm shard", "str_pl": "far realm shards" },
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "ARM_TENTACLES_8", "SHOUT2", "POISRESIST", "FEATHERS", "ENLARGE_HUGE", "LEG_TENTACLES" ] }
       ]
     },
 	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]

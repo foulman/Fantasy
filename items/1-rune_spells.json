@@ -25,7 +25,10 @@
     "max_damage": 10,
     "min_range": 1,
     "effect": "attack",
-    "shape": "blast"
+    "shape": "blast",
+    "extra_effects": [
+      { "id": "mu_spell_hold" }
+    ]
   },
   {
     "type": "SPELL",
@@ -39,7 +42,13 @@
     "max_damage": 10,
     "min_range": 1,
     "effect": "attack",
-    "shape": "blast"
+    "shape": "blast",
+    "field_id": "fd_electricity",
+    "min_field_intensity": 1,
+    "max_field_intensity": 1,
+    "field_chance": 1,
+    "min_aoe": 2,
+    "max_aoe": 1
   },
   {
     "type": "SPELL",

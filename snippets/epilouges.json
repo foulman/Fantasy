@@ -26,6 +26,10 @@
       {
         "id": "epilogue_faction_kingdom_5000",
         "text": "Following your passing, you are revered far and wide for your deeds. You are entombed within the gentry's masoleum, coomplete with a statue carved in your image. The generations following are told stories of you and your will."
+      },
+      {
+        "id": "epilogue_faction_blank",
+        "text": "     "
       }
     ]
   }
