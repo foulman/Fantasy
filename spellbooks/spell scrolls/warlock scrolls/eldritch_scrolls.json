@@ -78,5 +78,13 @@
     "name": { "str": "Scroll of Hexing", "str_pl": "Scrolls of Hexing" },
     "description": "Curse you!",
     "use_action": { "type": "learn_spell", "spells": [ "hex" ] }
+  },   
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_elder_form",
+    "name": { "str": "Scroll of Become One", "str_pl": "Scrolls of Become One" },
+    "description": "Join us.",
+    "use_action": { "type": "learn_spell", "spells": [ "elder_form" ] }
   }
 ]

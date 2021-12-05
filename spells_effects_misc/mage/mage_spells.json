@@ -257,6 +257,7 @@
     "type": "SPELL",
     "name": "arcane bolt projectile",
     "description": "the projectile for Arcane Bolt",
+    "message": "",
     "valid_targets": [ "hostile", "ally", "ground" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_LEGS", "SILENT" ],
     "min_damage": 5,
@@ -385,6 +386,7 @@
     "type": "SPELL",
     "name": "kickback",
     "description": "a kickback damage effect",
+    "message": "",
     "valid_targets": [ "self" ],
     "flags": [ "SILENT" ],
     "min_damage": 15,
@@ -835,7 +837,9 @@
     "base_energy_cost": 250,
     "extra_effects": [
       { "id": "spawn_fire_elementals" },
-      { "id": "spawn_earth_elementals" }
+      { "id": "spawn_earth_elementals" },
+      { "id": "spawn_water_elementals" },
+      { "id": "spawn_air_elementals" }
     ]
   },
 {
@@ -895,7 +899,7 @@
 {
     "id": "polymorph",
     "type": "SPELL",
-    "name": "Polymorph",
+    "name": "Polymorph; Crow",
     "description": "You transform a nearby creature into a crow.",
     "valid_targets": [ "hostile", "ally", "ground" ],
     "flags": [ "VERBAL", "SOMATIC", "NO_LEGS", "NO_PROJECTILE" ],
@@ -987,5 +991,27 @@
     "min_duration": 800,
     "max_duration": 3000,
     "duration_increment": 110
-}
+},
+{
+    "type": "SPELL",
+    "name": "Rite of Passage",
+    "id": "rite_passage",
+    "description": "You weave lines of magic around the internal functions of a lock to open it.",
+    "valid_targets": [ "ground" ],
+    "effect": "ter_transform",
+    "effect_str": "unlock",
+    "shape": "blast",
+    "flags": [ "NO_LEGS", "SOMATIC", "CONCENTRATE" ],
+    "max_level": 15,
+    "base_casting_time": 200,
+    "final_casting_time": 100,
+    "casting_time_increment": -10,
+    "base_energy_cost": 350,
+    "difficulty": 3,
+    "min_range": 1,
+    "max_range": 4,
+    "range_increment": 0.2,
+    "energy_source": "MANA",
+    "spell_class": "MAGE"
+  }
 ]

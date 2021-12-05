@@ -271,5 +271,13 @@
     "name": { "str": "Scroll of Remove Curse", "str_pl": "Scrolls of Remove Curse" },
     "description": "That gypsy witch was wrong.",
     "use_action": { "type": "learn_spell", "spells": [ "break_curse" ] }
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_rite_passage",
+    "name": { "str": "Scroll of Rite of Passage", "str_pl": "Scrolls of Rite of Passage" },
+    "description": "Open sesamie!",
+    "use_action": { "type": "learn_spell", "spells": [ "rite_passage" ] }
   }
 ]
