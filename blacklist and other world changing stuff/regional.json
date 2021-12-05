@@ -1379,6 +1379,12 @@
   },
   {
     "type": "overmap_special",
+    "id": "Lake Cabin",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
     "id": "Cave",
     "overmaps": [  ],
 	"occurrences": [ 0, 0 ]

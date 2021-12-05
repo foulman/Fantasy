@@ -2527,7 +2527,6 @@
 	  "small_helicopter_rotor",
 	  "seat",
 	  "seat_leather",
-	  "saddle",
 	  "solar_panel",
 	  "reinforced_solar_panel",
 	  "solar_panel_v2",
@@ -3208,7 +3207,10 @@
       "plastics_book",
       "mre_package",
       "rubber_band",
-      "nailgun"
+      "nailgun",
+      "cordless_impact_wrench",
+      "tire_iron",
+      "multimeter"
 
     ]
   },

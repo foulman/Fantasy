@@ -86,6 +86,9 @@
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
+      "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
             "                        ",
             "                        ",
@@ -115,7 +118,7 @@
       "palettes": [ "cathedral" ],
       "furniture": { "b": "f_bed" },
       "items": {
-	  "B": { "item": "spell_scrolls_cleric", "chance": 70, "repeat": [ 2, 5 ] },
+	  "B": [ { "item": "spell_scrolls_cleric", "chance": 70, "repeat": [ 2, 5 ] }, { "item": "divine_books", "chance": 50 } ],
           "b": { "item": "bed", "chance": 100, "repeat": [ 1, 2 ] }
     },
                 "npcs": {
@@ -131,6 +134,9 @@
     "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
+      "faction_owner": [
+		{ "id": "kingdom", "x": [ 0, 23 ], "y": [ 0, 23 ] }				
+      ],
       "rows": [
             "                        ",
             "                        ",

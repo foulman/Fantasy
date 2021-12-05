@@ -164,41 +164,6 @@
   },
   {
     "type": "item_group",
-    "id": "alchemy_books",
-    "subtype": "distribution",
-    "items": [
-      [ "novice_potion", 20 ],
-      [ "al_reference", 35 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "infusion_books",
-    "subtype": "distribution",
-    "items": [
-      [ "infusion_basic", 70 ],
-      [ "totem_book", 50 ],
-      [ "basic_tatoo", 20 ]
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "manuals",
-    "subtype": "distribution",
-    "entries": [
-      { "group": "alchemy_books", "prob": 6 },
-      { "group": "infusion_books", "prob": 2 },
-      { "item": "gods_and_godesses", "prob": 25 },
-      { "item": "divinity_general", "prob": 15 },
-      { "item": "divinity_light", "prob": 15 },
-      { "item": "divinity_war", "prob": 15 },
-      { "item": "divinity_life", "prob": 15 },
-      { "item": "divinity_twilight", "prob": 15 },
-      { "item": "forging_book_mtc", "prob": 15 }
-    ]
-  },
-  {
-    "type": "item_group",
     "id": "group_fire_alchemy",
     "subtype": "distribution",
     "items": [
@@ -451,7 +416,6 @@
       [ "reception_paperwork", 100 ]
     ]
   },
-
 {
     "id": "mine_sell_mtc",
     "type": "item_group",
@@ -466,6 +430,38 @@
       { "item": "chunk_iron_ore", "prob": 25, "count": [ 1, 3 ] },
       { "item": "chunk_copper_ore", "prob": 25, "count": [ 1, 3 ] },
       { "item": "chunk_silver_ore", "prob": 25, "count": [ 1, 3 ] }
+    ]
+  },
+{
+    "type": "item_group",
+    "id": "dragon_loot",
+    "items": [
+      { "group": "warrior_weapons", "prob": 80 },
+      { "group": "rogue_weapons", "prob": 80 },
+      { "group": "shields_all", "prob": 70 },
+      { "group": "trinkets_misc", "prob": 50 },
+      { "group": "warlock_magic_items", "prob": 40 },
+      { "group": "cleric_magic_items_all", "prob": 40 },
+      { "group": "magic_items_all", "prob": 40 },
+      { "group": "magic_weapons_all", "prob": 40 },
+      { "group": "armor_plus1", "prob": 30 },
+      { "item": "book_of_golems", "prob": 10 }
+    ]
+  },
+{
+    "type": "item_group",
+    "id": "bandit_loot",
+    "items": [
+      { "group": "warrior_weapons", "prob": 80 },
+      { "group": "rogue_weapons", "prob": 80 },
+      { "group": "shields_all", "prob": 70 },
+      { "group": "trinkets_misc", "prob": 50 },
+      { "group": "warlock_magic_items", "prob": 20 },
+      { "group": "cleric_magic_items_all", "prob": 20 },
+      { "group": "magic_items_all", "prob": 20 },
+      { "group": "magic_weapons_all", "prob": 20 },
+      { "group": "armor_plus1", "prob": 10 },
+      { "item": "book_of_golems", "prob": 1 }
     ]
   }
 ]

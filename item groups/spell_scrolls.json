@@ -40,7 +40,8 @@
       [ "spell_scroll_firesphere_mage", 15 ],
       [ "spell_scroll_mage_clairvoyance", 15 ],
       [ "spell_scroll_major_image", 15 ],
-      [ "spell_scroll_break_curse", 15 ]
+      [ "spell_scroll_break_curse", 15 ],
+      [ "spell_scroll_rite_passage", 15 ]
     ]
   },
   {
@@ -89,6 +90,23 @@
       [ "spell_scroll_cause_fear", 15 ],
       [ "spell_scroll_magic_stone", 15 ],
       [ "spell_scroll_wtrance", 5 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "spell_scrolls_warlock_eldritch",
+    "subtype": "distribution",
+    "items": [
+      [ "spell_scroll_bloodshot", 15 ],
+      [ "spell_scroll_shadowmorph", 15 ],
+      [ "spell_scroll_multi_bloodshot", 10 ],
+      [ "spell_scroll_tentacle_whip", 10 ],
+      [ "spell_scroll_sacrifice", 10 ],
+      [ "spell_scroll_lash", 10 ],
+      [ "spell_scroll_eright", 10 ],
+      [ "spell_scroll_esummon", 10 ],
+      [ "spell_scroll_hex", 10 ],
+      [ "spell_scroll_elder_form", 5 ]
     ]
   },
   {

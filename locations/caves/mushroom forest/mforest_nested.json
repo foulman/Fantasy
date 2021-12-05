@@ -7,7 +7,7 @@
     "object": {
       "mapgensize": [ 8, 8 ],
       "place_nested": [
-        { "chunks": [ [ "pillar", 75 ], [ "giant_mushrooms", 95 ], [ "m_underground_pond", 45 ], [ "m_bats", 20 ], [ "m_rats", 20 ], [ "m_goblin_camp", 10 ] ], "x": 0, "y": 0 }
+        { "chunks": [ [ "pillar", 75 ], [ "giant_mushrooms", 95 ], [ "m_underground_pond", 45 ], [ "m_bats", 20 ], [ "m_rats", 20 ], [ "snails", 20 ], [ "m_goblin_camp", 10 ] ], "x": 0, "y": 0 }
       ]
     }
   },
