@@ -26,6 +26,7 @@
     "bleed_rate": 60,
     "vision_day": 30,
     "harvest": "mutant_meatslug",
+    "weakpoint_sets": [ "wps_natural_armor" ],
     "reproduction": { "baby_monster": "mon_snail_small", "baby_count": 1, "baby_timer": 10 },
     "baby_flags": [ "SPRING", "WINTER" ],
     "petfood": { "food": [ "CATTLEFOOD" ], "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.", "pet": "The %s lets out a low rumble while you pat their head." },

@@ -786,7 +786,7 @@
   },
 {
     "type": "overmap_terrain",
-    "id": "cathedral_enter",
+    "id": "mtc_cathedral_enter",
     "name": "cathedral",
     "sym": "C",
     "see_cost": 1,
@@ -794,7 +794,7 @@
   },
 {
     "type": "overmap_terrain",
-    "id": "cathedral_altar",
+    "id": "mtc_cathedral_altar",
     "name": "cathedral",
     "sym": "C",
     "see_cost": 1,
@@ -802,7 +802,7 @@
   },
 {
     "type": "overmap_terrain",
-    "id": "cathedral_left",
+    "id": "mtc_cathedral_left",
     "name": "cathedral",
     "sym": "C",
     "see_cost": 1,
@@ -810,7 +810,7 @@
   },
 {
     "type": "overmap_terrain",
-    "id": "cathedral_right",
+    "id": "mtc_cathedral_right",
     "name": "cathedral",
     "sym": "C",
     "see_cost": 1,
@@ -818,7 +818,7 @@
   },
 {
     "type": "overmap_terrain",
-    "id": "cathedral_roof",
+    "id": "mtc_cathedral_roof",
     "name": "cathedral roof",
     "sym": "C",
     "see_cost": 1,
@@ -1015,5 +1015,45 @@
     "sym": "T",
     "see_cost": 1,
     "color": "light_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "werebeast_lair",
+    "name": "overhang",
+    "sym": "C",
+    "see_cost": 1,
+    "color": "brown"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "crystal_cave_blank",
+    "name": "crystal caverns",
+    "sym": "C",
+    "see_cost": 1,
+    "color": "light_blue"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "walled_in_underground_building",
+    "name": "home",
+    "sym": "^",
+    "see_cost": 1,
+    "color": "green"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "straight_rock_underground_gate",
+    "name": "gate",
+    "sym": "+",
+    "see_cost": 1,
+    "color": "light_gray"
+  },
+{
+    "type": "overmap_terrain",
+    "id": "underground_farm_field",
+    "name": "field",
+    "sym": "#",
+    "see_cost": 1,
+    "color": "brown"
   }
 ]

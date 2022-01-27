@@ -86,5 +86,13 @@
     "name": { "str": "Scroll of Become One", "str_pl": "Scrolls of Become One" },
     "description": "Join us.",
     "use_action": { "type": "learn_spell", "spells": [ "elder_form" ] }
+  },  
+  {
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "spell_scroll_hide_eldritch",
+    "name": { "str": "Scroll of Walk Among Far Ones", "str_pl": "Scrolls of Walk Among Far Ones" },
+    "description": "Let's calm down, shall we?",
+    "use_action": { "type": "learn_spell", "spells": [ "hide_eldritch" ] }
   }
 ]

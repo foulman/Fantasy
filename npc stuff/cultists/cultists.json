@@ -93,22 +93,22 @@
   },
   {
     "type": "npc",
-    "id": "cult_defender_gate",
-    "name_suffix": "cultist",
-    "class": "NPC_FEMALE_CITIZEN",
-    "attitude": 0,
-    "mission": 3,
-    "chat": "TALK_DEFENDER_GATE",
-    "faction": "cultists"
-  },
-  {
-    "type": "npc",
     "id": "cult_recruiter",
     "class": "NPC_FEMALE_CITIZEN",     
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_RECRUITER",
     "mission_offered": "MISSION_JOIN_CULT",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_defender_gate",
+    "name_suffix": "cultist",
+    "class": "NPC_FEMALE_CITIZEN",
+    "attitude": 0,
+    "mission": 3,
+    "chat": "TALK_DEFENDER_GATE",
     "faction": "cultists"
   },
   {
@@ -156,6 +156,24 @@
   },
   {
     "type": "npc",
+    "id": "cult_prospect",
+    "class": "NPC_MALE_CITIZEN",      
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_NPC_CULT_PROSPECT",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_prospect",
+    "class": "NPC_FEMALE_CITIZEN",     
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_NPC_CULT_PROSPECT",
+    "faction": "cultists"
+  },
+  {
+    "type": "npc",
     "id": "cult_member_fiend",
     "name_suffix": "cult member",
     "class": "NPC_CULT_MEMBER",
@@ -183,6 +201,7 @@
     "attitude": 0,
     "mission": 3,
     "chat": "TALK_CULT_LEADER_FIEND",
+    "mission_offered": "MISSION_PROMOTION_FIEND",
     "faction": "cultists"
   },
 {
@@ -195,5 +214,25 @@
     "chat": "TALK_CULT_SACRIFICER_FIEND",
     "mission_offered": [ "MISSION_RITUAL_FIEND" ],
     "faction": "cultists"
+  },
+  {
+    "type": "npc",
+    "id": "cult_fiend_recruiter",
+    "class": "NPC_MALE_CITIZEN",      
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_RECRUITER",
+    "mission_offered": "MISSION_JOIN_CULT_FIEND",
+    "faction": "kingdom"
+  },
+  {
+    "type": "npc",
+    "id": "cult_fiend_recruiter",
+    "class": "NPC_FEMALE_CITIZEN",     
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_RECRUITER",
+    "mission_offered": "MISSION_JOIN_CULT_FIEND",
+    "faction": "kingdom"
   }
 ]

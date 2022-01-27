@@ -351,6 +351,21 @@
 	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]
   },
 {
+    "id": "hide_eldritch_item",
+    "type": "ARMOR",
+    "description": "You wear it.",
+    "volume": "1 ml",
+    "symbol": "*",
+    "color": "light_gray",
+    "name": { "str": "stealth field", "str_pl": "stealth fields" },
+    "relic_data": {
+      "passive_effects": [
+        { "has": "WORN", "condition": "ALWAYS", "mutations": [ "MUT_HIDE_ELDRITCH" ] }
+      ]
+    },
+	"flags": [ "TRADER_AVOID", "AURA", "NO_SALVAGE", "NO_TAKEOFF", "ONLY_ONE" ]
+  },
+{
     "id": "mu_barkskin_token",
     "type": "TOOL_ARMOR",
     "symbol": "*",

@@ -1,0 +1,82 @@
+[
+{
+    "method": "json",
+    "om_terrain": "werebeast_lair",
+    "//": "Wereboar.",
+    "type": "mapgen",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "        #...##          ",
+            "        ##..#######     ",
+            "        ###...#####     ",
+            "         ###..#####     ",
+            "         ###..#####     ",
+            "         ###..######    ",
+            "        #####....###    ",
+            "        ###x....A###    ",
+            "        ###...AAA##     ",
+            "         #########      ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        "
+      ],
+      "palettes": [ "caves" ],
+      "terrain": { ".": "t_rock_floor", "A": "t_rock_floor", "x": "t_rock_floor", " ": [ [ "t_grass", 5 ], [ "t_dirt", 3 ] ]  },
+      "items": { "A": { "item": "lair_loot_generic", "chance": 40 } },
+      "monster": { "x": { "monster": "mon_wereboar", "chance": 80 } }
+    }
+  },
+{
+    "method": "json",
+    "om_terrain": "werebeast_lair",
+    "//": "Werecroc.",
+    "type": "mapgen",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "        #...##          ",
+            "        ##..#######     ",
+            "        ###...#####     ",
+            "         ###..#####     ",
+            "         ###..#####     ",
+            "         ###..######    ",
+            "        #####....###    ",
+            "        ###x....A###    ",
+            "        ###...AAA##     ",
+            "         #########      ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        "
+      ],
+      "palettes": [ "caves" ],
+      "terrain": { ".": "t_rock_floor", "A": "t_rock_floor", "x": "t_rock_floor", " ": [ [ "t_grass", 5 ], [ "t_dirt", 3 ] ]  },
+      "items": { "A": { "item": "lair_loot_generic", "chance": 40 } },
+      "monster": { "x": { "monster": "mon_werecroc", "chance": 80 } }
+    }
+  }  
+]

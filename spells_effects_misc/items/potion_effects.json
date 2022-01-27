@@ -215,7 +215,28 @@
     "max_duration": 24000,
     "duration_increment": 1200,
     "extra_effects": [
-      { "id": "hide_demons" }
+      { "id": "hide_eldritch" }
+    ]
+  },
+{
+    "id": "initiation_effect_item",
+    "type": "SPELL",
+    "name": "Initiation",
+    "description": "spell effect.",
+    "valid_targets": [ "self" ],
+    "flags": [ "SILENT" ],
+    "message": "A sharp pain comes over you!",
+    "min_damage": 1,
+    "max_damage": 1,
+    "max_level": 10,
+    "effect": "spawn_item",
+    "shape": "blast",
+    "effect_str": "joining_slip",
+    "min_duration": 12000,
+    "max_duration": 24000,
+    "duration_increment": 1200,
+    "extra_effects": [
+      { "id": "freeze_kickback" }
     ]
   }
 ]

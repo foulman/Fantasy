@@ -1,7 +1,7 @@
 [
 {
     "method": "json",
-    "om_terrain": "cathedral_enter",
+    "om_terrain": "mtc_cathedral_enter",
     "type": "mapgen",
     "weight": 100,
     "object": {
@@ -40,7 +40,7 @@
   },
 {
     "method": "json",
-    "om_terrain": "cathedral_altar",
+    "om_terrain": "mtc_cathedral_altar",
     "type": "mapgen",
     "weight": 100,
     "object": {
@@ -81,7 +81,7 @@
   },
 {
     "method": "json",
-    "om_terrain": "cathedral_left",
+    "om_terrain": "mtc_cathedral_left",
     "type": "mapgen",
     "weight": 100,
     "object": {
@@ -129,7 +129,7 @@
   },
 {
     "method": "json",
-    "om_terrain": "cathedral_right",
+    "om_terrain": "mtc_cathedral_right",
     "type": "mapgen",
     "weight": 100,
     "object": {
@@ -182,7 +182,7 @@
   },
 {
     "method": "json",
-    "om_terrain": "cathedral_roof",
+    "om_terrain": "mtc_cathedral_roof",
     "type": "mapgen",
     "weight": 100,
     "object": {

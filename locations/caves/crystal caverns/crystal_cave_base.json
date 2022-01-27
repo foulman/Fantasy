@@ -1,0 +1,50 @@
+[
+{
+    "method": "json",
+    "om_terrain": "crystal_cave_blank",
+    "//": "Blank pallette for crystal cave systems.",
+    "type": "mapgen",
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        ",
+            "                        "
+      ],
+      "palettes": [ "caves" ],
+      "place_nested": [
+        { "chunks": [ "crystal_formation" ], "x": 0, "y": 0 },
+        { "chunks": [ "crystal_formation" ], "x": 8, "y": 0 },
+        { "chunks": [ "crystal_formation" ], "x": 16, "y": 0 },
+        { "chunks": [ "crystal_formation" ], "x": 0, "y": 7 },
+        { "chunks": [ "crystal_formation" ], "x": 8, "y": 7 },
+        { "chunks": [ "crystal_formation" ], "x": 16, "y": 7 },
+        { "chunks": [ "crystal_formation" ], "x": 0, "y": 15 },
+        { "chunks": [ "crystal_formation" ], "x": 8, "y": 15 },
+        { "chunks": [ "crystal_formation" ], "x": 16, "y": 15 }
+      ]
+    }
+  } 
+]

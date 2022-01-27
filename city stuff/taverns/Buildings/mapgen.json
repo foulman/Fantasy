@@ -29,11 +29,16 @@
       "...|||:|||||||:|||||||:|||:|||+|||:||||||:|||...",
       "................................................"
     ],
-    "terrain": { ".": "t_region_groundcover" },
+    "terrain": { ".": "t_region_groundcover", "2": "t_region_groundcover" },
+    "nested": {
+        "2": { "chunks": [
+			[ "inn_cultist_nested", 100 ]
+			]
+			}		
+      },
     "palettes": [ "mtc_generic_structure" ],
 	"npcs": {
 		"0": { "class": "generic_tavernkeep" },
-                "2": { "class": "cult_recruiter" },
 		"1": { "class": "gambler" },
                 "3": [ { "class": "generic_female_citizen" }, { "class": "generic_male_citizen" } ]
 		}

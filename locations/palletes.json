@@ -56,8 +56,7 @@
       "/": "t_splitrail_fence",
       "f": "t_fencegate_c",
       "#": "t_dirtmound"
-    },
-    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
+    }
     },
 {
     "type": "palette",

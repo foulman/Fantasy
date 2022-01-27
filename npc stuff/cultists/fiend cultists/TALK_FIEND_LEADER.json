@@ -114,10 +114,14 @@
         "switch": true,
         "default": true,
         "text": "How did this organization form?",
-        "trial": { "type": "PERSUADE", "difficulty": -1 },
+        "trial": { "type": "PERSUADE", "difficulty": -10 },
         "success": { "topic": "TALK_CULT_LEADER_FIEND_BACKSTORY", "opinion": { "trust": 1, "value": 1 } },
         "failure": { "topic": "TALK_WORK" }
-      }
+      },
+                { 
+                "text": "Is there any work to be done?",
+                "topic": "TALK_CULT_JOBS" 
+                } 
     ]
   },
 {

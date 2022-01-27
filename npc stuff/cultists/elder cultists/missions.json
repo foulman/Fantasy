@@ -438,12 +438,13 @@
     "name": "Guide of the Stars",
     "description": "Lead the prospective member to the sanctuary.",
     "goal": "MGOAL_RECRUIT_NPC",
+    "followup": "MISSION_RECRUIT_CULT_MEMBER_II",
     "difficulty": 3,
     "value": 1,
 	"origins": [ "ORIGIN_OPENER_NPC" ],
         "start": {
       "assign_mission_target": { "om_terrain": "forest", "reveal_radius": 1, "random": true, "search_range": 10, "min_distance": 4, "z": 0 },
-      "update_mapgen": { "place_npcs": [ { "class": "mercenary_friendly", "x": 6, "y": 9, "target": true } ] }
+      "update_mapgen": { "place_npcs": [ { "class": "cult_prospect", "x": 6, "y": 9, "target": true } ] }
     },
     "end": { "effect": [
 		{ "u_spawn_item": "silver_coin", "count": 5 }
@@ -452,6 +453,35 @@
 	"dialogue": {
       "describe": "A new member seeks us out.",
 	  "offer": "I have word that a prospective member seeks us. I want you to lead them here.",
+	  "advice": "Just go where I told you.",
+      "accepted": "Wonderful, go on.",
+      "rejected": "I can find someone else to do it, then.",
+      "inquire": "Do you know where they are?",
+      "success": "Good job.",
+      "success_lie": "This doesn't look like them...",
+      "failure": "Ah well."
+    }
+  },
+{
+    "id": "MISSION_RECRUIT_CULT_MEMBER_II",
+    "type": "mission_definition",
+    "name": "Guide of the Stars Pt. II",
+    "description": "Lead the prospective members to the sanctuary.",
+    "goal": "MGOAL_RECRUIT_NPC",
+    "difficulty": 3,
+    "value": 1,
+	"origins": [ "ORIGIN_OPENER_NPC" ],
+        "start": {
+      "assign_mission_target": { "om_terrain": "forest", "reveal_radius": 1, "random": true, "search_range": 10, "min_distance": 4, "z": 0 },
+      "update_mapgen": { "place_npcs": [ { "class": "cult_prospect", "x": 6, "y": 9, "target": true }, { "class": "cult_prospect", "x": 6, "y": 13, "target": true }, { "class": "cult_prospect", "x": 10, "y": 9, "target": true } ] }
+    },
+    "end": { "effect": [
+		{ "u_spawn_item": "silver_coin", "count": 15 }
+		] },
+	"has_generic_rewards": true,
+	"dialogue": {
+      "describe": "New members seek us out.",
+	  "offer": "I have word that more prospective members seek us. I want you to lead them here.",
 	  "advice": "Just go where I told you.",
       "accepted": "Wonderful, go on.",
       "rejected": "I can find someone else to do it, then.",

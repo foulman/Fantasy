@@ -106,7 +106,8 @@
       [ "spell_scroll_eright", 10 ],
       [ "spell_scroll_esummon", 10 ],
       [ "spell_scroll_hex", 10 ],
-      [ "spell_scroll_elder_form", 5 ]
+      [ "spell_scroll_elder_form", 5 ],
+      [ "spell_scroll_hide_eldritch", 10 ]
     ]
   },
   {

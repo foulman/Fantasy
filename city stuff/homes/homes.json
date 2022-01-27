@@ -37,6 +37,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+      "place_nested": [
+        { "chunks": [ "home_city_nested" ], "x": 0, "y": 0 }
+      ],
 	  "npcs": {
 		"!": { "class": "generic_male_citizen" }
 		}
@@ -80,6 +83,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+      "place_nested": [
+        { "chunks": [ "home_city_nested" ], "x": 0, "y": 0 }
+      ],
       "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
       ],
@@ -126,6 +132,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+      "place_nested": [
+        { "chunks": [ "home_city_nested" ], "x": 0, "y": 0 }
+      ],
       "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
       ],
@@ -173,6 +182,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+      "place_nested": [
+        { "chunks": [ "home_city_nested" ], "x": 0, "y": 0 }
+      ],
       "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
       ],
@@ -221,6 +233,9 @@
         "           ff           "
       ],
       "palettes": [ "city_building_home" ],
+      "place_nested": [
+        { "chunks": [ "home_city_nested" ], "x": 0, "y": 0 }
+      ],
       "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "kingdom", "x": [ 1, 23 ], "y": [ 1, 23 ] }
       ],

@@ -1,0 +1,20 @@
+[
+{
+    "id": "initiation_potion",
+    "type": "COMESTIBLE",
+    "comestible_type": "DRINK",
+    "name": "wierd potion",
+    "description": "A light red liquid seemingly containing blood. It has a horrible smell, and doesn't look safe to drink.",
+	"quench": 33,
+    "healthy": 1,
+    "calories": 0,
+    "weight": "245 g",
+    "volume": "275 ml",
+    "price": 500,
+    "symbol": "~",
+    "color": "light_red",
+    "phase": "liquid",
+	"container": "bottle_glass",
+    "use_action": { "type": "cast_spell", "spell_id": "initiation_effect_item", "no_fail": true, "level": 0 }
+  } 
+]

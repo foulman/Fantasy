@@ -2,7 +2,7 @@
   {
     "type": "faction",
     "id": "kingdom",
-    "name": "The kingdom",
+    "name": "The Kingdom",
     "likes_u": 0,
     "respects_u": 0,
     "known_by_u": false,
@@ -49,7 +49,12 @@
         "knows your voice": false
       }
     },
-    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_your_followers_0" } ],
+    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_kingdom_0" },
+                   { "power_min": 150, "id": "epilogue_faction_kingdom_150" },
+                   { "power_min": 300, "id": "epilogue_faction_kingdom_300" },
+                   { "power_min": 600, "id": "epilogue_faction_kingdom_600" },
+                   { "power_min": 1000, "id": "epilogue_faction_kingdom_1000" },
+                   { "power_min": 5000, "id": "epilogue_faction_kingdom_5000" } ],
     "description": "The kingdom. From the royalty to the guards and commoners, this encompasses all of society."
   },
   {
@@ -102,7 +107,7 @@
         "knows your voice": false
       }
     },
-    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_your_followers_0" } ],
+    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_blank" } ],
     "description": "Bandits. Cutthroats without tact or hygiene. The bane of travellers and merchants alike."
   },
   {
@@ -155,7 +160,7 @@
         "knows your voice": false
       }
     },
-    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_your_followers_0" } ],
+    "epilogues": [ { "power_min": 0, "id": "epilogue_faction_blank" } ],
     "description": "Strange cultists who kidnap people and sacrifice them to perform their dark magic. Each member has had their hearts and eyes replaced by similar organs not of this world and their tomes have so far proven indecipherable."
   }
 ]
