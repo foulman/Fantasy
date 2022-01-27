@@ -1,0 +1,62 @@
+[
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "crystal_formation",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        "
+      ],
+      "palettes": [ "caves" ],
+      "terrain": { " ": [ [ "t_rock_floor", 5 ], [ "t_garnet_crystal", 3 ] ] }
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "crystal_formation",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        "
+      ],
+      "palettes": [ "caves" ],
+      "terrain": { " ": [ [ "t_rock_floor", 5 ], [ "t_opal_crystal", 3 ] ] }
+    }
+    },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "crystal_formation",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        ",
+        "        "
+      ],
+      "palettes": [ "caves" ],
+      "terrain": { " ": [ [ "t_rock_floor", 5 ], [ "t_topaz_crystal", 3 ] ] }
+    }
+    }
+]

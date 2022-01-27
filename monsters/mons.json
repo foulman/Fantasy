@@ -54,6 +54,7 @@
     "vision_night": 25,
     "vision_day": 30,
     "harvest": "mammal_fur",
+    "weakpoint_sets": [ "wps_natural_armor" ],
     "path_settings": { "max_dist": 12 },
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],
@@ -89,6 +90,7 @@
     "harvest": "demihuman",
     "vision_day": 30,
     "vision_night": 8,
+    "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_light_armor" ],
     "death_drops": {
       "subtype": "collection",
       "items": [
@@ -100,6 +102,8 @@
         { "item": "goblin_ears", "prob": 100 }
       ]
     },
+    "special_attacks": [ [ "PARROT", 200 ] ],
+    "path_settings": { "allow_open_doors": true, "avoid_traps": true, "avoid_sharp": true },
     "flags": [ "SEES", "HEARS", "WARM", "BASHES", "FILTHY", "PATH_AVOID_DANGER_2", "CAN_OPEN_DOORS" ]
   },
   {
@@ -473,6 +477,7 @@
     "vision_night": 25,
     "vision_day": 30,
     "harvest": "mammal_fur",
+    "weakpoint_sets": [ "wps_natural_armor" ],
     "path_settings": { "max_dist": 12 },
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
     "placate_triggers": [ "MEAT" ],

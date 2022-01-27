@@ -1,0 +1,281 @@
+[ 
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin",
+       "mon_mtc_goblin_swordsman",
+       "mon_mtc_goblin_spearsman",
+       "mon_mtc_goblin_hammerman",
+       "mon_mtc_goblin_marksman",
+       "mon_mtc_goblin_thrower",
+       "mon_mtc_goblin_immobilzer",
+       "mon_mtc_goblin_warbanner",
+       "mon_mtc_goblin_shaman",
+       "mon_mtc_goblin_mage",
+       "mon_mtc_goblin_mounted",
+       "mon_mtc_goblin_cheiftan",
+       "mon_mtc_goblin_necromancer",
+
+       "mon_mtc_hobgoblin", 
+       "mon_mtc_hobgoblin_swordsman", 
+       "mon_mtc_hobgoblin_hammerman", 
+       "mon_mtc_hobgoblin_spearman", 
+       "mon_mtc_hobgoblin_shaman", 
+       "mon_mtc_hobgoblin_leader", 
+
+       "mon_mtc_bugbear",
+       "mon_mtc_bugbear_warrior",
+       "mon_mtc_bugbear_shaman",
+       "mon_mtc_bugbear_leader"
+     ],
+    "sound": "\"Men-garph!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin",
+       "mon_mtc_goblin_swordsman",
+       "mon_mtc_goblin_spearsman",
+       "mon_mtc_goblin_hammerman",
+       "mon_mtc_goblin_marksman",
+       "mon_mtc_goblin_thrower",
+       "mon_mtc_goblin_immobilzer",
+       "mon_mtc_goblin_warbanner",
+       "mon_mtc_goblin_shaman",
+       "mon_mtc_goblin_mage",
+       "mon_mtc_goblin_mounted",
+       "mon_mtc_goblin_cheiftan",
+       "mon_mtc_goblin_necromancer",
+
+       "mon_mtc_hobgoblin", 
+       "mon_mtc_hobgoblin_swordsman", 
+       "mon_mtc_hobgoblin_hammerman", 
+       "mon_mtc_hobgoblin_spearman", 
+       "mon_mtc_hobgoblin_shaman", 
+       "mon_mtc_hobgoblin_leader", 
+
+       "mon_mtc_bugbear",
+       "mon_mtc_bugbear_warrior",
+       "mon_mtc_bugbear_shaman",
+       "mon_mtc_bugbear_leader"
+     ],
+    "sound": "\"Telik-ah!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin",
+       "mon_mtc_goblin_swordsman",
+       "mon_mtc_goblin_spearsman",
+       "mon_mtc_goblin_hammerman",
+       "mon_mtc_goblin_marksman",
+       "mon_mtc_goblin_thrower",
+       "mon_mtc_goblin_immobilzer",
+       "mon_mtc_goblin_warbanner",
+       "mon_mtc_goblin_shaman",
+       "mon_mtc_goblin_mage",
+       "mon_mtc_goblin_mounted",
+       "mon_mtc_goblin_cheiftan",
+       "mon_mtc_goblin_necromancer",
+
+       "mon_mtc_hobgoblin", 
+       "mon_mtc_hobgoblin_swordsman", 
+       "mon_mtc_hobgoblin_hammerman", 
+       "mon_mtc_hobgoblin_spearman", 
+       "mon_mtc_hobgoblin_shaman", 
+       "mon_mtc_hobgoblin_leader", 
+
+       "mon_mtc_bugbear",
+       "mon_mtc_bugbear_warrior",
+       "mon_mtc_bugbear_shaman",
+       "mon_mtc_bugbear_leader" 
+     ],
+    "sound": "\"Gublik, gublik!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin",
+       "mon_mtc_goblin_swordsman",
+       "mon_mtc_goblin_spearsman",
+       "mon_mtc_goblin_hammerman",
+       "mon_mtc_goblin_marksman",
+       "mon_mtc_goblin_thrower",
+       "mon_mtc_goblin_immobilzer",
+       "mon_mtc_goblin_warbanner",
+       "mon_mtc_goblin_shaman",
+       "mon_mtc_goblin_mage",
+       "mon_mtc_goblin_mounted",
+       "mon_mtc_goblin_cheiftan",
+       "mon_mtc_goblin_necromancer",
+
+       "mon_mtc_hobgoblin", 
+       "mon_mtc_hobgoblin_swordsman", 
+       "mon_mtc_hobgoblin_hammerman", 
+       "mon_mtc_hobgoblin_spearman", 
+       "mon_mtc_hobgoblin_shaman", 
+       "mon_mtc_hobgoblin_leader", 
+
+       "mon_mtc_bugbear",
+       "mon_mtc_bugbear_warrior",
+       "mon_mtc_bugbear_shaman",
+       "mon_mtc_bugbear_leader" 
+     ],
+    "sound": "\"Jamal!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin_warbanner",
+       "mon_mtc_goblin_cheiftan",
+       "mon_mtc_hobgoblin_leader",
+       "mon_mtc_bugbear_leader",
+       "mon_mtc_imp_spearsman",
+       "mon_mtc_imp_swordsman",
+       "mon_mtc_demon_warrior" 
+     ],
+    "sound": "\"a bellowing horn!\"",
+    "volume": 50
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin_warbanner",
+       "mon_mtc_goblin_cheiftan",
+       "mon_mtc_hobgoblin_leader",
+       "mon_mtc_bugbear_leader" 
+     ],
+    "sound": "\"Habakah!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin_shaman",
+       "mon_mtc_goblin_mage",
+       "mon_mtc_goblin_necromancer",
+       "mon_mtc_hobgoblin_shaman",
+       "mon_mtc_bugbear_shaman",
+       "mon_mtc_imp_pyro",
+       "mon_mtc_demon_mage"
+     ],
+    "sound": "\"Vulikamah...\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin_shaman",
+       "mon_mtc_goblin_mage",
+       "mon_mtc_goblin_necromancer",
+       "mon_mtc_hobgoblin_shaman",
+       "mon_mtc_bugbear_shaman",
+       "mon_mtc_imp_pyro",
+       "mon_mtc_demon_mage" 
+     ],
+    "sound": "\"Mephilkeh...\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin_shaman",
+       "mon_mtc_goblin_mage",
+       "mon_mtc_goblin_necromancer",
+       "mon_mtc_hobgoblin_shaman",
+       "mon_mtc_bugbear_shaman",
+       "mon_mtc_imp_pyro",
+       "mon_mtc_demon_mage" 
+     ],
+    "sound": "\"Bromun kazhrak...\"",
+    "volume": 10
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin_shaman",
+       "mon_mtc_goblin_mage",
+       "mon_mtc_goblin_necromancer",
+       "mon_mtc_hobgoblin_shaman",
+       "mon_mtc_bugbear_shaman",
+       "mon_mtc_imp_pyro",
+       "mon_mtc_demon_mage" 
+     ],
+    "sound": "\"Jeliki!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_goblin_shaman",
+       "mon_mtc_goblin_mage",
+       "mon_mtc_goblin_necromancer",
+       "mon_mtc_hobgoblin_shaman",
+       "mon_mtc_bugbear_shaman",
+       "mon_mtc_imp_pyro",
+       "mon_mtc_demon_mage"
+     ],
+    "sound": "\"Pyros makah!\"",
+    "volume": 20
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_imp",
+       "mon_mtc_imp_spearsman",
+       "mon_mtc_imp_swordsman",
+       "mon_mtc_imp_pyro",
+       "mon_mtc_fyllirbam",
+       "mon_mtc_demon_warrior",
+       "mon_mtc_demon_mage"
+     ],
+    "sound": "\"Qakdulegh!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_imp",
+       "mon_mtc_imp_spearsman",
+       "mon_mtc_imp_swordsman",
+       "mon_mtc_imp_pyro",
+       "mon_mtc_fyllirbam",
+       "mon_mtc_demon_warrior",
+       "mon_mtc_demon_mage"
+     ],
+    "sound": "\"Komodos makar!\"",
+    "volume": 30
+  },
+  {
+    "type": "speech",
+    "speaker": 
+     [ 
+       "mon_mtc_imp",
+       "mon_mtc_imp_spearsman",
+       "mon_mtc_imp_swordsman",
+       "mon_mtc_imp_pyro",
+       "mon_mtc_fyllirbam",
+       "mon_mtc_demon_warrior",
+       "mon_mtc_demon_mage"
+     ],
+    "sound": "\"Galak!\"",
+    "volume": 30
+  }
+]

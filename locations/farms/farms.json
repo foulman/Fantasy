@@ -198,7 +198,8 @@
         "/  ## ## ## ## ## ## ## ",
         "   ## ## ## ## ## ## ## "
       ],
-      "palettes": [ "farm_mtc" ]
+      "palettes": [ "farm_mtc" ],
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 },
 {
@@ -237,7 +238,8 @@
       "palettes": [ "farm_mtc" ],
       "npcs": {
 		"!": { "class": "farmhand_mtc" }
-		}
+		},
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 },
 {
@@ -273,7 +275,8 @@
         "   ## ## ## ## ## ## ## ",
         "   ## ## ## ## ## ## ## "
       ],
-      "palettes": [ "farm_mtc" ]
+      "palettes": [ "farm_mtc" ],
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 },
 {
@@ -312,7 +315,8 @@
       "palettes": [ "farm_mtc" ],
       "npcs": {
 		"!": { "class": "farmhand_mtc" }
-		}
+		},
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 },
 {
@@ -348,7 +352,8 @@
         "                        ",
         "////////////////////////"
       ],
-      "palettes": [ "farm_mtc" ]
+      "palettes": [ "farm_mtc" ],
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 },
 {
@@ -384,7 +389,8 @@
         "                       /",
         "////////////////////////"
       ],
-      "palettes": [ "farm_mtc" ]
+      "palettes": [ "farm_mtc" ],
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 },
 {
@@ -420,7 +426,8 @@
         "/                       ",
         "////////////////////////"
       ],
-      "palettes": [ "farm_mtc" ]
+      "palettes": [ "farm_mtc" ],
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 },
 {
@@ -456,7 +463,8 @@
         "/  ## ## ## ## ## ## ## ",
         "/  ## ## ## ## ## ## ## "
       ],
-      "palettes": [ "farm_mtc" ]
+      "palettes": [ "farm_mtc" ],
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 },
 {
@@ -492,7 +500,8 @@
         "  ## ## ## ## ## ## ## /",
         "  ## ## ## ## ## ## ## /"
       ],
-      "palettes": [ "farm_mtc" ]
+      "palettes": [ "farm_mtc" ],
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 },
 {
@@ -527,7 +536,8 @@
         " ## ## ## ## ## ## ##   ",
         " ## ## ## ## ## ## ##   "
       ],
-      "palettes": [ "farm_mtc" ]
+      "palettes": [ "farm_mtc" ],
+    "sealed_item": { "#": { "item": { "item": "seed_corn" }, "furniture": "f_plant_seedling", "chance": 70 } }
   }
 }
 ]
