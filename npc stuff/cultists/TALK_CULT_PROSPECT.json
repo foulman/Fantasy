@@ -1,0 +1,14 @@
+[
+ {
+    "id": "TALK_NPC_CULT_PROSPECT",
+    "type": "talk_topic",
+    "dynamic_line": [ "Are you the one they sent here? " ],
+    "responses": [ { "text": "Yes, I am", "topic": "TALK_NPC_CULT_PROSPECT_FOLLOW" } ]
+  },
+  {
+    "id": "TALK_NPC_CULT_PROSPECT_FOLLOW",
+    "type": "talk_topic",
+    "dynamic_line": [ "Clathic mul'gashma" ],
+    "responses": [ { "text": "Let's go.", "topic": "TALK_DONE", "effect": "follow_only" } ]
+  }
+]

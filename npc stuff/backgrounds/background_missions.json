@@ -151,5 +151,34 @@
       "success_lie": "This doesn't look like the place...",
       "failure": "Aw shit."
     }
-  } 
+  },
+{
+    "id": "MISSION_GIBBERISH",
+    "type": "mission_definition",
+    "name": "Tomb Raiding",
+    "description": "Follow the map and find the ruins.",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "difficulty": 1,
+    "value": 10,
+    "destination": "old_catacomb_enter",
+    "start": {
+      "assign_mission_target": { "om_terrain": "old_catacomb_enter", "om_special": "catacombs", "reveal_radius": 1, "search_range": 90, "min_distance": 10 }
+    },
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+    "end": { "effect": [
+		{ "npc_add_var": "ARCH_MISSION_1", "type": "general", "context": "mission", "value": "yes" }
+		] },
+    "has_generic_rewards": true,
+    "dialogue": {
+    "describe": "An old ruin I once worked at is on that map. Go there, then we'll talk.",
+    "offer": "An old ruin I once worked at is on that map. I want my vengance for my colleagues, and I want you to help me.",
+    "advice": "That place is crawling with zombies, skeletons, you name it. Bring a weapon, and don't go in unprepared.",
+      "accepted": "Wonderful, we'll set out.",
+      "rejected": "Please? This means so much to me.",
+      "inquire": "Do you know where we're going?",
+      "success": "Ah ha!",
+      "success_lie": "This doesn't look like the place...",
+      "failure": "Aw shit."
+    }
+  }  
 ]
