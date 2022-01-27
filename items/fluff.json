@@ -113,5 +113,12 @@
     "id": "silver_ivy_diploma",
     "name": { "str": "diploma of the Silver Ivy" },
     "description": "A diploma granted to students upon graduating from the Silver Ivy. It can be a prestigious honor for those who have one."
+  },
+{
+    "type": "BOOK",
+    "copy-from": "spell_scroll",
+    "id": "joining_slip",
+    "name": { "str": "slip of joining" },
+    "description": "A sheet of skin, carved with strange letters of some forgien script. Why anyone would have this is beyind you."
   }
 ]

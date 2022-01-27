@@ -1555,7 +1555,11 @@
       { "item": "rod_open", "prob": 35 },
       { "item": "rod_fire", "prob": 35 },
       { "item": "sigil_shield", "prob": 35 },
-      { "item": "bag_holding", "prob": 35 }
+      { "item": "bag_holding", "prob": 35 },
+      { "item": "claygolem_inactive", "prob": 15 },
+      { "item": "stonegolem_inactive", "prob": 15 },
+      { "item": "irongolem_inactive", "prob": 15 },
+      { "item": "ghost_ward", "prob": 35 }
     ]
   }  
 ]

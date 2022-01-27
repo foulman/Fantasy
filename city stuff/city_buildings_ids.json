@@ -474,6 +474,14 @@
 	},
 {
     "type": "city_building",
+    "id": "city_lumber_yard",
+    "locations": [ "forest" ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "lumber_yard_mtc_north", "locations": [ "forest" ] }
+    ]
+	},
+{
+    "type": "city_building",
     "id": "fishery",
     "locations": [ "water", "lake_shore" ],
     "overmaps": [

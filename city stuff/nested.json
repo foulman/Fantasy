@@ -54,5 +54,47 @@
         { "vehicle": "skiff", "x": 4, "y": 4, "chance": 100, "rotation": 270, "status": 0 }
       ]
     }
+  },
+{
+    "//": "Nested group for inn spawns.",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "inn_cultist_nested",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "place_nested": [
+        { "chunks": [ [ "inn_no_spawn", 95 ], [ "inn_elder_cultist_spawn", 45 ], [ "inn_fiend_cultist_spawn", 45 ] ], "x": 0, "y": 0 }
+      ]
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "inn_no_spawn",
+    "object": {
+      "mapgensize": [ 8, 8 ]
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "inn_elder_cultist_spawn",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "place_npcs": [
+        { "class": "cult_recruiter", "x": 0, "y": 0 }
+	  ]
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "inn_fiend_cultist_spawn",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "place_npcs": [
+        { "class": "cult_fiend_recruiter", "x": 0, "y": 0 }
+	  ]
+    }
   }
 ]

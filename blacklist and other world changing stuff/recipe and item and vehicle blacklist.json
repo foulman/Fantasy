@@ -271,7 +271,7 @@
 	  "armguard_soft",
 	  "elbow_pads",
 	  "armguard_cut_resistant",
-	  "ballistic_vest_empty",
+	  "",
 	  "ballistic_vest_esapi",
 	  "dragonskin",
 	  "dragonskinempty",
@@ -2679,7 +2679,7 @@
 	  "chem_rocket_fuel",
 	  "pur_tablets",
 	  "water_sewage",
-	  "detergent",
+                "detergent",
 	  "soap_flakes",
 	  "lye",
 	  "nanomaterial",
@@ -3211,7 +3211,6 @@
       "cordless_impact_wrench",
       "tire_iron",
       "multimeter"
-
     ]
   },
   {

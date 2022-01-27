@@ -1,0 +1,14 @@
+[
+{
+    "type": "TOOL",
+    "id": "cleric_focus_staff",
+    "copy-from": "q_staff",
+    "looks_like": "q_staff",
+    "name": "divine staff",
+    "description": "A quarterstaff engraved with religious symbology, marketed towards clerics for their spellcasting. In a pinch, it makes a good melee weapon. It also boasts a slight increase in eyesight to its wielder.",
+    "extend": { "flags": [ "MAGIC_FOCUS", "NO_UNLOAD" ] },
+    "charges_per_use": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 10 }, "rigid": true } ],
+    "use_action": { "type": "cast_spell", "spell_id": "healing", "no_fail": false, "level": 1, "need_wielding": true }
+ }
+]

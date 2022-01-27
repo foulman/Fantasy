@@ -73,5 +73,30 @@
       "place_randomly": true,
       "skills": [ "spellcraft" ]
     }
-  }  
+  },
+{
+    "id": "ghost_ward",
+    "type": "TOOL",
+    "name": { "str": "spirit ward" },
+    "description": "This is a sheet of paper, engraved with geometric runes. Using it will summon a spirit, though it may be hostile without proper skill in magic.",
+    "weight": "3 g",
+    "volume": "1 ml",
+    "bashing": 8,
+    "cutting": 8,
+    "to_hit": -3,
+    "price": 2000,
+    "material": [ "paper" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_mtc_ghost",
+      "friendly_msg": "A spirit appears!",
+      "hostile_msg": "A spirit appears, and turns to face you!",
+      "difficulty": 2,
+      "moves": 100,
+      "place_randomly": true,
+      "skills": [ "spellcraft" ]
+    }
+  }
 ]

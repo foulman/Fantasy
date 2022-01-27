@@ -1,0 +1,28 @@
+[
+{
+    "id": "dungeon_map",
+    "type": "GENERIC",
+    "category": "maps",
+    "name": { "str": "dungeon map" },
+    "description": "This is a hand-drawn map of the local area, detailing the locations of encampments, catacombs, and other such places. Using it will add these locations to your map.",
+    "weight": "30 g",
+    "volume": "250 ml",
+    "price": 500,
+    "to_hit": -1,
+    "material": [ "paper" ],
+    "symbol": ";",
+    "looks_like": "survivormap",
+    "color": "white",
+    "use_action": {
+      "type": "reveal_map",
+      "radius": 100,
+      "terrain": [
+        "goblin_camp_gate",
+        "hobgoblin_camp_gate",
+        "bandit_camp_important",
+        "old_catacomb_enter"
+      ],
+      "message": "You add catacombs and hostile fortifications to your map."
+    }
+  } 
+]
