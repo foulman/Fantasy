@@ -181,5 +181,15 @@
     "starting_trait": false,
     "stealth_modifier": 60,
 	"anger_relations": [ [ "DEMON", -100 ] ]
+  },
+{
+    "type": "mutation",
+    "id": "MUT_HIDE_ELDRITCH",
+    "name": { "str": "Hide from Far Beings" },
+    "points": 1,
+    "description": "Disguised by photomancy to appear nondescript, you are harder to notice at a distance.",
+    "starting_trait": false,
+    "stealth_modifier": 60,
+	"anger_relations": [ [ "ELDRITCH", -100 ] ]
   }
 ]
