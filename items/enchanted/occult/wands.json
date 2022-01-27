@@ -1,0 +1,14 @@
+[
+{
+    "type": "TOOL",
+    "id": "warlock_focus_staff",
+    "copy-from": "q_staff",
+    "looks_like": "q_staff",
+    "name": "dark focusing staff",
+    "description": "A quarterstaff engraved with otherworldly symbology. In a pinch, it makes a good melee weapon. It is capable of minor spellcasting, though reliant on the skill of its wielder.",
+    "extend": { "flags": [ "MAGIC_FOCUS", "NO_UNLOAD" ] },
+    "charges_per_use": 1,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "crystallized_mana": 10 }, "rigid": true } ],
+    "use_action": { "type": "cast_spell", "spell_id": "bloodshot", "no_fail": false, "level": 1, "need_wielding": true }
+ }
+]

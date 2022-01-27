@@ -650,7 +650,7 @@
     "method": "json",
     "om_terrain": [ "ocata5" ],
     "//": "Finale, warrior crypt.",
-    "weight": 100,
+    "weight": 70,
     "object": {
       "fill_ter": "t_rock_floor",
       "rows": [
@@ -665,13 +665,13 @@
         "h...........F..........h",
         "l......xxx..y..xxx.....l",
         "lllll.......l.......llll",
-        "####lxll.llx..ll.ll.l###",
-        "####lxCCxCCx.xCCxCCxl###",
-        "####l.ll.ll...ll.ll.l###",
-        "####l...............l###",
-        "####l......xxx......l###",
-        "####lllllllFCFlllllll###",
-        "########################",
+        "###lCxll.llx..ll.ll.Cl##",
+        "###llxCCxCCx.xCCxCCxll##",
+        "###lC.ll.ll...ll.ll.Cl##",
+        "###ll...............ll##",
+        "###lC......xxx......Cl##",
+        "###llClClClFCFlClClCll##",
+        "###lllllllllllllllllll##",
         "########################",
         "########################",
         "########################",
@@ -684,6 +684,51 @@
       "furniture": { "C": "f_coffin_c", "F": "f_sign" },
       "monster": { "x": { "monster": "mon_mtc_skeleton_warrior_cut", "chance": 75 },
                    "y": { "monster": "mon_mtc_skeleton_warrior_range", "chance": 75 } },
+      "sealed_item": {
+      "C": {
+      "items": { "item": "lair_loot_generic", "chance": 100, "repeat": [ 2, 4 ] },
+      "furniture": "f_coffin_c"
+  }
+}
+    }
+  },
+{
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "ocata5" ],
+    "//": "Finale, dark spirit",
+    "weight": 60,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "########################",
+        "####llClCllClCllClCll###",
+        "####lC.............Cl###",
+        "####lC.............Cl###",
+        "####llClCll...llClCll###",
+        "llllllClCll...llClClllll",
+        "l......................l",
+        "h.......ll....ll.......h",
+        "h......................h",
+        "l......................l",
+        "lllll.......l.......llll",
+        "###ll.ll.ll...ll.ll.ll##",
+        "###lC.CC.CC...CC.CC.Cl##",
+        "###ll.ll.ll...ll.ll.ll##",
+        "###lC.......x.......Cl##",
+        "###ll...............ll##",
+        "###lClClClClClClClClCl##",
+        "###lllllllllllllllllll##",
+        "########################",
+        "########################",
+        "########################",
+        "########################",
+        "########################",
+        "########################"
+      ],
+      "palettes": [ "catacombs" ],
+      "furniture": { "C": "f_coffin_c" },
+      "monster": { "x": { "monster": "mon_dark_spirit", "chance": 100 } },
       "sealed_item": {
       "C": {
       "items": { "item": "lair_loot_generic", "chance": 100, "repeat": [ 2, 4 ] },
