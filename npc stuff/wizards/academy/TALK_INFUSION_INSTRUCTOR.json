@@ -15,37 +15,37 @@
       { 
          "text": "Don't we have lessons today?", 
          "topic": "TALK_CULT_JOBS",
-         "condition": { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" } 	  
+         "condition": { "npc_has_var": "u_in_class", "type": "general", "context": "mission" } 	  
       },
       { 
          "text": "I'm ready to learn infusion.", 
          "topic": "TALK_INFUSION_FIRST_LESSON",
-         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }, { "u_has_skill": { "skill": "spellcraft", "level": 1 } } ], "not": [ { "npc_has_var": "u_learned_infusion", "type": "general", "context": "mission", "value": "yes" } ] }	  
+         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission" }, { "u_has_skill": { "skill": "spellcraft", "level": 1 } }, { "not": { "npc_has_var": "u_learned_infusion", "type": "general", "context": "mission" } } ] }	  
       },
       { 
          "text": "What's our next lesson?", 
          "topic": "TALK_INFUSION_SECOND_LESSON",
-         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }, { "npc_has_var": "magic_lesson_1", "type": "general", "context": "mission", "value": "yes" }, { "u_has_skill": { "skill": "spellcraft", "level": 2 } } ] }	  
+         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission" }, { "npc_has_var": "magic_lesson_1", "type": "general", "context": "mission" }, { "u_has_skill": { "skill": "spellcraft", "level": 2 } } ] }	  
       },
       { 
          "text": "What's our next lesson?", 
          "topic": "TALK_INFUSION_THIRD_LESSON",
-         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }, { "npc_has_var": "magic_lesson_2", "type": "general", "context": "mission", "value": "yes" }, { "u_has_skill": { "skill": "spellcraft", "level": 3 } } ] }	  
+         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission" }, { "npc_has_var": "magic_lesson_2", "type": "general", "context": "mission" }, { "u_has_skill": { "skill": "spellcraft", "level": 3 } } ] }	  
       },
       { 
          "text": "What's our next lesson?", 
          "topic": "TALK_INFUSION_FOURTH_LESSON",
-         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }, { "npc_has_var": "magic_lesson_3", "type": "general", "context": "mission", "value": "yes" }, { "u_has_skill": { "skill": "spellcraft", "level": 5 } } ] }	  
+         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission" }, { "npc_has_var": "magic_lesson_3", "type": "general", "context": "mission" }, { "u_has_skill": { "skill": "spellcraft", "level": 5 } } ] }	  
       },
       { 
          "text": "What's our next lesson?", 
          "topic": "TALK_INFUSION_FIFTH_LESSON",
-         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }, { "npc_has_var": "magic_lesson_4", "type": "general", "context": "mission", "value": "yes" }, { "u_has_skill": { "skill": "spellcraft", "level": 2 } } ] }	  
+         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission" }, { "npc_has_var": "magic_lesson_4", "type": "general", "context": "mission" }, { "u_has_skill": { "skill": "spellcraft", "level": 2 } } ] }	  
       },
       { 
          "text": "What's our next lesson?", 
          "topic": "TALK_INFUSION_SIXTH_LESSON",
-         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }, { "npc_has_var": "magic_lesson_5", "type": "general", "context": "mission", "value": "yes" }, { "u_has_skill": { "skill": "spellcraft", "level": 3 } } ] }	  
+         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission" }, { "npc_has_var": "magic_lesson_5", "type": "general", "context": "mission" }, { "u_has_skill": { "skill": "spellcraft", "level": 3 } } ] }	  
       }
     ]
   },

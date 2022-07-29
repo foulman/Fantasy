@@ -15,12 +15,12 @@
       { 
          "text": "Don't we have lessons today?", 
          "topic": "TALK_CULT_JOBS",
-         "condition": { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" } 	  
+         "condition": { "npc_has_var": "u_in_class", "type": "general", "context": "mission" } 	  
       },
       { 
          "text": "I'm ready to take my final test.", 
          "topic": "TALK_FINAL_LESSON",
-         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission", "value": "yes" }, { "u_has_skill": { "skill": "spellcraft", "level": 4 } } ] }	  
+         "condition": { "and": [ { "npc_has_var": "u_in_class", "type": "general", "context": "mission" }, { "u_has_skill": { "skill": "spellcraft", "level": 4 } } ] }	  
       }
     ]
   },
