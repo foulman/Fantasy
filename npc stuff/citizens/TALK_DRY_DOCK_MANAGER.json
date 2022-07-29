@@ -12,7 +12,7 @@
                 {
 		"text": "I'll take a skiff (363 gold).",
 		"topic": "TALK_SOLD",
-                "condition": { "and": [ { "npc_has_var": "known", "type": "dialogue", "context": "npc_boat_maker", "value": "yes" }, { "u_has_items": { "item": "gold_coin", "count": 363 } } ] },
+                "condition": { "and": [ { "npc_has_var": "known", "type": "dialogue", "context": "npc_boat_maker" }, { "u_has_items": { "item": "gold_coin", "count": 363 } } ] },
                 "effect": [ { "add_mission": "MISSION_BUY_SKIFF" } ] 
 		},
 		{

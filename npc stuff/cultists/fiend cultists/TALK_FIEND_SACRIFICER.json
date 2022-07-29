@@ -10,7 +10,7 @@
                    },
                    { 
                      "text": "Could you help me with something?", 
-                     "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" },
+                     "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission" },
                      "topic": "TALK_CULT_SACRIFICER_FIEND_MENU" 
                    },
                    { 
@@ -35,7 +35,7 @@
                  },
                  { 
                    "text": "Could you teach me how to send these?",
-                   "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } },
+                   "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } },
                    "topic": "TALK_CULT_SACRIFICER_FIEND_RECRUIT" 
                  } 
                  ]
