@@ -1262,7 +1262,7 @@
   },
   {
     "type": "overmap_special",
-    "id": "Mine Entrance",
+    "id": "Generic mine",
     "overmaps": [  ],
 	"occurrences": [ 0, 0 ]
   },
@@ -1394,6 +1394,12 @@
   },
   {
     "type": "overmap_special",
+    "id": "Cabin_prepper",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
     "id": "Cave",
     "overmaps": [  ],
 	"occurrences": [ 0, 0 ]
@@ -1443,6 +1449,12 @@
   {
     "type": "overmap_special",
     "id": "Hunting Lodge",
+    "overmaps": [  ],
+	"occurrences": [ 0, 0 ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Hunting Lodge Glooscap",
     "overmaps": [  ],
 	"occurrences": [ 0, 0 ]
   },

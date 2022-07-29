@@ -495,5 +495,19 @@
     "name": "...",
     "blueprint": [ ],
     "parts": [ { "x": 0, "y": 0, "parts": [  ] } ]
+  },
+{
+    "id": "food_truck_taco",
+    "type": "vehicle",
+    "name": "...",
+    "blueprint": [ ],
+    "parts": [ { "x": 0, "y": 0, "parts": [  ] } ]
+  },
+{
+    "id": "schoolbus",
+    "type": "vehicle",
+    "name": "...",
+    "blueprint": [ ],
+    "parts": [ { "x": 0, "y": 0, "parts": [  ] } ]
   }
 ]
