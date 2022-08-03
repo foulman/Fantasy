@@ -14,7 +14,7 @@
     "warmth": 20,
     "material_thickness": 1,
     "environmental_protection": 5,
-    "flags": [ "OVERSIZE", "OUTER", "HELMET_COMPAT", "NONCONDUCTIVE" ]
+    "flags": [ "OVERSIZE", "OUTER", "NONCONDUCTIVE" ]
 	},
 	{
     "id": "cult_robes_ritual",
@@ -31,7 +31,7 @@
     "warmth": 30,
     "material_thickness": 2,
     "environmental_protection": 10,
-    "flags": [ "OVERSIZE", "OUTER", "HELMET_COMPAT", "NONCONDUCTIVE" ]
+    "flags": [ "OVERSIZE", "OUTER", "NONCONDUCTIVE" ]
 	},
 	{
     "id": "cult_robes_priest",
@@ -48,7 +48,7 @@
     "warmth": 40,
     "material_thickness": 3,
     "environmental_protection": 15,
-    "flags": [ "OVERSIZE", "OUTER", "HELMET_COMPAT", "NONCONDUCTIVE" ]
+    "flags": [ "OVERSIZE", "OUTER", "NONCONDUCTIVE" ]
 	},
 	{
     "id": "cult_robes_commune",
@@ -65,7 +65,7 @@
     "warmth": 40,
     "material_thickness": 3,
     "environmental_protection": 15,
-    "flags": [ "OVERSIZE", "OUTER", "HELMET_COMPAT", "NONCONDUCTIVE" ]
+    "flags": [ "OVERSIZE", "OUTER", "NONCONDUCTIVE" ]
 	},
 	{
     "id": "cult_robes_elder",
@@ -82,7 +82,7 @@
     "warmth": 40,
     "material_thickness": 4,
     "environmental_protection": 20,
-    "flags": [ "OVERSIZE", "OUTER", "HELMET_COMPAT", "NONCONDUCTIVE" ]
+    "flags": [ "OVERSIZE", "OUTER", "NONCONDUCTIVE" ]
 	},
 	{
     "id": "cult_robes_defender",
@@ -100,7 +100,7 @@
     "material_thickness": 4,
     "bashing": 6,
     "environmental_protection": 20,
-    "flags": [ "OVERSIZE", "OUTER", "HELMET_COMPAT", "NONCONDUCTIVE" ]
+    "flags": [ "OVERSIZE", "OUTER", "NONCONDUCTIVE" ]
 	},
 	{
 	"id": "patch_ritual",

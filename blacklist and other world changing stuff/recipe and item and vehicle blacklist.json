@@ -2620,7 +2620,6 @@
 	  "material_cement",
 	  "material_quicklime",
 	  "bleach",
-	  "ammonia",
 	  "fertilizer_liquid",
 	  "fertilizer_commercial",
 	  "fungicide",
@@ -3184,7 +3183,8 @@
       "rubber_band",
       "nailgun",
       "cordless_impact_wrench",
-      "multimeter"
+      "multimeter",
+      "mk47"
     ]
   },
   {
@@ -3530,6 +3530,36 @@
   {
     "type": "recipe",
     "result": "sausage_wasteland",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "fridge",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "standing_lamp",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "standing_floodlight",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "foot_locker_recharge_station",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "box_battery_charger",
+    "obsolete": true
+  },
+  {
+    "type": "recipe",
+    "result": "meat_mutant_tainted_smoked",
     "obsolete": true
   },
   {
