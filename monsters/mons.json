@@ -57,7 +57,6 @@
     "weakpoint_sets": [ "wps_natural_armor" ],
     "path_settings": { "max_dist": 12 },
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
-    "placate_triggers": [ "MEAT" ],
     "special_attacks": [ [ "LUNGE", 15 ], [ "PARROT", 2 ], [ "HOWL", 5 ] ],
     "flags": [ "SEES", "HEARS", "SMELLS", "GOODHEARING", "PATH_AVOID_DANGER_1", "WARM", "KEENNOSE", "HIT_AND_RUN" ]
   },
@@ -480,7 +479,6 @@
     "weakpoint_sets": [ "wps_natural_armor" ],
     "path_settings": { "max_dist": 12 },
     "anger_triggers": [ "STALK", "FRIEND_ATTACKED", "FRIEND_DIED", "PLAYER_WEAK", "PLAYER_CLOSE" ],
-    "placate_triggers": [ "MEAT" ],
     "death_drops": "mon_mtc_worg_dd",
     "special_attacks": [
       {

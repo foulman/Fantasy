@@ -89,7 +89,6 @@
     "dodge": 3,
     "vision_night": 20,
     "anger_triggers": [ "HURT", "FRIEND_ATTACKED", "FRIEND_DIED" ],
-    "placate_triggers": [ "MEAT" ],
     "death_function": { "message": "The %s's body melts away.", "corpse_type": "NO_CORPSE" },
     "special_attacks": [ [ "PARROT_AT_DANGER", 0 ] ],
     "flags": [

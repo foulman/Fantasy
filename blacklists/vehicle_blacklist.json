@@ -1,0 +1,22 @@
+[
+  {
+    "type": "vehicle_spawn",
+    "id": "default_city",
+    "spawn_types": [ ]
+  },
+  {
+    "type": "vehicle_spawn",
+    "id": "default_country",
+    "spawn_types": [ ]
+  },
+  {
+    "type": "vehicle_spawn",
+    "id": "default_bridge",
+    "spawn_types": [ ]
+  },
+  {
+    "type": "vehicle_spawn",
+    "id": "default_highway",
+    "spawn_types": [ ]
+  }
+]

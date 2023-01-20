@@ -69,13 +69,13 @@
     "id": "crystallized_mana",
     "name": "Crystallized mana",
     "copy-from": "stone",
-    "fuel_data": { "energy": 1 }
+    "fuel_data": { "energy": "1000 kJ" }
   },
   {
     "type": "material",
     "id": "mana",
     "name": "Mana",
     "copy-from": "pseudo_fuel",
-    "fuel_data": { "energy": 500, "perpetual": true }
+    "fuel_data": { "energy": "500000 kJ", "perpetual": true }
   }
 ]
