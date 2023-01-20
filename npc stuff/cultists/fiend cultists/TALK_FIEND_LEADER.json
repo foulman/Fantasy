@@ -6,12 +6,12 @@
     "responses": [
 		{
 		"text": "Who are you?",
-                "condition": { "not": { "u_has_var": "joined_cult_fiend", "type": "dialogue", "context": "cult", "value": "yes" } },
+                "condition": { "not": { "u_has_var": "joined_cult_fiend", "type": "dialogue", "context": "cult" } },
 		"topic": "TALK_CULT_LEADER_FIEND_WHO"
 		},
                 {
 		"text": "Hello again, can you help me with something?",
-                "condition": { "u_has_var": "joined_cult_fiend", "type": "dialogue", "context": "cult", "value": "yes" },
+                "condition": { "u_has_var": "joined_cult_fiend", "type": "dialogue", "context": "cult" },
 		"topic": "TALK_CULT_LEADER_FIEND_MENU"
 		},
                 {

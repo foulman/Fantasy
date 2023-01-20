@@ -15,7 +15,7 @@
           {
 		"text": "Is there any new trouble?",
 		"topic": "TALK_CULT_JOBS",
-                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } 	  	  
+                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } 	  	  
 	  }
     ]
   },
@@ -39,7 +39,7 @@
           {
 		"text": "I was a guardsman myself once.",
 		"topic": "TALK_NPC_GUARD_CAPTIAN_HIRE",
-                "condition": { "and": [ { "u_has_trait": "MTC_CITY_WATCH" }, { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } } ] }
+                "condition": { "and": [ { "u_has_trait": "MTC_CITY_WATCH" }, { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } } ] }
 	  }
     ]
   },

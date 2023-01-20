@@ -12,20 +12,20 @@
       { 
          "text": "Who are you?", 
          "topic": "TALK_NPC_ACADEMY_INFUSIONIST_WHO",      
-         "condition": { "not": { "npc_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" } }
+         "condition": { "not": { "npc_has_var": "known", "type": "dialogue", "context": "mage" } }
 	  
       },
       { 
          "text": "I'd like to but something.", 
          "topic": "TALK_SOLD",        
          "effect": "start_trade",
-         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" }
+         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage" }
 	  
       },
       { 
          "text": "Is there anything I can do for you?", 
          "topic": "TALK_CULT_JOBS",        
-         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" }
+         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage" }
 	  
       }
     ]

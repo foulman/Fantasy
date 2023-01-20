@@ -8,7 +8,7 @@
 		"text": "Do you think I could get into the dragonslaying business?",
 		"topic": "TALK_NPC_RETIRED_DRAGONSLAYER_QUESTION",
 		"condition": { "and": [
-			{ "not": { "u_has_var": "DRAGON_SLAY_1", "type": "general", "context": "mission", "value": "yes" } },
+			{ "not": { "u_has_var": "DRAGON_SLAY_1", "type": "general", "context": "mission" } },
 			{ "not": "has_assigned_mission" }
 			] }
 	  },

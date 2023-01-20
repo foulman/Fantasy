@@ -12,19 +12,19 @@
                 {
 		"text": "I'll take a hand cart (246 silver).",
 		"topic": "TALK_SOLD",
-                "condition": { "and": [ { "npc_has_var": "known", "type": "dialogue", "context": "npc_carriage_maker", "value": "yes" }, { "u_has_items": { "item": "silver_coin", "count": 246 } } ] },
+                "condition": { "and": [ { "npc_has_var": "known", "type": "dialogue", "context": "npc_carriage_maker" }, { "u_has_items": { "item": "silver_coin", "count": 246 } } ] },
                 "effect": [ { "add_mission": "MISSION_BUY_HANDCART" } ] 
 		},
                 {
 		"text": "I'll take a wagon (4,496 gold).",
 		"topic": "TALK_SOLD",
-                "condition": { "and": [ { "npc_has_var": "known", "type": "dialogue", "context": "npc_carriage_maker", "value": "yes" }, { "u_has_items": { "item": "gold_coin", "count": 4496 } } ] },
+                "condition": { "and": [ { "npc_has_var": "known", "type": "dialogue", "context": "npc_carriage_maker" }, { "u_has_items": { "item": "gold_coin", "count": 4496 } } ] },
                 "effect": [ { "add_mission": "MISSION_BUY_WAGON" } ] 
 		},
                 {
 		"text": "I'll take a covered wagon (8,425 gold).",
 		"topic": "TALK_SOLD",
-                "condition": { "and": [ { "npc_has_var": "known", "type": "dialogue", "context": "npc_carriage_maker", "value": "yes" }, { "u_has_items": { "item": "gold_coin", "count": 8425 } } ] },
+                "condition": { "and": [ { "npc_has_var": "known", "type": "dialogue", "context": "npc_carriage_maker" }, { "u_has_items": { "item": "gold_coin", "count": 8425 } } ] },
                 "effect": [ { "add_mission": "MISSION_BUY_WAGON_COVERED" } ] 
 		},
 		{

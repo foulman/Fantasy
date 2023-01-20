@@ -22,12 +22,12 @@
           {
 		"text": "Do you need any help around here?",
 		"topic": "TALK_NPC_LONE_BLACKSMITH_HELP",
-                "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } } 
+                "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } } 
 	  },
           {
 		"text": "Is there any work today?",
 		"topic": "TALK_NPC_LONE_BLACKSMITH_ORDERS",
-                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" }  
+                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission" }  
 	  }
     ]
   },

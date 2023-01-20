@@ -24,19 +24,19 @@
       { 
          "text": "Is there anything I can do for you?", 
          "topic": "TALK_CULT_JOBS",
-         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" }
+         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage" }
   
       },
       { 
          "text": "Can you teach me anything?", 
          "topic": "TALK_TRAIN",
-         "condition": { "npc_has_var": "MAGE_APPRENTICE", "type": "general", "context": "mission", "value": "yes" }
+         "condition": { "npc_has_var": "MAGE_APPRENTICE", "type": "general", "context": "mission" }
   
       },
       {
 		"text": "Is that a finished golem I see?",
 		"topic": "TALK_NPC_APPRENTICE_MAGE_GOLEM",
-                "condition": { "npc_has_var": "busy_with_something", "type": "general", "context": "mission", "value": "yes" }
+                "condition": { "npc_has_var": "busy_with_something", "type": "general", "context": "mission" }
 		},
       { 
          "text": "I gotta go.", 
@@ -59,7 +59,7 @@
                    {
 		"text": "Thank you",
 		"topic": "TALK_DONE",
-		"effect": [ { "u_buy_monster": "mon_clay_golem", "pacified": false }, { "u_spawn_item": "gold_coin", "count": 15 }, { "npc_lose_var": "busy_with_something", "type": "general", "context": "mission", "value": "yes" } ]
+		"effect": [ { "u_buy_monster": "mon_clay_golem", "pacified": false }, { "u_spawn_item": "gold_coin", "count": 15 }, { "npc_lose_var": "busy_with_something", "type": "general", "context": "mission" } ]
 		  }
                  ]
   }

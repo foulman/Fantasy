@@ -12,7 +12,7 @@
                 {
 		"text": "Are you willing to buy anything at the moment?",
 		"topic": "TALK_NPC_LOGGER_MASSTRADE",
-                "condition": { "npc_has_var": "known", "type": "dialogue", "context": "npc_logger", "value": "yes" }
+                "condition": { "npc_has_var": "known", "type": "dialogue", "context": "npc_logger" }
 		},
 		{
 		"text": "No.",

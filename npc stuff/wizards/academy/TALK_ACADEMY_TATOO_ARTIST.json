@@ -12,19 +12,19 @@
       { 
          "text": "Who are you?", 
          "topic": "TALK_NPC_ACADEMY_TATOO_ARTIST_WHO",       
-         "condition": { "not": { "npc_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" } }
+         "condition": { "not": { "npc_has_var": "known", "type": "dialogue", "context": "mage" } }
 	  
       },
       { 
          "text": "I'm here to purchase some of your work.", 
          "topic": "TALK_NPC_ACADEMY_TATOO_ARTIST_PRODUCTS",        
-         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" }
+         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage" }
 	  
       },
       { 
          "text": "Is there anything I can do for you?", 
          "topic": "TALK_CULT_JOBS",        
-         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage", "value": "yes" }
+         "condition": { "npc_has_var": "known", "type": "dialogue", "context": "mage" }
 	  
       }
     ]

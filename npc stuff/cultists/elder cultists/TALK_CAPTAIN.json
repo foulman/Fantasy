@@ -9,12 +9,12 @@
                    {
         "text": "What now, my liege?",
         "topic": "TALK_MISSION_OFFER",
-        "condition": { "u_has_var": "joined_defenders", "type": "dialogue", "context": "captain", "value": "yes" }
+        "condition": { "u_has_var": "joined_defenders", "type": "dialogue", "context": "captain" }
                    },
                    {
         "text": "Can you teach me?",
         "topic": "TALK_TRAIN_FORCE",
-        "condition": { "u_has_var": "TRAIN_ELIGEBLE", "type": "general", "context": "mission", "value": "yes" }
+        "condition": { "u_has_var": "TRAIN_ELIGEBLE", "type": "general", "context": "mission" }
                    } ]
    },
 {
@@ -30,12 +30,12 @@
                    {
         "text": "What now, my liege?",
         "topic": "TALK_MISSION_OFFER",
-        "condition": { "u_has_var": "joined_defenders", "type": "dialogue", "context": "captain", "value": "yes" }
+        "condition": { "u_has_var": "joined_defenders", "type": "dialogue", "context": "captain" }
                    },
                    {
         "text": "Can you teach me?",
         "topic": "TALK_TRAIN",
-        "condition": { "u_has_var": "TRAIN_ELIGEBLE", "type": "general", "context": "mission", "value": "yes" }
+        "condition": { "u_has_var": "TRAIN_ELIGEBLE", "type": "general", "context": "mission" }
                    } ]
    },
 {
@@ -45,7 +45,7 @@
     "responses": [ { 
                      "text": "Is there any way I could join?",  
                      "topic": "TALK_CULT_JOBS",
-                     "condition": { "not": { "u_has_var": "joined_defenders", "type": "dialogue", "context": "captain", "value": "yes" } },
+                     "condition": { "not": { "u_has_var": "joined_defenders", "type": "dialogue", "context": "captain" } },
                      "effect": { "u_add_var": "joined_defenders", "type": "dialogue", "context": "captain", "value": "yes" } },
                    { 
                      "text": "Hmm.",  

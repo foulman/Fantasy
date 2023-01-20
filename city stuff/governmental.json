@@ -113,7 +113,7 @@
             "....sfffffffffffffffd...",
             "....sf?fffff?fffff?fs...",
             "....sfsfs2sfs2sfsfs2s...",
-            "....sUsUsUsUsUsUsUsUs...",
+            "....sxsxsxsxsxsxsxsxs...",
             "....sf?fffff?fffff?fs...",
             "....sfffffffffffffffs...",
             "....sfffffffffffffffs...",
@@ -123,8 +123,8 @@
             "........................"
       ],
       "palettes": [ "city_building_palette" ],
-      "furniture": { "U": "f_table", "!": "f_table" },
-      "terrain": { "#": "t_door_bar_locked" },
+      "furniture": { "!": "f_table", "U": "f_table", "1": "f_chair", "2": "f_chair" },
+      "terrain": { "#": "t_door_bar_locked", "x": "t_bars" },
       "items": {
                  "!": { "item": "coinage", "chance": 100, "repeat": [ 4, 7 ] }
                },

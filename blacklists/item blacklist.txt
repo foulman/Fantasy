@@ -1,5 +1,5 @@
 [
-  {
+    {
     "//": "Yes, a part of these are nicked from dark skies above. No need to reinvent the wheel.",
 	"type": "ITEM_BLACKLIST",
     "whitelist": false,
@@ -225,8 +225,6 @@
 	  "gas_fungicidal",
 	  "gas_insecticidal",
 	  "123ln",
-	  "rebar_rail",
-	  "steel_rail",
 	  "combatnail",
 	  "paintball",
 	  "RPG-7_ammo",
@@ -271,7 +269,6 @@
 	  "armguard_soft",
 	  "elbow_pads",
 	  "armguard_cut_resistant",
-	  "",
 	  "ballistic_vest_esapi",
 	  "dragonskin",
 	  "dragonskinempty",
@@ -1259,18 +1256,7 @@
 	  "diazepam",
 	  "hi_q_shatter",
 	  "hi_q_wax",
-	  "hi_q_crude_oil",
-	  "lo_q_crude_oil",
-	  "lo_q_crude_oil_ethanol",
-	  "hi_q_crude_oil_ethanol",
-	  "lo_q_crude_oil_ethanol_filtered",
-	  "hi_q_crude_oil_ethanol_filtered",
-	  "lo_q_crude_oil_filtered",
-	  "hi_q_crude_oil_filtered",
-	  "hi_q_distillate_heads",
-	  "hi_q_distillate_tails",
 	  "hi_q_distillate",
-	  "hi_q_distillate_cart",
 	  "ecig",
 	  "eyedrops",
 	  "flu_shot",
@@ -1292,7 +1278,6 @@
 	  "saline",
 	  "thorazine",
 	  "tramadol",
-	  "vaccine_shot",
 	  "vitamins",
 	  "calcium_tablet",
 	  "bonemeal_tablet",
@@ -1441,7 +1426,6 @@
 	  "rm614_lmg",
 	  "rm88_battle_rifle",
 	  "blunderbuss",
-	  "90two",
 	  "calico",
 	  "cx4",
 	  "glock_19",
@@ -1606,9 +1590,7 @@
 	  "aksemi",
 	  "draco",
 	  "mosin44",
-	  "mosin44_ebr",
 	  "mosin91_30",
-	  "mosin91_30_ebr",
 	  "ppsh",
 	  "tokarev",
 	  "browning_blr",
@@ -2264,8 +2246,6 @@
 	  "airhorn",
 	  "alarmclock",
 	  "butane_can",
-	  "dab_pen",
-	  "dab_pen_on",
 	  "e_tool",
 	  "hose_garden",
 	  "hand_pump",
@@ -2309,18 +2289,9 @@
 	  "chemistry_set_basic",
 	  "electrolysis_kit",
 	  "vac_oven_small",
-	  "vac_oven_small_full",
-	  "vac_oven_small_on",
-	  "vac_oven_small_done",
-	  "closed_loop_extractor_small",
-	  "closed_loop_extractor_small_on",
-	  "closed_loop_extractor_large",
-	  "closed_loop_extractor_large_on",
 	  "oil_extractor_crude",
 	  "filter_paper_qualitative",
 	  "filter_paper_quantitative",
-	  "vac_pump",
-	  "vac_pump_on",
 	  "recovery_pump",
 	  "butane_tank",
 	  "hydrogen_tank",
@@ -2612,7 +2583,6 @@
 	  "rebreather_filter",
 	  "gasfilter_s",
 	  "gasfilter_m",
-	  "gasfilter_l",
 	  "nicotine_liquid",
 	  "oxygen",
 	  "spiked_rocket",
@@ -2643,7 +2613,6 @@
 	  "material_cement",
 	  "material_quicklime",
 	  "bleach",
-	  "ammonia",
 	  "fertilizer_liquid",
 	  "fertilizer_commercial",
 	  "fungicide",
@@ -2935,7 +2904,6 @@
 	  "software_math",
 	  "software_blood_data",
 	  "software_lab_data",
-	  "software_train_data",
 	  "mind_scan_robofac",
 	  "software_electronics_reference",
 	  "battery_ups",
@@ -3006,9 +2974,7 @@
 	  "mask_h20survivorxl",
 	  "mask_h20survivorxl_on",
 	  "folding_poncho",
-	  "folding_poncho_on",
 	  "emer_blanket",
-	  "emer_blanket_on",
 	  "rad_monitor",
 	  "fc_hairpin",
 	  "thermal_outfit",
@@ -3209,704 +3175,8 @@
       "rubber_band",
       "nailgun",
       "cordless_impact_wrench",
-      "tire_iron",
-      "multimeter"
+      "multimeter",
+      "mk47"
     ]
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_canteen_dining_center_migo_resin",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_canteen_dining_east_migo_resin",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_canteen_dining_west_migo_resin",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_canteen_pantry_migo_resin",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_canteen_room2_center_migo_resin",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_canteen_room_center_migo_resin",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_canteen_smoking_area_migo_resin",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_brewery0_migo_resin_southwest",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_migo_resin_center",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_migo_resin_south",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_ne_migo_resin_center",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_nw_migo_resin_center",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_se_migo_resin_south",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_shack_ne_migo_resin_center",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_shack_nw_migo_resin_center",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_shack_se_migo_resin_south",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_shack_sw_migo_resin_south",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_core_sw_migo_resin_south",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_room0_migo_resin_northeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_room1_migo_resin_northeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_room2_migo_resin_northeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_room4_migo_resin_east",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_room4_migo_resin_northwest",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_room4_migo_resin_southeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_room4_migo_resin_southwest",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_room4_migo_resin_west",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_shack4_migo_resin_east",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_shack4_migo_resin_southeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_shack4_migo_resin_southwest",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_hub_shack4_migo_resin_west",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_livestock_coop_migo_resin_northeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_livestock_shack_migo_resin_southeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_livestock_stable0_migo_resin_southwest",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_livestock_stable1_migo_resin_west",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_livestock_stable2_migo_resin_northwest",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_saltpan_migo_resin_northeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_shack_migo_resin_southeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_storehouse_migo_resin_center",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_storehouse_migo_resin_east",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_storehouse_migo_resin_north",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_storehouse_migo_resin_northeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_storehouse_migo_resin_northwest",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_storehouse_migo_resin_south",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_storehouse_migo_resin_southeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_storehouse_migo_resin_southwest",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_storehouse_migo_resin_west",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_workshop_room0_migo_resin_northeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_workshop_room11to12_migo_resin_southeast",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_workshop_room3_migo_resin_north",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_workshop_room4_migo_resin_east",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_workshop_room5_migo_resin_center",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_workshop_room6_migo_resin_north",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "faction_base_modular_workshop_room7to9_migo_resin_northwest",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "meat_canned_jarred",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "wire",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "bearing",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "fire_ax",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "pockknife",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "halligan",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "forgerig",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "oxy_torch",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "dry_fruit",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "dry_mushroom",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "pot_copper",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "meat_smoked",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "fish_smoked",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "salt",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "sausage",
-    "obsolete": true
-  },
-  {
-    "type": "recipe",
-    "result": "sausage_wasteland",
-    "obsolete": true
-  },
-  {
-        "type" : "vehicle_group",
-        "id" : "city_vehicles",
-        "vehicles" : [
-            [ "car", 0 ],
-            [ "electric_car", 0 ],
-            [ "car_sports", 0 ],
-            [ "car_sports_atomic", 0 ],
-            [ "car_sports_electric", 0 ],
-            [ "suv", 0 ],
-            [ "suv_electric", 0 ],
-            [ "car_mini", 0 ],
-            [ "beetle", 0 ],
-            [ "bubble_car", 0 ],
-            [ "bicycle", 0 ],
-            [ "bicycle_electric", 0 ],
-            [ "motorcycle", 0 ],
-            [ "superbike", 0 ],
-            [ "motorcycle_sidecart", 0 ],
-            [ "scooter", 0 ],
-            [ "scooter_electric", 0 ],
-            [ "policecar", 0 ],
-            [ "truck_swat", 0 ],
-            [ "ambulance", 0 ],
-            [ "fire_truck", 0 ],
-            [ "fire_engine", 0 ],
-            [ "flatbed_truck", 0 ],
-            [ "pickup", 0 ],
-            [ "road_roller", 0 ],
-            [ "autosweeper", 0 ],
-            [ "hippie_van", 0 ],
-            [ "cube_van_cheap", 0 ],
-            [ "cube_van", 0 ],
-            [ "security_van", 0 ],
-            [ "schoolbus", 0 ],
-            [ "rv", 0 ],
-            [ "lux_rv", 0 ],
-            [ "meth_lab", 0 ],
-            [ "armored_car", 0 ],
-            [ "apc", 0 ],
-            [ "apc-gl", 0 ],
-            [ "humvee", 0 ],
-            [ "humvee_gl", 0 ],
-            [ "icecream_truck", 0 ],
-            [ "wienermobile", 0 ],
-            [ "tatra_truck", 0 ]
-        ]
-    },
-	{
-        "type" : "vehicle_group",
-        "id" : "city_vehicles_wr",
-        "vehicles" : [
-            [ "car", 0 ],
-            [ "electric_car", 0 ],
-            [ "car_sports", 0 ],
-            [ "car_sports_atomic", 0 ],
-            [ "car_sports_electric", 0 ],
-            [ "suv", 0 ],
-            [ "suv_electric", 0 ],
-            [ "car_mini", 0 ],
-            [ "beetle", 0 ],
-            [ "bubble_car", 0 ],
-            [ "policecar", 0 ],
-            [ "truck_swat", 0 ],
-            [ "ambulance", 0 ],
-            [ "fire_truck", 0 ],
-            [ "fire_engine", 0 ],
-            [ "flatbed_truck", 0 ],
-            [ "pickup", 0 ],
-            [ "road_roller", 0 ],
-            [ "autosweeper", 0 ],
-            [ "hippie_van", 0 ],
-            [ "cube_van_cheap", 0 ],
-            [ "cube_van", 0 ],
-            [ "security_van", 0 ],
-            [ "schoolbus", 0 ],
-            [ "rv", 0 ],
-            [ "lux_rv", 0 ],
-            [ "meth_lab", 0 ],
-            [ "armored_car", 0 ],
-            [ "apc", 0 ],
-            [ "apc-gl", 0 ],
-            [ "humvee", 0 ],
-            [ "humvee_gl", 0 ],
-            [ "icecream_truck", 0 ],
-            [ "wienermobile", 0 ],
-            [ "tatra_truck", 0 ]
-        ]
-    },
-	{
-    "type": "vehicle_group",
-    "id": "city_pileup",
-    "vehicles": [
-      [ "car", 0 ],
-      [ "car_anmlcmpt", 0 ],
-      [ "car_hatch", 0 ],
-      [ "car_luxury", 0 ],
-      [ "electric_car", 0 ],
-      [ "car_sports", 0 ],
-      [ "suv", 0 ],
-      [ "suv_electric", 0 ],
-      [ "car_mini", 0 ],
-      [ "beetle", 0 ],
-      [ "pickup", 0 ],
-      [ "flatbed_truck", 0 ],
-      [ "cube_van", 0 ],
-      [ "cube_van_cheap", 0 ],
-      [ "hippie_van", 0 ],
-      [ "4x4_car", 0 ],
-      [ "car_hybrid", 0 ],
-      [ "underlift_tow_truck", 0 ]
-    ]
-  },
-	{
-        "type" : "vehicle_group",
-        "id" : "highway",
-        "vehicles" : [
-            [ "car", 0 ],
-            [ "electric_car", 0 ],
-            [ "car_sports", 0 ],
-            [ "car_sports_electric", 0 ],
-            [ "pickup", 0 ],
-            [ "flatbed_truck", 0 ],
-            [ "semi_truck", 0 ],
-            [ "humvee", 0 ],
-            [ "humvee_gl", 0 ],
-            [ "military_cargo_truck", 0 ],
-            [ "policecar", 0 ],
-            [ "car_fbi", 0 ],
-            [ "truck_swat", 0 ],
-            [ "hippie_van", 0 ],
-            [ "rara_x", 0 ],
-            [ "apc", 0 ],
-            [ "apc-gl", 0 ],
-            [ "aapc-mg", 0 ],
-            [ "aapc-gl", 0 ],
-            [ "schoolbus", 0 ],
-            [ "rv", 0 ],
-            [ "lux_rv", 0 ],
-            [ "meth_lab", 0 ],
-            [ "armored_car", 0 ],
-            [ "superbike", 0 ],
-            [ "wienermobile", 0 ],
-            [ "tatra_truck", 0 ]
-        ]
-    },
-	{
-        "type" : "vehicle_group",
-        "id" : "highway_wr",
-        "vehicles" : [
-            [ "car", 0 ],
-            [ "electric_car", 0 ],
-            [ "car_sports", 0 ],
-            [ "car_sports_electric", 0 ],
-            [ "pickup", 0 ],
-            [ "flatbed_truck", 0 ],
-            [ "semi_truck", 0 ],
-            [ "humvee", 0 ],
-            [ "humvee_gl", 0 ],
-            [ "military_cargo_truck", 0 ],
-            [ "policecar", 0 ],
-            [ "car_fbi", 0 ],
-            [ "truck_swat", 0 ],
-            [ "hippie_van", 0 ],
-            [ "rara_x", 0 ],
-            [ "apc", 0 ],
-            [ "apc-gl", 0 ],
-            [ "aapc-mg", 0 ],
-            [ "aapc-gl", 0 ],
-            [ "schoolbus", 0 ],
-            [ "rv", 0 ],
-            [ "lux_rv", 0 ],
-            [ "meth_lab", 0 ],
-            [ "armored_car", 0 ],
-            [ "wienermobile", 0 ],
-            [ "tatra_truck", 0 ]
-        ]
-    },
-	{
-        "type" : "vehicle_group",
-        "id" : "suburban_home",
-        "vehicles" : [
-            [ "none", 1 ],
-            [ "car", 0 ],
-            [ "car_mini", 0 ],
-            [ "electric_car", 0 ],
-            [ "beetle", 0 ],
-            [ "car_sports", 0 ],
-            [ "car_sports_electric", 0 ],
-            [ "superbike", 0 ],
-            [ "motorcycle", 0 ],
-            [ "motorcycle_sidecart", 0 ],
-            [ "scooter", 0 ],
-            [ "scooter_electric", 0 ],
-            [ "suv", 0 ],
-            [ "suv_electric", 0 ],
-            [ "pickup", 0 ],
-            [ "portable_generator", 0 ]
-        ]
-    },
-	{
-        "type" : "vehicle_group",
-        "id" : "dirtlot",
-        "vehicles" : [
-            [ "none", 1 ],
-            [ "quad_bike", 0],
-            [ "pickup", 0 ]
-        ]
-    },
-	{
-        "type" : "vehicle_group",
-        "id" : "parkinglot",
-        "vehicles" : [
-            [ "none", 1 ],
-            [ "military_cargo_truck", 0 ],
-            [ "humvee", 0 ],
-            [ "humvee_gl", 0 ],
-            [ "apc", 0 ],
-            [ "apc-gl", 0 ],
-            [ "aapc-mg", 0 ],
-            [ "aapc-gl", 0 ],
-            [ "bubble_car", 0 ],
-            [ "rv", 0 ],
-            [ "schoolbus", 0 ],
-            [ "fire_truck", 0 ],
-            [ "policecar", 0 ],
-            [ "car_sports_electric", 0 ],
-            [ "quad_bike", 0 ],
-            [ "truck_trailer", 0 ],
-            [ "semi_truck", 0 ],
-            [ "cube_van", 0 ],
-            [ "flatbed_truck", 0 ],
-            [ "car_mini", 0 ],
-            [ "beetle", 0 ],
-            [ "car", 0 ],
-            [ "electric_car", 0 ],
-            [ "hippie_van", 0 ],
-            [ "golf_cart", 0 ],
-            [ "scooter", 0 ],
-            [ "bicycle", 0 ],
-            [ "rara_x", 0 ],
-            [ "unicycle", 0 ],
-            [ "bicycle_electric", 0 ],
-            [ "motorcycle", 0 ],
-            [ "superbike", 0 ],
-            [ "motorcycle_sidecart", 0 ],
-            [ "shopping_cart", 0 ],
-            [ "icecream_truck", 0 ],
-            [ "wienermobile", 0 ],
-            [ "portable_generator", 0 ]
-        ]
-    },
-	{
-        "id": "garage",
-        "type": "vehicle_group",
-        "vehicles": [
-            [ "none", 1 ],
-            [ "car", 0 ],
-            [ "car_chassis", 0 ],
-            [ "engine_crane", 0 ],
-            [ "motorcycle", 0 ],
-            [ "motorcycle_chassis", 0 ],
-            [ "portable_generator", 0 ],
-            [ "quad_bike", 0 ],
-            [ "quad_bike_chassis", 0 ],
-            [ "superbike", 0 ],
-            [ "welding_cart", 0 ]
-        ]
-    },
-	{
-        "type" : "vehicle_group",
-        "id" : "military_vehicles",
-        "vehicles" : [
-            [ "none", 1 ],
-            [ "military_cargo_truck", 0 ],
-            [ "humvee", 0 ],
-            [ "humvee_gl", 0 ],
-            [ "apc", 0 ],
-            [ "apc-gl", 0 ],
-            [ "aapc-mg", 0 ],
-            [ "apc-gl", 0 ]
-        ]
-    },
-	{
-        "type":"vehicle_group",
-        "id":"farm_vehicles",
-        "vehicles":[
-            [ "none", 1 ],
-            [ "tractor_plow", 0 ],
-            [ "tractor_seed", 0 ],
-            [ "tractor_reaper", 0 ],
-            [ "autotractor", 0 ],
-            [ "excavator", 0 ]
-        ]
-    },
-    {
-        "id": "industrial_vehicles",
-        "type": "vehicle_group",
-        "//": "Industrial and construction vehicles found at public works depot and similar locations",
-        "vehicles": [
-            [ "none", 1 ],
-            [ "autosweeper", 0 ],
-            [ "excavator", 0 ],
-            [ "flatbed_truck", 0 ],
-            [ "pickup", 0 ],
-            [ "road_roller", 0 ],
-            [ "tatra_truck", 0 ]
-        ]
-    },
-    {
-        "id": "bandit_vehicles",
-        "type": "vehicle_group",
-        "//": "Vehicles used by Hell's Raiders for scouting and assaults",
-        "vehicles": [
-            [ "none", 1 ],
-            [ "quad_bike", 0 ],
-            [ "motorcycle", 0 ]
-        ]
-    },
-    {
-        "id": "warehouse_vehicles",
-        "type": "vehicle_group",
-        "//": "Lifting and hauling vehicles for warehouses, loading bays, and similar locations",
-        "vehicles": [
-            [ "none", 1 ],
-            [ "engine_crane", 0 ],
-            [ "handjack", 0 ],
-            [ "wheelbarrow", 0 ],
-            [ "forklift", 0 ]
-        ]
-    },
-    {
-        "id": "school_vehicles",
-        "type": "vehicle_group",
-        "//": "School bus or fire truck found near school locations",
-        "vehicles": [
-            [ "none", 1 ],
-            [ "schoolbus", 0 ],
-            [ "fire_truck", 0 ]
-        ]
-    },
-    {
-    "type": "vehicle_group",
-    "id": "police_pileup",
-    "vehicles": [ [ "policecar", 0 ], [ "policesuv", 0 ], [ "policecar_k9", 0 ], [ "policesuv_k9", 0 ], [ "police_k9tpt", 0 ] ]
-  },
-  {
-    "type": "vehicle_group",
-    "id": "trains_draisine",
-    "vehicles": [ [ "motorized_draisine_6seats", 0 ], [ "motorized_draisine_2seats", 0 ] ]
   }
 ]

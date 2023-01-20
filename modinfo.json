@@ -4,7 +4,7 @@
     "ident": "fantasy",
     "name": "Fantasy",
     "authors": [ "Aptronym", "Mutaman", "Kenan" ],
-    "maintainers": [ "Aptronym", "Mutaman", "Kenan" ],
+    "maintainers": [ "MNG-cataclysm" ],
     "description": "Makes the world a simpler place. Will be modified as time goes on to include the various things we want in the fantasy conversion mod project.",
     "category": "total_conversion",
     "dependencies": [ "dda" ]
