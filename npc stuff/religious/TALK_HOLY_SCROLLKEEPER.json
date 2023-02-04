@@ -12,7 +12,7 @@
 		"text": "May I purchase some of your texts?",
                 "effect": "start_trade",
 		"topic": "TALK_SOLD",                
-                "condition": { "u_has_var": "church_member", "type": "dialogue", "context": "mission", "value": "yes" }
+                "condition": { "u_has_var": "church_member", "type": "dialogue", "context": "mission" }
 		},
 		{
 		"text": "Goodbye.",

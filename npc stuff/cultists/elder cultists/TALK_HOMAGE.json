@@ -23,12 +23,12 @@
                    {
 		      "text": "Is there another ritual to perform?",
 		      "topic": "TALK_HOMAGE_RECURRING_RITUAL",
-                      "condition": { "and": [ { "u_has_var": "ONOCTI", "type": "general", "context": "mission", "value": "yes" }, { "npc_has_var": "has_notes", "type": "general", "context": "mission", "value": "yes" } ] }  
+                      "condition": { "and": [ { "u_has_var": "ONOCTI", "type": "general", "context": "mission" }, { "npc_has_var": "has_notes", "type": "general", "context": "mission" } ] }  
 	           },
                    {
 		      "text": "Can you make any more of those potions for me?",
 		      "topic": "TALK_HOMAGE_ELDRITCH_POTION",
-                      "condition": { "and": [ { "u_has_var": "ONOCTI", "type": "general", "context": "mission", "value": "yes" }, { "npc_has_var": "sells_epotion", "type": "general", "context": "mission", "value": "yes" } ] }  
+                      "condition": { "and": [ { "u_has_var": "ONOCTI", "type": "general", "context": "mission" }, { "npc_has_var": "sells_epotion", "type": "general", "context": "mission" } ] }  
 	           },
                    { "text": "Nothing, really.", "topic": "TALK_DONE" } ]
   },

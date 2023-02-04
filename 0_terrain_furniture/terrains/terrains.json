@@ -9,7 +9,6 @@
     "color": "light_blue",
     "move_cost": 11,
     "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "FISHABLE", "DEEP_WATER" ],
-    "connects_to": "WATER",
     "examine_action": "water_source"
   },
   {

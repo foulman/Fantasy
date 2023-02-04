@@ -7,6 +7,18 @@
   },
   {
     "type": "mutation",
+    "id": "ARM_TENTACLES",
+    "copy-from": "ARM_TENTACLES",
+    "extend": { "category": [ "BLOOD" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "ARM_TENTACLES_4",
+    "copy-from": "ARM_TENTACLES_4",
+    "extend": { "category": [ "BLOOD" ] }
+  },
+  {
+    "type": "mutation",
     "id": "ARM_TENTACLES_8",
     "copy-from": "ARM_TENTACLES_8",
     "extend": { "category": [ "BLOOD" ] }
@@ -73,8 +85,20 @@
   },
   {
     "type": "mutation",
+    "id": "BIOLUM0_active",
+    "copy-from": "BIOLUM0_active",
+    "extend": { "category": [ "BLOOD" ] }
+  },
+  {
+    "type": "mutation",
     "id": "BIOLUM1",
     "copy-from": "BIOLUM1",
+    "extend": { "category": [ "BLOOD" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "BIOLUM1_active",
+    "copy-from": "BIOLUM1_active",
     "extend": { "category": [ "BLOOD" ] }
   },
   {
@@ -99,6 +123,12 @@
     "type": "mutation",
     "id": "POISRESIST",
     "copy-from": "POISRESIST",
+    "extend": { "category": [ "BLOOD" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "SKIN_ROUGH",
+    "copy-from": "SKIN_ROUGH",
     "extend": { "category": [ "BLOOD" ] }
   },
   {

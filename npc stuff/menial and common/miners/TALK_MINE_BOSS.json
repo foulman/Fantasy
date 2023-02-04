@@ -7,12 +7,12 @@
 		{
 		"text": "Who are you?",
 		"topic": "TALK_NPC_MINE_BOSS_WHO",              
-                "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } }	  
+                "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } }	  
 		},
                 {
 		"text": "I have ore to sell.",
 		"topic": "TALK_NPC_MINE_BOSS_TRADE",              
-                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" }	  
+                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission" }	  
 		},
 		{
 		"text": "No.",

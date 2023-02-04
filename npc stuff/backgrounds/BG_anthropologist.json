@@ -15,18 +15,17 @@
     "dynamic_line": "Eventually, funds ran short. Our sponsors dropped the bottom out on us, those <name_b>. I had to quit, though I never lost my research papers.",
     "responses": [
       { "text": "<done_conversation_section>", "topic": "TALK_FRIEND" },
-      { "text": "Go on.", "topic": "BGSS_ANTHRO_END1", "condition": { "not": { "npc_has_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" } } },
+      { "text": "Go on.", "topic": "BGSS_ANTHRO_END1", "condition": { "not": { "npc_has_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission" } } },
       { "text": "<end_talking>", "topic": "TALK_DONE" }
     ]
   },
 {
     "id": "BGSS_ANTHRO_END1",
     "type": "talk_topic",
-    "dynamic_line": "Say, I never finished them. Maps of old tombs, ruins, whatnot. Would you help me? I think we could make great discoveries together, with your spunk and my knowledge, we'd be unstopable!",
+    "dynamic_line": "Say, I never finished them. Maps of old tombs, ruins, whatnot. Would you help me? I think we could make great discoveries together, with your spunk and my knowledge, we'd be unstoppable!",
     "responses": [
       { "text": "No, thanks.", "topic": "TALK_FRIEND" },
-      { "text": "Let's do it.", "topic": "TALK_DONE",
-        "effect": { "add_mission": "MISSION_FIND_DIGSITE" } }
+      { "text": "Let's do it.", "topic": "TALK_DONE", "effect": { "add_mission": "MISSION_FIND_DIGSITE" } }
     ]
   },
 {
@@ -52,14 +51,14 @@
     "id": "TALK_FRIEND",
     "type": "talk_topic",
     "responses": [
-      { "text": "Where to now?", "topic": "ANTHRO_MISSION", "condition": { "npc_has_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission", "value": "yes" } }
+      { "text": "Where to now?", "topic": "ANTHRO_MISSION", "condition": { "npc_has_var": "ANTHRO_MISSION_1", "type": "general", "context": "mission" } }
     ]
   },
 {
     "id": "TALK_FRIEND",
     "type": "talk_topic",
     "responses": [
-      { "text": "Where to now?", "topic": "ANTHRO_MISSION2", "condition": { "npc_has_var": "ANTHRO_MISSION_2", "type": "general", "context": "mission", "value": "yes" } }
+      { "text": "Where to now?", "topic": "ANTHRO_MISSION2", "condition": { "npc_has_var": "ANTHRO_MISSION_2", "type": "general", "context": "mission" } }
     ]
   },
 {

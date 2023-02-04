@@ -32,7 +32,7 @@
             "l......................l",
             "lllllllll......lllllllll"
       ],
-      "palettes": [ "cathedral" ],
+      "palettes": [ "medieval_cathedral" ],
                 "npcs": {
 		"!": { "class": "acolyte" }
 		}
@@ -71,7 +71,7 @@
             "l..../////////////.....l",
             "l......................l"
       ],
-      "palettes": [ "cathedral" ],      
+      "palettes": [ "medieval_cathedral" ],      
       "furniture": { "u": "f_divine_altar" },
                 "npcs": {
 		"!": { "class": "acolyte" },
@@ -115,7 +115,7 @@
             "                        ",
             "                        "
       ],
-      "palettes": [ "cathedral" ],
+      "palettes": [ "medieval_cathedral" ],
       "furniture": { "b": "f_bed" },
       "items": {
 	  "B": [ { "item": "spell_scrolls_cleric", "chance": 70, "repeat": [ 2, 5 ] }, { "item": "divine_books", "chance": 50 } ],
@@ -163,7 +163,7 @@
             "                        ",
             "                        "
       ],
-      "palettes": [ "cathedral" ],
+      "palettes": [ "medieval_cathedral" ],
       "furniture": { "u": "f_barrel_c" },
       "items": {
       "u": [
@@ -213,7 +213,7 @@
             "uuuuuuuuuuuuuuuuuuuuuuuu",
             "uuuuuuuuuuuuuuuuuuuuuuuu"
       ],
-      "palettes": [ "cathedral" ]
+      "palettes": [ "medieval_cathedral" ]
     }
   } 
 ]

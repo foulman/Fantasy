@@ -11,7 +11,7 @@
                 {
 		"text": "What are we doing today?",
 		"topic": "TALK_CULT_JOBS",
-                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" }
+                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission" }
 		},
 		{
 		"text": "Goodbye.",
@@ -27,7 +27,7 @@
                 {
 		"text": "How would somebody go about becoming an acolyte?",
 		"topic": "TALK_NPC_CLERIC_CHURCH",
-                "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } }
+                "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } }
 		},
                 {
 		"text": "Who are the gods?",

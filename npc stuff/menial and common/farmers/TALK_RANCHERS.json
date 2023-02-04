@@ -15,12 +15,12 @@
                 {
 		"text": "Don't the cows need to be milked?",
 		"topic": "TALK_NPC_RANCHER_MASSTRADE",
-                "condition": { "and": [ { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } ] } 	  	  
+                "condition": { "and": [ { "npc_has_var": "u_hired", "type": "general", "context": "mission" } ] } 	  	  
 		},
                 {
 		"text": "Is there any work to be done?",
 		"topic": "TALK_CULT_JOBS",
-                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } 	  	  
+                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } 	  	  
 		}
     ]
   },
@@ -36,7 +36,7 @@
                 {
 		"text": "Are you looking for help?",
 		"topic": "TALK_NPC_RANCHER_HIRE_NOEXP",
-                "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } } 	  	  
+                "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } } 	  	  
 		},
                 {
 		"text": "You seem to have relativley small help for a pasture this size.",
@@ -56,7 +56,7 @@
                 { 
          "text": "Y'know, I was a farmer myself one.", 
          "topic": "TALK_NPC_RANCHER_HIRE",
-         "condition": { "and": [ { "u_has_trait": "MTC_DELTA_FARMER" }, { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } } ] }  	  
+         "condition": { "and": [ { "u_has_trait": "MTC_DELTA_FARMER" }, { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } } ] }  	  
       }
     ]
   },
@@ -76,12 +76,12 @@
                 {
 		"text": "Don't the cows need milking?",
 		"topic": "TALK_NPC_RANCHER_MASSTRADE",
-                "condition": { "and": [ { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } ] } 	  	  
+                "condition": { "and": [ { "npc_has_var": "u_hired", "type": "general", "context": "mission" } ] } 	  	  
 		},
                 {
 		"text": "Is there any work to be done?",
 		"topic": "TALK_CULT_JOBS",
-                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } 	  	  
+                "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } 	  	  
 		}
     ]
   },

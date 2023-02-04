@@ -71,7 +71,7 @@
   },
   {
     "type": "talk_topic",
-    "id": "TALK_WIN",
+    "id": "TALK_LOSS",
     "dynamic_line": "I win!",
     "responses": [
       { "text": "Ah.", "topic": "TALK_GAMBLER_INTRO" }
@@ -79,7 +79,7 @@
   },
   {
     "type": "talk_topic",
-    "id": "TALK_LOSS",
+    "id": "TALK_WIN",
     "dynamic_line": "You win!",
     "responses": [
       { "text": "Yes!", "topic": "TALK_WINNINGS" }
@@ -90,15 +90,21 @@
     "id": "TALK_WINNINGS",
     "dynamic_line": "Well, here's your money.",
     "responses": [
-      { "condition": { "u_has_var": "gamble_100", "type": "dialogue", "context": "npc", "value": "yes" },
+      { 
+        "condition": { "u_has_var": "gamble_100", "type": "dialogue", "context": "npc" },
         "topic": "TALK_DONE",
-        "effect": [ { "u_spawn_item": "silver_coin", "count": 2 }, { "u_lose_effect": "gamble_100" } ] },
-      { "condition": { "u_has_var": "gamble_50", "type": "dialogue", "context": "npc", "value": "yes" },
+        "effect": [ { "u_spawn_item": "silver_coin", "count": 2 }, { "u_lose_effect": "gamble_100" } ] 
+      },
+      { 
+        "condition": { "u_has_var": "gamble_50", "type": "dialogue", "context": "npc" },
         "topic": "TALK_DONE",
-        "effect": [ { "u_spawn_item": "copper_coin", "count": 100 }, { "u_lose_effect": "gamble_50" } ] },
-      { "condition": { "u_has_var": "gamble_5", "type": "dialogue", "context": "npc", "value": "yes" },
+        "effect": [ { "u_spawn_item": "copper_coin", "count": 100 }, { "u_lose_effect": "gamble_50" } ] 
+      },
+      { 
+        "condition": { "u_has_var": "gamble_5", "type": "dialogue", "context": "npc" },
         "topic": "TALK_DONE",
-        "effect": [ { "u_spawn_item": "copper_coin", "count": 10 }, { "u_lose_effect": "gamble_5" } ] }
+        "effect": [ { "u_spawn_item": "copper_coin", "count": 10 }, { "u_lose_effect": "gamble_5" } ] 
+      }
     ]
   }
 ]

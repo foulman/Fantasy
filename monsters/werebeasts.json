@@ -91,7 +91,7 @@
     "vision_day": 15,
     "vision_night": 15,
     "path_settings": { "max_dist": 30, "avoid_traps": true, "avoid_sharp": true },
-    "harvest": "reptile_large_leather",
+    "harvest": "mutant_mammal_large_leather",
     "anger_triggers": [ "HOSTILE_SEEN", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
     "fear_triggers": [ "HURT", "FIRE" ],
     "flags": [ "SEES", "HEARS", "WARM", "SMELLS", "KEENNOSE", "BASHES", "GROUP_BASH", "PUSH_MON", "SWIMS", "PATH_AVOID_DANGER_1" ]

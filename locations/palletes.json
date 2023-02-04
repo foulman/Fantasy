@@ -400,7 +400,7 @@
     },
 {
     "type": "palette",
-    "id": "cathedral",
+    "id": "medieval_cathedral",
     "terrain": {
       ".": "t_rock_floor",
       " ": [ [ "t_tree", 5 ], [ "t_region_shrub", 5 ], [ "t_grass", 13 ], [ "t_dirt", 4 ] ],

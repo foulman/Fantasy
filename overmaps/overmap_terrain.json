@@ -37,7 +37,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": "old_catacomb_enter",
+    "id": "old_catacomb_enter",       
     "name": "catacombs",
     "sym": "0",
     "see_cost": 5,
@@ -246,14 +246,6 @@
   {
     "type": "overmap_terrain",
     "id": "farm_field_blc",
-    "name": "field",
-    "sym": "#",
-    "see_cost": 1,
-    "color": "brown"
-  },
-  {
-    "type": "overmap_terrain",
-    "id": "farm_field_br",
     "name": "field",
     "sym": "#",
     "see_cost": 1,

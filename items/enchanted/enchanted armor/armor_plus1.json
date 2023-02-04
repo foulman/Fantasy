@@ -373,7 +373,7 @@
     "material_thickness": 6,
     "environmental_protection": 1,
     "techniques": [ "WBLOCK_1" ],
-    "flags": [ "VARSIZE", "STURDY", "HELMET_COMPAT" ]
+    "flags": [ "VARSIZE", "STURDY" ]
   },
 {
     "id": "helmet_corinthian+1",
@@ -856,7 +856,7 @@
     "color": "light_red",
     "warmth": 30,
     "material_thickness": 7,
-    "flags": [ "VARSIZE", "STURDY", "HELMET_COMPAT" ],
+    "flags": [ "VARSIZE", "STURDY" ],
     "armor": [ { "encumbrance": 20, "coverage": 95, "covers": [ "torso", "head", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
   },
 {
@@ -875,7 +875,7 @@
     "material_thickness": 5,
     "bashing": 6,
     "environmental_protection": 20,
-    "flags": [ "OVERSIZE", "OUTER", "HELMET_COMPAT", "NONCONDUCTIVE" ]
+    "flags": [ "OVERSIZE", "OUTER", "NONCONDUCTIVE" ]
 	},
 {
     "id": "wooden_buckler+1",

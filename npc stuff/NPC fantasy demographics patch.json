@@ -201,7 +201,7 @@
 	{ "trait": "DEFT", "prob": 85 },
 	{ "trait": "LIGHTSTEP", "prob": 85 },
 	{ "trait": "EAGLEEYED", "prob": 85 },
-	{ "trait": "BAD_BACK", "prob": 85 },
+	{ "trait": "BADBACK", "prob": 85 },
 	{ "trait": "BIRD_EYE", "prob": 85 },
 	{ "trait": "DOWN", "prob": 85 },
 	{ "trait": "GIZZARD", "prob": 85 },
@@ -209,7 +209,7 @@
 	{ "trait": "WINGS_BIRD", "prob": 85 },
 	{ "trait": "DEX_UP_3", "prob": 85 },
 	{ "trait": "PER_UP_4", "prob": 85 },
-	{ "trait": "HOllOW_BONES", "prob": 85 },
+	{ "trait": "HOLLOW_BONES", "prob": 85 },
 	{ "trait": "BEAK", "prob": 85 },
 	{ "trait": "BEAK_PECK", "prob": 85 }
 	]
@@ -333,7 +333,7 @@
 	{ "group": "Skin_Any", "prob": 100 },
 	{ "trait": "THRESH_MOUSE", "prob": 100 },
 	{ "trait": "MOUSE_EARS", "prob": 100 },
-	{ "trait": "RAT_TAIL", "prob": 85 },
+	{ "trait": "TAIL_RAT", "prob": 85 },
 	{ "trait": "FLEET", "prob": 85 },
 	{ "trait": "GOODHEARING", "prob": 85 },
 	{ "trait": "GOODCARDIO2", "prob": 85 },

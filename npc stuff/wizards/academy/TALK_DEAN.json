@@ -11,12 +11,12 @@
       { 
          "text": "Can I help you with anything?", 
          "topic": "TALK_ACADEMY_DEAN_HELP",	
-         "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" } }     
+         "condition": { "not": { "npc_has_var": "u_hired", "type": "general", "context": "mission" } }     
       },
       { 
          "text": "What do you need done?", 
          "topic": "TALK_CULT_JOBS",
-         "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission", "value": "yes" }     
+         "condition": { "npc_has_var": "u_hired", "type": "general", "context": "mission" }     
       }
     ]
   },
@@ -97,7 +97,7 @@
       {
         "switch": true,
         "default": true,
-        "text": "I can teach the in and out of magic.",
+        "text": "I can teach the ins' and outs' of magic.",
         "trial": { "type": "PERSUADE", "difficulty": 100 },
         "success": { "topic": "TALK_ACADEMY_DEAN_HIRED" },
         "failure": { "topic": "TALK_ACADEMY_DEAN_NO_HELP" },   
